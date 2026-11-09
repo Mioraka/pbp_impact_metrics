@@ -81,9 +81,11 @@ Until that workflow succeeds, the complete CSV is unavailable. Successful indivi
 
 ## NBA All-NBA and All-Defensive selections
 
-The `Test NBA award data pull for 2025-26` GitHub Actions workflow validates the NBA Stats `PlayerAwards` endpoint against the official 2025-26 All-NBA and All-Defensive selections. On success, it publishes `data/player_award_selections_2025-26.csv` with one row per selection and the player, season, team, player ID, team ID, award, team designation, API description, and source URL. Players selected to both teams have two rows. This is a last-season validation file, not the all-time selection list.
+`data/player_award_selections_2025-26.csv` is the last-season validation file, with one row per selection and columns for player, season, team, player ID, team ID, award, team designation, and source URL. Players selected to both teams have two rows. It contains 25 selections across 23 players; the all-time file has not been built yet.
 
-The NBA Stats endpoint is player-specific. The test queries `PlayerAwards` once per unique candidate ID. It checks all 25 expected selections across 23 players before publishing. The candidate list is transcribed from the NBA's year-by-year All-NBA and All-Defensive pages, with IDs from the NBA player registry.
+The source rows are transcribed from the NBA's official year-by-year All-NBA and All-Defensive pages. Player IDs were matched against the NBA player registry. Team IDs are NBA Stats team IDs.
+
+The `Test NBA award data pull for 2025-26` GitHub Actions workflow also tested the NBA Stats `PlayerAwards` endpoint from a GitHub-hosted runner. Both the initial `CommonAllPlayers` lookup and a later direct `PlayerAwards` pull timed out after four 30-second attempts. The published 2025-26 CSV therefore uses the official NBA history pages as its award source, rather than claiming a successful API pull. The workflow retains the API test for future retries.
 
 ## Interpretation
 
