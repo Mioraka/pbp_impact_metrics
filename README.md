@@ -79,6 +79,12 @@ After all 27 season jobs succeed, `combine_results.py` validates counts, keys, s
 
 Until that workflow succeeds, the complete CSV is unavailable. Successful individual-season results and failure audits are available in workflow artifacts. A running or failed workflow must not be interpreted as a complete dataset.
 
+## NBA All-NBA and All-Defensive selections
+
+The `Test NBA award data pull for 2025-26` GitHub Actions workflow validates the NBA Stats `PlayerAwards` endpoint against the official 2025-26 All-NBA and All-Defensive selections. On success, it publishes `data/player_award_selections_2025-26.csv` with one row per selection and the player, season, team, player ID, team ID, award, team designation, API description, and source URL. Players selected to both teams have two rows. This is a last-season validation file, not the all-time selection list.
+
+The NBA Stats endpoint is player-specific. The test looks up IDs with `CommonAllPlayers`, then queries `PlayerAwards` once per unique candidate. It checks all 25 expected selections across 23 players before publishing. The candidate list is transcribed from the NBA's year-by-year All-NBA and All-Defensive pages.
+
 ## Interpretation
 
 - `_on`: team metric with the selected player on court.
