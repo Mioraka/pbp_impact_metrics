@@ -1,1 +1,82 @@
-# pbp_impact_metrics
+# NBA player-season on/off metrics
+
+All available team on/off statistics for individual NBA players from the [PBP Stats API](https://api.pbpstats.com/docs).
+
+## Scope and row definition
+
+- Seasons: **2000-01 through 2026-27**, the NBA historical coverage advertised by [PBP Stats](https://www.pbpstats.com/).
+- Regular Season, Playoffs, and PlayIn are separate. PlayIn discovery starts in 2019-20. Future postseason partitions can return zero teams/players.
+- One output row per **league + season + season_type + player_id + team_id**.
+- Players who changed teams have separate rows. Their team-relative rates must not be added or averaged to construct a combined row.
+- Every player with positive playing time in the API's team-filtered player totals is included, including appearances shorter than one minute. Roster members with no playing time are excluded.
+- The current season is a snapshot at extraction time; historical coverage reflects the API, which can differ from official NBA totals.
+
+## Published files
+
+| File | Contents |
+|---|---|
+| `data/player_season_on_off.csv` | Combined wide results: identifiers plus on/off/difference columns for every returned metric |
+| `data/by_season/YYYY-YY.csv` | Identical columns, partitioned by season for easier download |
+| `data/queries.csv` | Exact request URLs, query dimensions, attempts, record counts, success/failure, timestamps, and cache use |
+| `data/player_inventory.csv` | Discovered player-season-team-season_type keys and playing time |
+| `data/coverage.csv` | Expected/downloaded rows and unique-player counts per season and season type |
+| `data/metric_dictionary.csv` | Original API metric labels mapped to CSV columns |
+| `data/failures.csv` | Requests that still failed after retries; header only when none remain |
+| `data/run_summary.json` | Extraction status, scope, counts, errors, and timestamps |
+
+The main results CSV is written only after the entire requested pull succeeds. A failed pull writes `*.partial.csv` locally and exits nonzero. Check `run_summary.json` for extraction status.
+
+## Query strategy and the 500-record concern
+
+1. For each individual season and season type, query `/get-totals/nba` with `Type=Team` to discover historical teams and their historical abbreviations.
+2. Query `/get-totals/nba` with `Type=Player&TeamId=...` separately for each discovered team. This avoids relying on a league-wide player response that could exceed 500 rows.
+3. For every discovered player, request `/get-on-off/nba/team` with **one season, one season type, one team, and one player**. All available metrics arrive together in `results`, one record per metric.
+4. Pivot those metrics into one wide player-season-team-season_type row. Missing API metrics are blank; API zero values remain zero.
+
+The OpenAPI documentation explicitly states a 500-possession limit for `/get-possessions/nba`. It does not document that limit for the on/off or totals endpoints. Nevertheless, this extractor partitions player discovery by team and rejects any discovery partition with 500 or more records to guard against possible truncation. A season's 400-600+ players are never treated as a single capped player batch. These endpoints expose no documented `page` or `offset` pagination parameter.
+
+Example query:
+
+```text
+https://api.pbpstats.com/get-on-off/nba/team?Season=2026-27&SeasonType=Regular+Season&TeamId=1610612759&PlayerId=1641705
+```
+
+This returns San Antonio's statistics with and without Victor Wembanyama. The `/player` variant describes teammates' individual statistics and is not used here.
+
+## Reproduce or resume
+
+```bash
+python -m pip install -r requirements.txt
+python -m unittest -v
+python pull_on_off.py
+```
+
+Defaults: 2000-01 through 2026-27, all three season types, 12 concurrent workers, up to 7 attempts per request, 15-second connect timeout and 60-second read timeout.
+
+```bash
+# Smaller run in a separate output directory
+python pull_on_off.py --start-year 2026 --end-year 2026 \
+  --season-types 'Regular Season' --output sample_data
+
+# Reuse validated checkpoints after interruption
+python pull_on_off.py
+
+# Fetch a new snapshot, including updates to the current season
+python pull_on_off.py --refresh
+```
+
+Successful JSON responses are validated and saved as compressed local checkpoints under `.cache/`. Retrying or resuming reuses successful responses and downloads the missing ones. Cached timestamps are preserved. Use `--refresh` or a new `--cache` directory to update a completed snapshot.
+
+Retries cover HTTP 429, server errors, connection failures, timeouts, invalid JSON, and invalid response structure. Backoff grows exponentially with jitter and honors `Retry-After`; permanent client errors fail without repeated requests. Exhausted failures are recorded and prevent publication of a complete results CSV.
+
+## Interpretation
+
+- `_on`: team metric with the selected player on court.
+- `_off`: team metric with the selected player off court.
+- `_diff`: API-supplied on-minus-off value. This can differ slightly from subtracting displayed values because of rounding.
+- Percentages commonly use fractions (`0.553` = 55.3%). Some rates use other scales; retain the metric's original meaning from PBP Stats.
+- On/off statistics describe lineup context and association, without adjustment for teammates, opponents, or substitution patterns.
+- Numeric values preserve the API's displayed precision. Blank cells indicate a metric absent from that response.
+- `games_played` and `seconds_played` come from player totals. The on/off endpoint does not return denominators or on/off minutes; they must not be inferred from a percentage.
+
+Source: [API documentation](https://api.pbpstats.com/docs), [OpenAPI specification](https://api.pbpstats.com/openapi.json), and [PBP Stats](https://www.pbpstats.com/). This repository is an independent extraction, not an official NBA or PBP Stats publication.

@@ -1,0 +1,5 @@
+.cache/
+__pycache__/
+*.partial.csv
+*.tmp
+pull.log
