@@ -3,3 +3,5 @@ __pycache__/
 *.partial.csv
 *.tmp
 pull.log
+season_results/
+sample_data/

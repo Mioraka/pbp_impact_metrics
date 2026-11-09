@@ -51,7 +51,7 @@ python -m unittest -v
 python pull_on_off.py
 ```
 
-Defaults: 2000-01 through 2026-27, all three season types, 12 concurrent workers, up to 7 attempts per request, 15-second connect timeout and 60-second read timeout.
+Defaults: 2000-01 through 2026-27, all three season types, 4 concurrent workers, up to 7 attempts per request, 15-second connect timeout and 60-second read timeout.
 
 ```bash
 # Smaller run in a separate output directory
@@ -68,6 +68,14 @@ python pull_on_off.py --refresh
 Successful JSON responses are validated and saved as compressed local checkpoints under `.cache/`. Retrying or resuming reuses successful responses and downloads the missing ones. Cached timestamps are preserved. Use `--refresh` or a new `--cache` directory to update a completed snapshot.
 
 Retries cover HTTP 429, server errors, connection failures, timeouts, invalid JSON, and invalid response structure. Backoff grows exponentially with jitter and honors `Retry-After`; permanent client errors fail without repeated requests. Exhausted failures are recorded and prevent publication of a complete results CSV.
+
+## GitHub Actions
+
+The [extraction workflow](../../actions/workflows/pull-on-off.yml) starts on query-code changes or manual dispatch. It runs one job per season, at most three season jobs at a time, with four request workers each. Each job makes up to three resumable passes and saves successful checkpoints even if it fails. Failed jobs can be rerun without downloading completed historical requests again.
+
+After all 27 season jobs succeed, `combine_results.py` validates counts, keys, season coverage and failure audits, combines their CSV files, computes SHA-256 checksums, and commits the results under `data/`. Data commits do not retrigger extraction. The workflow is manually rerunnable; it is not scheduled.
+
+Until that workflow succeeds, the complete CSV is unavailable. Successful individual-season results and failure audits are available in workflow artifacts. A running or failed workflow must not be interpreted as a complete dataset.
 
 ## Interpretation
 

@@ -94,7 +94,8 @@ class Client:
 
     def get(self, kind, params):
         endpoint = "/get-on-off/nba/team" if kind == "onoff" else "/get-totals/nba"
-        url = requests.Request("GET", BASE + endpoint, params=params).prepare().url
+        # Use an unambiguous percent-encoded space in season types.
+        url = requests.Request("GET", BASE + endpoint, params=params).prepare().url.replace("+", "%20")
         path = self.cache / (hashlib.sha256(url.encode()).hexdigest() + ".json.gz")
         info = {"kind": kind, "url": url, "season": params["Season"],
                 "season_type": params["SeasonType"], "team_id": params.get("TeamId", ""),
@@ -183,7 +184,7 @@ def main():
     parser.add_argument("--start-year", type=int, default=2000)
     parser.add_argument("--end-year", type=int, default=2026)
     parser.add_argument("--season-types", nargs="+", default=["Regular Season", "Playoffs", "PlayIn"])
-    parser.add_argument("--workers", type=int, default=12)
+    parser.add_argument("--workers", type=int, default=4)
     parser.add_argument("--attempts", type=int, default=7)
     parser.add_argument("--timeout", type=int, default=60)
     parser.add_argument("--cache", type=Path, default=Path(".cache"))
@@ -205,7 +206,20 @@ def main():
         data, _ = client.get("teams", params)
         return [(params, row) for row in data["multi_row_table_data"]]
 
+    def save_failure_audit(errors):
+        fields = ["kind", "url", "season", "season_type", "team_id", "player_id", "attempts", "cache_hit", "status", "records", "retrieved_at_utc", "error"]
+        write_csv(output / "queries.csv", client.queries, fields)
+        write_csv(output / "failures.csv", client.failures, fields)
+        (output / "run_summary.json").write_text(json.dumps({
+            "complete": False, "started_at_utc": started, "finished_at_utc": utcnow(),
+            "start_year": args.start_year, "end_year": args.end_year,
+            "season_types": args.season_types, "errors": errors,
+        }, indent=2) + "\n")
+
     team_batches, discovery_errors = parallel(partitions, discover_teams, args.workers, "Season/team discovery")
+    if discovery_errors:
+        save_failure_audit(discovery_errors)
+        raise SystemExit("Team discovery incomplete; resume to retry missing partitions before downloading players.")
     teams = [item for batch in team_batches for item in batch]
 
     def discover_players(item):
@@ -228,6 +242,9 @@ def main():
 
     player_batches, errors = parallel(teams, discover_players, args.workers, "Team/player discovery")
     discovery_errors.extend(errors)
+    if discovery_errors:
+        save_failure_audit(discovery_errors)
+        raise SystemExit("Player discovery incomplete; resume to retry missing teams before downloading on/off data.")
     players = [item for batch in player_batches for item in batch]
     players.sort(key=lambda row: (row["season"], row["season_type"], row["team_id"], row["player_id"]))
     keys = [(p["season"], p["season_type"], p["team_id"], p["player_id"]) for p in players]
