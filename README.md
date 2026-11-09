@@ -71,7 +71,7 @@ Retries cover HTTP 429, server errors, connection failures, timeouts, invalid JS
 
 ## GitHub Actions
 
-The [extraction workflow](../../actions/workflows/pull-on-off.yml) starts on query-code changes or manual dispatch. It runs one job per season, at most three season jobs at a time, with four request workers each. Each job makes up to three resumable passes and saves successful checkpoints even if it fails. Failed jobs can be rerun without downloading completed historical requests again.
+The [extraction workflow](https://github.com/Mioraka/pbp_impact_metrics/actions/workflows/pull-on-off.yml) starts on query-code changes or manual dispatch. It runs one job per season, at most three season jobs at a time, with four request workers each. Each job makes up to three resumable passes and saves successful checkpoints even if it fails. Failed jobs can be rerun without downloading completed historical requests again.
 
 After all 27 season jobs succeed, `combine_results.py` validates counts, keys, season coverage and failure audits, combines their CSV files, computes SHA-256 checksums, and commits the results under `data/`. Data commits do not retrigger extraction. The workflow is manually rerunnable; it is not scheduled.
 
