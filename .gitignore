@@ -5,3 +5,5 @@ __pycache__/
 pull.log
 season_results/
 sample_data/
+.cache-one-season/
+validation/

@@ -19,6 +19,7 @@ import random
 import re
 import threading
 import time
+import statistics
 
 import requests
 
@@ -26,6 +27,9 @@ BASE = "https://api.pbpstats.com"
 IDENTIFIERS = ["league", "season", "season_type", "player_id", "player_name",
                "team_id", "team_abbreviation", "games_played", "seconds_played",
                "metric_count", "retrieved_at_utc", "source_url"]
+QUERY_FIELDS = ["kind", "url", "season", "season_type", "team_id", "player_id",
+                "attempts", "cache_hit", "status", "records", "retrieved_at_utc", "error",
+                "elapsed_seconds", "response_bytes", "retry_wait_seconds"]
 
 
 def utcnow():
@@ -56,6 +60,13 @@ def validate_payload(kind, data):
         for row in rows:
             if not isinstance(row, dict) or any(key not in row for key in required):
                 raise ValueError("Malformed discovery row")
+    elif kind == "roster":
+        players = data.get("players")
+        if not isinstance(players, dict) or len(players) >= 500:
+            raise ValueError("Malformed or potentially capped roster")
+        if any(not str(key).isdigit() or not isinstance(value, str) or not value for key, value in players.items()):
+            raise ValueError("Invalid roster ID/name")
+        rows = list(players)
     elif kind == "onoff":
         rows = data.get("results")
         if not isinstance(rows, list) or not rows:
@@ -92,30 +103,34 @@ class Client:
             self.local.session.headers.update({"User-Agent": "pbp-impact-metrics/1.0", "Accept": "application/json"})
         return self.local.session
 
-    def get(self, kind, params):
-        endpoint = "/get-on-off/nba/team" if kind == "onoff" else "/get-totals/nba"
+    def get(self, kind, params, attempt_limit=None, record_failure=True):
+        attempts = self.attempts if attempt_limit is None else attempt_limit
+        endpoint = {"onoff": "/get-on-off/nba/team", "roster": "/get-team-players-for-season"}.get(kind, "/get-totals/nba")
         # Use an unambiguous percent-encoded space in season types.
         url = requests.Request("GET", BASE + endpoint, params=params).prepare().url.replace("+", "%20")
         path = self.cache / (hashlib.sha256(url.encode()).hexdigest() + ".json.gz")
+        started_request = time.monotonic()
         info = {"kind": kind, "url": url, "season": params["Season"],
                 "season_type": params["SeasonType"], "team_id": params.get("TeamId", ""),
                 "player_id": params.get("PlayerId", ""), "attempts": 0,
                 "cache_hit": False, "status": "failed", "records": 0,
-                "retrieved_at_utc": "", "error": ""}
+                "retrieved_at_utc": "", "error": "", "elapsed_seconds": 0,
+                "response_bytes": 0, "retry_wait_seconds": 0}
         if path.exists() and not self.refresh:
             try:
                 with gzip.open(path, "rt", encoding="utf-8") as handle:
                     saved = json.load(handle)
                 count = validate_payload(kind, saved["data"])
                 info.update(cache_hit=True, status="ok", records=count,
-                            retrieved_at_utc=saved["retrieved_at_utc"])
+                            retrieved_at_utc=saved["retrieved_at_utc"],
+                            elapsed_seconds=round(time.monotonic()-started_request, 3))
                 with self.lock:
                     self.queries.append(info)
                 return saved["data"], info
             except (OSError, ValueError, KeyError, TypeError):
                 pass  # Invalid checkpoints are fetched again.
         error = ""
-        for attempt in range(1, self.attempts + 1):
+        for attempt in range(1, attempts + 1):
             delay = min(60, 2 ** (attempt - 1)) + random.uniform(0, 1)
             try:
                 response = self.session().get(url, timeout=(15, self.timeout))
@@ -139,7 +154,9 @@ class Client:
                 with gzip.open(temporary, "wt", encoding="utf-8") as handle:
                     json.dump({"url": url, "retrieved_at_utc": timestamp, "data": data}, handle, separators=(",", ":"))
                 temporary.replace(path)
-                info.update(status="ok", records=count, retrieved_at_utc=timestamp)
+                info.update(status="ok", records=count, retrieved_at_utc=timestamp,
+                            elapsed_seconds=round(time.monotonic()-started_request, 3),
+                            response_bytes=len(response.content) if isinstance(response.content, bytes) else 0)
                 with self.lock:
                     self.queries.append(info)
                 return data, info
@@ -149,18 +166,23 @@ class Client:
                 # Permanent 4xx errors cannot be fixed by repeating the request.
                 if isinstance(exc, requests.HTTPError) and exc.response is not None and 400 <= exc.response.status_code < 500 and exc.response.status_code != 429:
                     break
-                if attempt < self.attempts:
+                if attempt < attempts:
+                    print(f"RETRY kind={kind} season={params['Season']} type={params['SeasonType']} team={params.get('TeamId', '')} player={params.get('PlayerId', '')} attempt={attempt} wait={delay:.1f}s error={error}", flush=True)
+                    info["retry_wait_seconds"] += round(delay, 3)
                     time.sleep(delay)
         info["error"] = error
+        info["elapsed_seconds"] = round(time.monotonic()-started_request, 3)
         with self.lock:
             self.queries.append(info)
-            self.failures.append(info)
+            if record_failure:
+                self.failures.append(info)
         raise RuntimeError(f"Exhausted retries: {url}: {error}")
 
 
 def parallel(items, function, workers, label):
     output, errors = [], []
     started = time.monotonic()
+    last_report = started
     with futures.ThreadPoolExecutor(max_workers=workers) as pool:
         pending = {pool.submit(function, item): item for item in items}
         for index, future in enumerate(futures.as_completed(pending), 1):
@@ -169,8 +191,9 @@ def parallel(items, function, workers, label):
             except Exception as exc:
                 errors.append(str(exc))
                 print(f"ERROR {exc}", flush=True)
-            if index % 100 == 0 or index == len(items):
+            if index % 25 == 0 or time.monotonic()-last_report >= 10 or index == len(items):
                 print(f"{label}: {index}/{len(items)}, failures={len(errors)}, elapsed={time.monotonic()-started:.1f}s", flush=True)
+                last_report = time.monotonic()
     return output, errors
 
 
@@ -190,6 +213,7 @@ def main():
     parser.add_argument("--cache", type=Path, default=Path(".cache"))
     parser.add_argument("--output", type=Path, default=Path("data"))
     parser.add_argument("--refresh", action="store_true")
+    parser.add_argument("--discovery", choices=["roster", "full"], default="roster")
     args = parser.parse_args()
     if args.start_year > args.end_year or args.workers < 1 or args.attempts < 1:
         parser.error("Invalid year range, workers or attempts")
@@ -207,7 +231,7 @@ def main():
         return [(params, row) for row in data["multi_row_table_data"]]
 
     def save_failure_audit(errors):
-        fields = ["kind", "url", "season", "season_type", "team_id", "player_id", "attempts", "cache_hit", "status", "records", "retrieved_at_utc", "error"]
+        fields = QUERY_FIELDS
         write_csv(output / "queries.csv", client.queries, fields)
         write_csv(output / "failures.csv", client.failures, fields)
         (output / "run_summary.json").write_text(json.dumps({
@@ -225,6 +249,13 @@ def main():
     def discover_players(item):
         params, team = item
         team_id = str(team["EntityId"])
+        if args.discovery == "roster":
+            query = {"Season": params["Season"], "SeasonType": params["SeasonType"], "TeamId": team_id}
+            data, _ = client.get("roster", query)
+            return [{"league": "nba", "season": params["Season"], "season_type": params["SeasonType"],
+                     "team_id": team_id, "team_abbreviation": team.get("TeamAbbreviation", team.get("Name", "")),
+                     "player_id": player_id, "player_name": name, "games_played": "", "seconds_played": ""}
+                    for player_id, name in data["players"].items()]
         query = dict(params, Type="Player", TeamId=team_id)
         data, _ = client.get("players", query)
         players = []
@@ -250,17 +281,57 @@ def main():
     keys = [(p["season"], p["season_type"], p["team_id"], p["player_id"]) for p in players]
     if len(set(keys)) != len(keys):
         raise RuntimeError("Duplicate player-season-team-season_type discovery keys")
-    write_csv(output / "player_inventory.csv", players, list(players[0]) if players else ["season", "season_type", "team_id", "player_id"])
+    inventory_fields = list(players[0]) if players else ["season", "season_type", "team_id", "player_id"]
+    write_csv(output / "candidate_inventory.csv", players, inventory_fields)
+
+    participation = {}
+    team_locks = { (p["Season"], p["SeasonType"], str(t["EntityId"])): threading.Lock() for p, t in teams }
+    excluded = []
+
+    def check_participation(player):
+        key = (player["season"], player["season_type"], player["team_id"])
+        with team_locks[key]:
+            if key not in participation:
+                data, _ = client.get("players", {"Season": key[0], "SeasonType": key[1], "Type": "Player", "TeamId": key[2]})
+                participation[key] = {str(p["EntityId"]): p for p in data["multi_row_table_data"]}
+        actual = participation[key].get(player["player_id"])
+        return actual if actual and float(actual.get("SecondsPlayed", 0)) > 0 else None
 
     def fetch_player(player):
         params = {"Season": player["season"], "SeasonType": player["season_type"],
                   "TeamId": player["team_id"], "PlayerId": player["player_id"]}
-        data, info = client.get("onoff", params)
+        if args.discovery == "roster":
+            try:
+                # Check eligibility after an initial error rather than repeatedly
+                # requesting metrics for a roster member who never appeared.
+                data, info = client.get("onoff", params, attempt_limit=1, record_failure=False)
+            except RuntimeError:
+                actual = check_participation(player)
+                if actual is None:
+                    with client.lock:
+                        excluded.append(dict(player))
+                    return None
+                player = dict(player, games_played=actual.get("GamesPlayed", ""), seconds_played=actual["SecondsPlayed"])
+                data, info = client.get("onoff", params, attempt_limit=max(1, args.attempts-1))
+            if not any(float(m["On"]) != 0 for m in data["results"]):
+                actual = check_participation(player)
+                if actual is None:
+                    with client.lock:
+                        excluded.append(dict(player))
+                    return None
+                player = dict(player, games_played=actual.get("GamesPlayed", ""), seconds_played=actual["SecondsPlayed"])
+        else:
+            data, info = client.get("onoff", params)
         row = dict(player, metric_count=len(data["results"]), retrieved_at_utc=info["retrieved_at_utc"], source_url=info["url"])
         return row, data["results"]
 
     print(f"Discovered {len(players)} player-season-team-season_type rows", flush=True)
     fetched, onoff_errors = parallel(players, fetch_player, args.workers, "On/off metrics")
+    fetched = [item for item in fetched if item is not None]
+    excluded_keys = {(p["season"], p["season_type"], p["team_id"], p["player_id"]) for p in excluded}
+    players = [p for p in players if (p["season"], p["season_type"], p["team_id"], p["player_id"]) not in excluded_keys]
+    write_csv(output / "excluded_dnp.csv", excluded, inventory_fields)
+    write_csv(output / "player_inventory.csv", players, inventory_fields)
     labels = sorted({metric["Stat"] for _, metrics in fetched for metric in metrics})
     slugs = [metric_slug(name) for name in labels]
     if len(set(slugs)) != len(slugs):
@@ -273,7 +344,7 @@ def main():
                 row[metric_slug(metric["Stat"]) + "_" + suffix] = metric[source]
         rows.append(row)
     rows.sort(key=lambda row: (row["season"], row["season_type"], row["player_id"], row["team_id"]))
-    query_fields = ["kind", "url", "season", "season_type", "team_id", "player_id", "attempts", "cache_hit", "status", "records", "retrieved_at_utc", "error"]
+    query_fields = QUERY_FIELDS
     queries = sorted(client.queries, key=lambda q: (q["season"], q["season_type"], q["kind"], q["team_id"], q["player_id"]))
     write_csv(output / "queries.csv", queries, query_fields)
     write_csv(output / "failures.csv", client.failures, query_fields)
@@ -294,6 +365,10 @@ def main():
                "team_partitions": len(teams), "expected_rows": len(players), "downloaded_rows": len(rows),
                "unique_metric_labels": len(labels), "csv_columns": len(columns), "queries": len(queries),
                "failed_requests": len(client.failures), "errors": discovery_errors + onoff_errors,
+               "discovery": args.discovery, "excluded_dnp_rows": len(excluded),
+               "network_requests": sum(q["attempts"] for q in queries),
+               "response_bytes": sum(q["response_bytes"] for q in queries),
+               "request_elapsed_seconds_median": statistics.median([q["elapsed_seconds"] for q in queries if not q["cache_hit"]]) if any(not q["cache_hit"] for q in queries) else 0,
                "row_key": ["league", "season", "season_type", "player_id", "team_id"]}
     (output / "run_summary.json").write_text(json.dumps(summary, indent=2) + "\n")
     if not complete:

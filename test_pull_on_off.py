@@ -3,7 +3,9 @@ import unittest
 from pathlib import Path
 from unittest.mock import Mock, patch
 
-from pull_on_off import Client, metric_slug, validate_payload
+from pull_on_off import Client, main, metric_slug, validate_payload
+import csv
+import json
 
 
 def payload():
@@ -65,6 +67,44 @@ class PullTests(unittest.TestCase):
 
     def test_metric_column_mapping(self):
         self.assertEqual(metric_slug("eFG% - Defense"), "efg_pct_defense")
+
+    def test_roster_cap_is_rejected(self):
+        self.assertEqual(validate_payload("roster", {"players": {"1": "A"}}), 1)
+        with self.assertRaises(ValueError):
+            validate_payload("roster", {"players": {str(i): "A" for i in range(500)}})
+
+    def test_fast_inventory_keeps_short_appearances_and_excludes_dnp(self):
+        def fake_get(client, kind, params, **kwargs):
+            if kind == "teams":
+                return {"multi_row_table_data": [{"EntityId": "10", "Name": "ABC"}]}, {}
+            if kind == "roster":
+                return {"players": {"1": "Regular", "2": "Short appearance", "3": "DNP"}}, {}
+            if kind == "players":
+                return {"multi_row_table_data": [
+                    {"EntityId": "1", "SecondsPlayed": 600, "GamesPlayed": 1},
+                    {"EntityId": "2", "SecondsPlayed": 0.2, "GamesPlayed": 1},
+                ]}, {}
+            if params["PlayerId"] == "3":
+                raise RuntimeError("No player stats")
+            data = payload()
+            if params["PlayerId"] == "2":
+                for metric in data["results"]:
+                    metric["On"] = "0.000"
+            return data, {"retrieved_at_utc": "2026-11-09T00:00:00+00:00", "url": "https://api.pbpstats.com/example"}
+
+        with tempfile.TemporaryDirectory() as directory:
+            output = Path(directory) / "data"
+            argv = ["pull_on_off.py", "--start-year", "2000", "--end-year", "2000",
+                    "--season-types", "Regular Season", "--cache", str(Path(directory)/"cache"), "--output", str(output)]
+            with patch("sys.argv", argv), patch.object(Client, "get", fake_get), patch("builtins.print"):
+                main()
+            with (output / "player_season_on_off.csv").open() as handle:
+                rows = list(csv.DictReader(handle))
+            self.assertEqual({r["player_id"] for r in rows}, {"1", "2"})
+            self.assertEqual(next(r for r in rows if r["player_id"] == "2")["seconds_played"], "0.2")
+            summary = json.loads((output / "run_summary.json").read_text())
+            self.assertTrue(summary["complete"])
+            self.assertEqual(summary["excluded_dnp_rows"], 1)
 
 
 if __name__ == "__main__":

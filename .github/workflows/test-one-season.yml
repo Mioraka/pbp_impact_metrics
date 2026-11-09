@@ -1,0 +1,62 @@
+name: Validate cheaper pull for one season
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [.github/workflows/test-one-season.yml]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: nba-one-season-validation
+  cancel-in-progress: false
+
+jobs:
+  test-season:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: python -m pip install -r requirements.txt
+      - run: python -m unittest -v
+      - name: Pull only 2000-01 with a fresh cache
+        shell: bash
+        run: |
+          for pass in 1 2 3; do
+            if python -u pull_on_off.py --start-year 2000 --end-year 2000 --workers 12 --cache .cache-one-season --output validation/2000; then
+              exit 0
+            fi
+            if [ "$pass" -lt 3 ]; then sleep 10; fi
+          done
+          exit 1
+      - name: Confirm baseline coverage and all metrics
+        run: |
+          python - <<'PY'
+          import csv, json
+          from pathlib import Path
+          root = Path('validation/2000')
+          summary = json.loads((root / 'run_summary.json').read_text())
+          assert summary['complete'], summary
+          assert summary['downloaded_rows'] == 681, summary
+          assert summary['unique_metric_labels'] == 89, summary
+          with (root / 'player_season_on_off.csv').open() as handle:
+              rows = list(csv.DictReader(handle))
+          assert len(rows) == 681
+          assert all(int(row['metric_count']) == 89 for row in rows)
+          assert all(row['season'] == '2000-01' for row in rows)
+          print('PASS: 681 qualified rows, 89 metrics per row, no unresolved failures')
+          PY
+      - name: Upload test results, query timings and failure audits
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: one-season-validation-2000
+          path: validation/
+          if-no-files-found: error
+          retention-days: 30

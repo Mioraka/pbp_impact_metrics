@@ -8,7 +8,7 @@ All available team on/off statistics for individual NBA players from the [PBP St
 - Regular Season, Playoffs, and PlayIn are separate. PlayIn discovery starts in 2019-20. Future postseason partitions can return zero teams/players.
 - One output row per **league + season + season_type + player_id + team_id**.
 - Players who changed teams have separate rows. Their team-relative rates must not be added or averaged to construct a combined row.
-- Every player with positive playing time in the API's team-filtered player totals is included, including appearances shorter than one minute. Roster members with no playing time are excluded.
+- Candidate players come from the compact team-roster endpoint. A nonzero ON statistic establishes participation. All-zero ON rows and initial request failures are checked against team-filtered player totals; DNPs are excluded and appearances shorter than one minute are retained.
 - The current season is a snapshot at extraction time; historical coverage reflects the API, which can differ from official NBA totals.
 
 ## Published files
@@ -29,7 +29,7 @@ The main results CSV is written only after the entire requested pull succeeds. A
 ## Query strategy and the 500-record concern
 
 1. For each individual season and season type, query `/get-totals/nba` with `Type=Team` to discover historical teams and their historical abbreviations.
-2. Query `/get-totals/nba` with `Type=Player&TeamId=...` separately for each discovered team. This avoids relying on a league-wide player response that could exceed 500 rows.
+2. Query the lightweight `/get-team-players-for-season` separately for each team. This returns only player IDs and names. Full team-filtered player totals are requested on demand for ambiguous participation or an initial failed player request, with one shared response per affected team.
 3. For every discovered player, request `/get-on-off/nba/team` with **one season, one season type, one team, and one player**. All available metrics arrive together in `results`, one record per metric.
 4. Pivot those metrics into one wide player-season-team-season_type row. Missing API metrics are blank; API zero values remain zero.
 
@@ -51,7 +51,7 @@ python -m unittest -v
 python pull_on_off.py
 ```
 
-Defaults: 2000-01 through 2026-27, all three season types, 4 concurrent workers, up to 7 attempts per request, 15-second connect timeout and 60-second read timeout.
+Defaults: 2000-01 through 2026-27, all three season types, roster discovery, 4 concurrent workers, up to 7 attempts per player metric request (including the initial eligibility probe), 15-second connect timeout and 60-second read timeout. Use `--discovery full` for the original discovery strategy.
 
 ```bash
 # Smaller run in a separate output directory
@@ -71,7 +71,9 @@ Retries cover HTTP 429, server errors, connection failures, timeouts, invalid JS
 
 ## GitHub Actions
 
-The [extraction workflow](https://github.com/Mioraka/pbp_impact_metrics/actions/workflows/pull-on-off.yml) starts on query-code changes or manual dispatch. It runs one job per season, at most three season jobs at a time, with four request workers each. Each job makes up to three resumable passes and saves successful checkpoints even if it fails. Failed jobs can be rerun without downloading completed historical requests again.
+Automatic full-history runs are disabled while the cheaper extraction is validated. The [one-season test](https://github.com/Mioraka/pbp_impact_metrics/actions/workflows/test-one-season.yml) pulls only 2000-01, using a fresh cache and 12 workers, and requires all 681 previously identified player/team/season-type rows and all 89 metrics per row. It publishes result artifacts and per-request timings without launching a historical matrix.
+
+The existing [full extraction workflow](https://github.com/Mioraka/pbp_impact_metrics/actions/workflows/pull-on-off.yml) is manual only. It runs one job per season, at most three season jobs at a time, with four request workers each. Each job makes up to three resumable passes and saves successful checkpoints even if it fails. Failed jobs can be rerun without downloading completed historical requests again.
 
 After all 27 season jobs succeed, `combine_results.py` validates counts, keys, season coverage and failure audits, combines their CSV files, computes SHA-256 checksums, and commits the results under `data/`. Data commits do not retrigger extraction. The workflow is manually rerunnable; it is not scheduled.
 
@@ -85,6 +87,6 @@ Until that workflow succeeds, the complete CSV is unavailable. Successful indivi
 - Percentages commonly use fractions (`0.553` = 55.3%). Some rates use other scales; retain the metric's original meaning from PBP Stats.
 - On/off statistics describe lineup context and association, without adjustment for teammates, opponents, or substitution patterns.
 - Numeric values preserve the API's displayed precision. Blank cells indicate a metric absent from that response.
-- `games_played` and `seconds_played` come from player totals. The on/off endpoint does not return denominators or on/off minutes; they must not be inferred from a percentage.
+- `games_played` and `seconds_played` are populated only when player totals were fetched. They remain blank for ordinary roster-discovered rows. The on/off endpoint does not return denominators or on/off minutes; they must not be inferred from a percentage.
 
 Source: [API documentation](https://api.pbpstats.com/docs), [OpenAPI specification](https://api.pbpstats.com/openapi.json), and [PBP Stats](https://www.pbpstats.com/). This repository is an independent extraction, not an official NBA or PBP Stats publication.

@@ -2,14 +2,6 @@ name: Pull all NBA player-season on-off metrics
 
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - .github/workflows/pull-on-off.yml
-      - pull_on_off.py
-      - combine_results.py
-      - test_pull_on_off.py
-      - requirements.txt
 
 concurrency:
   group: nba-on-off-full-pull
