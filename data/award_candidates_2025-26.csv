@@ -1,26 +1,26 @@
-player,season,team,team_id,award,selection_team,source_url
-Cade Cunningham,2025-26,Detroit Pistons,1610612765,All-NBA,First,https://www.nba.com/news/history-all-nba-teams
-Luka Dončić,2025-26,Los Angeles Lakers,1610612747,All-NBA,First,https://www.nba.com/news/history-all-nba-teams
-Shai Gilgeous-Alexander,2025-26,Oklahoma City Thunder,1610612760,All-NBA,First,https://www.nba.com/news/history-all-nba-teams
-Nikola Jokić,2025-26,Denver Nuggets,1610612743,All-NBA,First,https://www.nba.com/news/history-all-nba-teams
-Victor Wembanyama,2025-26,San Antonio Spurs,1610612759,All-NBA,First,https://www.nba.com/news/history-all-nba-teams
-Jaylen Brown,2025-26,Boston Celtics,1610612738,All-NBA,Second,https://www.nba.com/news/history-all-nba-teams
-Jalen Brunson,2025-26,New York Knicks,1610612752,All-NBA,Second,https://www.nba.com/news/history-all-nba-teams
-Kevin Durant,2025-26,Houston Rockets,1610612745,All-NBA,Second,https://www.nba.com/news/history-all-nba-teams
-Kawhi Leonard,2025-26,LA Clippers,1610612746,All-NBA,Second,https://www.nba.com/news/history-all-nba-teams
-Donovan Mitchell,2025-26,Cleveland Cavaliers,1610612739,All-NBA,Second,https://www.nba.com/news/history-all-nba-teams
-Tyrese Maxey,2025-26,Philadelphia 76ers,1610612755,All-NBA,Third,https://www.nba.com/news/history-all-nba-teams
-Jamal Murray,2025-26,Denver Nuggets,1610612743,All-NBA,Third,https://www.nba.com/news/history-all-nba-teams
-Jalen Johnson,2025-26,Atlanta Hawks,1610612737,All-NBA,Third,https://www.nba.com/news/history-all-nba-teams
-Chet Holmgren,2025-26,Oklahoma City Thunder,1610612760,All-NBA,Third,https://www.nba.com/news/history-all-nba-teams
-Jalen Duren,2025-26,Detroit Pistons,1610612765,All-NBA,Third,https://www.nba.com/news/history-all-nba-teams
-Rudy Gobert,2025-26,Minnesota Timberwolves,1610612750,All-Defensive,First,https://www.nba.com/news/history-all-defensive-team
-Chet Holmgren,2025-26,Oklahoma City Thunder,1610612760,All-Defensive,First,https://www.nba.com/news/history-all-defensive-team
-Ausar Thompson,2025-26,Detroit Pistons,1610612765,All-Defensive,First,https://www.nba.com/news/history-all-defensive-team
-Victor Wembanyama,2025-26,San Antonio Spurs,1610612759,All-Defensive,First,https://www.nba.com/news/history-all-defensive-team
-Derrick White,2025-26,Boston Celtics,1610612738,All-Defensive,First,https://www.nba.com/news/history-all-defensive-team
-Bam Adebayo,2025-26,Miami Heat,1610612748,All-Defensive,Second,https://www.nba.com/news/history-all-defensive-team
-OG Anunoby,2025-26,New York Knicks,1610612752,All-Defensive,Second,https://www.nba.com/news/history-all-defensive-team
-Scottie Barnes,2025-26,Toronto Raptors,1610612761,All-Defensive,Second,https://www.nba.com/news/history-all-defensive-team
-Dyson Daniels,2025-26,Atlanta Hawks,1610612737,All-Defensive,Second,https://www.nba.com/news/history-all-defensive-team
-Cason Wallace,2025-26,Oklahoma City Thunder,1610612760,All-Defensive,Second,https://www.nba.com/news/history-all-defensive-team
+player,player_id,season,team,team_id,award,selection_team,source_url
+Cade Cunningham,1630595,2025-26,Detroit Pistons,1610612765,All-NBA,First,https://www.nba.com/news/history-all-nba-teams
+Luka Dončić,1629029,2025-26,Los Angeles Lakers,1610612747,All-NBA,First,https://www.nba.com/news/history-all-nba-teams
+Shai Gilgeous-Alexander,1628983,2025-26,Oklahoma City Thunder,1610612760,All-NBA,First,https://www.nba.com/news/history-all-nba-teams
+Nikola Jokić,203999,2025-26,Denver Nuggets,1610612743,All-NBA,First,https://www.nba.com/news/history-all-nba-teams
+Victor Wembanyama,1641705,2025-26,San Antonio Spurs,1610612759,All-NBA,First,https://www.nba.com/news/history-all-nba-teams
+Jaylen Brown,1627759,2025-26,Boston Celtics,1610612738,All-NBA,Second,https://www.nba.com/news/history-all-nba-teams
+Jalen Brunson,1628973,2025-26,New York Knicks,1610612752,All-NBA,Second,https://www.nba.com/news/history-all-nba-teams
+Kevin Durant,201142,2025-26,Houston Rockets,1610612745,All-NBA,Second,https://www.nba.com/news/history-all-nba-teams
+Kawhi Leonard,202695,2025-26,LA Clippers,1610612746,All-NBA,Second,https://www.nba.com/news/history-all-nba-teams
+Donovan Mitchell,1628378,2025-26,Cleveland Cavaliers,1610612739,All-NBA,Second,https://www.nba.com/news/history-all-nba-teams
+Tyrese Maxey,1630178,2025-26,Philadelphia 76ers,1610612755,All-NBA,Third,https://www.nba.com/news/history-all-nba-teams
+Jamal Murray,1627750,2025-26,Denver Nuggets,1610612743,All-NBA,Third,https://www.nba.com/news/history-all-nba-teams
+Jalen Johnson,1630552,2025-26,Atlanta Hawks,1610612737,All-NBA,Third,https://www.nba.com/news/history-all-nba-teams
+Chet Holmgren,1631096,2025-26,Oklahoma City Thunder,1610612760,All-NBA,Third,https://www.nba.com/news/history-all-nba-teams
+Jalen Duren,1631105,2025-26,Detroit Pistons,1610612765,All-NBA,Third,https://www.nba.com/news/history-all-nba-teams
+Rudy Gobert,203497,2025-26,Minnesota Timberwolves,1610612750,All-Defensive,First,https://www.nba.com/news/history-all-defensive-team
+Chet Holmgren,1631096,2025-26,Oklahoma City Thunder,1610612760,All-Defensive,First,https://www.nba.com/news/history-all-defensive-team
+Ausar Thompson,1641709,2025-26,Detroit Pistons,1610612765,All-Defensive,First,https://www.nba.com/news/history-all-defensive-team
+Victor Wembanyama,1641705,2025-26,San Antonio Spurs,1610612759,All-Defensive,First,https://www.nba.com/news/history-all-defensive-team
+Derrick White,1628401,2025-26,Boston Celtics,1610612738,All-Defensive,First,https://www.nba.com/news/history-all-defensive-team
+Bam Adebayo,1628389,2025-26,Miami Heat,1610612748,All-Defensive,Second,https://www.nba.com/news/history-all-defensive-team
+OG Anunoby,1628384,2025-26,New York Knicks,1610612752,All-Defensive,Second,https://www.nba.com/news/history-all-defensive-team
+Scottie Barnes,1630567,2025-26,Toronto Raptors,1610612761,All-Defensive,Second,https://www.nba.com/news/history-all-defensive-team
+Dyson Daniels,1630700,2025-26,Atlanta Hawks,1610612737,All-Defensive,Second,https://www.nba.com/news/history-all-defensive-team
+Cason Wallace,1641717,2025-26,Oklahoma City Thunder,1610612760,All-Defensive,Second,https://www.nba.com/news/history-all-defensive-team

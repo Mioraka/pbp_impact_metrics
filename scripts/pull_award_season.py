@@ -16,15 +16,24 @@ import requests
 
 BASE = "https://stats.nba.com/stats"
 HEADERS = {
+    "Host": "stats.nba.com",
     "Accept": "application/json, text/plain, */*",
-    "Accept-Language": "en-US,en;q=0.9",
-    "Origin": "https://www.nba.com",
+    "Accept-Language": "en-US,en;q=0.5",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
     "Referer": "https://www.nba.com/",
     "User-Agent": (
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
         "AppleWebKit/537.36 (KHTML, like Gecko) "
-        "Chrome/131.0.0.0 Safari/537.36"
+        "Chrome/145.0.0.0 Safari/537.36"
     ),
+    "Pragma": "no-cache",
+    "Cache-Control": "no-cache",
+    "Sec-Ch-Ua": '"Not:A-Brand";v="99", "Google Chrome";v="145", "Chromium";v="145"',
+    "Sec-Ch-Ua-Mobile": "?0",
+    "Sec-Fetch-Dest": "empty",
+    "x-nba-stats-origin": "stats",
+    "x-nba-stats-token": "true",
 }
 OUTPUT_FIELDS = [
     "player", "season", "team", "player_id", "team_id", "award",
@@ -85,6 +94,7 @@ class NBAStatsClient:
                         except ValueError:
                             pass
                     last_error = f"HTTP {response.status_code}: {response.text[:300]}"
+                    self.audit[-1]["error"] = last_error
                     if attempt < self.attempts:
                         time.sleep(wait)
                         continue
@@ -114,28 +124,12 @@ class NBAStatsClient:
 def read_candidates(path, season):
     with path.open(newline="", encoding="utf-8-sig") as handle:
         rows = list(csv.DictReader(handle))
-    required = {"player", "season", "team", "team_id", "award", "selection_team", "source_url"}
+    required = {"player", "season", "team", "player_id", "team_id", "award", "selection_team", "source_url"}
     if not rows or not required.issubset(rows[0]):
         raise ValueError(f"Candidate file must contain columns: {sorted(required)}")
     if any(row["season"] != season for row in rows):
         raise ValueError("Candidate file includes a season other than the requested season")
     return rows
-
-
-def player_id_index(client, season):
-    payload = client.get_json("commonallplayers", {
-        "LeagueID": "00",
-        "Season": season,
-        "IsOnlyCurrentSeason": "0",
-    })
-    rows = result_set(payload, "CommonAllPlayers")
-    index = {}
-    for row in rows:
-        name = row.get("DISPLAY_FIRST_LAST") or row.get("DISPLAY_LAST_COMMA_FIRST")
-        player_id = row.get("PERSON_ID")
-        if name and player_id:
-            index[normalize_name(name)] = str(player_id)
-    return index, len(rows)
 
 
 def is_requested_award(description, award):
@@ -150,54 +144,58 @@ def is_requested_award(description, award):
 def pull_season(season, candidate_path, output_path, audit_path):
     client = NBAStatsClient()
     candidates = read_candidates(candidate_path, season)
-    ids, registry_count = player_id_index(client, season)
-    not_found = [row["player"] for row in candidates if normalize_name(row["player"]) not in ids]
-    if not_found:
-        raise ValueError(f"Player IDs not found by CommonAllPlayers: {not_found}")
-
     by_id = {}
     for row in candidates:
-        by_id.setdefault(ids[normalize_name(row["player"])], []).append(row)
+        by_id.setdefault(str(row["player_id"]), []).append(row)
 
     output = []
     validation = {"season": season, "expected_rows": len(candidates), "matched_rows": 0, "missing": []}
-    for player_id, player_candidates in by_id.items():
-        payload = client.get_json("playerawards", {"PlayerID": player_id})
-        awards = result_set(payload, "PlayerAwards")
-        for candidate in player_candidates:
-            match = next((
-                award_row for award_row in awards
-                if str(award_row.get("SEASON", "")) == season
-                and is_requested_award(award_row.get("DESCRIPTION", ""), candidate["award"])
-            ), None)
-            if match is None:
-                validation["missing"].append({
+    try:
+        for player_id, player_candidates in by_id.items():
+            payload = client.get_json("playerawards", {"PlayerID": player_id})
+            awards = result_set(payload, "PlayerAwards")
+            for candidate in player_candidates:
+                match = next((
+                    award_row for award_row in awards
+                    if str(award_row.get("SEASON", "")) == season
+                    and is_requested_award(award_row.get("DESCRIPTION", ""), candidate["award"])
+                ), None)
+                if match is None:
+                    validation["missing"].append({
+                        "player": candidate["player"],
+                        "award": candidate["award"],
+                        "season": season,
+                        "player_id": player_id,
+                        "candidate_team": candidate["team"],
+                        "api_awards_for_season": [
+                            row.get("DESCRIPTION") for row in awards
+                            if str(row.get("SEASON", "")) == season
+                        ],
+                    })
+                    continue
+                output.append({
                     "player": candidate["player"],
-                    "award": candidate["award"],
                     "season": season,
+                    "team": candidate["team"],
                     "player_id": player_id,
-                    "candidate_team": candidate["team"],
-                    "api_awards_for_season": [
-                        row.get("DESCRIPTION") for row in awards
-                        if str(row.get("SEASON", "")) == season
-                    ],
+                    "team_id": candidate["team_id"],
+                    "award": candidate["award"],
+                    "selection_team": candidate["selection_team"],
+                    "api_description": match.get("DESCRIPTION", ""),
+                    "source_url": candidate["source_url"],
                 })
-                continue
-            output.append({
-                "player": candidate["player"],
-                "season": season,
-                "team": candidate["team"],
-                "player_id": player_id,
-                "team_id": candidate["team_id"],
-                "award": candidate["award"],
-                "selection_team": candidate["selection_team"],
-                "api_description": match.get("DESCRIPTION", ""),
-                "source_url": candidate["source_url"],
-            })
-            validation["matched_rows"] += 1
+                validation["matched_rows"] += 1
+    except Exception as exc:
+        validation["error"] = f"{type(exc).__name__}: {exc}"
+        validation["unique_players"] = len(by_id)
+        validation["api_requests"] = len(client.audit)
+        validation["requests"] = client.audit
+        validation["completed_at_utc"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
+        audit_path.parent.mkdir(parents=True, exist_ok=True)
+        audit_path.write_text(json.dumps(validation, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+        raise
 
     validation["unique_players"] = len(by_id)
-    validation["common_all_players_records"] = registry_count
     validation["api_requests"] = len(client.audit)
     validation["requests"] = client.audit
     validation["completed_at_utc"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
@@ -212,7 +210,7 @@ def pull_season(season, candidate_path, output_path, audit_path):
         writer = csv.DictWriter(handle, fieldnames=OUTPUT_FIELDS)
         writer.writeheader()
         writer.writerows(output)
-    print(json.dumps({key: validation[key] for key in ("season", "expected_rows", "matched_rows", "unique_players", "common_all_players_records", "api_requests")}, indent=2))
+    print(json.dumps({key: validation[key] for key in ("season", "expected_rows", "matched_rows", "unique_players", "api_requests")}, indent=2))
 
 
 def main():
