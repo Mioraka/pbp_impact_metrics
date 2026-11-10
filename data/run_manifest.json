@@ -1,12 +1,12 @@
 {
   "complete": true,
-  "started_at_utc": "2026-11-10T18:09:24+00:00",
-  "finished_at_utc": "2026-11-10T18:51:08+00:00",
+  "started_at_utc": "2026-11-10T21:04:42+00:00",
+  "finished_at_utc": "2026-11-10T21:08:16+00:00",
   "season_type": "Regular Season",
-  "player_source_rows": 518,
-  "player_metric_status_rows": 138306,
-  "league_season_metric_rows": 2314,
-  "master_rows": 138306,
+  "player_source_rows": 566,
+  "player_metric_status_rows": 151122,
+  "league_season_metric_rows": 2403,
+  "master_rows": 151122,
   "metric_count": 89,
   "player_row_key": [
     "source_row",
@@ -24,6 +24,10 @@
     "SeasonType",
     "metrics"
   ],
-  "request_count": 543,
-  "failed_requests": 0
+  "request_count": 49,
+  "failed_requests": 0,
+  "incremental_player_source_rows": 48,
+  "refreshed_or_added_league_seasons": [
+    "2026-27"
+  ]
 }
