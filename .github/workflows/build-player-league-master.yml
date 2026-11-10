@@ -5,7 +5,8 @@ on:
   push:
     branches: [main]
     paths:
-      - "scripts/build_advanced_master.py"\n      - "scripts/append_missing_master.py"
+      - "scripts/build_advanced_master.py"
+      - "scripts/append_missing_master.py"
       - "tests/**"
       - "data/player_list.csv"
       - "data/metric_definitions.csv"
