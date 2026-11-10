@@ -1,0 +1,4891 @@
+{
+  "requests": [
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2000-01&SeasonType=Regular+Season&TeamId=1610612747&PlayerId=406",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.703,
+      "retrieved_at_utc": "2026-11-10T18:09:30+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2000-01&SeasonType=Regular+Season&TeamId=1610612747&PlayerId=977",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 14.003,
+      "retrieved_at_utc": "2026-11-10T18:09:38+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2000-01&SeasonType=Regular+Season&TeamId=1610612742&PlayerId=1717",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 20.582,
+      "retrieved_at_utc": "2026-11-10T18:09:45+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2000-01&SeasonType=Regular+Season&TeamId=1610612750&PlayerId=708",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 31.202,
+      "retrieved_at_utc": "2026-11-10T18:10:18+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2000-01&SeasonType=Regular+Season&TeamId=1610612749&PlayerId=951",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 31.205,
+      "retrieved_at_utc": "2026-11-10T18:10:18+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2000-01&SeasonType=Regular+Season&TeamId=1610612748&PlayerId=1477",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 31.219,
+      "retrieved_at_utc": "2026-11-10T18:10:18+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2000-01&SeasonType=Regular+Season&TeamId=1610612755&PlayerId=947",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 18.137,
+      "retrieved_at_utc": "2026-11-10T18:10:38+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2000-01&SeasonType=Regular+Season&TeamId=1610612755&PlayerId=87",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 18.138,
+      "retrieved_at_utc": "2026-11-10T18:10:38+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2000-01&SeasonType=Regular+Season&TeamId=1610612753&PlayerId=1503",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 18.139,
+      "retrieved_at_utc": "2026-11-10T18:10:38+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2000-01&SeasonType=Regular+Season&TeamId=1610612756&PlayerId=467",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 12.145,
+      "retrieved_at_utc": "2026-11-10T18:10:52+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2000-01&SeasonType=Regular+Season&TeamId=1610612758&PlayerId=57",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 12.143,
+      "retrieved_at_utc": "2026-11-10T18:10:52+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2000-01&SeasonType=Regular+Season&TeamId=1610612758&PlayerId=185",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 12.147,
+      "retrieved_at_utc": "2026-11-10T18:10:52+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2000-01&SeasonType=Regular+Season&TeamId=1610612760&PlayerId=56",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 21.783,
+      "retrieved_at_utc": "2026-11-10T18:11:16+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2000-01&SeasonType=Regular+Season&TeamId=1610612759&PlayerId=1495",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 21.785,
+      "retrieved_at_utc": "2026-11-10T18:11:16+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2000-01&SeasonType=Regular+Season&TeamId=1610612759&PlayerId=764",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 21.784,
+      "retrieved_at_utc": "2026-11-10T18:11:16+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2000-01&SeasonType=Regular+Season&TeamId=1610612762&PlayerId=252",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 4.62,
+      "retrieved_at_utc": "2026-11-10T18:11:23+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2000-01&SeasonType=Regular+Season&TeamId=1610612761&PlayerId=1713",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 4.645,
+      "retrieved_at_utc": "2026-11-10T18:11:23+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2000-01&SeasonType=Regular+Season&TeamId=1610612766&PlayerId=136",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 7.926,
+      "retrieved_at_utc": "2026-11-10T18:11:26+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2001-02&SeasonType=Regular+Season&TeamId=1610612738&PlayerId=1718",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 4.101,
+      "retrieved_at_utc": "2026-11-10T18:11:32+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2001-02&SeasonType=Regular+Season&TeamId=1610612742&PlayerId=1717",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.966,
+      "retrieved_at_utc": "2026-11-10T18:11:34+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2001-02&SeasonType=Regular+Season&TeamId=1610612742&PlayerId=959",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.975,
+      "retrieved_at_utc": "2026-11-10T18:11:34+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2001-02&SeasonType=Regular+Season&TeamId=1610612750&PlayerId=708",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 2.879,
+      "retrieved_at_utc": "2026-11-10T18:11:39+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2001-02&SeasonType=Regular+Season&TeamId=1610612747&PlayerId=406",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 2.935,
+      "retrieved_at_utc": "2026-11-10T18:11:39+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2001-02&SeasonType=Regular+Season&TeamId=1610612747&PlayerId=977",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.248,
+      "retrieved_at_utc": "2026-11-10T18:11:41+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2001-02&SeasonType=Regular+Season&TeamId=1610612751&PlayerId=467",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.113,
+      "retrieved_at_utc": "2026-11-10T18:11:48+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2001-02&SeasonType=Regular+Season&TeamId=1610612753&PlayerId=1503",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.218,
+      "retrieved_at_utc": "2026-11-10T18:11:48+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2001-02&SeasonType=Regular+Season&TeamId=1610612754&PlayerId=979",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.232,
+      "retrieved_at_utc": "2026-11-10T18:11:48+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2001-02&SeasonType=Regular+Season&TeamId=1610612758&PlayerId=185",
+      "status": 200,
+      "attempts": 3,
+      "seconds": 7.315,
+      "retrieved_at_utc": "2026-11-10T18:11:58+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2001-02&SeasonType=Regular+Season&TeamId=1610612755&PlayerId=947",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 32.955,
+      "retrieved_at_utc": "2026-11-10T18:12:23+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2001-02&SeasonType=Regular+Season&TeamId=1610612755&PlayerId=87",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 32.956,
+      "retrieved_at_utc": "2026-11-10T18:12:23+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2001-02&SeasonType=Regular+Season&TeamId=1610612759&PlayerId=1495",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 4.802,
+      "retrieved_at_utc": "2026-11-10T18:12:30+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2001-02&SeasonType=Regular+Season&TeamId=1610612758&PlayerId=57",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 14.233,
+      "retrieved_at_utc": "2026-11-10T18:12:40+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2001-02&SeasonType=Regular+Season&TeamId=1610612759&PlayerId=1477",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 14.24,
+      "retrieved_at_utc": "2026-11-10T18:12:40+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2001-02&SeasonType=Regular+Season&TeamId=1610612760&PlayerId=56",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 3.899,
+      "retrieved_at_utc": "2026-11-10T18:12:45+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2001-02&SeasonType=Regular+Season&TeamId=1610612765&PlayerId=1112",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 14.166,
+      "retrieved_at_utc": "2026-11-10T18:12:56+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2001-02&SeasonType=Regular+Season&TeamId=1610612765&PlayerId=361",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 14.174,
+      "retrieved_at_utc": "2026-11-10T18:12:56+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2002-03&SeasonType=Regular+Season&TeamId=1610612742&PlayerId=1717",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 4.325,
+      "retrieved_at_utc": "2026-11-10T18:13:02+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2002-03&SeasonType=Regular+Season&TeamId=1610612740&PlayerId=469",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 10.35,
+      "retrieved_at_utc": "2026-11-10T18:13:08+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2002-03&SeasonType=Regular+Season&TeamId=1610612738&PlayerId=1718",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 10.358,
+      "retrieved_at_utc": "2026-11-10T18:13:08+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2002-03&SeasonType=Regular+Season&TeamId=1610612742&PlayerId=959",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 3.854,
+      "retrieved_at_utc": "2026-11-10T18:13:14+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2002-03&SeasonType=Regular+Season&TeamId=1610612747&PlayerId=977",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 3.915,
+      "retrieved_at_utc": "2026-11-10T18:13:14+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2002-03&SeasonType=Regular+Season&TeamId=1610612747&PlayerId=406",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 3.933,
+      "retrieved_at_utc": "2026-11-10T18:13:14+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2002-03&SeasonType=Regular+Season&TeamId=1610612750&PlayerId=708",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 3.605,
+      "retrieved_at_utc": "2026-11-10T18:13:20+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2002-03&SeasonType=Regular+Season&TeamId=1610612751&PlayerId=467",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 3.63,
+      "retrieved_at_utc": "2026-11-10T18:13:20+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2002-03&SeasonType=Regular+Season&TeamId=1610612753&PlayerId=1503",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 6.064,
+      "retrieved_at_utc": "2026-11-10T18:13:22+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2002-03&SeasonType=Regular+Season&TeamId=1610612754&PlayerId=979",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 3.829,
+      "retrieved_at_utc": "2026-11-10T18:13:28+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2002-03&SeasonType=Regular+Season&TeamId=1610612754&PlayerId=1897",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 3.949,
+      "retrieved_at_utc": "2026-11-10T18:13:28+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2002-03&SeasonType=Regular+Season&TeamId=1610612755&PlayerId=727",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 6.102,
+      "retrieved_at_utc": "2026-11-10T18:13:30+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2002-03&SeasonType=Regular+Season&TeamId=1610612756&PlayerId=950",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 3.806,
+      "retrieved_at_utc": "2026-11-10T18:13:36+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2002-03&SeasonType=Regular+Season&TeamId=1610612758&PlayerId=185",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 3.892,
+      "retrieved_at_utc": "2026-11-10T18:13:36+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2002-03&SeasonType=Regular+Season&TeamId=1610612755&PlayerId=947",
+      "status": 200,
+      "attempts": 3,
+      "seconds": 7.791,
+      "retrieved_at_utc": "2026-11-10T18:13:40+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2002-03&SeasonType=Regular+Season&TeamId=1610612758&PlayerId=57",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.005,
+      "retrieved_at_utc": "2026-11-10T18:13:47+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2002-03&SeasonType=Regular+Season&TeamId=1610612759&PlayerId=1495",
+      "status": 200,
+      "attempts": 3,
+      "seconds": 9.709,
+      "retrieved_at_utc": "2026-11-10T18:13:52+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2002-03&SeasonType=Regular+Season&TeamId=1610612759&PlayerId=1477",
+      "status": 200,
+      "attempts": 2,
+      "seconds": 30.486,
+      "retrieved_at_utc": "2026-11-10T18:14:12+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2003-04&SeasonType=Regular+Season&TeamId=1610612740&PlayerId=1884",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 4.865,
+      "retrieved_at_utc": "2026-11-10T18:14:19+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2003-04&SeasonType=Regular+Season&TeamId=1610612742&PlayerId=1717",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.08,
+      "retrieved_at_utc": "2026-11-10T18:14:20+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2002-03&SeasonType=Regular+Season&TeamId=1610612765&PlayerId=1112",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.106,
+      "retrieved_at_utc": "2026-11-10T18:14:20+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2003-04&SeasonType=Regular+Season&TeamId=1610612747&PlayerId=406",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 3.998,
+      "retrieved_at_utc": "2026-11-10T18:14:26+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2003-04&SeasonType=Regular+Season&TeamId=1610612747&PlayerId=977",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 4.112,
+      "retrieved_at_utc": "2026-11-10T18:14:26+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2003-04&SeasonType=Regular+Season&TeamId=1610612745&PlayerId=2397",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 4.192,
+      "retrieved_at_utc": "2026-11-10T18:14:26+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2003-04&SeasonType=Regular+Season&TeamId=1610612750&PlayerId=708",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.117,
+      "retrieved_at_utc": "2026-11-10T18:14:33+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2003-04&SeasonType=Regular+Season&TeamId=1610612750&PlayerId=208",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.218,
+      "retrieved_at_utc": "2026-11-10T18:14:33+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2003-04&SeasonType=Regular+Season&TeamId=1610612749&PlayerId=2072",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 8.06,
+      "retrieved_at_utc": "2026-11-10T18:14:36+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2003-04&SeasonType=Regular+Season&TeamId=1610612751&PlayerId=467",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 4.748,
+      "retrieved_at_utc": "2026-11-10T18:14:43+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2003-04&SeasonType=Regular+Season&TeamId=1610612753&PlayerId=1503",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.592,
+      "retrieved_at_utc": "2026-11-10T18:14:43+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2003-04&SeasonType=Regular+Season&TeamId=1610612754&PlayerId=1897",
+      "status": 200,
+      "attempts": 2,
+      "seconds": 7.228,
+      "retrieved_at_utc": "2026-11-10T18:14:45+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2003-04&SeasonType=Regular+Season&TeamId=1610612757&PlayerId=689",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 4.016,
+      "retrieved_at_utc": "2026-11-10T18:14:51+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2003-04&SeasonType=Regular+Season&TeamId=1610612754&PlayerId=979",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 4.025,
+      "retrieved_at_utc": "2026-11-10T18:14:51+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2003-04&SeasonType=Regular+Season&TeamId=1610612758&PlayerId=57",
+      "status": 200,
+      "attempts": 3,
+      "seconds": 17.401,
+      "retrieved_at_utc": "2026-11-10T18:15:04+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2003-04&SeasonType=Regular+Season&TeamId=1610612758&PlayerId=978",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 4.165,
+      "retrieved_at_utc": "2026-11-10T18:15:11+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2003-04&SeasonType=Regular+Season&TeamId=1610612759&PlayerId=1477",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 4.209,
+      "retrieved_at_utc": "2026-11-10T18:15:11+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2003-04&SeasonType=Regular+Season&TeamId=1610612759&PlayerId=1495",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 7.024,
+      "retrieved_at_utc": "2026-11-10T18:15:13+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2003-04&SeasonType=Regular+Season&TeamId=1610612762&PlayerId=1905",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 4.397,
+      "retrieved_at_utc": "2026-11-10T18:15:20+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2003-04&SeasonType=Regular+Season&TeamId=1610612765&PlayerId=1112",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 7.76,
+      "retrieved_at_utc": "2026-11-10T18:15:23+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2004-05&SeasonType=Regular+Season&TeamId=1610612739&PlayerId=2544",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 7.761,
+      "retrieved_at_utc": "2026-11-10T18:15:23+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2004-05&SeasonType=Regular+Season&TeamId=1610612743&PlayerId=948",
+      "status": 200,
+      "attempts": 2,
+      "seconds": 7.71,
+      "retrieved_at_utc": "2026-11-10T18:15:33+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2004-05&SeasonType=Regular+Season&TeamId=1610612742&PlayerId=1717",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 9.386,
+      "retrieved_at_utc": "2026-11-10T18:15:35+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2004-05&SeasonType=Regular+Season&TeamId=1610612745&PlayerId=1503",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 9.386,
+      "retrieved_at_utc": "2026-11-10T18:15:35+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2004-05&SeasonType=Regular+Season&TeamId=1610612748&PlayerId=406",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 9.586,
+      "retrieved_at_utc": "2026-11-10T18:15:46+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2004-05&SeasonType=Regular+Season&TeamId=1610612748&PlayerId=2548",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 9.597,
+      "retrieved_at_utc": "2026-11-10T18:15:46+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2004-05&SeasonType=Regular+Season&TeamId=1610612747&PlayerId=977",
+      "status": 200,
+      "attempts": 2,
+      "seconds": 14.17,
+      "retrieved_at_utc": "2026-11-10T18:15:51+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2004-05&SeasonType=Regular+Season&TeamId=1610612756&PlayerId=1890",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 9.359,
+      "retrieved_at_utc": "2026-11-10T18:16:02+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2004-05&SeasonType=Regular+Season&TeamId=1610612750&PlayerId=708",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 9.361,
+      "retrieved_at_utc": "2026-11-10T18:16:02+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2004-05&SeasonType=Regular+Season&TeamId=1610612755&PlayerId=947",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 9.372,
+      "retrieved_at_utc": "2026-11-10T18:16:02+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2004-05&SeasonType=Regular+Season&TeamId=1610612756&PlayerId=959",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 10.185,
+      "retrieved_at_utc": "2026-11-10T18:16:14+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2004-05&SeasonType=Regular+Season&TeamId=1610612759&PlayerId=1477",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 10.185,
+      "retrieved_at_utc": "2026-11-10T18:16:14+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2004-05&SeasonType=Regular+Season&TeamId=1610612756&PlayerId=2405",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 10.187,
+      "retrieved_at_utc": "2026-11-10T18:16:14+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2004-05&SeasonType=Regular+Season&TeamId=1610612760&PlayerId=951",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 4.191,
+      "retrieved_at_utc": "2026-11-10T18:16:21+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2004-05&SeasonType=Regular+Season&TeamId=1610612759&PlayerId=1495",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 4.241,
+      "retrieved_at_utc": "2026-11-10T18:16:21+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2004-05&SeasonType=Regular+Season&TeamId=1610612762&PlayerId=1905",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 4.26,
+      "retrieved_at_utc": "2026-11-10T18:16:21+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2004-05&SeasonType=Regular+Season&TeamId=1610612764&PlayerId=2240",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 2.663,
+      "retrieved_at_utc": "2026-11-10T18:16:25+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2004-05&SeasonType=Regular+Season&TeamId=1610612765&PlayerId=1112",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.739,
+      "retrieved_at_utc": "2026-11-10T18:16:28+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2004-05&SeasonType=Regular+Season&TeamId=1610612764&PlayerId=1716",
+      "status": 200,
+      "attempts": 3,
+      "seconds": 7.413,
+      "retrieved_at_utc": "2026-11-10T18:16:30+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2005-06&SeasonType=Regular+Season&TeamId=1610612739&PlayerId=2544",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 2.889,
+      "retrieved_at_utc": "2026-11-10T18:16:35+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2004-05&SeasonType=Regular+Season&TeamId=1610612765&PlayerId=1497",
+      "status": 200,
+      "attempts": 3,
+      "seconds": 6.491,
+      "retrieved_at_utc": "2026-11-10T18:16:39+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2004-05&SeasonType=Regular+Season&TeamId=1610612765&PlayerId=2419",
+      "status": 200,
+      "attempts": 4,
+      "seconds": 11.927,
+      "retrieved_at_utc": "2026-11-10T18:16:44+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2005-06&SeasonType=Regular+Season&TeamId=1610612742&PlayerId=1717",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 3.176,
+      "retrieved_at_utc": "2026-11-10T18:16:49+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2005-06&SeasonType=Regular+Season&TeamId=1610612743&PlayerId=2546",
+      "status": 200,
+      "attempts": 2,
+      "seconds": 4.978,
+      "retrieved_at_utc": "2026-11-10T18:16:51+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2005-06&SeasonType=Regular+Season&TeamId=1610612743&PlayerId=948",
+      "status": 200,
+      "attempts": 4,
+      "seconds": 10.883,
+      "retrieved_at_utc": "2026-11-10T18:16:57+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2005-06&SeasonType=Regular+Season&TeamId=1610612747&PlayerId=977",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 4.371,
+      "retrieved_at_utc": "2026-11-10T18:17:03+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2005-06&SeasonType=Regular+Season&TeamId=1610612745&PlayerId=2397",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 4.447,
+      "retrieved_at_utc": "2026-11-10T18:17:03+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2005-06&SeasonType=Regular+Season&TeamId=1610612746&PlayerId=1882",
+      "status": 200,
+      "attempts": 3,
+      "seconds": 8.463,
+      "retrieved_at_utc": "2026-11-10T18:17:07+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2005-06&SeasonType=Regular+Season&TeamId=1610612748&PlayerId=406",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 9.206,
+      "retrieved_at_utc": "2026-11-10T18:17:19+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2005-06&SeasonType=Regular+Season&TeamId=1610612750&PlayerId=708",
+      "status": 200,
+      "attempts": 2,
+      "seconds": 9.205,
+      "retrieved_at_utc": "2026-11-10T18:17:19+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2005-06&SeasonType=Regular+Season&TeamId=1610612748&PlayerId=2548",
+      "status": 200,
+      "attempts": 4,
+      "seconds": 11.065,
+      "retrieved_at_utc": "2026-11-10T18:17:20+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2005-06&SeasonType=Regular+Season&TeamId=1610612751&PlayerId=467",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 4.543,
+      "retrieved_at_utc": "2026-11-10T18:17:27+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2005-06&SeasonType=Regular+Season&TeamId=1610612755&PlayerId=947",
+      "status": 200,
+      "attempts": 2,
+      "seconds": 8.146,
+      "retrieved_at_utc": "2026-11-10T18:17:31+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2005-06&SeasonType=Regular+Season&TeamId=1610612756&PlayerId=1890",
+      "status": 200,
+      "attempts": 3,
+      "seconds": 24.705,
+      "retrieved_at_utc": "2026-11-10T18:17:47+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2005-06&SeasonType=Regular+Season&TeamId=1610612758&PlayerId=1897",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 13.835,
+      "retrieved_at_utc": "2026-11-10T18:18:03+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2005-06&SeasonType=Regular+Season&TeamId=1610612756&PlayerId=959",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 13.84,
+      "retrieved_at_utc": "2026-11-10T18:18:03+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2005-06&SeasonType=Regular+Season&TeamId=1610612759&PlayerId=1477",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 13.842,
+      "retrieved_at_utc": "2026-11-10T18:18:03+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2005-06&SeasonType=Regular+Season&TeamId=1610612764&PlayerId=2240",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 4.265,
+      "retrieved_at_utc": "2026-11-10T18:18:09+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2005-06&SeasonType=Regular+Season&TeamId=1610612759&PlayerId=1495",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 4.476,
+      "retrieved_at_utc": "2026-11-10T18:18:09+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2005-06&SeasonType=Regular+Season&TeamId=1610612762&PlayerId=1905",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 4.494,
+      "retrieved_at_utc": "2026-11-10T18:18:09+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2005-06&SeasonType=Regular+Season&TeamId=1610612765&PlayerId=1112",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 4.08,
+      "retrieved_at_utc": "2026-11-10T18:18:16+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2005-06&SeasonType=Regular+Season&TeamId=1610612765&PlayerId=2419",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 4.092,
+      "retrieved_at_utc": "2026-11-10T18:18:16+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2005-06&SeasonType=Regular+Season&TeamId=1610612765&PlayerId=1497",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 8.134,
+      "retrieved_at_utc": "2026-11-10T18:18:20+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2006-07&SeasonType=Regular+Season&TeamId=1610612739&PlayerId=2544",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.098,
+      "retrieved_at_utc": "2026-11-10T18:18:27+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2006-07&SeasonType=Regular+Season&TeamId=1610612741&PlayerId=1112",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.227,
+      "retrieved_at_utc": "2026-11-10T18:18:27+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2006-07&SeasonType=Regular+Season&TeamId=1610612741&PlayerId=2550",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 9.498,
+      "retrieved_at_utc": "2026-11-10T18:18:31+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2006-07&SeasonType=Regular+Season&TeamId=1610612742&PlayerId=1717",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 12.116,
+      "retrieved_at_utc": "2026-11-10T18:18:45+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2006-07&SeasonType=Regular+Season&TeamId=1610612743&PlayerId=948",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 12.114,
+      "retrieved_at_utc": "2026-11-10T18:18:45+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2006-07&SeasonType=Regular+Season&TeamId=1610612743&PlayerId=2546",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 12.132,
+      "retrieved_at_utc": "2026-11-10T18:18:45+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2006-07&SeasonType=Regular+Season&TeamId=1610612745&PlayerId=1503",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 15.725,
+      "retrieved_at_utc": "2026-11-10T18:19:03+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2006-07&SeasonType=Regular+Season&TeamId=1610612747&PlayerId=977",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 15.723,
+      "retrieved_at_utc": "2026-11-10T18:19:03+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2006-07&SeasonType=Regular+Season&TeamId=1610612745&PlayerId=2397",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 15.725,
+      "retrieved_at_utc": "2026-11-10T18:19:03+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2006-07&SeasonType=Regular+Season&TeamId=1610612750&PlayerId=708",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.232,
+      "retrieved_at_utc": "2026-11-10T18:19:10+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2006-07&SeasonType=Regular+Season&TeamId=1610612748&PlayerId=2548",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 9.293,
+      "retrieved_at_utc": "2026-11-10T18:19:14+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2006-07&SeasonType=Regular+Season&TeamId=1610612751&PlayerId=467",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 13.143,
+      "retrieved_at_utc": "2026-11-10T18:19:18+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2006-07&SeasonType=Regular+Season&TeamId=1610612753&PlayerId=2730",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 10.258,
+      "retrieved_at_utc": "2026-11-10T18:19:30+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2006-07&SeasonType=Regular+Season&TeamId=1610612756&PlayerId=1952",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 13.879,
+      "retrieved_at_utc": "2026-11-10T18:19:34+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2006-07&SeasonType=Regular+Season&TeamId=1610612756&PlayerId=2405",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 13.879,
+      "retrieved_at_utc": "2026-11-10T18:19:34+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2006-07&SeasonType=Regular+Season&TeamId=1610612759&PlayerId=1495",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 4.803,
+      "retrieved_at_utc": "2026-11-10T18:19:41+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2006-07&SeasonType=Regular+Season&TeamId=1610612756&PlayerId=959",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 9.777,
+      "retrieved_at_utc": "2026-11-10T18:19:46+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2006-07&SeasonType=Regular+Season&TeamId=1610612759&PlayerId=1477",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 9.776,
+      "retrieved_at_utc": "2026-11-10T18:19:46+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2006-07&SeasonType=Regular+Season&TeamId=1610612761&PlayerId=2547",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 3.904,
+      "retrieved_at_utc": "2026-11-10T18:19:52+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2006-07&SeasonType=Regular+Season&TeamId=1610612765&PlayerId=1497",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 3.964,
+      "retrieved_at_utc": "2026-11-10T18:19:52+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2006-07&SeasonType=Regular+Season&TeamId=1610612764&PlayerId=2240",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 4.008,
+      "retrieved_at_utc": "2026-11-10T18:19:52+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2007-08&SeasonType=Regular+Season&TeamId=1610612738&PlayerId=1718",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 4.153,
+      "retrieved_at_utc": "2026-11-10T18:19:58+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2007-08&SeasonType=Regular+Season&TeamId=1610612738&PlayerId=708",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 4.194,
+      "retrieved_at_utc": "2026-11-10T18:19:58+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2006-07&SeasonType=Regular+Season&TeamId=1610612765&PlayerId=2419",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 7.604,
+      "retrieved_at_utc": "2026-11-10T18:20:01+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2007-08&SeasonType=Regular+Season&TeamId=1610612739&PlayerId=2544",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 7.541,
+      "retrieved_at_utc": "2026-11-10T18:20:11+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2007-08&SeasonType=Regular+Season&TeamId=1610612742&PlayerId=1717",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 7.538,
+      "retrieved_at_utc": "2026-11-10T18:20:11+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2007-08&SeasonType=Regular+Season&TeamId=1610612740&PlayerId=101108",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 10.687,
+      "retrieved_at_utc": "2026-11-10T18:20:14+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2007-08&SeasonType=Regular+Season&TeamId=1610612745&PlayerId=2203",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 4.526,
+      "retrieved_at_utc": "2026-11-10T18:20:21+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2007-08&SeasonType=Regular+Season&TeamId=1610612745&PlayerId=1503",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 4.537,
+      "retrieved_at_utc": "2026-11-10T18:20:21+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2007-08&SeasonType=Regular+Season&TeamId=1610612743&PlayerId=948",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 7.372,
+      "retrieved_at_utc": "2026-11-10T18:20:23+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2007-08&SeasonType=Regular+Season&TeamId=1610612747&PlayerId=977",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 12.48,
+      "retrieved_at_utc": "2026-11-10T18:20:38+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2007-08&SeasonType=Regular+Season&TeamId=1610612745&PlayerId=2397",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 12.493,
+      "retrieved_at_utc": "2026-11-10T18:20:38+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2007-08&SeasonType=Regular+Season&TeamId=1610612753&PlayerId=2730",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 12.492,
+      "retrieved_at_utc": "2026-11-10T18:20:38+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2007-08&SeasonType=Regular+Season&TeamId=1610612756&PlayerId=959",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 24.918,
+      "retrieved_at_utc": "2026-11-10T18:21:05+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2007-08&SeasonType=Regular+Season&TeamId=1610612756&PlayerId=1952",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 24.921,
+      "retrieved_at_utc": "2026-11-10T18:21:05+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2007-08&SeasonType=Regular+Season&TeamId=1610612756&PlayerId=2405",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 24.92,
+      "retrieved_at_utc": "2026-11-10T18:21:05+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2007-08&SeasonType=Regular+Season&TeamId=1610612759&PlayerId=1495",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 52.748,
+      "retrieved_at_utc": "2026-11-10T18:22:00+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2007-08&SeasonType=Regular+Season&TeamId=1610612759&PlayerId=1477",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 52.749,
+      "retrieved_at_utc": "2026-11-10T18:22:00+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2007-08&SeasonType=Regular+Season&TeamId=1610612759&PlayerId=1938",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 52.764,
+      "retrieved_at_utc": "2026-11-10T18:22:00+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2007-08&SeasonType=Regular+Season&TeamId=1610612762&PlayerId=2430",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 13.127,
+      "retrieved_at_utc": "2026-11-10T18:22:15+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2007-08&SeasonType=Regular+Season&TeamId=1610612765&PlayerId=2419",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 13.135,
+      "retrieved_at_utc": "2026-11-10T18:22:15+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2007-08&SeasonType=Regular+Season&TeamId=1610612762&PlayerId=101114",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 13.139,
+      "retrieved_at_utc": "2026-11-10T18:22:15+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2008-09&SeasonType=Regular+Season&TeamId=1610612738&PlayerId=1718",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 4.026,
+      "retrieved_at_utc": "2026-11-10T18:22:21+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2008-09&SeasonType=Regular+Season&TeamId=1610612738&PlayerId=200765",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 4.225,
+      "retrieved_at_utc": "2026-11-10T18:22:21+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2008-09&SeasonType=Regular+Season&TeamId=1610612738&PlayerId=708",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 10.944,
+      "retrieved_at_utc": "2026-11-10T18:22:28+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2008-09&SeasonType=Regular+Season&TeamId=1610612742&PlayerId=1717",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.562,
+      "retrieved_at_utc": "2026-11-10T18:22:35+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2008-09&SeasonType=Regular+Season&TeamId=1610612740&PlayerId=101108",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 10.263,
+      "retrieved_at_utc": "2026-11-10T18:22:40+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2008-09&SeasonType=Regular+Season&TeamId=1610612739&PlayerId=2544",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 20.884,
+      "retrieved_at_utc": "2026-11-10T18:22:51+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2008-09&SeasonType=Regular+Season&TeamId=1610612743&PlayerId=2546",
+      "status": 200,
+      "attempts": 2,
+      "seconds": 44.839,
+      "retrieved_at_utc": "2026-11-10T18:23:38+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2008-09&SeasonType=Regular+Season&TeamId=1610612745&PlayerId=1897",
+      "status": 200,
+      "attempts": 2,
+      "seconds": 50.81,
+      "retrieved_at_utc": "2026-11-10T18:23:43+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2008-09&SeasonType=Regular+Season&TeamId=1610612743&PlayerId=1497",
+      "status": 200,
+      "attempts": 2,
+      "seconds": 50.812,
+      "retrieved_at_utc": "2026-11-10T18:23:43+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2008-09&SeasonType=Regular+Season&TeamId=1610612747&PlayerId=2200",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 15.913,
+      "retrieved_at_utc": "2026-11-10T18:24:01+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2008-09&SeasonType=Regular+Season&TeamId=1610612745&PlayerId=2397",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 15.913,
+      "retrieved_at_utc": "2026-11-10T18:24:01+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2008-09&SeasonType=Regular+Season&TeamId=1610612745&PlayerId=2203",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 15.914,
+      "retrieved_at_utc": "2026-11-10T18:24:01+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2008-09&SeasonType=Regular+Season&TeamId=1610612748&PlayerId=2548",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 4.433,
+      "retrieved_at_utc": "2026-11-10T18:24:08+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2008-09&SeasonType=Regular+Season&TeamId=1610612747&PlayerId=977",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 9.425,
+      "retrieved_at_utc": "2026-11-10T18:24:13+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2008-09&SeasonType=Regular+Season&TeamId=1610612753&PlayerId=2730",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 19.453,
+      "retrieved_at_utc": "2026-11-10T18:24:23+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2008-09&SeasonType=Regular+Season&TeamId=1610612759&PlayerId=1495",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 13.827,
+      "retrieved_at_utc": "2026-11-10T18:24:39+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2008-09&SeasonType=Regular+Season&TeamId=1610612757&PlayerId=200750",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 13.828,
+      "retrieved_at_utc": "2026-11-10T18:24:39+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2008-09&SeasonType=Regular+Season&TeamId=1610612756&PlayerId=406",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 13.829,
+      "retrieved_at_utc": "2026-11-10T18:24:39+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2008-09&SeasonType=Regular+Season&TeamId=1610612759&PlayerId=2225",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 8.378,
+      "retrieved_at_utc": "2026-11-10T18:24:49+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2009-10&SeasonType=Regular+Season&TeamId=1610612737&PlayerId=2207",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 12.696,
+      "retrieved_at_utc": "2026-11-10T18:24:53+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2009-10&SeasonType=Regular+Season&TeamId=1610612737&PlayerId=2746",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 12.71,
+      "retrieved_at_utc": "2026-11-10T18:24:53+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2009-10&SeasonType=Regular+Season&TeamId=1610612739&PlayerId=2544",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 4.994,
+      "retrieved_at_utc": "2026-11-10T18:25:00+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2009-10&SeasonType=Regular+Season&TeamId=1610612739&PlayerId=2760",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.115,
+      "retrieved_at_utc": "2026-11-10T18:25:01+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2009-10&SeasonType=Regular+Season&TeamId=1610612738&PlayerId=200765",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 10.537,
+      "retrieved_at_utc": "2026-11-10T18:25:06+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2009-10&SeasonType=Regular+Season&TeamId=1610612742&PlayerId=1717",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 4.578,
+      "retrieved_at_utc": "2026-11-10T18:25:13+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2009-10&SeasonType=Regular+Season&TeamId=1610612743&PlayerId=2546",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 4.843,
+      "retrieved_at_utc": "2026-11-10T18:25:13+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2009-10&SeasonType=Regular+Season&TeamId=1610612747&PlayerId=2200",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 15.553,
+      "retrieved_at_utc": "2026-11-10T18:25:24+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2009-10&SeasonType=Regular+Season&TeamId=1610612748&PlayerId=2548",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 2.186,
+      "retrieved_at_utc": "2026-11-10T18:25:28+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2009-10&SeasonType=Regular+Season&TeamId=1610612747&PlayerId=977",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 7.165,
+      "retrieved_at_utc": "2026-11-10T18:25:33+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2009-10&SeasonType=Regular+Season&TeamId=1610612749&PlayerId=101106",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 7.164,
+      "retrieved_at_utc": "2026-11-10T18:25:33+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2009-10&SeasonType=Regular+Season&TeamId=1610612753&PlayerId=2730",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 3.266,
+      "retrieved_at_utc": "2026-11-10T18:25:38+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2009-10&SeasonType=Regular+Season&TeamId=1610612756&PlayerId=959",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 3.375,
+      "retrieved_at_utc": "2026-11-10T18:25:38+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2009-10&SeasonType=Regular+Season&TeamId=1610612756&PlayerId=2405",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.847,
+      "retrieved_at_utc": "2026-11-10T18:25:41+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2009-10&SeasonType=Regular+Season&TeamId=1610612757&PlayerId=200750",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 9.061,
+      "retrieved_at_utc": "2026-11-10T18:25:52+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2009-10&SeasonType=Regular+Season&TeamId=1610612760&PlayerId=200757",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 9.067,
+      "retrieved_at_utc": "2026-11-10T18:25:52+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2009-10&SeasonType=Regular+Season&TeamId=1610612759&PlayerId=1495",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 13.868,
+      "retrieved_at_utc": "2026-11-10T18:25:56+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2009-10&SeasonType=Regular+Season&TeamId=1610612762&PlayerId=101114",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 9.836,
+      "retrieved_at_utc": "2026-11-10T18:26:08+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2009-10&SeasonType=Regular+Season&TeamId=1610612760&PlayerId=201142",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 9.9,
+      "retrieved_at_utc": "2026-11-10T18:26:08+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2009-10&SeasonType=Regular+Season&TeamId=1610612766&PlayerId=2222",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 14.379,
+      "retrieved_at_utc": "2026-11-10T18:26:13+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2010-11&SeasonType=Regular+Season&TeamId=1610612737&PlayerId=201143",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.232,
+      "retrieved_at_utc": "2026-11-10T18:26:20+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2010-11&SeasonType=Regular+Season&TeamId=1610612738&PlayerId=708",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 15.858,
+      "retrieved_at_utc": "2026-11-10T18:26:31+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2010-11&SeasonType=Regular+Season&TeamId=1610612738&PlayerId=200765",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 15.883,
+      "retrieved_at_utc": "2026-11-10T18:26:31+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2010-11&SeasonType=Regular+Season&TeamId=1610612741&PlayerId=201149",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 18.514,
+      "retrieved_at_utc": "2026-11-10T18:26:51+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2010-11&SeasonType=Regular+Season&TeamId=1610612740&PlayerId=101108",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 18.515,
+      "retrieved_at_utc": "2026-11-10T18:26:51+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2010-11&SeasonType=Regular+Season&TeamId=1610612741&PlayerId=201565",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 18.513,
+      "retrieved_at_utc": "2026-11-10T18:26:51+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2010-11&SeasonType=Regular+Season&TeamId=1610612742&PlayerId=1717",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 9.704,
+      "retrieved_at_utc": "2026-11-10T18:27:03+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2010-11&SeasonType=Regular+Season&TeamId=1610612747&PlayerId=2200",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 14.391,
+      "retrieved_at_utc": "2026-11-10T18:27:08+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2010-11&SeasonType=Regular+Season&TeamId=1610612742&PlayerId=2199",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 14.408,
+      "retrieved_at_utc": "2026-11-10T18:27:08+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2010-11&SeasonType=Regular+Season&TeamId=1610612747&PlayerId=977",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.293,
+      "retrieved_at_utc": "2026-11-10T18:27:15+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2010-11&SeasonType=Regular+Season&TeamId=1610612748&PlayerId=2544",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 9.611,
+      "retrieved_at_utc": "2026-11-10T18:27:19+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2010-11&SeasonType=Regular+Season&TeamId=1610612748&PlayerId=2548",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 9.612,
+      "retrieved_at_utc": "2026-11-10T18:27:19+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2010-11&SeasonType=Regular+Season&TeamId=1610612755&PlayerId=2738",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 9.511,
+      "retrieved_at_utc": "2026-11-10T18:27:31+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2010-11&SeasonType=Regular+Season&TeamId=1610612753&PlayerId=2730",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 9.512,
+      "retrieved_at_utc": "2026-11-10T18:27:31+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2010-11&SeasonType=Regular+Season&TeamId=1610612752&PlayerId=2405",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 12.09,
+      "retrieved_at_utc": "2026-11-10T18:27:33+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2010-11&SeasonType=Regular+Season&TeamId=1610612757&PlayerId=200746",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 4.505,
+      "retrieved_at_utc": "2026-11-10T18:27:40+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2010-11&SeasonType=Regular+Season&TeamId=1610612759&PlayerId=1938",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 9.266,
+      "retrieved_at_utc": "2026-11-10T18:27:45+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2010-11&SeasonType=Regular+Season&TeamId=1610612760&PlayerId=201142",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 9.275,
+      "retrieved_at_utc": "2026-11-10T18:27:45+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2010-11&SeasonType=Regular+Season&TeamId=1610612763&PlayerId=2216",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 25.072,
+      "retrieved_at_utc": "2026-11-10T18:28:12+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2010-11&SeasonType=Regular+Season&TeamId=1610612763&PlayerId=2754",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 25.078,
+      "retrieved_at_utc": "2026-11-10T18:28:12+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2010-11&SeasonType=Regular+Season&TeamId=1610612760&PlayerId=201566",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 25.085,
+      "retrieved_at_utc": "2026-11-10T18:28:12+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2011-12&SeasonType=Regular+Season&TeamId=1610612738&PlayerId=200765",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 16.07,
+      "retrieved_at_utc": "2026-11-10T18:28:30+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2011-12&SeasonType=Regular+Season&TeamId=1610612741&PlayerId=2736",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 16.075,
+      "retrieved_at_utc": "2026-11-10T18:28:30+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2011-12&SeasonType=Regular+Season&TeamId=1610612738&PlayerId=708",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 16.076,
+      "retrieved_at_utc": "2026-11-10T18:28:30+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2011-12&SeasonType=Regular+Season&TeamId=1610612746&PlayerId=101108",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 18.278,
+      "retrieved_at_utc": "2026-11-10T18:28:50+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2011-12&SeasonType=Regular+Season&TeamId=1610612742&PlayerId=1717",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 18.279,
+      "retrieved_at_utc": "2026-11-10T18:28:50+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2011-12&SeasonType=Regular+Season&TeamId=1610612746&PlayerId=201933",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 18.284,
+      "retrieved_at_utc": "2026-11-10T18:28:50+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2011-12&SeasonType=Regular+Season&TeamId=1610612748&PlayerId=2544",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 15.181,
+      "retrieved_at_utc": "2026-11-10T18:29:07+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2011-12&SeasonType=Regular+Season&TeamId=1610612747&PlayerId=977",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 15.182,
+      "retrieved_at_utc": "2026-11-10T18:29:07+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2011-12&SeasonType=Regular+Season&TeamId=1610612747&PlayerId=101115",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 15.183,
+      "retrieved_at_utc": "2026-11-10T18:29:07+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2011-12&SeasonType=Regular+Season&TeamId=1610612750&PlayerId=201567",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 15.357,
+      "retrieved_at_utc": "2026-11-10T18:29:25+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2011-12&SeasonType=Regular+Season&TeamId=1610612748&PlayerId=2548",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 15.36,
+      "retrieved_at_utc": "2026-11-10T18:29:25+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2011-12&SeasonType=Regular+Season&TeamId=1610612752&PlayerId=2199",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 15.358,
+      "retrieved_at_utc": "2026-11-10T18:29:25+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2011-12&SeasonType=Regular+Season&TeamId=1610612752&PlayerId=2546",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.444,
+      "retrieved_at_utc": "2026-11-10T18:29:32+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2011-12&SeasonType=Regular+Season&TeamId=1610612753&PlayerId=2730",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 8.16,
+      "retrieved_at_utc": "2026-11-10T18:29:35+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2011-12&SeasonType=Regular+Season&TeamId=1610612759&PlayerId=2225",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 8.159,
+      "retrieved_at_utc": "2026-11-10T18:29:35+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2011-12&SeasonType=Regular+Season&TeamId=1610612760&PlayerId=201142",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.548,
+      "retrieved_at_utc": "2026-11-10T18:29:42+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2011-12&SeasonType=Regular+Season&TeamId=1610612760&PlayerId=201566",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.683,
+      "retrieved_at_utc": "2026-11-10T18:29:42+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2011-12&SeasonType=Regular+Season&TeamId=1610612760&PlayerId=201586",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 9.113,
+      "retrieved_at_utc": "2026-11-10T18:29:46+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2011-12&SeasonType=Regular+Season&TeamId=1610612763&PlayerId=2754",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.317,
+      "retrieved_at_utc": "2026-11-10T18:29:53+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2012-13&SeasonType=Regular+Season&TeamId=1610612738&PlayerId=202340",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 10.894,
+      "retrieved_at_utc": "2026-11-10T18:29:59+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2012-13&SeasonType=Regular+Season&TeamId=1610612741&PlayerId=201149",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 10.893,
+      "retrieved_at_utc": "2026-11-10T18:29:59+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2012-13&SeasonType=Regular+Season&TeamId=1610612746&PlayerId=101108",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 6.656,
+      "retrieved_at_utc": "2026-11-10T18:30:07+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2012-13&SeasonType=Regular+Season&TeamId=1610612744&PlayerId=101135",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 7.27,
+      "retrieved_at_utc": "2026-11-10T18:30:08+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2012-13&SeasonType=Regular+Season&TeamId=1610612745&PlayerId=201935",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 10.362,
+      "retrieved_at_utc": "2026-11-10T18:30:11+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2012-13&SeasonType=Regular+Season&TeamId=1610612747&PlayerId=2730",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 6.015,
+      "retrieved_at_utc": "2026-11-10T18:30:19+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2012-13&SeasonType=Regular+Season&TeamId=1610612747&PlayerId=977",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 6.018,
+      "retrieved_at_utc": "2026-11-10T18:30:19+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2012-13&SeasonType=Regular+Season&TeamId=1610612746&PlayerId=201933",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 6.126,
+      "retrieved_at_utc": "2026-11-10T18:30:19+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2012-13&SeasonType=Regular+Season&TeamId=1610612752&PlayerId=2546",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 10.987,
+      "retrieved_at_utc": "2026-11-10T18:30:32+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2012-13&SeasonType=Regular+Season&TeamId=1610612748&PlayerId=2548",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 10.997,
+      "retrieved_at_utc": "2026-11-10T18:30:32+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2012-13&SeasonType=Regular+Season&TeamId=1610612748&PlayerId=2544",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 16.028,
+      "retrieved_at_utc": "2026-11-10T18:30:37+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2012-13&SeasonType=Regular+Season&TeamId=1610612759&PlayerId=1495",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 21.583,
+      "retrieved_at_utc": "2026-11-10T18:31:01+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2012-13&SeasonType=Regular+Season&TeamId=1610612759&PlayerId=2225",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 21.585,
+      "retrieved_at_utc": "2026-11-10T18:31:01+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2012-13&SeasonType=Regular+Season&TeamId=1610612754&PlayerId=202331",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 21.587,
+      "retrieved_at_utc": "2026-11-10T18:31:01+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2012-13&SeasonType=Regular+Season&TeamId=1610612760&PlayerId=201586",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.173,
+      "retrieved_at_utc": "2026-11-10T18:31:08+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2012-13&SeasonType=Regular+Season&TeamId=1610612760&PlayerId=201566",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 16.912,
+      "retrieved_at_utc": "2026-11-10T18:31:20+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2012-13&SeasonType=Regular+Season&TeamId=1610612760&PlayerId=201142",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 16.912,
+      "retrieved_at_utc": "2026-11-10T18:31:20+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2012-13&SeasonType=Regular+Season&TeamId=1610612763&PlayerId=201144",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.492,
+      "retrieved_at_utc": "2026-11-10T18:31:27+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2012-13&SeasonType=Regular+Season&TeamId=1610612763&PlayerId=2754",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.617,
+      "retrieved_at_utc": "2026-11-10T18:31:27+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2012-13&SeasonType=Regular+Season&TeamId=1610612763&PlayerId=201188",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 10.161,
+      "retrieved_at_utc": "2026-11-10T18:31:32+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2013-14&SeasonType=Regular+Season&TeamId=1610612744&PlayerId=201939",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.63,
+      "retrieved_at_utc": "2026-11-10T18:31:40+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2013-14&SeasonType=Regular+Season&TeamId=1610612741&PlayerId=202710",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.813,
+      "retrieved_at_utc": "2026-11-10T18:31:40+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2013-14&SeasonType=Regular+Season&TeamId=1610612741&PlayerId=201149",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 8.969,
+      "retrieved_at_utc": "2026-11-10T18:31:43+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2013-14&SeasonType=Regular+Season&TeamId=1610612744&PlayerId=2738",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 17.449,
+      "retrieved_at_utc": "2026-11-10T18:32:02+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2013-14&SeasonType=Regular+Season&TeamId=1610612745&PlayerId=201976",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 17.447,
+      "retrieved_at_utc": "2026-11-10T18:32:02+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2013-14&SeasonType=Regular+Season&TeamId=1610612745&PlayerId=201935",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 17.448,
+      "retrieved_at_utc": "2026-11-10T18:32:02+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2013-14&SeasonType=Regular+Season&TeamId=1610612745&PlayerId=2730",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 13.13,
+      "retrieved_at_utc": "2026-11-10T18:32:18+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2013-14&SeasonType=Regular+Season&TeamId=1610612746&PlayerId=101108",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 13.129,
+      "retrieved_at_utc": "2026-11-10T18:32:18+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2013-14&SeasonType=Regular+Season&TeamId=1610612746&PlayerId=201933",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 13.128,
+      "retrieved_at_utc": "2026-11-10T18:32:18+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2013-14&SeasonType=Regular+Season&TeamId=1610612748&PlayerId=2544",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 4.043,
+      "retrieved_at_utc": "2026-11-10T18:32:24+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2013-14&SeasonType=Regular+Season&TeamId=1610612750&PlayerId=201567",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 7.348,
+      "retrieved_at_utc": "2026-11-10T18:32:27+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2013-14&SeasonType=Regular+Season&TeamId=1610612754&PlayerId=201579",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 7.356,
+      "retrieved_at_utc": "2026-11-10T18:32:27+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2013-14&SeasonType=Regular+Season&TeamId=1610612757&PlayerId=200746",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 4.794,
+      "retrieved_at_utc": "2026-11-10T18:32:34+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2013-14&SeasonType=Regular+Season&TeamId=1610612754&PlayerId=202331",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.466,
+      "retrieved_at_utc": "2026-11-10T18:32:34+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2013-14&SeasonType=Regular+Season&TeamId=1610612756&PlayerId=201609",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 17.586,
+      "retrieved_at_utc": "2026-11-10T18:32:46+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2013-14&SeasonType=Regular+Season&TeamId=1610612757&PlayerId=203081",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.215,
+      "retrieved_at_utc": "2026-11-10T18:32:54+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2013-14&SeasonType=Regular+Season&TeamId=1610612759&PlayerId=2225",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 10.744,
+      "retrieved_at_utc": "2026-11-10T18:32:59+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2013-14&SeasonType=Regular+Season&TeamId=1610612759&PlayerId=202695",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 10.745,
+      "retrieved_at_utc": "2026-11-10T18:32:59+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2013-14&SeasonType=Regular+Season&TeamId=1610612760&PlayerId=201586",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.217,
+      "retrieved_at_utc": "2026-11-10T18:33:06+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2013-14&SeasonType=Regular+Season&TeamId=1610612766&PlayerId=2744",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 10.492,
+      "retrieved_at_utc": "2026-11-10T18:33:12+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2013-14&SeasonType=Regular+Season&TeamId=1610612760&PlayerId=201142",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 10.495,
+      "retrieved_at_utc": "2026-11-10T18:33:12+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2014-15&SeasonType=Regular+Season&TeamId=1610612739&PlayerId=202681",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.254,
+      "retrieved_at_utc": "2026-11-10T18:33:19+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2014-15&SeasonType=Regular+Season&TeamId=1610612739&PlayerId=2544",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 9.598,
+      "retrieved_at_utc": "2026-11-10T18:33:23+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2014-15&SeasonType=Regular+Season&TeamId=1610612740&PlayerId=203076",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 9.597,
+      "retrieved_at_utc": "2026-11-10T18:33:23+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2014-15&SeasonType=Regular+Season&TeamId=1610612744&PlayerId=101106",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 13.617,
+      "retrieved_at_utc": "2026-11-10T18:33:39+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2014-15&SeasonType=Regular+Season&TeamId=1610612741&PlayerId=202710",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 13.619,
+      "retrieved_at_utc": "2026-11-10T18:33:39+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2014-15&SeasonType=Regular+Season&TeamId=1610612741&PlayerId=2200",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 13.619,
+      "retrieved_at_utc": "2026-11-10T18:33:39+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2014-15&SeasonType=Regular+Season&TeamId=1610612744&PlayerId=202691",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 17.425,
+      "retrieved_at_utc": "2026-11-10T18:33:58+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2014-15&SeasonType=Regular+Season&TeamId=1610612744&PlayerId=203110",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 17.442,
+      "retrieved_at_utc": "2026-11-10T18:33:58+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2014-15&SeasonType=Regular+Season&TeamId=1610612744&PlayerId=201939",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 17.452,
+      "retrieved_at_utc": "2026-11-10T18:33:58+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2014-15&SeasonType=Regular+Season&TeamId=1610612745&PlayerId=201935",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 11.521,
+      "retrieved_at_utc": "2026-11-10T18:34:12+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2014-15&SeasonType=Regular+Season&TeamId=1610612746&PlayerId=101108",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 11.52,
+      "retrieved_at_utc": "2026-11-10T18:34:12+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2014-15&SeasonType=Regular+Season&TeamId=1610612746&PlayerId=201599",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 11.523,
+      "retrieved_at_utc": "2026-11-10T18:34:12+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2014-15&SeasonType=Regular+Season&TeamId=1610612757&PlayerId=200746",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 14.024,
+      "retrieved_at_utc": "2026-11-10T18:34:28+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2014-15&SeasonType=Regular+Season&TeamId=1610612746&PlayerId=201933",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 14.025,
+      "retrieved_at_utc": "2026-11-10T18:34:28+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2014-15&SeasonType=Regular+Season&TeamId=1610612758&PlayerId=202326",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 14.028,
+      "retrieved_at_utc": "2026-11-10T18:34:28+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2014-15&SeasonType=Regular+Season&TeamId=1610612759&PlayerId=202695",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.12,
+      "retrieved_at_utc": "2026-11-10T18:34:35+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2014-15&SeasonType=Regular+Season&TeamId=1610612759&PlayerId=1495",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.225,
+      "retrieved_at_utc": "2026-11-10T18:34:35+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2014-15&SeasonType=Regular+Season&TeamId=1610612760&PlayerId=201566",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.303,
+      "retrieved_at_utc": "2026-11-10T18:34:35+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2014-15&SeasonType=Regular+Season&TeamId=1610612763&PlayerId=201188",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.58,
+      "retrieved_at_utc": "2026-11-10T18:34:43+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2014-15&SeasonType=Regular+Season&TeamId=1610612763&PlayerId=2754",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.628,
+      "retrieved_at_utc": "2026-11-10T18:34:43+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2014-15&SeasonType=Regular+Season&TeamId=1610612764&PlayerId=202322",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 8.704,
+      "retrieved_at_utc": "2026-11-10T18:34:46+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2015-16&SeasonType=Regular+Season&TeamId=1610612738&PlayerId=202340",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.097,
+      "retrieved_at_utc": "2026-11-10T18:34:53+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2015-16&SeasonType=Regular+Season&TeamId=1610612737&PlayerId=200794",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 13.637,
+      "retrieved_at_utc": "2026-11-10T18:35:02+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2015-16&SeasonType=Regular+Season&TeamId=1610612739&PlayerId=2544",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 13.636,
+      "retrieved_at_utc": "2026-11-10T18:35:02+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2015-16&SeasonType=Regular+Season&TeamId=1610612741&PlayerId=202710",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.198,
+      "retrieved_at_utc": "2026-11-10T18:35:09+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2015-16&SeasonType=Regular+Season&TeamId=1610612744&PlayerId=201939",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 11.131,
+      "retrieved_at_utc": "2026-11-10T18:35:15+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2015-16&SeasonType=Regular+Season&TeamId=1610612744&PlayerId=202691",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 11.13,
+      "retrieved_at_utc": "2026-11-10T18:35:15+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2015-16&SeasonType=Regular+Season&TeamId=1610612744&PlayerId=203110",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.864,
+      "retrieved_at_utc": "2026-11-10T18:35:23+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2015-16&SeasonType=Regular+Season&TeamId=1610612746&PlayerId=101108",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.923,
+      "retrieved_at_utc": "2026-11-10T18:35:23+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2015-16&SeasonType=Regular+Season&TeamId=1610612746&PlayerId=201599",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 9.383,
+      "retrieved_at_utc": "2026-11-10T18:35:26+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2015-16&SeasonType=Regular+Season&TeamId=1610612748&PlayerId=202355",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 14.208,
+      "retrieved_at_utc": "2026-11-10T18:35:42+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2015-16&SeasonType=Regular+Season&TeamId=1610612757&PlayerId=203081",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 14.206,
+      "retrieved_at_utc": "2026-11-10T18:35:42+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2015-16&SeasonType=Regular+Season&TeamId=1610612754&PlayerId=202331",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 14.215,
+      "retrieved_at_utc": "2026-11-10T18:35:42+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2015-16&SeasonType=Regular+Season&TeamId=1610612758&PlayerId=202326",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.749,
+      "retrieved_at_utc": "2026-11-10T18:35:50+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2015-16&SeasonType=Regular+Season&TeamId=1610612759&PlayerId=200746",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 9.485,
+      "retrieved_at_utc": "2026-11-10T18:35:54+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2015-16&SeasonType=Regular+Season&TeamId=1610612759&PlayerId=202695",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 9.485,
+      "retrieved_at_utc": "2026-11-10T18:35:54+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2015-16&SeasonType=Regular+Season&TeamId=1610612761&PlayerId=200768",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.981,
+      "retrieved_at_utc": "2026-11-10T18:36:02+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2015-16&SeasonType=Regular+Season&TeamId=1610612760&PlayerId=201142",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 9.069,
+      "retrieved_at_utc": "2026-11-10T18:36:05+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2015-16&SeasonType=Regular+Season&TeamId=1610612760&PlayerId=201566",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 9.068,
+      "retrieved_at_utc": "2026-11-10T18:36:05+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2015-16&SeasonType=Regular+Season&TeamId=1610612765&PlayerId=203083",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.49,
+      "retrieved_at_utc": "2026-11-10T18:36:12+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2015-16&SeasonType=Regular+Season&TeamId=1610612763&PlayerId=2754",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.651,
+      "retrieved_at_utc": "2026-11-10T18:36:13+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2016-17&SeasonType=Regular+Season&TeamId=1610612738&PlayerId=202738",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.932,
+      "retrieved_at_utc": "2026-11-10T18:36:13+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2016-17&SeasonType=Regular+Season&TeamId=1610612741&PlayerId=202710",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.428,
+      "retrieved_at_utc": "2026-11-10T18:36:20+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2016-17&SeasonType=Regular+Season&TeamId=1610612739&PlayerId=2544",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.456,
+      "retrieved_at_utc": "2026-11-10T18:36:20+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2016-17&SeasonType=Regular+Season&TeamId=1610612740&PlayerId=203076",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.581,
+      "retrieved_at_utc": "2026-11-10T18:36:20+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2016-17&SeasonType=Regular+Season&TeamId=1610612744&PlayerId=201939",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 8.289,
+      "retrieved_at_utc": "2026-11-10T18:36:31+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2016-17&SeasonType=Regular+Season&TeamId=1610612744&PlayerId=203110",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 10.969,
+      "retrieved_at_utc": "2026-11-10T18:36:33+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2016-17&SeasonType=Regular+Season&TeamId=1610612744&PlayerId=201142",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 10.98,
+      "retrieved_at_utc": "2026-11-10T18:36:33+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2016-17&SeasonType=Regular+Season&TeamId=1610612746&PlayerId=101108",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 3.513,
+      "retrieved_at_utc": "2026-11-10T18:36:39+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2016-17&SeasonType=Regular+Season&TeamId=1610612745&PlayerId=201935",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 12.354,
+      "retrieved_at_utc": "2026-11-10T18:36:48+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2016-17&SeasonType=Regular+Season&TeamId=1610612745&PlayerId=201976",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 12.385,
+      "retrieved_at_utc": "2026-11-10T18:36:48+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2016-17&SeasonType=Regular+Season&TeamId=1610612749&PlayerId=203507",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 25.341,
+      "retrieved_at_utc": "2026-11-10T18:37:15+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2016-17&SeasonType=Regular+Season&TeamId=1610612759&PlayerId=201980",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 25.344,
+      "retrieved_at_utc": "2026-11-10T18:37:15+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2016-17&SeasonType=Regular+Season&TeamId=1610612746&PlayerId=201599",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 25.347,
+      "retrieved_at_utc": "2026-11-10T18:37:15+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2016-17&SeasonType=Regular+Season&TeamId=1610612759&PlayerId=202695",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.556,
+      "retrieved_at_utc": "2026-11-10T18:37:23+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2016-17&SeasonType=Regular+Season&TeamId=1610612760&PlayerId=203460",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 10.141,
+      "retrieved_at_utc": "2026-11-10T18:37:27+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2016-17&SeasonType=Regular+Season&TeamId=1610612760&PlayerId=201566",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 10.143,
+      "retrieved_at_utc": "2026-11-10T18:37:27+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2016-17&SeasonType=Regular+Season&TeamId=1610612763&PlayerId=2754",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 6.032,
+      "retrieved_at_utc": "2026-11-10T18:37:35+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2016-17&SeasonType=Regular+Season&TeamId=1610612762&PlayerId=203497",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 6.188,
+      "retrieved_at_utc": "2026-11-10T18:37:36+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2016-17&SeasonType=Regular+Season&TeamId=1610612761&PlayerId=201942",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 6.273,
+      "retrieved_at_utc": "2026-11-10T18:37:36+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2017-18&SeasonType=Regular+Season&TeamId=1610612739&PlayerId=2544",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.405,
+      "retrieved_at_utc": "2026-11-10T18:37:43+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2017-18&SeasonType=Regular+Season&TeamId=1610612738&PlayerId=201143",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.513,
+      "retrieved_at_utc": "2026-11-10T18:37:43+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2016-17&SeasonType=Regular+Season&TeamId=1610612764&PlayerId=202322",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.518,
+      "retrieved_at_utc": "2026-11-10T18:37:43+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2017-18&SeasonType=Regular+Season&TeamId=1610612740&PlayerId=203076",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 2.9,
+      "retrieved_at_utc": "2026-11-10T18:37:48+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2017-18&SeasonType=Regular+Season&TeamId=1610612744&PlayerId=201142",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 11.547,
+      "retrieved_at_utc": "2026-11-10T18:37:57+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2017-18&SeasonType=Regular+Season&TeamId=1610612740&PlayerId=201950",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 11.55,
+      "retrieved_at_utc": "2026-11-10T18:37:57+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2017-18&SeasonType=Regular+Season&TeamId=1610612745&PlayerId=201935",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 3.981,
+      "retrieved_at_utc": "2026-11-10T18:38:03+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2017-18&SeasonType=Regular+Season&TeamId=1610612744&PlayerId=201939",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 11.829,
+      "retrieved_at_utc": "2026-11-10T18:38:11+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2017-18&SeasonType=Regular+Season&TeamId=1610612744&PlayerId=203110",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 11.831,
+      "retrieved_at_utc": "2026-11-10T18:38:11+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2017-18&SeasonType=Regular+Season&TeamId=1610612749&PlayerId=203507",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.315,
+      "retrieved_at_utc": "2026-11-10T18:38:18+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2017-18&SeasonType=Regular+Season&TeamId=1610612750&PlayerId=1626157",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.368,
+      "retrieved_at_utc": "2026-11-10T18:38:18+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2017-18&SeasonType=Regular+Season&TeamId=1610612750&PlayerId=202710",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.378,
+      "retrieved_at_utc": "2026-11-10T18:38:18+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2017-18&SeasonType=Regular+Season&TeamId=1610612755&PlayerId=203954",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 4.316,
+      "retrieved_at_utc": "2026-11-10T18:38:24+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2017-18&SeasonType=Regular+Season&TeamId=1610612754&PlayerId=203506",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 6.784,
+      "retrieved_at_utc": "2026-11-10T18:38:27+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2017-18&SeasonType=Regular+Season&TeamId=1610612755&PlayerId=203496",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 6.796,
+      "retrieved_at_utc": "2026-11-10T18:38:27+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2017-18&SeasonType=Regular+Season&TeamId=1610612759&PlayerId=200746",
+      "status": 200,
+      "attempts": 2,
+      "seconds": 8.268,
+      "retrieved_at_utc": "2026-11-10T18:38:37+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2017-18&SeasonType=Regular+Season&TeamId=1610612759&PlayerId=1627749",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 10.712,
+      "retrieved_at_utc": "2026-11-10T18:38:39+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2017-18&SeasonType=Regular+Season&TeamId=1610612757&PlayerId=203081",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 10.736,
+      "retrieved_at_utc": "2026-11-10T18:38:39+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2017-18&SeasonType=Regular+Season&TeamId=1610612761&PlayerId=201942",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 11.738,
+      "retrieved_at_utc": "2026-11-10T18:38:53+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2017-18&SeasonType=Regular+Season&TeamId=1610612760&PlayerId=202331",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 11.742,
+      "retrieved_at_utc": "2026-11-10T18:38:53+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2017-18&SeasonType=Regular+Season&TeamId=1610612760&PlayerId=201566",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 11.744,
+      "retrieved_at_utc": "2026-11-10T18:38:53+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2018-19&SeasonType=Regular+Season&TeamId=1610612738&PlayerId=203935",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.472,
+      "retrieved_at_utc": "2026-11-10T18:39:01+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2017-18&SeasonType=Regular+Season&TeamId=1610612762&PlayerId=203497",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.563,
+      "retrieved_at_utc": "2026-11-10T18:39:01+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2018-19&SeasonType=Regular+Season&TeamId=1610612738&PlayerId=202681",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 7.583,
+      "retrieved_at_utc": "2026-11-10T18:39:03+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2018-19&SeasonType=Regular+Season&TeamId=1610612744&PlayerId=201142",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.005,
+      "retrieved_at_utc": "2026-11-10T18:39:10+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2018-19&SeasonType=Regular+Season&TeamId=1610612740&PlayerId=201950",
+      "status": 200,
+      "attempts": 2,
+      "seconds": 6.685,
+      "retrieved_at_utc": "2026-11-10T18:39:11+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2018-19&SeasonType=Regular+Season&TeamId=1610612743&PlayerId=203999",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 7.555,
+      "retrieved_at_utc": "2026-11-10T18:39:12+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2018-19&SeasonType=Regular+Season&TeamId=1610612744&PlayerId=201939",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 9.011,
+      "retrieved_at_utc": "2026-11-10T18:39:23+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2018-19&SeasonType=Regular+Season&TeamId=1610612744&PlayerId=203110",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 9.013,
+      "retrieved_at_utc": "2026-11-10T18:39:23+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2018-19&SeasonType=Regular+Season&TeamId=1610612744&PlayerId=202691",
+      "status": 200,
+      "attempts": 3,
+      "seconds": 9.557,
+      "retrieved_at_utc": "2026-11-10T18:39:24+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2018-19&SeasonType=Regular+Season&TeamId=1610612747&PlayerId=2544",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 4.145,
+      "retrieved_at_utc": "2026-11-10T18:39:30+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2018-19&SeasonType=Regular+Season&TeamId=1610612745&PlayerId=201935",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 9.403,
+      "retrieved_at_utc": "2026-11-10T18:39:35+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2018-19&SeasonType=Regular+Season&TeamId=1610612749&PlayerId=202339",
+      "status": 200,
+      "attempts": 3,
+      "seconds": 9.52,
+      "retrieved_at_utc": "2026-11-10T18:39:35+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2018-19&SeasonType=Regular+Season&TeamId=1610612749&PlayerId=203507",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 4.236,
+      "retrieved_at_utc": "2026-11-10T18:39:42+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2018-19&SeasonType=Regular+Season&TeamId=1610612755&PlayerId=203954",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 4.247,
+      "retrieved_at_utc": "2026-11-10T18:39:42+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2018-19&SeasonType=Regular+Season&TeamId=1610612757&PlayerId=203081",
+      "status": 200,
+      "attempts": 3,
+      "seconds": 8.233,
+      "retrieved_at_utc": "2026-11-10T18:39:46+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2018-19&SeasonType=Regular+Season&TeamId=1610612760&PlayerId=202331",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 3.065,
+      "retrieved_at_utc": "2026-11-10T18:39:51+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2018-19&SeasonType=Regular+Season&TeamId=1610612760&PlayerId=201566",
+      "status": 200,
+      "attempts": 2,
+      "seconds": 6.234,
+      "retrieved_at_utc": "2026-11-10T18:39:54+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2018-19&SeasonType=Regular+Season&TeamId=1610612761&PlayerId=202695",
+      "status": 200,
+      "attempts": 4,
+      "seconds": 11.5,
+      "retrieved_at_utc": "2026-11-10T18:39:59+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2018-19&SeasonType=Regular+Season&TeamId=1610612762&PlayerId=203497",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 4.891,
+      "retrieved_at_utc": "2026-11-10T18:40:06+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2018-19&SeasonType=Regular+Season&TeamId=1610612766&PlayerId=202689",
+      "status": 200,
+      "attempts": 2,
+      "seconds": 7.938,
+      "retrieved_at_utc": "2026-11-10T18:40:09+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2018-19&SeasonType=Regular+Season&TeamId=1610612765&PlayerId=201933",
+      "status": 200,
+      "attempts": 3,
+      "seconds": 9.954,
+      "retrieved_at_utc": "2026-11-10T18:40:11+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2019-20&SeasonType=Regular+Season&TeamId=1610612738&PlayerId=1628369",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 4.545,
+      "retrieved_at_utc": "2026-11-10T18:40:18+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2019-20&SeasonType=Regular+Season&TeamId=1610612742&PlayerId=1629029",
+      "status": 200,
+      "attempts": 2,
+      "seconds": 7.675,
+      "retrieved_at_utc": "2026-11-10T18:40:21+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2019-20&SeasonType=Regular+Season&TeamId=1610612738&PlayerId=203935",
+      "status": 200,
+      "attempts": 3,
+      "seconds": 7.872,
+      "retrieved_at_utc": "2026-11-10T18:40:21+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2019-20&SeasonType=Regular+Season&TeamId=1610612745&PlayerId=201566",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 4.656,
+      "retrieved_at_utc": "2026-11-10T18:40:28+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2019-20&SeasonType=Regular+Season&TeamId=1610612743&PlayerId=203999",
+      "status": 200,
+      "attempts": 3,
+      "seconds": 7.034,
+      "retrieved_at_utc": "2026-11-10T18:40:30+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2019-20&SeasonType=Regular+Season&TeamId=1610612745&PlayerId=201935",
+      "status": 200,
+      "attempts": 4,
+      "seconds": 10.402,
+      "retrieved_at_utc": "2026-11-10T18:40:33+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2019-20&SeasonType=Regular+Season&TeamId=1610612746&PlayerId=202695",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 2.114,
+      "retrieved_at_utc": "2026-11-10T18:40:38+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2019-20&SeasonType=Regular+Season&TeamId=1610612746&PlayerId=201976",
+      "status": 200,
+      "attempts": 3,
+      "seconds": 6.861,
+      "retrieved_at_utc": "2026-11-10T18:40:42+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2019-20&SeasonType=Regular+Season&TeamId=1610612747&PlayerId=203076",
+      "status": 200,
+      "attempts": 4,
+      "seconds": 12.314,
+      "retrieved_at_utc": "2026-11-10T18:40:48+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2019-20&SeasonType=Regular+Season&TeamId=1610612748&PlayerId=1628389",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 3.552,
+      "retrieved_at_utc": "2026-11-10T18:40:53+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2019-20&SeasonType=Regular+Season&TeamId=1610612748&PlayerId=202710",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 3.595,
+      "retrieved_at_utc": "2026-11-10T18:40:53+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2019-20&SeasonType=Regular+Season&TeamId=1610612747&PlayerId=2544",
+      "status": 200,
+      "attempts": 3,
+      "seconds": 7.28,
+      "retrieved_at_utc": "2026-11-10T18:40:57+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2019-20&SeasonType=Regular+Season&TeamId=1610612749&PlayerId=201572",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 2.284,
+      "retrieved_at_utc": "2026-11-10T18:41:01+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2019-20&SeasonType=Regular+Season&TeamId=1610612749&PlayerId=202339",
+      "status": 200,
+      "attempts": 3,
+      "seconds": 5.772,
+      "retrieved_at_utc": "2026-11-10T18:41:05+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2019-20&SeasonType=Regular+Season&TeamId=1610612749&PlayerId=203507",
+      "status": 200,
+      "attempts": 4,
+      "seconds": 11.206,
+      "retrieved_at_utc": "2026-11-10T18:41:10+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2019-20&SeasonType=Regular+Season&TeamId=1610612760&PlayerId=101108",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 4.908,
+      "retrieved_at_utc": "2026-11-10T18:41:17+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2019-20&SeasonType=Regular+Season&TeamId=1610612755&PlayerId=1627732",
+      "status": 200,
+      "attempts": 2,
+      "seconds": 5.494,
+      "retrieved_at_utc": "2026-11-10T18:41:18+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2019-20&SeasonType=Regular+Season&TeamId=1610612757&PlayerId=203081",
+      "status": 200,
+      "attempts": 4,
+      "seconds": 10.944,
+      "retrieved_at_utc": "2026-11-10T18:41:23+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2020-21&SeasonType=Regular+Season&TeamId=1610612742&PlayerId=1629029",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 3.643,
+      "retrieved_at_utc": "2026-11-10T18:41:29+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2019-20&SeasonType=Regular+Season&TeamId=1610612761&PlayerId=1627783",
+      "status": 200,
+      "attempts": 2,
+      "seconds": 6.437,
+      "retrieved_at_utc": "2026-11-10T18:41:32+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2019-20&SeasonType=Regular+Season&TeamId=1610612762&PlayerId=203497",
+      "status": 200,
+      "attempts": 3,
+      "seconds": 11.06,
+      "retrieved_at_utc": "2026-11-10T18:41:36+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2020-21&SeasonType=Regular+Season&TeamId=1610612743&PlayerId=203999",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 2.919,
+      "retrieved_at_utc": "2026-11-10T18:41:41+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2020-21&SeasonType=Regular+Season&TeamId=1610612744&PlayerId=201939",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 2.925,
+      "retrieved_at_utc": "2026-11-10T18:41:41+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2020-21&SeasonType=Regular+Season&TeamId=1610612744&PlayerId=203110",
+      "status": 200,
+      "attempts": 3,
+      "seconds": 8.734,
+      "retrieved_at_utc": "2026-11-10T18:41:47+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2020-21&SeasonType=Regular+Season&TeamId=1610612747&PlayerId=2544",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 4.556,
+      "retrieved_at_utc": "2026-11-10T18:41:54+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2020-21&SeasonType=Regular+Season&TeamId=1610612746&PlayerId=202331",
+      "status": 200,
+      "attempts": 2,
+      "seconds": 6.413,
+      "retrieved_at_utc": "2026-11-10T18:41:55+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2020-21&SeasonType=Regular+Season&TeamId=1610612746&PlayerId=202695",
+      "status": 200,
+      "attempts": 4,
+      "seconds": 11.565,
+      "retrieved_at_utc": "2026-11-10T18:42:01+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2020-21&SeasonType=Regular+Season&TeamId=1610612748&PlayerId=1628389",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 3.312,
+      "retrieved_at_utc": "2026-11-10T18:42:06+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2020-21&SeasonType=Regular+Season&TeamId=1610612749&PlayerId=201950",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 4.691,
+      "retrieved_at_utc": "2026-11-10T18:42:07+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2020-21&SeasonType=Regular+Season&TeamId=1610612748&PlayerId=202710",
+      "status": 200,
+      "attempts": 3,
+      "seconds": 7.303,
+      "retrieved_at_utc": "2026-11-10T18:42:10+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2020-21&SeasonType=Regular+Season&TeamId=1610612751&PlayerId=202681",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 2.416,
+      "retrieved_at_utc": "2026-11-10T18:42:14+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2020-21&SeasonType=Regular+Season&TeamId=1610612749&PlayerId=203507",
+      "status": 200,
+      "attempts": 2,
+      "seconds": 4.145,
+      "retrieved_at_utc": "2026-11-10T18:42:16+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2020-21&SeasonType=Regular+Season&TeamId=1610612752&PlayerId=203944",
+      "status": 200,
+      "attempts": 4,
+      "seconds": 12.584,
+      "retrieved_at_utc": "2026-11-10T18:42:24+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2020-21&SeasonType=Regular+Season&TeamId=1610612755&PlayerId=1629680",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 3.678,
+      "retrieved_at_utc": "2026-11-10T18:42:30+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2020-21&SeasonType=Regular+Season&TeamId=1610612755&PlayerId=203954",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 3.713,
+      "retrieved_at_utc": "2026-11-10T18:42:30+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2020-21&SeasonType=Regular+Season&TeamId=1610612755&PlayerId=1627732",
+      "status": 200,
+      "attempts": 3,
+      "seconds": 6.739,
+      "retrieved_at_utc": "2026-11-10T18:42:33+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2020-21&SeasonType=Regular+Season&TeamId=1610612762&PlayerId=203497",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 3.49,
+      "retrieved_at_utc": "2026-11-10T18:42:39+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2020-21&SeasonType=Regular+Season&TeamId=1610612756&PlayerId=101108",
+      "status": 200,
+      "attempts": 3,
+      "seconds": 5.583,
+      "retrieved_at_utc": "2026-11-10T18:42:41+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2020-21&SeasonType=Regular+Season&TeamId=1610612757&PlayerId=203081",
+      "status": 200,
+      "attempts": 4,
+      "seconds": 11.287,
+      "retrieved_at_utc": "2026-11-10T18:42:46+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2021-22&SeasonType=Regular+Season&TeamId=1610612738&PlayerId=1628369",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 2.807,
+      "retrieved_at_utc": "2026-11-10T18:42:51+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2020-21&SeasonType=Regular+Season&TeamId=1610612764&PlayerId=203078",
+      "status": 200,
+      "attempts": 2,
+      "seconds": 4.213,
+      "retrieved_at_utc": "2026-11-10T18:42:53+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2021-22&SeasonType=Regular+Season&TeamId=1610612737&PlayerId=1629027",
+      "status": 200,
+      "attempts": 4,
+      "seconds": 11.293,
+      "retrieved_at_utc": "2026-11-10T18:43:00+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2021-22&SeasonType=Regular+Season&TeamId=1610612738&PlayerId=1629057",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 4.269,
+      "retrieved_at_utc": "2026-11-10T18:43:06+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2021-22&SeasonType=Regular+Season&TeamId=1610612738&PlayerId=203935",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 4.287,
+      "retrieved_at_utc": "2026-11-10T18:43:06+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2021-22&SeasonType=Regular+Season&TeamId=1610612741&PlayerId=201942",
+      "status": 200,
+      "attempts": 3,
+      "seconds": 6.862,
+      "retrieved_at_utc": "2026-11-10T18:43:09+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2021-22&SeasonType=Regular+Season&TeamId=1610612742&PlayerId=1629029",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 1.632,
+      "retrieved_at_utc": "2026-11-10T18:43:12+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2021-22&SeasonType=Regular+Season&TeamId=1610612744&PlayerId=201939",
+      "status": 200,
+      "attempts": 3,
+      "seconds": 5.35,
+      "retrieved_at_utc": "2026-11-10T18:43:16+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2021-22&SeasonType=Regular+Season&TeamId=1610612743&PlayerId=203999",
+      "status": 200,
+      "attempts": 4,
+      "seconds": 12.313,
+      "retrieved_at_utc": "2026-11-10T18:43:23+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2021-22&SeasonType=Regular+Season&TeamId=1610612748&PlayerId=1628389",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.444,
+      "retrieved_at_utc": "2026-11-10T18:43:30+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2021-22&SeasonType=Regular+Season&TeamId=1610612744&PlayerId=203110",
+      "status": 200,
+      "attempts": 2,
+      "seconds": 6.194,
+      "retrieved_at_utc": "2026-11-10T18:43:31+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2021-22&SeasonType=Regular+Season&TeamId=1610612747&PlayerId=2544",
+      "status": 200,
+      "attempts": 4,
+      "seconds": 12.212,
+      "retrieved_at_utc": "2026-11-10T18:43:37+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2021-22&SeasonType=Regular+Season&TeamId=1610612750&PlayerId=1626157",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 3.656,
+      "retrieved_at_utc": "2026-11-10T18:43:43+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2021-22&SeasonType=Regular+Season&TeamId=1610612749&PlayerId=203507",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 3.672,
+      "retrieved_at_utc": "2026-11-10T18:43:43+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2021-22&SeasonType=Regular+Season&TeamId=1610612749&PlayerId=201950",
+      "status": 200,
+      "attempts": 3,
+      "seconds": 7.337,
+      "retrieved_at_utc": "2026-11-10T18:43:47+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2021-22&SeasonType=Regular+Season&TeamId=1610612755&PlayerId=203954",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 3.933,
+      "retrieved_at_utc": "2026-11-10T18:43:52+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2021-22&SeasonType=Regular+Season&TeamId=1610612755&PlayerId=1629680",
+      "status": 200,
+      "attempts": 2,
+      "seconds": 4.405,
+      "retrieved_at_utc": "2026-11-10T18:43:53+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2021-22&SeasonType=Regular+Season&TeamId=1610612751&PlayerId=201142",
+      "status": 200,
+      "attempts": 4,
+      "seconds": 13.621,
+      "retrieved_at_utc": "2026-11-10T18:44:02+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2021-22&SeasonType=Regular+Season&TeamId=1610612756&PlayerId=1628969",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.239,
+      "retrieved_at_utc": "2026-11-10T18:44:09+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2021-22&SeasonType=Regular+Season&TeamId=1610612756&PlayerId=1626164",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.375,
+      "retrieved_at_utc": "2026-11-10T18:44:10+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2021-22&SeasonType=Regular+Season&TeamId=1610612756&PlayerId=101108",
+      "status": 200,
+      "attempts": 2,
+      "seconds": 9.119,
+      "retrieved_at_utc": "2026-11-10T18:44:13+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2021-22&SeasonType=Regular+Season&TeamId=1610612762&PlayerId=203497",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 2.784,
+      "retrieved_at_utc": "2026-11-10T18:44:18+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2021-22&SeasonType=Regular+Season&TeamId=1610612761&PlayerId=1627783",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 3.059,
+      "retrieved_at_utc": "2026-11-10T18:44:18+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2021-22&SeasonType=Regular+Season&TeamId=1610612763&PlayerId=1628991",
+      "status": 200,
+      "attempts": 3,
+      "seconds": 5.969,
+      "retrieved_at_utc": "2026-11-10T18:44:21+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2022-23&SeasonType=Regular+Season&TeamId=1610612738&PlayerId=1628369",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 1.654,
+      "retrieved_at_utc": "2026-11-10T18:44:25+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2022-23&SeasonType=Regular+Season&TeamId=1610612738&PlayerId=1627759",
+      "status": 200,
+      "attempts": 3,
+      "seconds": 6.365,
+      "retrieved_at_utc": "2026-11-10T18:44:30+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2021-22&SeasonType=Regular+Season&TeamId=1610612763&PlayerId=1629630",
+      "status": 200,
+      "attempts": 4,
+      "seconds": 10.789,
+      "retrieved_at_utc": "2026-11-10T18:44:34+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2022-23&SeasonType=Regular+Season&TeamId=1610612739&PlayerId=1630596",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 1.684,
+      "retrieved_at_utc": "2026-11-10T18:44:38+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2022-23&SeasonType=Regular+Season&TeamId=1610612739&PlayerId=1628378",
+      "status": 200,
+      "attempts": 2,
+      "seconds": 4.441,
+      "retrieved_at_utc": "2026-11-10T18:44:40+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2022-23&SeasonType=Regular+Season&TeamId=1610612738&PlayerId=1628401",
+      "status": 200,
+      "attempts": 4,
+      "seconds": 13.818,
+      "retrieved_at_utc": "2026-11-10T18:44:50+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2022-23&SeasonType=Regular+Season&TeamId=1610612743&PlayerId=203999",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.581,
+      "retrieved_at_utc": "2026-11-10T18:44:57+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2022-23&SeasonType=Regular+Season&TeamId=1610612741&PlayerId=1627936",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.691,
+      "retrieved_at_utc": "2026-11-10T18:44:58+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2022-23&SeasonType=Regular+Season&TeamId=1610612742&PlayerId=1629029",
+      "status": 200,
+      "attempts": 2,
+      "seconds": 13.119,
+      "retrieved_at_utc": "2026-11-10T18:45:05+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2022-23&SeasonType=Regular+Season&TeamId=1610612744&PlayerId=201939",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 14.821,
+      "retrieved_at_utc": "2026-11-10T18:45:22+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2022-23&SeasonType=Regular+Season&TeamId=1610612747&PlayerId=2544",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 14.822,
+      "retrieved_at_utc": "2026-11-10T18:45:22+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2022-23&SeasonType=Regular+Season&TeamId=1610612744&PlayerId=203110",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 14.833,
+      "retrieved_at_utc": "2026-11-10T18:45:22+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2022-23&SeasonType=Regular+Season&TeamId=1610612748&PlayerId=202710",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 17.322,
+      "retrieved_at_utc": "2026-11-10T18:45:41+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2022-23&SeasonType=Regular+Season&TeamId=1610612749&PlayerId=201572",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 17.322,
+      "retrieved_at_utc": "2026-11-10T18:45:41+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2022-23&SeasonType=Regular+Season&TeamId=1610612748&PlayerId=1628389",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 17.323,
+      "retrieved_at_utc": "2026-11-10T18:45:41+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2022-23&SeasonType=Regular+Season&TeamId=1610612749&PlayerId=201950",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.252,
+      "retrieved_at_utc": "2026-11-10T18:45:48+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2022-23&SeasonType=Regular+Season&TeamId=1610612752&PlayerId=203944",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.463,
+      "retrieved_at_utc": "2026-11-10T18:45:49+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2022-23&SeasonType=Regular+Season&TeamId=1610612749&PlayerId=203507",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.599,
+      "retrieved_at_utc": "2026-11-10T18:45:49+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2022-23&SeasonType=Regular+Season&TeamId=1610612755&PlayerId=203954",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 4.214,
+      "retrieved_at_utc": "2026-11-10T18:45:55+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2022-23&SeasonType=Regular+Season&TeamId=1610612758&PlayerId=1627734",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 8.746,
+      "retrieved_at_utc": "2026-11-10T18:46:00+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2022-23&SeasonType=Regular+Season&TeamId=1610612757&PlayerId=203081",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 8.747,
+      "retrieved_at_utc": "2026-11-10T18:46:00+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2022-23&SeasonType=Regular+Season&TeamId=1610612760&PlayerId=1628983",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.125,
+      "retrieved_at_utc": "2026-11-10T18:46:07+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2022-23&SeasonType=Regular+Season&TeamId=1610612758&PlayerId=1628368",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.324,
+      "retrieved_at_utc": "2026-11-10T18:46:07+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2022-23&SeasonType=Regular+Season&TeamId=1610612761&PlayerId=1628384",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.326,
+      "retrieved_at_utc": "2026-11-10T18:46:07+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2023-24&SeasonType=Regular+Season&TeamId=1610612738&PlayerId=1628369",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.112,
+      "retrieved_at_utc": "2026-11-10T18:46:14+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2022-23&SeasonType=Regular+Season&TeamId=1610612763&PlayerId=1628991",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.246,
+      "retrieved_at_utc": "2026-11-10T18:46:14+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2022-23&SeasonType=Regular+Season&TeamId=1610612763&PlayerId=1628415",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.251,
+      "retrieved_at_utc": "2026-11-10T18:46:14+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2023-24&SeasonType=Regular+Season&TeamId=1610612740&PlayerId=1630529",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 3.765,
+      "retrieved_at_utc": "2026-11-10T18:46:20+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2023-24&SeasonType=Regular+Season&TeamId=1610612738&PlayerId=201950",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 3.767,
+      "retrieved_at_utc": "2026-11-10T18:46:20+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2023-24&SeasonType=Regular+Season&TeamId=1610612738&PlayerId=1628401",
+      "status": 200,
+      "attempts": 3,
+      "seconds": 8.111,
+      "retrieved_at_utc": "2026-11-10T18:46:24+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2023-24&SeasonType=Regular+Season&TeamId=1610612743&PlayerId=203999",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 1.561,
+      "retrieved_at_utc": "2026-11-10T18:46:28+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2023-24&SeasonType=Regular+Season&TeamId=1610612742&PlayerId=1629029",
+      "status": 200,
+      "attempts": 2,
+      "seconds": 3.245,
+      "retrieved_at_utc": "2026-11-10T18:46:29+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2023-24&SeasonType=Regular+Season&TeamId=1610612741&PlayerId=1627936",
+      "status": 200,
+      "attempts": 4,
+      "seconds": 12.136,
+      "retrieved_at_utc": "2026-11-10T18:46:38+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2023-24&SeasonType=Regular+Season&TeamId=1610612744&PlayerId=201939",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 29.199,
+      "retrieved_at_utc": "2026-11-10T18:47:10+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2023-24&SeasonType=Regular+Season&TeamId=1610612747&PlayerId=203076",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 29.201,
+      "retrieved_at_utc": "2026-11-10T18:47:10+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2023-24&SeasonType=Regular+Season&TeamId=1610612746&PlayerId=202695",
+      "status": 200,
+      "attempts": 3,
+      "seconds": 29.201,
+      "retrieved_at_utc": "2026-11-10T18:47:10+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2023-24&SeasonType=Regular+Season&TeamId=1610612747&PlayerId=2544",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 3.435,
+      "retrieved_at_utc": "2026-11-10T18:47:15+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2023-24&SeasonType=Regular+Season&TeamId=1610612749&PlayerId=203507",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.098,
+      "retrieved_at_utc": "2026-11-10T18:47:17+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2023-24&SeasonType=Regular+Season&TeamId=1610612748&PlayerId=1628389",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 6.469,
+      "retrieved_at_utc": "2026-11-10T18:47:18+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2023-24&SeasonType=Regular+Season&TeamId=1610612750&PlayerId=203497",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 2.226,
+      "retrieved_at_utc": "2026-11-10T18:47:22+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2023-24&SeasonType=Regular+Season&TeamId=1610612750&PlayerId=1630183",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 3.204,
+      "retrieved_at_utc": "2026-11-10T18:47:23+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2023-24&SeasonType=Regular+Season&TeamId=1610612750&PlayerId=1630162",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 3.205,
+      "retrieved_at_utc": "2026-11-10T18:47:23+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2023-24&SeasonType=Regular+Season&TeamId=1610612754&PlayerId=1630169",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 4.885,
+      "retrieved_at_utc": "2026-11-10T18:47:30+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2023-24&SeasonType=Regular+Season&TeamId=1610612753&PlayerId=1630591",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 4.9,
+      "retrieved_at_utc": "2026-11-10T18:47:30+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2023-24&SeasonType=Regular+Season&TeamId=1610612752&PlayerId=1628973",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 8.967,
+      "retrieved_at_utc": "2026-11-10T18:47:34+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2023-24&SeasonType=Regular+Season&TeamId=1610612758&PlayerId=1627734",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 3.061,
+      "retrieved_at_utc": "2026-11-10T18:47:39+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2023-24&SeasonType=Regular+Season&TeamId=1610612756&PlayerId=201142",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.337,
+      "retrieved_at_utc": "2026-11-10T18:47:42+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2023-24&SeasonType=Regular+Season&TeamId=1610612756&PlayerId=1626164",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.342,
+      "retrieved_at_utc": "2026-11-10T18:47:42+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2023-24&SeasonType=Regular+Season&TeamId=1610612760&PlayerId=1628983",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 4.812,
+      "retrieved_at_utc": "2026-11-10T18:47:48+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2024-25&SeasonType=Regular+Season&TeamId=1610612737&PlayerId=1630700",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 4.915,
+      "retrieved_at_utc": "2026-11-10T18:47:48+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2023-24&SeasonType=Regular+Season&TeamId=1610612759&PlayerId=1641705",
+      "status": 200,
+      "attempts": 3,
+      "seconds": 7.518,
+      "retrieved_at_utc": "2026-11-10T18:47:51+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2024-25&SeasonType=Regular+Season&TeamId=1610612738&PlayerId=1628369",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 2.305,
+      "retrieved_at_utc": "2026-11-10T18:47:55+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2024-25&SeasonType=Regular+Season&TeamId=1610612739&PlayerId=1630596",
+      "status": 200,
+      "attempts": 3,
+      "seconds": 5.305,
+      "retrieved_at_utc": "2026-11-10T18:47:58+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2024-25&SeasonType=Regular+Season&TeamId=1610612739&PlayerId=1628378",
+      "status": 200,
+      "attempts": 4,
+      "seconds": 11.567,
+      "retrieved_at_utc": "2026-11-10T18:48:05+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2024-25&SeasonType=Regular+Season&TeamId=1610612743&PlayerId=203999",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 1.978,
+      "retrieved_at_utc": "2026-11-10T18:48:09+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2024-25&SeasonType=Regular+Season&TeamId=1610612744&PlayerId=201939",
+      "status": 200,
+      "attempts": 2,
+      "seconds": 5.269,
+      "retrieved_at_utc": "2026-11-10T18:48:12+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2024-25&SeasonType=Regular+Season&TeamId=1610612744&PlayerId=203110",
+      "status": 200,
+      "attempts": 4,
+      "seconds": 12.169,
+      "retrieved_at_utc": "2026-11-10T18:48:19+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2024-25&SeasonType=Regular+Season&TeamId=1610612746&PlayerId=1627826",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 4.265,
+      "retrieved_at_utc": "2026-11-10T18:48:25+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2024-25&SeasonType=Regular+Season&TeamId=1610612745&PlayerId=1641708",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 4.284,
+      "retrieved_at_utc": "2026-11-10T18:48:25+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2024-25&SeasonType=Regular+Season&TeamId=1610612746&PlayerId=201935",
+      "status": 200,
+      "attempts": 3,
+      "seconds": 8.382,
+      "retrieved_at_utc": "2026-11-10T18:48:29+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2024-25&SeasonType=Regular+Season&TeamId=1610612750&PlayerId=1630162",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 4.323,
+      "retrieved_at_utc": "2026-11-10T18:48:36+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2024-25&SeasonType=Regular+Season&TeamId=1610612749&PlayerId=203507",
+      "status": 200,
+      "attempts": 2,
+      "seconds": 6.491,
+      "retrieved_at_utc": "2026-11-10T18:48:38+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2024-25&SeasonType=Regular+Season&TeamId=1610612747&PlayerId=2544",
+      "status": 200,
+      "attempts": 3,
+      "seconds": 8.935,
+      "retrieved_at_utc": "2026-11-10T18:48:40+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2024-25&SeasonType=Regular+Season&TeamId=1610612750&PlayerId=203497",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 4.39,
+      "retrieved_at_utc": "2026-11-10T18:48:47+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2024-25&SeasonType=Regular+Season&TeamId=1610612752&PlayerId=1626157",
+      "status": 200,
+      "attempts": 2,
+      "seconds": 7.117,
+      "retrieved_at_utc": "2026-11-10T18:48:49+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2024-25&SeasonType=Regular+Season&TeamId=1610612752&PlayerId=1628973",
+      "status": 200,
+      "attempts": 4,
+      "seconds": 12.787,
+      "retrieved_at_utc": "2026-11-10T18:48:55+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2024-25&SeasonType=Regular+Season&TeamId=1610612760&PlayerId=1628983",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.541,
+      "retrieved_at_utc": "2026-11-10T18:49:02+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2024-25&SeasonType=Regular+Season&TeamId=1610612757&PlayerId=1641739",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.673,
+      "retrieved_at_utc": "2026-11-10T18:49:03+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2024-25&SeasonType=Regular+Season&TeamId=1610612754&PlayerId=1630169",
+      "status": 200,
+      "attempts": 3,
+      "seconds": 19.368,
+      "retrieved_at_utc": "2026-11-10T18:49:16+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2024-25&SeasonType=Regular+Season&TeamId=1610612760&PlayerId=1629652",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.686,
+      "retrieved_at_utc": "2026-11-10T18:49:24+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2024-25&SeasonType=Regular+Season&TeamId=1610612760&PlayerId=1631114",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.766,
+      "retrieved_at_utc": "2026-11-10T18:49:24+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2024-25&SeasonType=Regular+Season&TeamId=1610612763&PlayerId=1628991",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 5.843,
+      "retrieved_at_utc": "2026-11-10T18:49:24+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2024-25&SeasonType=Regular+Season&TeamId=1610612765&PlayerId=1630595",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 2.838,
+      "retrieved_at_utc": "2026-11-10T18:49:29+00:00",
+      "error": ""
+    },
+    {
+      "kind": "league",
+      "url": "https://api.pbpstats.com/get-totals/nba?Season=2000-01&SeasonType=Regular+Season&StartType=All&GroupBy=Season&Type=Team",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 1.962,
+      "retrieved_at_utc": "2026-11-10T18:49:32+00:00",
+      "error": ""
+    },
+    {
+      "kind": "league",
+      "url": "https://api.pbpstats.com/get-totals/nba?Season=2001-02&SeasonType=Regular+Season&StartType=All&GroupBy=Season&Type=Team",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 2.681,
+      "retrieved_at_utc": "2026-11-10T18:49:34+00:00",
+      "error": ""
+    },
+    {
+      "kind": "league",
+      "url": "https://api.pbpstats.com/get-totals/nba?Season=2002-03&SeasonType=Regular+Season&StartType=All&GroupBy=Season&Type=Team",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 1.937,
+      "retrieved_at_utc": "2026-11-10T18:49:36+00:00",
+      "error": ""
+    },
+    {
+      "kind": "league",
+      "url": "https://api.pbpstats.com/get-totals/nba?Season=2003-04&SeasonType=Regular+Season&StartType=All&GroupBy=Season&Type=Team",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 2.126,
+      "retrieved_at_utc": "2026-11-10T18:49:38+00:00",
+      "error": ""
+    },
+    {
+      "kind": "league",
+      "url": "https://api.pbpstats.com/get-totals/nba?Season=2004-05&SeasonType=Regular+Season&StartType=All&GroupBy=Season&Type=Team",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 2.057,
+      "retrieved_at_utc": "2026-11-10T18:49:41+00:00",
+      "error": ""
+    },
+    {
+      "kind": "league",
+      "url": "https://api.pbpstats.com/get-totals/nba?Season=2005-06&SeasonType=Regular+Season&StartType=All&GroupBy=Season&Type=Team",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 1.486,
+      "retrieved_at_utc": "2026-11-10T18:49:42+00:00",
+      "error": ""
+    },
+    {
+      "kind": "league",
+      "url": "https://api.pbpstats.com/get-totals/nba?Season=2006-07&SeasonType=Regular+Season&StartType=All&GroupBy=Season&Type=Team",
+      "status": 200,
+      "attempts": 3,
+      "seconds": 8.964,
+      "retrieved_at_utc": "2026-11-10T18:49:51+00:00",
+      "error": ""
+    },
+    {
+      "kind": "league",
+      "url": "https://api.pbpstats.com/get-totals/nba?Season=2007-08&SeasonType=Regular+Season&StartType=All&GroupBy=Season&Type=Team",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 1.452,
+      "retrieved_at_utc": "2026-11-10T18:49:52+00:00",
+      "error": ""
+    },
+    {
+      "kind": "league",
+      "url": "https://api.pbpstats.com/get-totals/nba?Season=2008-09&SeasonType=Regular+Season&StartType=All&GroupBy=Season&Type=Team",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 2.977,
+      "retrieved_at_utc": "2026-11-10T18:49:55+00:00",
+      "error": ""
+    },
+    {
+      "kind": "league",
+      "url": "https://api.pbpstats.com/get-totals/nba?Season=2009-10&SeasonType=Regular+Season&StartType=All&GroupBy=Season&Type=Team",
+      "status": 200,
+      "attempts": 2,
+      "seconds": 6.871,
+      "retrieved_at_utc": "2026-11-10T18:50:02+00:00",
+      "error": ""
+    },
+    {
+      "kind": "league",
+      "url": "https://api.pbpstats.com/get-totals/nba?Season=2010-11&SeasonType=Regular+Season&StartType=All&GroupBy=Season&Type=Team",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 3.281,
+      "retrieved_at_utc": "2026-11-10T18:50:06+00:00",
+      "error": ""
+    },
+    {
+      "kind": "league",
+      "url": "https://api.pbpstats.com/get-totals/nba?Season=2011-12&SeasonType=Regular+Season&StartType=All&GroupBy=Season&Type=Team",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 11.185,
+      "retrieved_at_utc": "2026-11-10T18:50:17+00:00",
+      "error": ""
+    },
+    {
+      "kind": "league",
+      "url": "https://api.pbpstats.com/get-totals/nba?Season=2012-13&SeasonType=Regular+Season&StartType=All&GroupBy=Season&Type=Team",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 3.449,
+      "retrieved_at_utc": "2026-11-10T18:50:20+00:00",
+      "error": ""
+    },
+    {
+      "kind": "league",
+      "url": "https://api.pbpstats.com/get-totals/nba?Season=2013-14&SeasonType=Regular+Season&StartType=All&GroupBy=Season&Type=Team",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 2.907,
+      "retrieved_at_utc": "2026-11-10T18:50:23+00:00",
+      "error": ""
+    },
+    {
+      "kind": "league",
+      "url": "https://api.pbpstats.com/get-totals/nba?Season=2014-15&SeasonType=Regular+Season&StartType=All&GroupBy=Season&Type=Team",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 2.875,
+      "retrieved_at_utc": "2026-11-10T18:50:26+00:00",
+      "error": ""
+    },
+    {
+      "kind": "league",
+      "url": "https://api.pbpstats.com/get-totals/nba?Season=2015-16&SeasonType=Regular+Season&StartType=All&GroupBy=Season&Type=Team",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 3.503,
+      "retrieved_at_utc": "2026-11-10T18:50:29+00:00",
+      "error": ""
+    },
+    {
+      "kind": "league",
+      "url": "https://api.pbpstats.com/get-totals/nba?Season=2016-17&SeasonType=Regular+Season&StartType=All&GroupBy=Season&Type=Team",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 2.736,
+      "retrieved_at_utc": "2026-11-10T18:50:32+00:00",
+      "error": ""
+    },
+    {
+      "kind": "league",
+      "url": "https://api.pbpstats.com/get-totals/nba?Season=2017-18&SeasonType=Regular+Season&StartType=All&GroupBy=Season&Type=Team",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 2.482,
+      "retrieved_at_utc": "2026-11-10T18:50:35+00:00",
+      "error": ""
+    },
+    {
+      "kind": "league",
+      "url": "https://api.pbpstats.com/get-totals/nba?Season=2018-19&SeasonType=Regular+Season&StartType=All&GroupBy=Season&Type=Team",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 1.651,
+      "retrieved_at_utc": "2026-11-10T18:50:36+00:00",
+      "error": ""
+    },
+    {
+      "kind": "league",
+      "url": "https://api.pbpstats.com/get-totals/nba?Season=2019-20&SeasonType=Regular+Season&StartType=All&GroupBy=Season&Type=Team",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 3.032,
+      "retrieved_at_utc": "2026-11-10T18:50:39+00:00",
+      "error": ""
+    },
+    {
+      "kind": "league",
+      "url": "https://api.pbpstats.com/get-totals/nba?Season=2020-21&SeasonType=Regular+Season&StartType=All&GroupBy=Season&Type=Team",
+      "status": 200,
+      "attempts": 2,
+      "seconds": 4.844,
+      "retrieved_at_utc": "2026-11-10T18:50:44+00:00",
+      "error": ""
+    },
+    {
+      "kind": "league",
+      "url": "https://api.pbpstats.com/get-totals/nba?Season=2021-22&SeasonType=Regular+Season&StartType=All&GroupBy=Season&Type=Team",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 3.23,
+      "retrieved_at_utc": "2026-11-10T18:50:47+00:00",
+      "error": ""
+    },
+    {
+      "kind": "league",
+      "url": "https://api.pbpstats.com/get-totals/nba?Season=2022-23&SeasonType=Regular+Season&StartType=All&GroupBy=Season&Type=Team",
+      "status": 200,
+      "attempts": 2,
+      "seconds": 4.066,
+      "retrieved_at_utc": "2026-11-10T18:50:52+00:00",
+      "error": ""
+    },
+    {
+      "kind": "league",
+      "url": "https://api.pbpstats.com/get-totals/nba?Season=2023-24&SeasonType=Regular+Season&StartType=All&GroupBy=Season&Type=Team",
+      "status": 200,
+      "attempts": 2,
+      "seconds": 4.338,
+      "retrieved_at_utc": "2026-11-10T18:50:56+00:00",
+      "error": ""
+    },
+    {
+      "kind": "league",
+      "url": "https://api.pbpstats.com/get-totals/nba?Season=2024-25&SeasonType=Regular+Season&StartType=All&GroupBy=Season&Type=Team",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 2.515,
+      "retrieved_at_utc": "2026-11-10T18:50:58+00:00",
+      "error": ""
+    },
+    {
+      "kind": "league",
+      "url": "https://api.pbpstats.com/get-totals/nba?Season=2025-26&SeasonType=Regular+Season&StartType=All&GroupBy=Season&Type=Team",
+      "status": 200,
+      "attempts": 3,
+      "seconds": 7.098,
+      "retrieved_at_utc": "2026-11-10T18:51:05+00:00",
+      "error": ""
+    }
+  ]
+}
