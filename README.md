@@ -4,10 +4,10 @@ This repository's active workflow builds a player-level on/off table, league-sea
 
 ## Inputs and metric scope
 
-- `data/player_list.csv` defines the player-season-team rows. It currently contains 518 historical award-selection rows spanning 2000-01 through 2024-25. Duplicate player-season-team rows are retained when they represent different award selections; API requests are deduplicated and results are copied back to each source row.
+- `data/player_list.csv` defines the player-season-team rows. It currently contains 566 rows: 518 historical award-selection rows spanning 2000-01 through 2024-25, plus 48 requested player/team rows for 2025-26 and 2026-27. Award flags are blank on the requested rows because they were added as a player sample rather than as award records. Duplicate player-season-team rows are retained when they represent different award selections; API requests are deduplicated and results are copied back to each source row.
 - Each player request uses PBPStats `/get-on-off/nba/team` with `Season`, `SeasonType=Regular Season`, `TeamId`, and `PlayerId`. A response must contain exactly the 89 metric labels in `data/metric_definitions.csv`, each with `On`, `Off`, and `On-Off` values.
 - League-season rows use `/get-totals/nba` once per season with `SeasonType=Regular Season`, `StartType=All`, `GroupBy=Season`, and `Type=Team`. The output maps PBPStats totals and documented project formulas to the same 89 metric labels. League defensive series are symmetric with league offensive series, as the API's league totals provide no separate opposing-team population.
-- The latest published range is 2000-01 through 2025-26 for league averages. The 2025-26 season is a snapshot at extraction time. Player-list rows currently end in 2024-25.
+- The workflow pulls league averages from 2000-01 through 2026-27, and player rows through 2026-27. The 2026-27 player and league values are a regular-season-to-date snapshot at extraction time.
 
 ## Published outputs
 
@@ -21,7 +21,7 @@ This repository's active workflow builds a player-level on/off table, league-sea
 | `data/run_manifest.json` | Completion state, row counts, season type, and join keys |
 | `data/request_log.json` | Request URLs, statuses, retry counts, timings, cache use, and timestamps |
 
-The player output has `518 × 89 × 3 = 138,306` metric-status rows. The league output has `26 × 89 = 2,314` rows. The master preserves the player output grain and adds `LeagueAverage` and `PlayerMinusLeague`.
+The player output has `566 × 89 × 3 = 151,122` metric-status rows. The league output has `27 × 89 = 2,403` rows. The master preserves the player output grain and adds `LeagueAverage` and `PlayerMinusLeague`.
 
 ## Run
 

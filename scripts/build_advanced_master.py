@@ -426,7 +426,7 @@ def main() -> None:
     parser.add_argument("--master-output", type=Path, default=Path("data/player_league_master.csv"))
     parser.add_argument("--cache", type=Path, default=Path(".cache/player-league-v2"))
     parser.add_argument("--start-year", type=int, default=2000)
-    parser.add_argument("--end-year", type=int, default=2025)
+    parser.add_argument("--end-year", type=int, default=2026)
     parser.add_argument("--workers", type=int, default=3)
     parser.add_argument("--batch-size", type=int, default=3)
     parser.add_argument("--batch-delay", type=float, default=2.0)

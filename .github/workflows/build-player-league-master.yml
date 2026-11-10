@@ -48,7 +48,7 @@ jobs:
               --player-output data/player_advanced_metrics.csv \
               --league-output data/league_season_averages.csv \
               --master-output data/player_league_master.csv \
-              --start-year 2000 --end-year 2025 \
+              --start-year 2000 --end-year 2026 \
               --workers 3 --batch-size 3 --batch-delay 2 \
               --cache ".cache/player-league-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}"; then
               break
@@ -70,7 +70,7 @@ jobs:
           assert manifest["complete"] is True, manifest
           assert manifest["metric_count"] == 89, manifest
           assert manifest["player_metric_status_rows"] == manifest["player_source_rows"] * 89 * 3, manifest
-          assert manifest["league_season_metric_rows"] == 26 * 89, manifest
+          assert manifest["league_season_metric_rows"] == 27 * 89, manifest
           assert manifest["master_rows"] == manifest["player_metric_status_rows"], manifest
           for name, expected in (("player_advanced_metrics.csv", manifest["player_metric_status_rows"]),
                                  ("league_season_averages.csv", manifest["league_season_metric_rows"]),
