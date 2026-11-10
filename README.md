@@ -25,7 +25,7 @@ The player output has `566 × 89 × 3 = 151,122` metric-status rows. The league 
 
 ## Run
 
-The GitHub Actions workflow runs on changes to the pipeline inputs/code and can also be started manually from **Actions → Build player and league 89-metric master → Run workflow**. It performs unit validation, pulls the requested outputs, checks full metric and join coverage, uploads a downloadable workflow artifact, and commits complete CSV outputs to `main`.
+The GitHub Actions workflow runs on changes to the pipeline inputs/code and can also be started manually from **Actions → Build player and league 89-metric master → Run workflow**. Push-triggered runs fetch only player rows missing from the published output and missing league seasons. A manual run refreshes 2026-27 player and league values. Each run checks full metric and join coverage, uploads a downloadable workflow artifact, and commits complete CSV outputs to `main`.
 
 To run locally:
 
@@ -35,11 +35,11 @@ python -m unittest discover -s tests -v
 python scripts/build_advanced_master.py
 ```
 
-The API response cache is under `.cache/player-league-v2/`. Re-running locally resumes successful requests. Outputs are written only after the corresponding full extraction succeeds; the master is written only after every player metric has a matching league-season value.
+The API response cache is under `.cache/player-league-incremental/`. Re-running with the same cache resumes successful requests. The active incremental process is `scripts/append_missing_master.py`; use `scripts/build_advanced_master.py` for a deliberate full rebuild. The master is written only after every player metric has a matching league-season value.
 
 ## Retired extraction
 
-The prior all-roster extractor (`pull_on_off.py`, `combine_results.py`) and its manual all-history / one-season workflows have been retired from the active Actions workflow. They remain in the repository history for reference. The active process is `scripts/build_advanced_master.py` and `.github/workflows/build-player-league-master.yml`.
+The prior all-roster extractor (`pull_on_off.py`, `combine_results.py`) and its manual all-history / one-season workflows have been retired from the active Actions workflow. They remain in the repository history for reference. The active workflow uses `scripts/append_missing_master.py` and `.github/workflows/build-player-league-master.yml`; `scripts/build_advanced_master.py` remains the full-rebuild implementation.
 
 ## Interpretation and limits
 

@@ -5,7 +5,7 @@ on:
   push:
     branches: [main]
     paths:
-      - "scripts/build_advanced_master.py"
+      - "scripts/build_advanced_master.py"\n      - "scripts/append_missing_master.py"
       - "tests/**"
       - "data/player_list.csv"
       - "data/metric_definitions.csv"
@@ -13,7 +13,7 @@ on:
 
 concurrency:
   group: pbp-player-league-master
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 permissions:
   contents: read
@@ -41,16 +41,21 @@ jobs:
         run: |
           set -euo pipefail
           rm -f data/failed_run.json
+          extra_args=()
+          if [ "${GITHUB_EVENT_NAME}" = "workflow_dispatch" ]; then
+            extra_args+=(--refresh-season 2026-27 --refresh-league-season 2026-27)
+          fi
           for attempt in 1 2 3; do
-            if python -u scripts/build_advanced_master.py \
+            if python -u scripts/append_missing_master.py \
               --player-list data/player_list.csv \
               --metric-definitions data/metric_definitions.csv \
               --player-output data/player_advanced_metrics.csv \
               --league-output data/league_season_averages.csv \
               --master-output data/player_league_master.csv \
               --start-year 2000 --end-year 2026 \
-              --workers 3 --batch-size 3 --batch-delay 2 \
-              --cache ".cache/player-league-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}"; then
+              --workers 9 --batch-size 9 --batch-delay 1 \
+              --cache ".cache/player-league-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}" \
+              "${extra_args[@]}"; then
               break
             fi
             if [ "$attempt" -eq 3 ]; then
