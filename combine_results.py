@@ -1,3 +1,4 @@
+# DEPRECATED: use scripts/build_advanced_master.py.
 #!/usr/bin/env python3
 """Validate and combine independently downloaded season partitions."""
 import argparse

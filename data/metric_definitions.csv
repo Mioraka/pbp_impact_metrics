@@ -1,0 +1,90 @@
+metrics,api_stat_id
+% of FG2A Blocked,FG2APctBlocked
+% of FG3A Blocked,FG3APctBlocked
+2pt FG%,Fg2Pct
+2pt FG% - Defense,league_symmetry:2pt FG%
+2pt FGM Assist%,Assisted2sPct
+2pt Shooting Foul Drawn Rate,TwoPtShootingFoulsDrawnPct
+3PAr,FG3APct
+3PAr - Defense,league_symmetry:3PAr
+3pt FG%,Fg3Pct
+3pt FG% - Defense,league_symmetry:3pt FG%
+3pt FGM Assist%,Assisted3sPct
+3pt Shooting Foul Drawn Rate,ThreePtShootingFoulsDrawnPct
+Arc 3 % Assisted,Arc3PctAssisted
+Arc 3 DReb%,DefArc3ReboundPct
+Arc 3 FG%,Arc3Accuracy
+Arc 3 FG% - Defense,league_symmetry:Arc 3 FG%
+Arc 3 OReb%,OffArc3ReboundPct
+Arc 3 Shot Frequency,Arc3Frequency
+Arc 3 Shot Frequency - Defense,league_symmetry:Arc 3 Shot Frequency
+Assist Points per 100 Possessions,100*AssistPoints/OffPoss
+Assists per 100 Possessions,100*Assists/OffPoss
+At Rim % Assisted,AtRimPctAssisted
+At Rim DReb%,DefAtRimReboundPct
+At Rim FG%,AtRimAccuracy
+At Rim FG% - Defense,league_symmetry:At Rim FG%
+At Rim OReb%,OffAtRimReboundPct
+At Rim Shot Frequency,AtRimFrequency
+At Rim Shot Frequency - Defense,league_symmetry:At Rim Shot Frequency
+At Rim or 3pt Shot Frequency,AtRimFG3AFrequency
+Avg 2pt Shot Distance,Avg2ptShotDistance
+Avg 3pt Shot Distance,Avg3ptShotDistance
+Blocks Recovered %,BlocksRecoveredPct
+Corner 3 % Assisted,Corner3PctAssisted
+Corner 3 DReb%,DefCorner3ReboundPct
+Corner 3 FG%,Corner3Accuracy
+Corner 3 FG% - Defense,league_symmetry:Corner 3 FG%
+Corner 3 OReb%,OffCorner3ReboundPct
+Corner 3 Shot Frequency,Corner3Frequency
+Corner 3 Shot Frequency - Defense,league_symmetry:Corner 3 Shot Frequency
+DReb%,DefRebounds/(DefRebounds+OffRebounds)
+DReb% - Missed 2s,DefTwoPtReboundPct
+DReb% - Missed 3s,DefThreePtReboundPct
+DReb% - Missed FGs,DefFGReboundPct
+DReb% - Missed FTs,DefFTReboundPct
+FTA per 100 Possessions,100*FTA/OffPoss
+First Chance Points Per 100 Possessions,FirstChancePtsPer100Poss
+Live Ball TO%,LiveBallTurnoverPct
+Long Mid % Assisted,LongMidRangePctAssisted
+Long Mid Range FG%,LongMidRangeAccuracy
+Long Mid Range FG% - Defense,league_symmetry:Long Mid Range FG%
+Long Mid Range Shot Frequency,LongMidRangeFrequency
+Long Mid Range Shot Frequency - Defense,league_symmetry:Long Mid Range Shot Frequency
+Long Mid-Range DReb%,DefLongMidRangeReboundPct
+Long Mid-Range OReb%,OffLongMidRangeReboundPct
+Non Putback 2pt FGM Assist%,NonPutbacksAssisted2sPct
+Non-Heave 3pt FG%,NonHeaveFg3Pct
+Non-Heave Arc 3 FG%,NonHeaveArc3Accuracy
+OReb%,OffRebounds/(DefRebounds+OffRebounds)
+OReb% - Missed 2s,OffTwoPtReboundPct
+OReb% - Missed 3s,OffThreePtReboundPct
+OReb% - Missed FGs,OffFGReboundPct
+OReb% - Missed FTs,OffFTReboundPct
+Pace,Pace
+Penalty Efficiency,PenaltyPtsPer100PossPenalty
+Penalty Efficiency Excluding Last Minute Take Foul Possessions,100*PenaltyPointsExcludingTakeFouls/PenaltyOffPossExcludingTakeFouls
+Penalty Points%,PenaltyPointsPct
+Penalty Possessions%,PenaltyOffPossPct
+Pts per 100 Possessions,PtsPer100Poss
+Pts per 100 Possessions - Defense,league_symmetry:Pts per 100 Possessions
+Second Chance Efficiency,SecondChancePtsPer100PossSecondChance
+Second Chance Points Per 100 Possessions,SecondChancePtsPer100Poss
+Second Chance Points%,SecondChancePointsPct
+Second Chance Possessions Per 100 Possessions,SecondChanceOffPossPer100Poss
+Seconds Per Possession - Defense,league_symmetry:Seconds Per Possession - Offense
+Seconds Per Possession - Offense,SecondsPerPoss
+Shooting Foul Drawn Rate,ShootingFoulsDrawnPct
+Short Mid Range % Assisted,ShortMidRangePctAssisted
+Short Mid Range FG%,ShortMidRangeAccuracy
+Short Mid Range FG% - Defense,league_symmetry:Short Mid Range FG%
+Short Mid Range Shot Frequency,ShortMidRangeFrequency
+Short Mid Range Shot Frequency - Defense,league_symmetry:Short Mid Range Shot Frequency
+Short Mid-Range DReb%,DefShortMidRangeReboundPct
+Short Mid-Range OReb%,OffShortMidRangeReboundPct
+Shot Quality,ShotQualityAvg
+Shot Quality - Defense,league_symmetry:Shot Quality
+TOs per 100 Possessions,100*Turnovers/OffPoss
+TS%,TsPct
+eFG%,EfgPct
+eFG% - Defense,league_symmetry:eFG%

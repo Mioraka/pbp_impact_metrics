@@ -1,3 +1,4 @@
+# DEPRECATED: use scripts/build_advanced_master.py.
 #!/usr/bin/env python3
 """Download all NBA player-season-team on/off metrics from PBP Stats.
 
