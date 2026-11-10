@@ -140,6 +140,7 @@ class ApiClient:
 
     def session(self):
         if not hasattr(self.local, "session"):
+            import requests
             self.local.session = requests.Session()
             self.local.session.headers.update({"User-Agent": "pbp-impact-stats/2.0", "Accept": "application/json"})
         return self.local.session
