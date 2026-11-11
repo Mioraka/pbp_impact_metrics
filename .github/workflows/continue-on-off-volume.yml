@@ -7,6 +7,7 @@ on:
       - '.github/workflows/continue-on-off-volume.yml'
       - 'scripts/pull_on_off_volume.py'
       - 'scripts/continue_on_off_volume.py'
+      - 'state/on_off_volume/seed.tar.gz.b64'
   schedule:
     - cron: '*/30 * * * *'
 permissions:
