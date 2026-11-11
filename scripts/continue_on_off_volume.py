@@ -9,6 +9,7 @@ import subprocess
 import sys
 import tarfile
 import time
+from urllib.request import Request, urlopen
 from datetime import datetime, timezone
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -54,6 +55,25 @@ def publish(status, error=''):
             subprocess.run(['git','commit','-m',f'Checkpoint on/off volume: {done}/{total} ({status}) [skip ci]'],check=True)
             subprocess.run(['git','push','origin','HEAD:main'],check=True)
 
+def dispatch_next_run():
+    if os.environ.get('GITHUB_ACTIONS') != 'true':
+        print('Local run ended; no automatic GitHub dispatch.', flush=True)
+        return
+    repository = os.environ['GITHUB_REPOSITORY']
+    token = os.environ['GITHUB_TOKEN']
+    url = f'https://api.github.com/repos/{repository}/actions/workflows/continue-on-off-volume.yml/dispatches'
+    request = Request(url, data=b'{"ref":"main"}', method='POST', headers={
+        'Authorization': f'Bearer {token}',
+        'Accept': 'application/vnd.github+json',
+        'X-GitHub-Api-Version': '2022-11-28',
+        'Content-Type': 'application/json',
+        'User-Agent': 'pbp-impact-metrics-resumer/1.0',
+    })
+    with urlopen(request, timeout=30) as response:
+        if response.status != 204:
+            raise RuntimeError(f'workflow_dispatch returned HTTP {response.status}')
+    print('Queued next workflow run from saved checkpoint.', flush=True)
+
 def main():
     initialize()
     if OUTPUT.exists() and json.loads(PROGRESS.read_text())['next_job'] == json.loads(PROGRESS.read_text())['total_jobs']:
@@ -90,7 +110,8 @@ def main():
             publish('complete')
             return
         publish('running')
-    publish('scheduled to resume', 'GitHub run window reached; next scheduled run will continue from the checkpoint.')
+    publish('continuing', 'Run window reached; dispatching the next run from the saved checkpoint.')
+    dispatch_next_run()
 
 if __name__ == '__main__':
     main()
