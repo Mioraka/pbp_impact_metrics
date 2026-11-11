@@ -51,6 +51,7 @@ jobs:
         run: |
           status="$(python -c "import json; print(json.load(open('state/on_off_volume/status.json')).get('status', ''))")"
           if [ "$status" = "complete" ]; then
+            python -m pip install pandas
             python -u scripts/join_on_off_volume_to_master.py
           else
             echo "Collection is not complete; skipping the master join."
