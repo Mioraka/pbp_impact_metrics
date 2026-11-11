@@ -1,0 +1,21 @@
+{
+  "next_job": 456,
+  "completed_batches": 203,
+  "wait_seconds": 0,
+  "current_batch_size": 2,
+  "failure_streak": 0,
+  "total_jobs": 2274,
+  "team_season_pairs": 379,
+  "stats_per_pair": [
+    "OffPoss",
+    "DefPoss",
+    "FGA",
+    "FTA",
+    "OpponentFGA",
+    "OpponentFTA"
+  ],
+  "status": "awaiting checkpoint transfer",
+  "updated_at": "2026-11-11T03:29:59.668858+00:00",
+  "last_error": "Automatic approval review blocked publication of the checkpoint archive; explicit approval required.",
+  "run_url": "local"
+}
