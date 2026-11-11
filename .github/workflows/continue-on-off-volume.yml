@@ -1,0 +1,62 @@
+name: Continue on-off volume collection
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/continue-on-off-volume.yml'
+      - 'scripts/pull_on_off_volume.py'
+      - 'scripts/continue_on_off_volume.py'
+  schedule:
+    - cron: '*/30 * * * *'
+permissions:
+  contents: write
+concurrency:
+  group: on-off-volume-collection
+  cancel-in-progress: false
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    env:
+      RUN_URL: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Set checkpoint author
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+      - name: Check checkpoint availability
+        id: checkpoint
+        run: |
+          if [ -f state/on_off_volume/seed.tar.gz.b64 ] || [ -f state/on_off_volume/cache/progress.json ]; then
+            echo 'ready=true' >> "$GITHUB_OUTPUT"
+          else
+            echo 'ready=false' >> "$GITHUB_OUTPUT"
+            echo 'Awaiting authorized transfer of the existing checkpoint. No collection started.' >> "$GITHUB_STEP_SUMMARY"
+          fi
+      - name: Collect and checkpoint every 10 batches
+        if: steps.checkpoint.outputs.ready == 'true'
+        run: python -u scripts/continue_on_off_volume.py
+      - name: Preserve state after interruption
+        if: always()
+        run: |
+          git add state/on_off_volume data
+          if ! git diff --cached --quiet; then
+            git commit -m 'Preserve interrupted on/off collection [skip ci]'
+            git push origin HEAD:main
+          fi
+      - name: Upload checkpoint and output
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: on-off-volume-${{ github.run_id }}
+          path: |
+            state/on_off_volume
+            data/player_on_off_volume.csv
+          retention-days: 30
