@@ -159,7 +159,7 @@ def main():
     batch_no = int(state["completed_batches"])
     current_batch_size = int(state.get("current_batch_size", args.batch_size))
     failure_streak = int(state.get("failure_streak", 0))
-    wait_seconds = float(state.get("wait_seconds", args.initial_wait))
+    wait_seconds = min(30.0, max(0.0, float(state.get("wait_seconds", args.initial_wait))))
     batch_in_invocation = 0
     failures_total = 0
     target_completed_batches = batch_no + args.batch_limit
@@ -203,7 +203,7 @@ def main():
                 if retries_for_batch >= args.attempts:
                     raise RuntimeError(f"Batch {batch_no+1} failed after {retries_for_batch} batch retry rounds")
                 failure_streak += 1
-                wait_seconds += 5.0
+                wait_seconds = min(30.0, wait_seconds + 5.0)
                 if failure_streak >= 2:
                     current_batch_size = max(1, current_batch_size - 1)
                     failure_streak = 0
