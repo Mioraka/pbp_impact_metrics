@@ -34,11 +34,11 @@ def publish(status, error=''):
     body = (f'# On/off volume collection\n\nStatus: **{status}**\n\n'
             f'Requests: **{done:,}/{total:,} ({done/total:.1%})**\n\n'
             f'Completed batches: **{progress["completed_batches"]}**\n\n'
-            f'Next batch size: **{progress["current_batch_size"]}**; added wait: **0 seconds**.\n\n'
+            f'Next batch size: **{progress["current_batch_size"]}**; retry wait: **{progress.get("wait_seconds", 0)} seconds**.\n\n'
             f'Updated (UTC): {now}\n\n[Workflow run]({progress["run_url"]})\n\n')
     if error:
         body += f'Last error: {error}\n\n'
-    body += ('Each successful batch increases concurrency by one, up to 9. The first failed pass holds '
+    body += ('Each successful batch increases concurrency by one, up to 9. Wait increases by 5 seconds after failure and decreases by 5 seconds after success, to a floor of 0. The first failed pass holds '
              'concurrency; a second failed pass lowers it by one. Successful responses are retained.\n\n'
              'The workflow checkpoints every 10 completed batches (and on errors or time limits). '
              'Live logs show every batch and request failure. Scheduled runs resume from the checkpoint.\n')
@@ -71,7 +71,7 @@ def main():
         command = [sys.executable,'-u','scripts/pull_on_off_volume.py',
                    '--input-master',str(STATE/'input.csv'),'--output-csv',str(OUTPUT),
                    '--cache',str(CACHE),'--progress',str(PROGRESS),
-                   '--batch-limit',str(batch_limit),'--workers','9']
+                   '--batch-limit',str(batch_limit),'--batch-size','4','--initial-wait','5','--workers','9']
         try:
             result = subprocess.run(command, timeout=min(600,remaining))
         except subprocess.TimeoutExpired:
