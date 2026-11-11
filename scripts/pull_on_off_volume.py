@@ -203,6 +203,7 @@ def main():
                 if retries_for_batch >= args.attempts:
                     raise RuntimeError(f"Batch {batch_no+1} failed after {retries_for_batch} batch retry rounds")
                 failure_streak += 1
+                wait_seconds += 5.0
                 if failure_streak >= 2:
                     current_batch_size = max(1, current_batch_size - 1)
                     failure_streak = 0
@@ -212,6 +213,7 @@ def main():
                               "total_jobs": len(jobs),
                               "team_season_pairs": len(pairs), "stats_per_pair": list(STATS)}
                 write_progress(args.progress, checkpoint)
+                time.sleep(wait_seconds)
             pending = failed
 
         wait_seconds = max(0.0, wait_seconds - 5.0)
