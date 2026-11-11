@@ -14,8 +14,8 @@
     "OpponentFGA",
     "OpponentFTA"
   ],
-  "status": "running",
-  "updated_at": "2026-11-11T09:35:50.863202+00:00",
-  "last_error": "Collector segment timed out; restarting from the latest checkpoint in this run.",
+  "status": "continuing",
+  "updated_at": "2026-11-11T09:35:57.113360+00:00",
+  "last_error": "Run window reached; dispatching the next run from the saved checkpoint.",
   "run_url": "https://github.com/Mioraka/pbp_impact_metrics/actions/runs/42989540896"
 }
