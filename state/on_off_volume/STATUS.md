@@ -1,16 +1,18 @@
 # On/off volume collection
 
-Status: **running**
+Status: **retry needed**
 
-Requests: **456/2,274 (20.1%)**
+Requests: **470/2,274 (20.7%)**
 
-Completed batches: **203**
+Completed batches: **207**
 
 Next batch size: **2**; added wait: **0 seconds**.
 
-Updated (UTC): 2026-11-11T03:34:17.482545+00:00
+Updated (UTC): 2026-11-11T03:35:03.263343+00:00
 
 [Workflow run](https://github.com/Mioraka/pbp_impact_metrics/actions/runs/42953618174)
+
+Last error: Collector exited 1; see request errors in run logs. Next scheduled run resumes.
 
 Each successful batch increases concurrency by one, up to 9. The first failed pass holds concurrency; a second failed pass lowers it by one. Successful responses are retained.
 
