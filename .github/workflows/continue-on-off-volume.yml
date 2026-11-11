@@ -7,6 +7,7 @@ on:
       - '.github/workflows/continue-on-off-volume.yml'
       - 'scripts/pull_on_off_volume.py'
       - 'scripts/continue_on_off_volume.py'
+      - 'scripts/join_on_off_volume_to_master.py'
   schedule:
     - cron: '*/30 * * * *'
 permissions:
@@ -45,6 +46,15 @@ jobs:
       - name: Collect and checkpoint every 10 batches
         if: steps.checkpoint.outputs.ready == 'true'
         run: python -u scripts/continue_on_off_volume.py
+      - name: Join on/off 2PA and 3PA rates into master
+        if: steps.checkpoint.outputs.ready == 'true'
+        run: |
+          status="$(python -c "import json; print(json.load(open('state/on_off_volume/status.json')).get('status', ''))")"
+          if [ "$status" = "complete" ]; then
+            python -u scripts/join_on_off_volume_to_master.py
+          else
+            echo "Collection is not complete; skipping the master join."
+          fi
       - name: Preserve state after interruption
         if: always()
         run: |
