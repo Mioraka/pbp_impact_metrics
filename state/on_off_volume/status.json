@@ -1,6 +1,6 @@
 {
-  "next_job": 1012,
-  "completed_batches": 270,
+  "next_job": 1102,
+  "completed_batches": 280,
   "wait_seconds": 25.0,
   "current_batch_size": 9,
   "failure_streak": 0,
@@ -15,7 +15,7 @@
     "OpponentFTA"
   ],
   "status": "running",
-  "updated_at": "2026-11-11T08:53:21.570839+00:00",
+  "updated_at": "2026-11-11T09:01:33.141724+00:00",
   "last_error": "",
   "run_url": "https://github.com/Mioraka/pbp_impact_metrics/actions/runs/42989540896"
 }
