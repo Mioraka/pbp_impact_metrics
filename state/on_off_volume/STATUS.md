@@ -2,13 +2,13 @@
 
 Status: **running**
 
-Requests: **474/2,274 (20.8%)**
+Requests: **483/2,274 (21.2%)**
 
-Completed batches: **208**
+Completed batches: **210**
 
-Next batch size: **4**; retry wait: **5 seconds**.
+Next batch size: **6**; retry wait: **0.0 seconds**.
 
-Updated (UTC): 2026-11-11T03:58:08.985181+00:00
+Updated (UTC): 2026-11-11T03:58:12.293360+00:00
 
 [Workflow run](https://github.com/Mioraka/pbp_impact_metrics/actions/runs/42956128578)
 
