@@ -6,11 +6,11 @@ Requests: **922/2,274 (40.5%)**
 
 Completed batches: **260**
 
-Next batch size: **9**; retry wait: **130.0 seconds**.
+Next batch size: **9**; retry wait: **30 seconds** (maximum 30).
 
-Updated (UTC): 2026-11-11T08:27:51.809896+00:00
+Updated (UTC): 2026-11-11T08:44:28.699740+00:00
 
-[Workflow run](https://github.com/Mioraka/pbp_impact_metrics/actions/runs/42983900713)
+[Workflow run](https://github.com/Mioraka/pbp_impact_metrics/actions/runs/42989363406)
 
 Each successful batch increases concurrency by one, up to 9. Wait increases by 5 seconds after failure and decreases by 5 seconds after success, to a floor of 0. The first failed pass holds concurrency; a second failed pass lowers it by one. Successful responses are retained.
 
