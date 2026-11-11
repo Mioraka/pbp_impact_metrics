@@ -59,13 +59,13 @@ def main():
     if OUTPUT.exists() and json.loads(PROGRESS.read_text())['next_job'] == json.loads(PROGRESS.read_text())['total_jobs']:
         print('Already complete; no requests needed.', flush=True)
         return
-    deadline = time.monotonic() + 45*60
+    deadline = time.monotonic() + 50*60
     publish('running')
     while time.monotonic() < deadline:
         remaining = deadline-time.monotonic()
         if remaining < 15:
             break
-        # End segments on a multiple of 10 completed batches.
+        # End segments on a multiple of 10 completed batches; restart from checkpoint after errors.
         count = json.loads(PROGRESS.read_text())['completed_batches']
         batch_limit = 10 - count % 10
         command = [sys.executable,'-u','scripts/pull_on_off_volume.py',
@@ -73,13 +73,15 @@ def main():
                    '--cache',str(CACHE),'--progress',str(PROGRESS),
                    '--batch-limit',str(batch_limit),'--batch-size','4','--initial-wait','5','--workers','9']
         try:
-            result = subprocess.run(command, timeout=min(600,remaining))
+            result = subprocess.run(command, timeout=min(1500,remaining))
         except subprocess.TimeoutExpired:
-            publish('scheduled to resume', 'Segment reached its time limit; cached responses preserved.')
-            return
+            publish('running', 'Collector segment timed out; restarting from the latest checkpoint in this run.')
+            time.sleep(5)
+            continue
         if result.returncode:
-            publish('retry needed', f'Collector exited {result.returncode}; see request errors in run logs. Next scheduled run resumes.')
-            raise SystemExit(result.returncode)
+            publish('running', f'Collector segment exited {result.returncode}; retrying from the saved checkpoint in this run.')
+            time.sleep(5)
+            continue
         progress = json.loads(PROGRESS.read_text())
         if progress['next_job'] == progress['total_jobs']:
             if not OUTPUT.exists():
@@ -88,7 +90,7 @@ def main():
             publish('complete')
             return
         publish('running')
-    publish('scheduled to resume')
+    publish('scheduled to resume', 'GitHub run window reached; next scheduled run will continue from the checkpoint.')
 
 if __name__ == '__main__':
     main()
