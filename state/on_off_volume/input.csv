@@ -1,0 +1,2265 @@
+source_row,SEASON,Team_id,PLAYER_NAME,SeasonType,Player_id,Court Status,metrics,PlayerValue
+1,2000-2001,1610612755,Allen Iverson,Regular Season,947,Off,3PAr,0.105
+1,2000-2001,1610612755,Allen Iverson,Regular Season,947,On,3PAr,0.13
+1,2000-2001,1610612755,Allen Iverson,Regular Season,947,Off,3PAr - Defense,0.197
+1,2000-2001,1610612755,Allen Iverson,Regular Season,947,On,3PAr - Defense,0.183
+2,2000-2001,1610612748,Bruce Bowen,Regular Season,1477,Off,3PAr,0.189
+2,2000-2001,1610612748,Bruce Bowen,Regular Season,1477,On,3PAr,0.237
+2,2000-2001,1610612748,Bruce Bowen,Regular Season,1477,Off,3PAr - Defense,0.176
+2,2000-2001,1610612748,Bruce Bowen,Regular Season,1477,On,3PAr - Defense,0.172
+3,2000-2001,1610612758,Chris Webber,Regular Season,185,Off,3PAr,0.215
+3,2000-2001,1610612758,Chris Webber,Regular Season,185,On,3PAr,0.186
+3,2000-2001,1610612758,Chris Webber,Regular Season,185,Off,3PAr - Defense,0.161
+3,2000-2001,1610612758,Chris Webber,Regular Season,185,On,3PAr - Defense,0.157
+4,2000-2001,1610612759,David Robinson,Regular Season,764,Off,3PAr,0.189
+4,2000-2001,1610612759,David Robinson,Regular Season,764,On,3PAr,0.166
+4,2000-2001,1610612759,David Robinson,Regular Season,764,Off,3PAr - Defense,0.157
+4,2000-2001,1610612759,David Robinson,Regular Season,764,On,3PAr - Defense,0.152
+5,2000-2001,1610612755,Dikembe Mutombo,Regular Season,87,Off,3PAr,0.134
+5,2000-2001,1610612755,Dikembe Mutombo,Regular Season,87,On,3PAr,0.09
+5,2000-2001,1610612755,Dikembe Mutombo,Regular Season,87,Off,3PAr - Defense,0.186
+5,2000-2001,1610612755,Dikembe Mutombo,Regular Season,87,On,3PAr - Defense,0.188
+6,2000-2001,1610612742,Dirk Nowitzki,Regular Season,1717,Off,3PAr,0.155
+6,2000-2001,1610612742,Dirk Nowitzki,Regular Season,1717,On,3PAr,0.214
+6,2000-2001,1610612742,Dirk Nowitzki,Regular Season,1717,Off,3PAr - Defense,0.173
+6,2000-2001,1610612742,Dirk Nowitzki,Regular Season,1717,On,3PAr - Defense,0.17
+7,2000-2001,1610612758,Doug Christie,Regular Season,57,Off,3PAr,0.199
+7,2000-2001,1610612758,Doug Christie,Regular Season,57,On,3PAr,0.192
+7,2000-2001,1610612758,Doug Christie,Regular Season,57,Off,3PAr - Defense,0.157
+7,2000-2001,1610612758,Doug Christie,Regular Season,57,On,3PAr - Defense,0.159
+8,2000-2001,1610612760,Gary Payton,Regular Season,56,Off,3PAr,0.177
+8,2000-2001,1610612760,Gary Payton,Regular Season,56,On,3PAr,0.175
+8,2000-2001,1610612760,Gary Payton,Regular Season,56,Off,3PAr - Defense,0.186
+8,2000-2001,1610612760,Gary Payton,Regular Season,56,On,3PAr - Defense,0.202
+9,2000-2001,1610612756,Jason Kidd,Regular Season,467,Off,3PAr,0.132
+9,2000-2001,1610612756,Jason Kidd,Regular Season,467,On,3PAr,0.163
+9,2000-2001,1610612756,Jason Kidd,Regular Season,467,Off,3PAr - Defense,0.132
+9,2000-2001,1610612756,Jason Kidd,Regular Season,467,On,3PAr - Defense,0.15
+10,2000-2001,1610612762,Karl Malone,Regular Season,252,Off,3PAr,0.128
+10,2000-2001,1610612762,Karl Malone,Regular Season,252,On,3PAr,0.138
+10,2000-2001,1610612762,Karl Malone,Regular Season,252,Off,3PAr - Defense,0.191
+10,2000-2001,1610612762,Karl Malone,Regular Season,252,On,3PAr - Defense,0.199
+11,2000-2001,1610612750,Kevin Garnett,Regular Season,708,Off,3PAr,0.149
+11,2000-2001,1610612750,Kevin Garnett,Regular Season,708,On,3PAr,0.127
+11,2000-2001,1610612750,Kevin Garnett,Regular Season,708,Off,3PAr - Defense,0.151
+11,2000-2001,1610612750,Kevin Garnett,Regular Season,708,On,3PAr - Defense,0.151
+12,2000-2001,1610612747,Kobe Bryant,Regular Season,977,Off,3PAr,0.219
+12,2000-2001,1610612747,Kobe Bryant,Regular Season,977,On,3PAr,0.18
+12,2000-2001,1610612747,Kobe Bryant,Regular Season,977,Off,3PAr - Defense,0.171
+12,2000-2001,1610612747,Kobe Bryant,Regular Season,977,On,3PAr - Defense,0.172
+13,2000-2001,1610612766,P.J. Brown,Regular Season,136,Off,3PAr,0.145
+13,2000-2001,1610612766,P.J. Brown,Regular Season,136,On,3PAr,0.154
+13,2000-2001,1610612766,P.J. Brown,Regular Season,136,Off,3PAr - Defense,0.173
+13,2000-2001,1610612766,P.J. Brown,Regular Season,136,On,3PAr - Defense,0.164
+14,2000-2001,1610612749,Ray Allen,Regular Season,951,Off,3PAr,0.205
+14,2000-2001,1610612749,Ray Allen,Regular Season,951,On,3PAr,0.221
+14,2000-2001,1610612749,Ray Allen,Regular Season,951,Off,3PAr - Defense,0.197
+14,2000-2001,1610612749,Ray Allen,Regular Season,951,On,3PAr - Defense,0.186
+15,2000-2001,1610612747,Shaquille O'Neal,Regular Season,406,Off,3PAr,0.214
+15,2000-2001,1610612747,Shaquille O'Neal,Regular Season,406,On,3PAr,0.182
+15,2000-2001,1610612747,Shaquille O'Neal,Regular Season,406,Off,3PAr - Defense,0.179
+15,2000-2001,1610612747,Shaquille O'Neal,Regular Season,406,On,3PAr - Defense,0.169
+16,2000-2001,1610612759,Tim Duncan,Regular Season,1495,Off,3PAr,0.178
+16,2000-2001,1610612759,Tim Duncan,Regular Season,1495,On,3PAr,0.174
+16,2000-2001,1610612759,Tim Duncan,Regular Season,1495,Off,3PAr - Defense,0.152
+16,2000-2001,1610612759,Tim Duncan,Regular Season,1495,On,3PAr - Defense,0.155
+17,2000-2001,1610612753,Tracy McGrady,Regular Season,1503,Off,3PAr,0.199
+17,2000-2001,1610612753,Tracy McGrady,Regular Season,1503,On,3PAr,0.195
+17,2000-2001,1610612753,Tracy McGrady,Regular Season,1503,Off,3PAr - Defense,0.159
+17,2000-2001,1610612753,Tracy McGrady,Regular Season,1503,On,3PAr - Defense,0.164
+18,2000-2001,1610612761,Vince Carter,Regular Season,1713,Off,3PAr,0.154
+18,2000-2001,1610612761,Vince Carter,Regular Season,1713,On,3PAr,0.171
+18,2000-2001,1610612761,Vince Carter,Regular Season,1713,Off,3PAr - Defense,0.145
+18,2000-2001,1610612761,Vince Carter,Regular Season,1713,On,3PAr - Defense,0.159
+19,2001-2002,1610612755,Allen Iverson,Regular Season,947,Off,3PAr,0.104
+19,2001-2002,1610612755,Allen Iverson,Regular Season,947,On,3PAr,0.115
+19,2001-2002,1610612755,Allen Iverson,Regular Season,947,Off,3PAr - Defense,0.212
+19,2001-2002,1610612755,Allen Iverson,Regular Season,947,On,3PAr - Defense,0.199
+20,2001-2002,1610612765,Ben Wallace,Regular Season,1112,Off,3PAr,0.254
+20,2001-2002,1610612765,Ben Wallace,Regular Season,1112,On,3PAr,0.234
+20,2001-2002,1610612765,Ben Wallace,Regular Season,1112,Off,3PAr - Defense,0.152
+20,2001-2002,1610612765,Ben Wallace,Regular Season,1112,On,3PAr - Defense,0.152
+21,2001-2002,1610612759,Bruce Bowen,Regular Season,1477,Off,3PAr,0.202
+21,2001-2002,1610612759,Bruce Bowen,Regular Season,1477,On,3PAr,0.174
+21,2001-2002,1610612759,Bruce Bowen,Regular Season,1477,Off,3PAr - Defense,0.163
+21,2001-2002,1610612759,Bruce Bowen,Regular Season,1477,On,3PAr - Defense,0.165
+22,2001-2002,1610612758,Chris Webber,Regular Season,185,Off,3PAr,0.173
+22,2001-2002,1610612758,Chris Webber,Regular Season,185,On,3PAr,0.159
+22,2001-2002,1610612758,Chris Webber,Regular Season,185,Off,3PAr - Defense,0.159
+22,2001-2002,1610612758,Chris Webber,Regular Season,185,On,3PAr - Defense,0.163
+23,2001-2002,1610612765,Clifford Robinson,Regular Season,361,Off,3PAr,0.228
+23,2001-2002,1610612765,Clifford Robinson,Regular Season,361,On,3PAr,0.244
+23,2001-2002,1610612765,Clifford Robinson,Regular Season,361,Off,3PAr - Defense,0.172
+23,2001-2002,1610612765,Clifford Robinson,Regular Season,361,On,3PAr - Defense,0.144
+24,2001-2002,1610612755,Dikembe Mutombo,Regular Season,87,Off,3PAr,0.135
+24,2001-2002,1610612755,Dikembe Mutombo,Regular Season,87,On,3PAr,0.102
+24,2001-2002,1610612755,Dikembe Mutombo,Regular Season,87,Off,3PAr - Defense,0.212
+24,2001-2002,1610612755,Dikembe Mutombo,Regular Season,87,On,3PAr - Defense,0.2
+25,2001-2002,1610612742,Dirk Nowitzki,Regular Season,1717,Off,3PAr,0.231
+25,2001-2002,1610612742,Dirk Nowitzki,Regular Season,1717,On,3PAr,0.24
+25,2001-2002,1610612742,Dirk Nowitzki,Regular Season,1717,Off,3PAr - Defense,0.206
+25,2001-2002,1610612742,Dirk Nowitzki,Regular Season,1717,On,3PAr - Defense,0.182
+26,2001-2002,1610612758,Doug Christie,Regular Season,57,Off,3PAr,0.168
+26,2001-2002,1610612758,Doug Christie,Regular Season,57,On,3PAr,0.165
+26,2001-2002,1610612758,Doug Christie,Regular Season,57,Off,3PAr - Defense,0.165
+26,2001-2002,1610612758,Doug Christie,Regular Season,57,On,3PAr - Defense,0.16
+27,2001-2002,1610612760,Gary Payton,Regular Season,56,Off,3PAr,0.19
+27,2001-2002,1610612760,Gary Payton,Regular Season,56,On,3PAr,0.194
+27,2001-2002,1610612760,Gary Payton,Regular Season,56,Off,3PAr - Defense,0.208
+27,2001-2002,1610612760,Gary Payton,Regular Season,56,On,3PAr - Defense,0.208
+28,2001-2002,1610612751,Jason Kidd,Regular Season,467,Off,3PAr,0.114
+28,2001-2002,1610612751,Jason Kidd,Regular Season,467,On,3PAr,0.192
+28,2001-2002,1610612751,Jason Kidd,Regular Season,467,Off,3PAr - Defense,0.153
+28,2001-2002,1610612751,Jason Kidd,Regular Season,467,On,3PAr - Defense,0.183
+29,2001-2002,1610612754,Jermaine O'Neal,Regular Season,979,Off,3PAr,0.2
+29,2001-2002,1610612754,Jermaine O'Neal,Regular Season,979,On,3PAr,0.173
+29,2001-2002,1610612754,Jermaine O'Neal,Regular Season,979,Off,3PAr - Defense,0.176
+29,2001-2002,1610612754,Jermaine O'Neal,Regular Season,979,On,3PAr - Defense,0.177
+30,2001-2002,1610612750,Kevin Garnett,Regular Season,708,Off,3PAr,0.185
+30,2001-2002,1610612750,Kevin Garnett,Regular Season,708,On,3PAr,0.144
+30,2001-2002,1610612750,Kevin Garnett,Regular Season,708,Off,3PAr - Defense,0.209
+30,2001-2002,1610612750,Kevin Garnett,Regular Season,708,On,3PAr - Defense,0.196
+31,2001-2002,1610612747,Kobe Bryant,Regular Season,977,Off,3PAr,0.226
+31,2001-2002,1610612747,Kobe Bryant,Regular Season,977,On,3PAr,0.206
+31,2001-2002,1610612747,Kobe Bryant,Regular Season,977,Off,3PAr - Defense,0.193
+31,2001-2002,1610612747,Kobe Bryant,Regular Season,977,On,3PAr - Defense,0.184
+32,2001-2002,1610612738,Paul Pierce,Regular Season,1718,Off,3PAr,0.291
+32,2001-2002,1610612738,Paul Pierce,Regular Season,1718,On,3PAr,0.289
+32,2001-2002,1610612738,Paul Pierce,Regular Season,1718,Off,3PAr - Defense,0.224
+32,2001-2002,1610612738,Paul Pierce,Regular Season,1718,On,3PAr - Defense,0.231
+33,2001-2002,1610612747,Shaquille O'Neal,Regular Season,406,Off,3PAr,0.235
+33,2001-2002,1610612747,Shaquille O'Neal,Regular Season,406,On,3PAr,0.194
+33,2001-2002,1610612747,Shaquille O'Neal,Regular Season,406,Off,3PAr - Defense,0.188
+33,2001-2002,1610612747,Shaquille O'Neal,Regular Season,406,On,3PAr - Defense,0.185
+34,2001-2002,1610612742,Steve Nash,Regular Season,959,Off,3PAr,0.237
+34,2001-2002,1610612742,Steve Nash,Regular Season,959,On,3PAr,0.238
+34,2001-2002,1610612742,Steve Nash,Regular Season,959,Off,3PAr - Defense,0.206
+34,2001-2002,1610612742,Steve Nash,Regular Season,959,On,3PAr - Defense,0.182
+35,2001-2002,1610612759,Tim Duncan,Regular Season,1495,Off,3PAr,0.176
+35,2001-2002,1610612759,Tim Duncan,Regular Season,1495,On,3PAr,0.193
+35,2001-2002,1610612759,Tim Duncan,Regular Season,1495,Off,3PAr - Defense,0.184
+35,2001-2002,1610612759,Tim Duncan,Regular Season,1495,On,3PAr - Defense,0.159
+36,2001-2002,1610612753,Tracy McGrady,Regular Season,1503,Off,3PAr,0.209
+36,2001-2002,1610612753,Tracy McGrady,Regular Season,1503,On,3PAr,0.252
+36,2001-2002,1610612753,Tracy McGrady,Regular Season,1503,Off,3PAr - Defense,0.199
+36,2001-2002,1610612753,Tracy McGrady,Regular Season,1503,On,3PAr - Defense,0.159
+37,2002-2003,1610612755,Allen Iverson,Regular Season,947,Off,3PAr,0.104
+37,2002-2003,1610612755,Allen Iverson,Regular Season,947,On,3PAr,0.12
+37,2002-2003,1610612755,Allen Iverson,Regular Season,947,Off,3PAr - Defense,0.221
+37,2002-2003,1610612755,Allen Iverson,Regular Season,947,On,3PAr - Defense,0.198
+38,2002-2003,1610612765,Ben Wallace,Regular Season,1112,Off,3PAr,0.284
+38,2002-2003,1610612765,Ben Wallace,Regular Season,1112,On,3PAr,0.218
+38,2002-2003,1610612765,Ben Wallace,Regular Season,1112,Off,3PAr - Defense,0.133
+38,2002-2003,1610612765,Ben Wallace,Regular Season,1112,On,3PAr - Defense,0.134
+39,2002-2003,1610612759,Bruce Bowen,Regular Season,1477,Off,3PAr,0.224
+39,2002-2003,1610612759,Bruce Bowen,Regular Season,1477,On,3PAr,0.189
+39,2002-2003,1610612759,Bruce Bowen,Regular Season,1477,Off,3PAr - Defense,0.163
+39,2002-2003,1610612759,Bruce Bowen,Regular Season,1477,On,3PAr - Defense,0.152
+40,2002-2003,1610612758,Chris Webber,Regular Season,185,Off,3PAr,0.197
+40,2002-2003,1610612758,Chris Webber,Regular Season,185,On,3PAr,0.178
+40,2002-2003,1610612758,Chris Webber,Regular Season,185,Off,3PAr - Defense,0.167
+40,2002-2003,1610612758,Chris Webber,Regular Season,185,On,3PAr - Defense,0.162
+41,2002-2003,1610612742,Dirk Nowitzki,Regular Season,1717,Off,3PAr,0.221
+41,2002-2003,1610612742,Dirk Nowitzki,Regular Season,1717,On,3PAr,0.244
+41,2002-2003,1610612742,Dirk Nowitzki,Regular Season,1717,Off,3PAr - Defense,0.222
+41,2002-2003,1610612742,Dirk Nowitzki,Regular Season,1717,On,3PAr - Defense,0.206
+42,2002-2003,1610612758,Doug Christie,Regular Season,57,Off,3PAr,0.187
+42,2002-2003,1610612758,Doug Christie,Regular Season,57,On,3PAr,0.183
+42,2002-2003,1610612758,Doug Christie,Regular Season,57,Off,3PAr - Defense,0.16
+42,2002-2003,1610612758,Doug Christie,Regular Season,57,On,3PAr - Defense,0.165
+43,2002-2003,1610612755,Eric Snow,Regular Season,727,Off,3PAr,0.127
+43,2002-2003,1610612755,Eric Snow,Regular Season,727,On,3PAr,0.116
+43,2002-2003,1610612755,Eric Snow,Regular Season,727,Off,3PAr - Defense,0.206
+43,2002-2003,1610612755,Eric Snow,Regular Season,727,On,3PAr - Defense,0.199
+44,2002-2003,1610612740,Jamal Mashburn,Regular Season,469,Off,3PAr,0.125
+44,2002-2003,1610612740,Jamal Mashburn,Regular Season,469,On,3PAr,0.168
+44,2002-2003,1610612740,Jamal Mashburn,Regular Season,469,Off,3PAr - Defense,0.134
+44,2002-2003,1610612740,Jamal Mashburn,Regular Season,469,On,3PAr - Defense,0.157
+45,2002-2003,1610612751,Jason Kidd,Regular Season,467,Off,3PAr,0.131
+45,2002-2003,1610612751,Jason Kidd,Regular Season,467,On,3PAr,0.166
+45,2002-2003,1610612751,Jason Kidd,Regular Season,467,Off,3PAr - Defense,0.173
+45,2002-2003,1610612751,Jason Kidd,Regular Season,467,On,3PAr - Defense,0.187
+46,2002-2003,1610612754,Jermaine O'Neal,Regular Season,979,Off,3PAr,0.178
+46,2002-2003,1610612754,Jermaine O'Neal,Regular Season,979,On,3PAr,0.166
+46,2002-2003,1610612754,Jermaine O'Neal,Regular Season,979,Off,3PAr - Defense,0.172
+46,2002-2003,1610612754,Jermaine O'Neal,Regular Season,979,On,3PAr - Defense,0.181
+47,2002-2003,1610612750,Kevin Garnett,Regular Season,708,Off,3PAr,0.096
+47,2002-2003,1610612750,Kevin Garnett,Regular Season,708,On,3PAr,0.122
+47,2002-2003,1610612750,Kevin Garnett,Regular Season,708,Off,3PAr - Defense,0.188
+47,2002-2003,1610612750,Kevin Garnett,Regular Season,708,On,3PAr - Defense,0.2
+48,2002-2003,1610612747,Kobe Bryant,Regular Season,977,Off,3PAr,0.204
+48,2002-2003,1610612747,Kobe Bryant,Regular Season,977,On,3PAr,0.199
+48,2002-2003,1610612747,Kobe Bryant,Regular Season,977,Off,3PAr - Defense,0.176
+48,2002-2003,1610612747,Kobe Bryant,Regular Season,977,On,3PAr - Defense,0.183
+49,2002-2003,1610612754,Metta World Peace,Regular Season,1897,Off,3PAr,0.165
+49,2002-2003,1610612754,Metta World Peace,Regular Season,1897,On,3PAr,0.172
+49,2002-2003,1610612754,Metta World Peace,Regular Season,1897,Off,3PAr - Defense,0.18
+49,2002-2003,1610612754,Metta World Peace,Regular Season,1897,On,3PAr - Defense,0.178
+50,2002-2003,1610612738,Paul Pierce,Regular Season,1718,Off,3PAr,0.325
+50,2002-2003,1610612738,Paul Pierce,Regular Season,1718,On,3PAr,0.333
+50,2002-2003,1610612738,Paul Pierce,Regular Season,1718,Off,3PAr - Defense,0.222
+50,2002-2003,1610612738,Paul Pierce,Regular Season,1718,On,3PAr - Defense,0.216
+51,2002-2003,1610612747,Shaquille O'Neal,Regular Season,406,Off,3PAr,0.219
+51,2002-2003,1610612747,Shaquille O'Neal,Regular Season,406,On,3PAr,0.188
+51,2002-2003,1610612747,Shaquille O'Neal,Regular Season,406,Off,3PAr - Defense,0.175
+51,2002-2003,1610612747,Shaquille O'Neal,Regular Season,406,On,3PAr - Defense,0.186
+52,2002-2003,1610612756,Stephon Marbury,Regular Season,950,Off,3PAr,0.135
+52,2002-2003,1610612756,Stephon Marbury,Regular Season,950,On,3PAr,0.177
+52,2002-2003,1610612756,Stephon Marbury,Regular Season,950,Off,3PAr - Defense,0.2
+52,2002-2003,1610612756,Stephon Marbury,Regular Season,950,On,3PAr - Defense,0.205
+53,2002-2003,1610612742,Steve Nash,Regular Season,959,Off,3PAr,0.231
+53,2002-2003,1610612742,Steve Nash,Regular Season,959,On,3PAr,0.242
+53,2002-2003,1610612742,Steve Nash,Regular Season,959,Off,3PAr - Defense,0.216
+53,2002-2003,1610612742,Steve Nash,Regular Season,959,On,3PAr - Defense,0.207
+54,2002-2003,1610612759,Tim Duncan,Regular Season,1495,Off,3PAr,0.201
+54,2002-2003,1610612759,Tim Duncan,Regular Season,1495,On,3PAr,0.202
+54,2002-2003,1610612759,Tim Duncan,Regular Season,1495,Off,3PAr - Defense,0.172
+54,2002-2003,1610612759,Tim Duncan,Regular Season,1495,On,3PAr - Defense,0.152
+55,2002-2003,1610612753,Tracy McGrady,Regular Season,1503,Off,3PAr,0.178
+55,2002-2003,1610612753,Tracy McGrady,Regular Season,1503,On,3PAr,0.254
+55,2002-2003,1610612753,Tracy McGrady,Regular Season,1503,Off,3PAr - Defense,0.204
+55,2002-2003,1610612753,Tracy McGrady,Regular Season,1503,On,3PAr - Defense,0.177
+56,2003-2004,1610612762,Andrei Kirilenko,Regular Season,1905,Off,3PAr,0.12
+56,2003-2004,1610612762,Andrei Kirilenko,Regular Season,1905,On,3PAr,0.13
+56,2003-2004,1610612762,Andrei Kirilenko,Regular Season,1905,Off,3PAr - Defense,0.212
+56,2003-2004,1610612762,Andrei Kirilenko,Regular Season,1905,On,3PAr - Defense,0.204
+57,2003-2004,1610612740,Baron Davis,Regular Season,1884,Off,3PAr,0.233
+57,2003-2004,1610612740,Baron Davis,Regular Season,1884,On,3PAr,0.261
+57,2003-2004,1610612740,Baron Davis,Regular Season,1884,Off,3PAr - Defense,0.2
+57,2003-2004,1610612740,Baron Davis,Regular Season,1884,On,3PAr - Defense,0.203
+58,2003-2004,1610612765,Ben Wallace,Regular Season,1112,Off,3PAr,0.162
+58,2003-2004,1610612765,Ben Wallace,Regular Season,1112,On,3PAr,0.151
+58,2003-2004,1610612765,Ben Wallace,Regular Season,1112,Off,3PAr - Defense,0.187
+58,2003-2004,1610612765,Ben Wallace,Regular Season,1112,On,3PAr - Defense,0.184
+59,2003-2004,1610612759,Bruce Bowen,Regular Season,1477,Off,3PAr,0.199
+59,2003-2004,1610612759,Bruce Bowen,Regular Season,1477,On,3PAr,0.166
+59,2003-2004,1610612759,Bruce Bowen,Regular Season,1477,Off,3PAr - Defense,0.163
+59,2003-2004,1610612759,Bruce Bowen,Regular Season,1477,On,3PAr - Defense,0.142
+60,2003-2004,1610612742,Dirk Nowitzki,Regular Season,1717,Off,3PAr,0.177
+60,2003-2004,1610612742,Dirk Nowitzki,Regular Season,1717,On,3PAr,0.21
+60,2003-2004,1610612742,Dirk Nowitzki,Regular Season,1717,Off,3PAr - Defense,0.214
+60,2003-2004,1610612742,Dirk Nowitzki,Regular Season,1717,On,3PAr - Defense,0.216
+61,2003-2004,1610612758,Doug Christie,Regular Season,57,Off,3PAr,0.225
+61,2003-2004,1610612758,Doug Christie,Regular Season,57,On,3PAr,0.223
+61,2003-2004,1610612758,Doug Christie,Regular Season,57,Off,3PAr - Defense,0.177
+61,2003-2004,1610612758,Doug Christie,Regular Season,57,On,3PAr - Defense,0.173
+62,2003-2004,1610612751,Jason Kidd,Regular Season,467,Off,3PAr,0.183
+62,2003-2004,1610612751,Jason Kidd,Regular Season,467,On,3PAr,0.172
+62,2003-2004,1610612751,Jason Kidd,Regular Season,467,Off,3PAr - Defense,0.178
+62,2003-2004,1610612751,Jason Kidd,Regular Season,467,On,3PAr - Defense,0.196
+63,2003-2004,1610612754,Jermaine O'Neal,Regular Season,979,Off,3PAr,0.24
+63,2003-2004,1610612754,Jermaine O'Neal,Regular Season,979,On,3PAr,0.188
+63,2003-2004,1610612754,Jermaine O'Neal,Regular Season,979,Off,3PAr - Defense,0.184
+63,2003-2004,1610612754,Jermaine O'Neal,Regular Season,979,On,3PAr - Defense,0.156
+64,2003-2004,1610612750,Kevin Garnett,Regular Season,708,Off,3PAr,0.138
+64,2003-2004,1610612750,Kevin Garnett,Regular Season,708,On,3PAr,0.136
+64,2003-2004,1610612750,Kevin Garnett,Regular Season,708,Off,3PAr - Defense,0.179
+64,2003-2004,1610612750,Kevin Garnett,Regular Season,708,On,3PAr - Defense,0.178
+65,2003-2004,1610612747,Kobe Bryant,Regular Season,977,Off,3PAr,0.183
+65,2003-2004,1610612747,Kobe Bryant,Regular Season,977,On,3PAr,0.157
+65,2003-2004,1610612747,Kobe Bryant,Regular Season,977,Off,3PAr - Defense,0.186
+65,2003-2004,1610612747,Kobe Bryant,Regular Season,977,On,3PAr - Defense,0.189
+66,2003-2004,1610612754,Metta World Peace,Regular Season,1897,Off,3PAr,0.209
+66,2003-2004,1610612754,Metta World Peace,Regular Season,1897,On,3PAr,0.2
+66,2003-2004,1610612754,Metta World Peace,Regular Season,1897,Off,3PAr - Defense,0.172
+66,2003-2004,1610612754,Metta World Peace,Regular Season,1897,On,3PAr - Defense,0.161
+67,2003-2004,1610612749,Michael Redd,Regular Season,2072,Off,3PAr,0.198
+67,2003-2004,1610612749,Michael Redd,Regular Season,2072,On,3PAr,0.165
+67,2003-2004,1610612749,Michael Redd,Regular Season,2072,Off,3PAr - Defense,0.212
+67,2003-2004,1610612749,Michael Redd,Regular Season,2072,On,3PAr - Defense,0.187
+68,2003-2004,1610612758,Peja Stojakovic,Regular Season,978,Off,3PAr,0.185
+68,2003-2004,1610612758,Peja Stojakovic,Regular Season,978,On,3PAr,0.231
+68,2003-2004,1610612758,Peja Stojakovic,Regular Season,978,Off,3PAr - Defense,0.201
+68,2003-2004,1610612758,Peja Stojakovic,Regular Season,978,On,3PAr - Defense,0.169
+69,2003-2004,1610612750,Sam Cassell,Regular Season,208,Off,3PAr,0.159
+69,2003-2004,1610612750,Sam Cassell,Regular Season,208,On,3PAr,0.128
+69,2003-2004,1610612750,Sam Cassell,Regular Season,208,Off,3PAr - Defense,0.177
+69,2003-2004,1610612750,Sam Cassell,Regular Season,208,On,3PAr - Defense,0.179
+70,2003-2004,1610612747,Shaquille O'Neal,Regular Season,406,Off,3PAr,0.182
+70,2003-2004,1610612747,Shaquille O'Neal,Regular Season,406,On,3PAr,0.158
+70,2003-2004,1610612747,Shaquille O'Neal,Regular Season,406,Off,3PAr - Defense,0.194
+70,2003-2004,1610612747,Shaquille O'Neal,Regular Season,406,On,3PAr - Defense,0.184
+71,2003-2004,1610612757,Theo Ratliff,Regular Season,689,Off,3PAr,0.171
+71,2003-2004,1610612757,Theo Ratliff,Regular Season,689,On,3PAr,0.169
+71,2003-2004,1610612757,Theo Ratliff,Regular Season,689,Off,3PAr - Defense,0.187
+71,2003-2004,1610612757,Theo Ratliff,Regular Season,689,On,3PAr - Defense,0.183
+72,2003-2004,1610612759,Tim Duncan,Regular Season,1495,Off,3PAr,0.182
+72,2003-2004,1610612759,Tim Duncan,Regular Season,1495,On,3PAr,0.174
+72,2003-2004,1610612759,Tim Duncan,Regular Season,1495,Off,3PAr - Defense,0.159
+72,2003-2004,1610612759,Tim Duncan,Regular Season,1495,On,3PAr - Defense,0.143
+73,2003-2004,1610612753,Tracy McGrady,Regular Season,1503,Off,3PAr,0.139
+73,2003-2004,1610612753,Tracy McGrady,Regular Season,1503,On,3PAr,0.205
+73,2003-2004,1610612753,Tracy McGrady,Regular Season,1503,Off,3PAr - Defense,0.193
+73,2003-2004,1610612753,Tracy McGrady,Regular Season,1503,On,3PAr - Defense,0.19
+74,2003-2004,1610612745,Yao Ming,Regular Season,2397,Off,3PAr,0.238
+74,2003-2004,1610612745,Yao Ming,Regular Season,2397,On,3PAr,0.221
+74,2003-2004,1610612745,Yao Ming,Regular Season,2397,Off,3PAr - Defense,0.202
+74,2003-2004,1610612745,Yao Ming,Regular Season,2397,On,3PAr - Defense,0.187
+75,2004-2005,1610612755,Allen Iverson,Regular Season,947,Off,3PAr,0.241
+75,2004-2005,1610612755,Allen Iverson,Regular Season,947,On,3PAr,0.21
+75,2004-2005,1610612755,Allen Iverson,Regular Season,947,Off,3PAr - Defense,0.275
+75,2004-2005,1610612755,Allen Iverson,Regular Season,947,On,3PAr - Defense,0.226
+76,2004-2005,1610612756,Amar'e Stoudemire,Regular Season,2405,Off,3PAr,0.29
+76,2004-2005,1610612756,Amar'e Stoudemire,Regular Season,2405,On,3PAr,0.288
+76,2004-2005,1610612756,Amar'e Stoudemire,Regular Season,2405,Off,3PAr - Defense,0.208
+76,2004-2005,1610612756,Amar'e Stoudemire,Regular Season,2405,On,3PAr - Defense,0.193
+77,2004-2005,1610612762,Andrei Kirilenko,Regular Season,1905,Off,3PAr,0.116
+77,2004-2005,1610612762,Andrei Kirilenko,Regular Season,1905,On,3PAr,0.132
+77,2004-2005,1610612762,Andrei Kirilenko,Regular Season,1905,Off,3PAr - Defense,0.223
+77,2004-2005,1610612762,Andrei Kirilenko,Regular Season,1905,On,3PAr - Defense,0.207
+78,2004-2005,1610612765,Ben Wallace,Regular Season,1112,Off,3PAr,0.15
+78,2004-2005,1610612765,Ben Wallace,Regular Season,1112,On,3PAr,0.17
+78,2004-2005,1610612765,Ben Wallace,Regular Season,1112,Off,3PAr - Defense,0.183
+78,2004-2005,1610612765,Ben Wallace,Regular Season,1112,On,3PAr - Defense,0.189
+79,2004-2005,1610612759,Bruce Bowen,Regular Season,1477,Off,3PAr,0.244
+79,2004-2005,1610612759,Bruce Bowen,Regular Season,1477,On,3PAr,0.202
+79,2004-2005,1610612759,Bruce Bowen,Regular Season,1477,Off,3PAr - Defense,0.159
+79,2004-2005,1610612759,Bruce Bowen,Regular Season,1477,On,3PAr - Defense,0.128
+80,2004-2005,1610612765,Chauncey Billups,Regular Season,1497,Off,3PAr,0.118
+80,2004-2005,1610612765,Chauncey Billups,Regular Season,1497,On,3PAr,0.182
+80,2004-2005,1610612765,Chauncey Billups,Regular Season,1497,Off,3PAr - Defense,0.199
+80,2004-2005,1610612765,Chauncey Billups,Regular Season,1497,On,3PAr - Defense,0.182
+81,2004-2005,1610612742,Dirk Nowitzki,Regular Season,1717,Off,3PAr,0.189
+81,2004-2005,1610612742,Dirk Nowitzki,Regular Season,1717,On,3PAr,0.191
+81,2004-2005,1610612742,Dirk Nowitzki,Regular Season,1717,Off,3PAr - Defense,0.197
+81,2004-2005,1610612742,Dirk Nowitzki,Regular Season,1717,On,3PAr - Defense,0.205
+82,2004-2005,1610612748,Dwyane Wade,Regular Season,2548,Off,3PAr,0.21
+82,2004-2005,1610612748,Dwyane Wade,Regular Season,2548,On,3PAr,0.194
+82,2004-2005,1610612748,Dwyane Wade,Regular Season,2548,Off,3PAr - Defense,0.192
+82,2004-2005,1610612748,Dwyane Wade,Regular Season,2548,On,3PAr - Defense,0.188
+83,2004-2005,1610612764,Gilbert Arenas,Regular Season,2240,Off,3PAr,0.225
+83,2004-2005,1610612764,Gilbert Arenas,Regular Season,2240,On,3PAr,0.22
+83,2004-2005,1610612764,Gilbert Arenas,Regular Season,2240,Off,3PAr - Defense,0.224
+83,2004-2005,1610612764,Gilbert Arenas,Regular Season,2240,On,3PAr - Defense,0.21
+84,2004-2005,1610612748,Dwyane Wade,Regular Season,2548,Off,3PAr,0.21
+84,2004-2005,1610612748,Dwyane Wade,Regular Season,2548,On,3PAr,0.194
+84,2004-2005,1610612748,Dwyane Wade,Regular Season,2548,Off,3PAr - Defense,0.192
+84,2004-2005,1610612748,Dwyane Wade,Regular Season,2548,On,3PAr - Defense,0.188
+85,2004-2005,1610612750,Kevin Garnett,Regular Season,708,Off,3PAr,0.222
+85,2004-2005,1610612750,Kevin Garnett,Regular Season,708,On,3PAr,0.16
+85,2004-2005,1610612750,Kevin Garnett,Regular Season,708,Off,3PAr - Defense,0.167
+85,2004-2005,1610612750,Kevin Garnett,Regular Season,708,On,3PAr - Defense,0.197
+86,2004-2005,1610612747,Kobe Bryant,Regular Season,977,Off,3PAr,0.257
+86,2004-2005,1610612747,Kobe Bryant,Regular Season,977,On,3PAr,0.281
+86,2004-2005,1610612747,Kobe Bryant,Regular Season,977,Off,3PAr - Defense,0.235
+86,2004-2005,1610612747,Kobe Bryant,Regular Season,977,On,3PAr - Defense,0.212
+87,2004-2005,1610612764,Larry Hughes,Regular Season,1716,Off,3PAr,0.235
+87,2004-2005,1610612764,Larry Hughes,Regular Season,1716,On,3PAr,0.211
+87,2004-2005,1610612764,Larry Hughes,Regular Season,1716,Off,3PAr - Defense,0.211
+87,2004-2005,1610612764,Larry Hughes,Regular Season,1716,On,3PAr - Defense,0.213
+88,2004-2005,1610612739,LeBron James,Regular Season,2544,Off,3PAr,0.131
+88,2004-2005,1610612739,LeBron James,Regular Season,2544,On,3PAr,0.136
+88,2004-2005,1610612739,LeBron James,Regular Season,2544,Off,3PAr - Defense,0.168
+88,2004-2005,1610612739,LeBron James,Regular Season,2544,On,3PAr - Defense,0.175
+89,2004-2005,1610612743,Marcus Camby,Regular Season,948,Off,3PAr,0.17
+89,2004-2005,1610612743,Marcus Camby,Regular Season,948,On,3PAr,0.114
+89,2004-2005,1610612743,Marcus Camby,Regular Season,948,Off,3PAr - Defense,0.206
+89,2004-2005,1610612743,Marcus Camby,Regular Season,948,On,3PAr - Defense,0.2
+90,2004-2005,1610612760,Ray Allen,Regular Season,951,Off,3PAr,0.24
+90,2004-2005,1610612760,Ray Allen,Regular Season,951,On,3PAr,0.292
+90,2004-2005,1610612760,Ray Allen,Regular Season,951,Off,3PAr - Defense,0.254
+90,2004-2005,1610612760,Ray Allen,Regular Season,951,On,3PAr - Defense,0.193
+91,2004-2005,1610612748,Shaquille O'Neal,Regular Season,406,Off,3PAr,0.195
+91,2004-2005,1610612748,Shaquille O'Neal,Regular Season,406,On,3PAr,0.2
+91,2004-2005,1610612748,Shaquille O'Neal,Regular Season,406,Off,3PAr - Defense,0.199
+91,2004-2005,1610612748,Shaquille O'Neal,Regular Season,406,On,3PAr - Defense,0.184
+92,2004-2005,1610612756,Shawn Marion,Regular Season,1890,Off,3PAr,0.296
+92,2004-2005,1610612756,Shawn Marion,Regular Season,1890,On,3PAr,0.287
+92,2004-2005,1610612756,Shawn Marion,Regular Season,1890,Off,3PAr - Defense,0.2
+92,2004-2005,1610612756,Shawn Marion,Regular Season,1890,On,3PAr - Defense,0.196
+93,2004-2005,1610612756,Steve Nash,Regular Season,959,Off,3PAr,0.283
+93,2004-2005,1610612756,Steve Nash,Regular Season,959,On,3PAr,0.291
+93,2004-2005,1610612756,Steve Nash,Regular Season,959,Off,3PAr - Defense,0.204
+93,2004-2005,1610612756,Steve Nash,Regular Season,959,On,3PAr - Defense,0.193
+94,2004-2005,1610612765,Tayshaun Prince,Regular Season,2419,Off,3PAr,0.146
+94,2004-2005,1610612765,Tayshaun Prince,Regular Season,2419,On,3PAr,0.169
+94,2004-2005,1610612765,Tayshaun Prince,Regular Season,2419,Off,3PAr - Defense,0.216
+94,2004-2005,1610612765,Tayshaun Prince,Regular Season,2419,On,3PAr - Defense,0.178
+95,2004-2005,1610612759,Tim Duncan,Regular Season,1495,Off,3PAr,0.24
+95,2004-2005,1610612759,Tim Duncan,Regular Season,1495,On,3PAr,0.197
+95,2004-2005,1610612759,Tim Duncan,Regular Season,1495,Off,3PAr - Defense,0.141
+95,2004-2005,1610612759,Tim Duncan,Regular Season,1495,On,3PAr - Defense,0.136
+96,2004-2005,1610612745,Tracy McGrady,Regular Season,1503,Off,3PAr,0.214
+96,2004-2005,1610612745,Tracy McGrady,Regular Season,1503,On,3PAr,0.242
+96,2004-2005,1610612745,Tracy McGrady,Regular Season,1503,Off,3PAr - Defense,0.2
+96,2004-2005,1610612745,Tracy McGrady,Regular Season,1503,On,3PAr - Defense,0.211
+97,2005-2006,1610612755,Allen Iverson,Regular Season,947,Off,3PAr,0.177
+97,2005-2006,1610612755,Allen Iverson,Regular Season,947,On,3PAr,0.152
+97,2005-2006,1610612755,Allen Iverson,Regular Season,947,Off,3PAr - Defense,0.246
+97,2005-2006,1610612755,Allen Iverson,Regular Season,947,On,3PAr - Defense,0.203
+98,2005-2006,1610612762,Andrei Kirilenko,Regular Season,1905,Off,3PAr,0.153
+98,2005-2006,1610612762,Andrei Kirilenko,Regular Season,1905,On,3PAr,0.147
+98,2005-2006,1610612762,Andrei Kirilenko,Regular Season,1905,Off,3PAr - Defense,0.219
+98,2005-2006,1610612762,Andrei Kirilenko,Regular Season,1905,On,3PAr - Defense,0.21
+99,2005-2006,1610612765,Ben Wallace,Regular Season,1112,Off,3PAr,0.238
+99,2005-2006,1610612765,Ben Wallace,Regular Season,1112,On,3PAr,0.215
+99,2005-2006,1610612765,Ben Wallace,Regular Season,1112,Off,3PAr - Defense,0.166
+99,2005-2006,1610612765,Ben Wallace,Regular Season,1112,On,3PAr - Defense,0.153
+100,2005-2006,1610612759,Bruce Bowen,Regular Season,1477,Off,3PAr,0.266
+100,2005-2006,1610612759,Bruce Bowen,Regular Season,1477,On,3PAr,0.192
+100,2005-2006,1610612759,Bruce Bowen,Regular Season,1477,Off,3PAr - Defense,0.143
+100,2005-2006,1610612759,Bruce Bowen,Regular Season,1477,On,3PAr - Defense,0.136
+101,2005-2006,1610612743,Carmelo Anthony,Regular Season,2546,Off,3PAr,0.207
+101,2005-2006,1610612743,Carmelo Anthony,Regular Season,2546,On,3PAr,0.145
+101,2005-2006,1610612743,Carmelo Anthony,Regular Season,2546,Off,3PAr - Defense,0.22
+101,2005-2006,1610612743,Carmelo Anthony,Regular Season,2546,On,3PAr - Defense,0.218
+102,2005-2006,1610612765,Chauncey Billups,Regular Season,1497,Off,3PAr,0.176
+102,2005-2006,1610612765,Chauncey Billups,Regular Season,1497,On,3PAr,0.238
+102,2005-2006,1610612765,Chauncey Billups,Regular Season,1497,Off,3PAr - Defense,0.178
+102,2005-2006,1610612765,Chauncey Billups,Regular Season,1497,On,3PAr - Defense,0.149
+103,2005-2006,1610612742,Dirk Nowitzki,Regular Season,1717,Off,3PAr,0.187
+103,2005-2006,1610612742,Dirk Nowitzki,Regular Season,1717,On,3PAr,0.171
+103,2005-2006,1610612742,Dirk Nowitzki,Regular Season,1717,Off,3PAr - Defense,0.16
+103,2005-2006,1610612742,Dirk Nowitzki,Regular Season,1717,On,3PAr - Defense,0.182
+104,2005-2006,1610612748,Dwyane Wade,Regular Season,2548,Off,3PAr,0.251
+104,2005-2006,1610612748,Dwyane Wade,Regular Season,2548,On,3PAr,0.218
+104,2005-2006,1610612748,Dwyane Wade,Regular Season,2548,Off,3PAr - Defense,0.232
+104,2005-2006,1610612748,Dwyane Wade,Regular Season,2548,On,3PAr - Defense,0.2
+105,2005-2006,1610612746,Elton Brand,Regular Season,1882,Off,3PAr,0.13
+105,2005-2006,1610612746,Elton Brand,Regular Season,1882,On,3PAr,0.131
+105,2005-2006,1610612746,Elton Brand,Regular Season,1882,Off,3PAr - Defense,0.225
+105,2005-2006,1610612746,Elton Brand,Regular Season,1882,On,3PAr - Defense,0.201
+106,2005-2006,1610612764,Gilbert Arenas,Regular Season,2240,Off,3PAr,0.214
+106,2005-2006,1610612764,Gilbert Arenas,Regular Season,2240,On,3PAr,0.209
+106,2005-2006,1610612764,Gilbert Arenas,Regular Season,2240,Off,3PAr - Defense,0.207
+106,2005-2006,1610612764,Gilbert Arenas,Regular Season,2240,On,3PAr - Defense,0.214
+107,2005-2006,1610612750,Kevin Garnett,Regular Season,708,Off,3PAr,0.203
+107,2005-2006,1610612750,Kevin Garnett,Regular Season,708,On,3PAr,0.129
+107,2005-2006,1610612750,Kevin Garnett,Regular Season,708,Off,3PAr - Defense,0.211
+107,2005-2006,1610612750,Kevin Garnett,Regular Season,708,On,3PAr - Defense,0.183
+108,2005-2006,1610612747,Kobe Bryant,Regular Season,977,Off,3PAr,0.232
+108,2005-2006,1610612747,Kobe Bryant,Regular Season,977,On,3PAr,0.241
+108,2005-2006,1610612747,Kobe Bryant,Regular Season,977,Off,3PAr - Defense,0.23
+108,2005-2006,1610612747,Kobe Bryant,Regular Season,977,On,3PAr - Defense,0.2
+109,2005-2006,1610612751,Jason Kidd,Regular Season,467,Off,3PAr,0.248
+109,2005-2006,1610612751,Jason Kidd,Regular Season,467,On,3PAr,0.223
+109,2005-2006,1610612751,Jason Kidd,Regular Season,467,Off,3PAr - Defense,0.23
+109,2005-2006,1610612751,Jason Kidd,Regular Season,467,On,3PAr - Defense,0.21
+110,2005-2006,1610612739,LeBron James,Regular Season,2544,Off,3PAr,0.22
+110,2005-2006,1610612739,LeBron James,Regular Season,2544,On,3PAr,0.23
+110,2005-2006,1610612739,LeBron James,Regular Season,2544,Off,3PAr - Defense,0.22
+110,2005-2006,1610612739,LeBron James,Regular Season,2544,On,3PAr - Defense,0.195
+111,2005-2006,1610612743,Marcus Camby,Regular Season,948,Off,3PAr,0.196
+111,2005-2006,1610612743,Marcus Camby,Regular Season,948,On,3PAr,0.122
+111,2005-2006,1610612743,Marcus Camby,Regular Season,948,Off,3PAr - Defense,0.233
+111,2005-2006,1610612743,Marcus Camby,Regular Season,948,On,3PAr - Defense,0.203
+112,2005-2006,1610612758,Metta World Peace,Regular Season,1897,Off,3PAr,0.201
+112,2005-2006,1610612758,Metta World Peace,Regular Season,1897,On,3PAr,0.24
+112,2005-2006,1610612758,Metta World Peace,Regular Season,1897,Off,3PAr - Defense,0.196
+112,2005-2006,1610612758,Metta World Peace,Regular Season,1897,On,3PAr - Defense,0.195
+113,2005-2006,1610612748,Shaquille O'Neal,Regular Season,406,Off,3PAr,0.24
+113,2005-2006,1610612748,Shaquille O'Neal,Regular Season,406,On,3PAr,0.211
+113,2005-2006,1610612748,Shaquille O'Neal,Regular Season,406,Off,3PAr - Defense,0.201
+113,2005-2006,1610612748,Shaquille O'Neal,Regular Season,406,On,3PAr - Defense,0.216
+114,2005-2006,1610612756,Shawn Marion,Regular Season,1890,Off,3PAr,0.323
+114,2005-2006,1610612756,Shawn Marion,Regular Season,1890,On,3PAr,0.286
+114,2005-2006,1610612756,Shawn Marion,Regular Season,1890,Off,3PAr - Defense,0.19
+114,2005-2006,1610612756,Shawn Marion,Regular Season,1890,On,3PAr - Defense,0.201
+115,2005-2006,1610612756,Steve Nash,Regular Season,959,Off,3PAr,0.277
+115,2005-2006,1610612756,Steve Nash,Regular Season,959,On,3PAr,0.299
+115,2005-2006,1610612756,Steve Nash,Regular Season,959,Off,3PAr - Defense,0.192
+115,2005-2006,1610612756,Steve Nash,Regular Season,959,On,3PAr - Defense,0.203
+116,2005-2006,1610612765,Tayshaun Prince,Regular Season,2419,Off,3PAr,0.222
+116,2005-2006,1610612765,Tayshaun Prince,Regular Season,2419,On,3PAr,0.221
+116,2005-2006,1610612765,Tayshaun Prince,Regular Season,2419,Off,3PAr - Defense,0.183
+116,2005-2006,1610612765,Tayshaun Prince,Regular Season,2419,On,3PAr - Defense,0.147
+117,2005-2006,1610612759,Tim Duncan,Regular Season,1495,Off,3PAr,0.285
+117,2005-2006,1610612759,Tim Duncan,Regular Season,1495,On,3PAr,0.185
+117,2005-2006,1610612759,Tim Duncan,Regular Season,1495,Off,3PAr - Defense,0.155
+117,2005-2006,1610612759,Tim Duncan,Regular Season,1495,On,3PAr - Defense,0.131
+118,2005-2006,1610612745,Yao Ming,Regular Season,2397,Off,3PAr,0.245
+118,2005-2006,1610612745,Yao Ming,Regular Season,2397,On,3PAr,0.207
+118,2005-2006,1610612745,Yao Ming,Regular Season,2397,Off,3PAr - Defense,0.238
+118,2005-2006,1610612745,Yao Ming,Regular Season,2397,On,3PAr - Defense,0.227
+119,2006-2007,1610612756,Amar'e Stoudemire,Regular Season,2405,Off,3PAr,0.325
+119,2006-2007,1610612756,Amar'e Stoudemire,Regular Season,2405,On,3PAr,0.268
+119,2006-2007,1610612756,Amar'e Stoudemire,Regular Season,2405,Off,3PAr - Defense,0.208
+119,2006-2007,1610612756,Amar'e Stoudemire,Regular Season,2405,On,3PAr - Defense,0.19
+120,2006-2007,1610612741,Ben Wallace,Regular Season,1112,Off,3PAr,0.18
+120,2006-2007,1610612741,Ben Wallace,Regular Season,1112,On,3PAr,0.188
+120,2006-2007,1610612741,Ben Wallace,Regular Season,1112,Off,3PAr - Defense,0.238
+120,2006-2007,1610612741,Ben Wallace,Regular Season,1112,On,3PAr - Defense,0.207
+121,2006-2007,1610612759,Bruce Bowen,Regular Season,1477,Off,3PAr,0.292
+121,2006-2007,1610612759,Bruce Bowen,Regular Season,1477,On,3PAr,0.218
+121,2006-2007,1610612759,Bruce Bowen,Regular Season,1477,Off,3PAr - Defense,0.19
+121,2006-2007,1610612759,Bruce Bowen,Regular Season,1477,On,3PAr - Defense,0.158
+122,2006-2007,1610612743,Carmelo Anthony,Regular Season,2546,Off,3PAr,0.261
+122,2006-2007,1610612743,Carmelo Anthony,Regular Season,2546,On,3PAr,0.182
+122,2006-2007,1610612743,Carmelo Anthony,Regular Season,2546,Off,3PAr - Defense,0.226
+122,2006-2007,1610612743,Carmelo Anthony,Regular Season,2546,On,3PAr - Defense,0.219
+123,2006-2007,1610612765,Chauncey Billups,Regular Season,1497,Off,3PAr,0.18
+123,2006-2007,1610612765,Chauncey Billups,Regular Season,1497,On,3PAr,0.214
+123,2006-2007,1610612765,Chauncey Billups,Regular Season,1497,Off,3PAr - Defense,0.193
+123,2006-2007,1610612765,Chauncey Billups,Regular Season,1497,On,3PAr - Defense,0.189
+124,2006-2007,1610612761,Chris Bosh,Regular Season,2547,Off,3PAr,0.236
+124,2006-2007,1610612761,Chris Bosh,Regular Season,2547,On,3PAr,0.218
+124,2006-2007,1610612761,Chris Bosh,Regular Season,2547,Off,3PAr - Defense,0.226
+124,2006-2007,1610612761,Chris Bosh,Regular Season,2547,On,3PAr - Defense,0.226
+125,2006-2007,1610612742,Dirk Nowitzki,Regular Season,1717,Off,3PAr,0.269
+125,2006-2007,1610612742,Dirk Nowitzki,Regular Season,1717,On,3PAr,0.198
+125,2006-2007,1610612742,Dirk Nowitzki,Regular Season,1717,Off,3PAr - Defense,0.178
+125,2006-2007,1610612742,Dirk Nowitzki,Regular Season,1717,On,3PAr - Defense,0.17
+126,2006-2007,1610612753,Dwight Howard,Regular Season,2730,Off,3PAr,0.18
+126,2006-2007,1610612753,Dwight Howard,Regular Season,2730,On,3PAr,0.151
+126,2006-2007,1610612753,Dwight Howard,Regular Season,2730,Off,3PAr - Defense,0.218
+126,2006-2007,1610612753,Dwight Howard,Regular Season,2730,On,3PAr - Defense,0.209
+127,2006-2007,1610612748,Dwyane Wade,Regular Season,2548,Off,3PAr,0.273
+127,2006-2007,1610612748,Dwyane Wade,Regular Season,2548,On,3PAr,0.216
+127,2006-2007,1610612748,Dwyane Wade,Regular Season,2548,Off,3PAr - Defense,0.243
+127,2006-2007,1610612748,Dwyane Wade,Regular Season,2548,On,3PAr - Defense,0.215
+128,2006-2007,1610612764,Gilbert Arenas,Regular Season,2240,Off,3PAr,0.23
+128,2006-2007,1610612764,Gilbert Arenas,Regular Season,2240,On,3PAr,0.239
+128,2006-2007,1610612764,Gilbert Arenas,Regular Season,2240,Off,3PAr - Defense,0.236
+128,2006-2007,1610612764,Gilbert Arenas,Regular Season,2240,On,3PAr - Defense,0.237
+129,2006-2007,1610612751,Jason Kidd,Regular Season,467,Off,3PAr,0.259
+129,2006-2007,1610612751,Jason Kidd,Regular Season,467,On,3PAr,0.264
+129,2006-2007,1610612751,Jason Kidd,Regular Season,467,Off,3PAr - Defense,0.235
+129,2006-2007,1610612751,Jason Kidd,Regular Season,467,On,3PAr - Defense,0.221
+130,2006-2007,1610612750,Kevin Garnett,Regular Season,708,Off,3PAr,0.189
+130,2006-2007,1610612750,Kevin Garnett,Regular Season,708,On,3PAr,0.16
+130,2006-2007,1610612750,Kevin Garnett,Regular Season,708,Off,3PAr - Defense,0.228
+130,2006-2007,1610612750,Kevin Garnett,Regular Season,708,On,3PAr - Defense,0.22
+131,2006-2007,1610612741,Kirk Hinrich,Regular Season,2550,Off,3PAr,0.173
+131,2006-2007,1610612741,Kirk Hinrich,Regular Season,2550,On,3PAr,0.191
+131,2006-2007,1610612741,Kirk Hinrich,Regular Season,2550,Off,3PAr - Defense,0.228
+131,2006-2007,1610612741,Kirk Hinrich,Regular Season,2550,On,3PAr - Defense,0.212
+132,2006-2007,1610612747,Kobe Bryant,Regular Season,977,Off,3PAr,0.263
+132,2006-2007,1610612747,Kobe Bryant,Regular Season,977,On,3PAr,0.258
+132,2006-2007,1610612747,Kobe Bryant,Regular Season,977,Off,3PAr - Defense,0.229
+132,2006-2007,1610612747,Kobe Bryant,Regular Season,977,On,3PAr - Defense,0.215
+133,2006-2007,1610612739,LeBron James,Regular Season,2544,Off,3PAr,0.231
+133,2006-2007,1610612739,LeBron James,Regular Season,2544,On,3PAr,0.206
+133,2006-2007,1610612739,LeBron James,Regular Season,2544,Off,3PAr - Defense,0.189
+133,2006-2007,1610612739,LeBron James,Regular Season,2544,On,3PAr - Defense,0.196
+134,2006-2007,1610612743,Marcus Camby,Regular Season,948,Off,3PAr,0.256
+134,2006-2007,1610612743,Marcus Camby,Regular Season,948,On,3PAr,0.182
+134,2006-2007,1610612743,Marcus Camby,Regular Season,948,Off,3PAr - Defense,0.219
+134,2006-2007,1610612743,Marcus Camby,Regular Season,948,On,3PAr - Defense,0.223
+135,2006-2007,1610612756,Raja Bell,Regular Season,1952,Off,3PAr,0.283
+135,2006-2007,1610612756,Raja Bell,Regular Season,1952,On,3PAr,0.288
+135,2006-2007,1610612756,Raja Bell,Regular Season,1952,Off,3PAr - Defense,0.187
+135,2006-2007,1610612756,Raja Bell,Regular Season,1952,On,3PAr - Defense,0.199
+136,2006-2007,1610612756,Steve Nash,Regular Season,959,Off,3PAr,0.297
+136,2006-2007,1610612756,Steve Nash,Regular Season,959,On,3PAr,0.282
+136,2006-2007,1610612756,Steve Nash,Regular Season,959,Off,3PAr - Defense,0.198
+136,2006-2007,1610612756,Steve Nash,Regular Season,959,On,3PAr - Defense,0.195
+137,2006-2007,1610612765,Tayshaun Prince,Regular Season,2419,Off,3PAr,0.196
+137,2006-2007,1610612765,Tayshaun Prince,Regular Season,2419,On,3PAr,0.203
+137,2006-2007,1610612765,Tayshaun Prince,Regular Season,2419,Off,3PAr - Defense,0.216
+137,2006-2007,1610612765,Tayshaun Prince,Regular Season,2419,On,3PAr - Defense,0.182
+138,2006-2007,1610612759,Tim Duncan,Regular Season,1495,Off,3PAr,0.302
+138,2006-2007,1610612759,Tim Duncan,Regular Season,1495,On,3PAr,0.221
+138,2006-2007,1610612759,Tim Duncan,Regular Season,1495,Off,3PAr - Defense,0.191
+138,2006-2007,1610612759,Tim Duncan,Regular Season,1495,On,3PAr - Defense,0.161
+139,2006-2007,1610612745,Tracy McGrady,Regular Season,1503,Off,3PAr,0.286
+139,2006-2007,1610612745,Tracy McGrady,Regular Season,1503,On,3PAr,0.292
+139,2006-2007,1610612745,Tracy McGrady,Regular Season,1503,Off,3PAr - Defense,0.207
+139,2006-2007,1610612745,Tracy McGrady,Regular Season,1503,On,3PAr - Defense,0.207
+140,2006-2007,1610612745,Yao Ming,Regular Season,2397,Off,3PAr,0.31
+140,2006-2007,1610612745,Yao Ming,Regular Season,2397,On,3PAr,0.261
+140,2006-2007,1610612745,Yao Ming,Regular Season,2397,Off,3PAr - Defense,0.213
+140,2006-2007,1610612745,Yao Ming,Regular Season,2397,On,3PAr - Defense,0.199
+141,2007-2008,1610612756,Amar'e Stoudemire,Regular Season,2405,Off,3PAr,0.286
+141,2007-2008,1610612756,Amar'e Stoudemire,Regular Season,2405,On,3PAr,0.248
+141,2007-2008,1610612756,Amar'e Stoudemire,Regular Season,2405,Off,3PAr - Defense,0.194
+141,2007-2008,1610612756,Amar'e Stoudemire,Regular Season,2405,On,3PAr - Defense,0.173
+142,2007-2008,1610612759,Bruce Bowen,Regular Season,1477,Off,3PAr,0.293
+142,2007-2008,1610612759,Bruce Bowen,Regular Season,1477,On,3PAr,0.224
+142,2007-2008,1610612759,Bruce Bowen,Regular Season,1477,Off,3PAr - Defense,0.208
+142,2007-2008,1610612759,Bruce Bowen,Regular Season,1477,On,3PAr - Defense,0.181
+143,2007-2008,1610612762,Carlos Boozer,Regular Season,2430,Off,3PAr,0.183
+143,2007-2008,1610612762,Carlos Boozer,Regular Season,2430,On,3PAr,0.16
+143,2007-2008,1610612762,Carlos Boozer,Regular Season,2430,Off,3PAr - Defense,0.246
+143,2007-2008,1610612762,Carlos Boozer,Regular Season,2430,On,3PAr - Defense,0.218
+144,2007-2008,1610612740,Chris Paul,Regular Season,101108,Off,3PAr,0.201
+144,2007-2008,1610612740,Chris Paul,Regular Season,101108,On,3PAr,0.25
+144,2007-2008,1610612740,Chris Paul,Regular Season,101108,Off,3PAr - Defense,0.248
+144,2007-2008,1610612740,Chris Paul,Regular Season,101108,On,3PAr - Defense,0.231
+145,2007-2008,1610612762,Deron Williams,Regular Season,101114,Off,3PAr,0.147
+145,2007-2008,1610612762,Deron Williams,Regular Season,101114,On,3PAr,0.172
+145,2007-2008,1610612762,Deron Williams,Regular Season,101114,Off,3PAr - Defense,0.262
+145,2007-2008,1610612762,Deron Williams,Regular Season,101114,On,3PAr - Defense,0.216
+146,2007-2008,1610612742,Dirk Nowitzki,Regular Season,1717,Off,3PAr,0.205
+146,2007-2008,1610612742,Dirk Nowitzki,Regular Season,1717,On,3PAr,0.22
+146,2007-2008,1610612742,Dirk Nowitzki,Regular Season,1717,Off,3PAr - Defense,0.178
+146,2007-2008,1610612742,Dirk Nowitzki,Regular Season,1717,On,3PAr - Defense,0.178
+147,2007-2008,1610612753,Dwight Howard,Regular Season,2730,Off,3PAr,0.303
+147,2007-2008,1610612753,Dwight Howard,Regular Season,2730,On,3PAr,0.327
+147,2007-2008,1610612753,Dwight Howard,Regular Season,2730,Off,3PAr - Defense,0.182
+147,2007-2008,1610612753,Dwight Howard,Regular Season,2730,On,3PAr - Defense,0.218
+148,2007-2008,1610612738,Kevin Garnett,Regular Season,708,Off,3PAr,0.281
+148,2007-2008,1610612738,Kevin Garnett,Regular Season,708,On,3PAr,0.227
+148,2007-2008,1610612738,Kevin Garnett,Regular Season,708,Off,3PAr - Defense,0.26
+148,2007-2008,1610612738,Kevin Garnett,Regular Season,708,On,3PAr - Defense,0.23
+149,2007-2008,1610612747,Kobe Bryant,Regular Season,977,Off,3PAr,0.278
+149,2007-2008,1610612747,Kobe Bryant,Regular Season,977,On,3PAr,0.252
+149,2007-2008,1610612747,Kobe Bryant,Regular Season,977,Off,3PAr - Defense,0.21
+149,2007-2008,1610612747,Kobe Bryant,Regular Season,977,On,3PAr - Defense,0.22
+150,2007-2008,1610612739,LeBron James,Regular Season,2544,Off,3PAr,0.217
+150,2007-2008,1610612739,LeBron James,Regular Season,2544,On,3PAr,0.234
+150,2007-2008,1610612739,LeBron James,Regular Season,2544,Off,3PAr - Defense,0.21
+150,2007-2008,1610612739,LeBron James,Regular Season,2544,On,3PAr - Defense,0.222
+151,2007-2008,1610612759,Manu Ginobili,Regular Season,1938,Off,3PAr,0.212
+151,2007-2008,1610612759,Manu Ginobili,Regular Season,1938,On,3PAr,0.278
+151,2007-2008,1610612759,Manu Ginobili,Regular Season,1938,Off,3PAr - Defense,0.16
+151,2007-2008,1610612759,Manu Ginobili,Regular Season,1938,On,3PAr - Defense,0.212
+152,2007-2008,1610612743,Marcus Camby,Regular Season,948,Off,3PAr,0.317
+152,2007-2008,1610612743,Marcus Camby,Regular Season,948,On,3PAr,0.189
+152,2007-2008,1610612743,Marcus Camby,Regular Season,948,Off,3PAr - Defense,0.248
+152,2007-2008,1610612743,Marcus Camby,Regular Season,948,On,3PAr - Defense,0.228
+153,2007-2008,1610612738,Paul Pierce,Regular Season,1718,Off,3PAr,0.285
+153,2007-2008,1610612738,Paul Pierce,Regular Season,1718,On,3PAr,0.236
+153,2007-2008,1610612738,Paul Pierce,Regular Season,1718,Off,3PAr - Defense,0.252
+153,2007-2008,1610612738,Paul Pierce,Regular Season,1718,On,3PAr - Defense,0.238
+154,2007-2008,1610612756,Raja Bell,Regular Season,1952,Off,3PAr,0.251
+154,2007-2008,1610612756,Raja Bell,Regular Season,1952,On,3PAr,0.265
+154,2007-2008,1610612756,Raja Bell,Regular Season,1952,Off,3PAr - Defense,0.187
+154,2007-2008,1610612756,Raja Bell,Regular Season,1952,On,3PAr - Defense,0.176
+155,2007-2008,1610612745,Shane Battier,Regular Season,2203,Off,3PAr,0.235
+155,2007-2008,1610612745,Shane Battier,Regular Season,2203,On,3PAr,0.262
+155,2007-2008,1610612745,Shane Battier,Regular Season,2203,Off,3PAr - Defense,0.181
+155,2007-2008,1610612745,Shane Battier,Regular Season,2203,On,3PAr - Defense,0.18
+156,2007-2008,1610612756,Steve Nash,Regular Season,959,Off,3PAr,0.24
+156,2007-2008,1610612756,Steve Nash,Regular Season,959,On,3PAr,0.269
+156,2007-2008,1610612756,Steve Nash,Regular Season,959,Off,3PAr - Defense,0.207
+156,2007-2008,1610612756,Steve Nash,Regular Season,959,On,3PAr - Defense,0.168
+157,2007-2008,1610612765,Tayshaun Prince,Regular Season,2419,Off,3PAr,0.193
+157,2007-2008,1610612765,Tayshaun Prince,Regular Season,2419,On,3PAr,0.208
+157,2007-2008,1610612765,Tayshaun Prince,Regular Season,2419,Off,3PAr - Defense,0.219
+157,2007-2008,1610612765,Tayshaun Prince,Regular Season,2419,On,3PAr - Defense,0.188
+158,2007-2008,1610612759,Tim Duncan,Regular Season,1495,Off,3PAr,0.308
+158,2007-2008,1610612759,Tim Duncan,Regular Season,1495,On,3PAr,0.222
+158,2007-2008,1610612759,Tim Duncan,Regular Season,1495,Off,3PAr - Defense,0.21
+158,2007-2008,1610612759,Tim Duncan,Regular Season,1495,On,3PAr - Defense,0.181
+159,2007-2008,1610612745,Tracy McGrady,Regular Season,1503,Off,3PAr,0.254
+159,2007-2008,1610612745,Tracy McGrady,Regular Season,1503,On,3PAr,0.256
+159,2007-2008,1610612745,Tracy McGrady,Regular Season,1503,Off,3PAr - Defense,0.179
+159,2007-2008,1610612745,Tracy McGrady,Regular Season,1503,On,3PAr - Defense,0.18
+160,2007-2008,1610612745,Yao Ming,Regular Season,2397,Off,3PAr,0.271
+160,2007-2008,1610612745,Yao Ming,Regular Season,2397,On,3PAr,0.24
+160,2007-2008,1610612745,Yao Ming,Regular Season,2397,Off,3PAr - Defense,0.184
+160,2007-2008,1610612745,Yao Ming,Regular Season,2397,On,3PAr - Defense,0.176
+161,2008-2009,1610612757,Brandon Roy,Regular Season,200750,Off,3PAr,0.268
+161,2008-2009,1610612757,Brandon Roy,Regular Season,200750,On,3PAr,0.229
+161,2008-2009,1610612757,Brandon Roy,Regular Season,200750,Off,3PAr - Defense,0.216
+161,2008-2009,1610612757,Brandon Roy,Regular Season,200750,On,3PAr - Defense,0.203
+162,2008-2009,1610612743,Carmelo Anthony,Regular Season,2546,Off,3PAr,0.265
+162,2008-2009,1610612743,Carmelo Anthony,Regular Season,2546,On,3PAr,0.2
+162,2008-2009,1610612743,Carmelo Anthony,Regular Season,2546,Off,3PAr - Defense,0.243
+162,2008-2009,1610612743,Carmelo Anthony,Regular Season,2546,On,3PAr - Defense,0.244
+163,2008-2009,1610612743,Chauncey Billups,Regular Season,1497,Off,3PAr,0.231
+163,2008-2009,1610612743,Chauncey Billups,Regular Season,1497,On,3PAr,0.225
+163,2008-2009,1610612743,Chauncey Billups,Regular Season,1497,Off,3PAr - Defense,0.238
+163,2008-2009,1610612743,Chauncey Billups,Regular Season,1497,On,3PAr - Defense,0.246
+164,2008-2009,1610612740,Chris Paul,Regular Season,101108,Off,3PAr,0.239
+164,2008-2009,1610612740,Chris Paul,Regular Season,101108,On,3PAr,0.24
+164,2008-2009,1610612740,Chris Paul,Regular Season,101108,Off,3PAr - Defense,0.248
+164,2008-2009,1610612740,Chris Paul,Regular Season,101108,On,3PAr - Defense,0.259
+165,2008-2009,1610612742,Dirk Nowitzki,Regular Season,1717,Off,3PAr,0.227
+165,2008-2009,1610612742,Dirk Nowitzki,Regular Season,1717,On,3PAr,0.245
+165,2008-2009,1610612742,Dirk Nowitzki,Regular Season,1717,Off,3PAr - Defense,0.204
+165,2008-2009,1610612742,Dirk Nowitzki,Regular Season,1717,On,3PAr - Defense,0.204
+166,2008-2009,1610612753,Dwight Howard,Regular Season,2730,Off,3PAr,0.324
+166,2008-2009,1610612753,Dwight Howard,Regular Season,2730,On,3PAr,0.339
+166,2008-2009,1610612753,Dwight Howard,Regular Season,2730,Off,3PAr - Defense,0.203
+166,2008-2009,1610612753,Dwight Howard,Regular Season,2730,On,3PAr - Defense,0.187
+167,2008-2009,1610612748,Dwyane Wade,Regular Season,2548,Off,3PAr,0.301
+167,2008-2009,1610612748,Dwyane Wade,Regular Season,2548,On,3PAr,0.229
+167,2008-2009,1610612748,Dwyane Wade,Regular Season,2548,Off,3PAr - Defense,0.221
+167,2008-2009,1610612748,Dwyane Wade,Regular Season,2548,On,3PAr - Defense,0.242
+168,2008-2009,1610612738,Kevin Garnett,Regular Season,708,Off,3PAr,0.223
+168,2008-2009,1610612738,Kevin Garnett,Regular Season,708,On,3PAr,0.203
+168,2008-2009,1610612738,Kevin Garnett,Regular Season,708,Off,3PAr - Defense,0.223
+168,2008-2009,1610612738,Kevin Garnett,Regular Season,708,On,3PAr - Defense,0.23
+169,2008-2009,1610612747,Kobe Bryant,Regular Season,977,Off,3PAr,0.223
+169,2008-2009,1610612747,Kobe Bryant,Regular Season,977,On,3PAr,0.215
+169,2008-2009,1610612747,Kobe Bryant,Regular Season,977,Off,3PAr - Defense,0.233
+169,2008-2009,1610612747,Kobe Bryant,Regular Season,977,On,3PAr - Defense,0.254
+170,2008-2009,1610612739,LeBron James,Regular Season,2544,Off,3PAr,0.219
+170,2008-2009,1610612739,LeBron James,Regular Season,2544,On,3PAr,0.27
+170,2008-2009,1610612739,LeBron James,Regular Season,2544,Off,3PAr - Defense,0.23
+170,2008-2009,1610612739,LeBron James,Regular Season,2544,On,3PAr - Defense,0.223
+171,2008-2009,1610612745,Metta World Peace,Regular Season,1897,Off,3PAr,0.252
+171,2008-2009,1610612745,Metta World Peace,Regular Season,1897,On,3PAr,0.255
+171,2008-2009,1610612745,Metta World Peace,Regular Season,1897,Off,3PAr - Defense,0.196
+171,2008-2009,1610612745,Metta World Peace,Regular Season,1897,On,3PAr - Defense,0.19
+172,2008-2009,1610612747,Pau Gasol,Regular Season,2200,Off,3PAr,0.22
+172,2008-2009,1610612747,Pau Gasol,Regular Season,2200,On,3PAr,0.216
+172,2008-2009,1610612747,Pau Gasol,Regular Season,2200,Off,3PAr - Defense,0.259
+172,2008-2009,1610612747,Pau Gasol,Regular Season,2200,On,3PAr - Defense,0.246
+173,2008-2009,1610612738,Paul Pierce,Regular Season,1718,Off,3PAr,0.235
+173,2008-2009,1610612738,Paul Pierce,Regular Season,1718,On,3PAr,0.208
+173,2008-2009,1610612738,Paul Pierce,Regular Season,1718,Off,3PAr - Defense,0.229
+173,2008-2009,1610612738,Paul Pierce,Regular Season,1718,On,3PAr - Defense,0.225
+174,2008-2009,1610612738,Rajon Rondo,Regular Season,200765,Off,3PAr,0.233
+174,2008-2009,1610612738,Rajon Rondo,Regular Season,200765,On,3PAr,0.205
+174,2008-2009,1610612738,Rajon Rondo,Regular Season,200765,Off,3PAr - Defense,0.229
+174,2008-2009,1610612738,Rajon Rondo,Regular Season,200765,On,3PAr - Defense,0.225
+175,2008-2009,1610612745,Shane Battier,Regular Season,2203,Off,3PAr,0.243
+175,2008-2009,1610612745,Shane Battier,Regular Season,2203,On,3PAr,0.264
+175,2008-2009,1610612745,Shane Battier,Regular Season,2203,Off,3PAr - Defense,0.19
+175,2008-2009,1610612745,Shane Battier,Regular Season,2203,On,3PAr - Defense,0.196
+176,2008-2009,1610612756,Shaquille O'Neal,Regular Season,406,Off,3PAr,0.234
+176,2008-2009,1610612756,Shaquille O'Neal,Regular Season,406,On,3PAr,0.202
+176,2008-2009,1610612756,Shaquille O'Neal,Regular Season,406,Off,3PAr - Defense,0.244
+176,2008-2009,1610612756,Shaquille O'Neal,Regular Season,406,On,3PAr - Defense,0.225
+177,2008-2009,1610612759,Tim Duncan,Regular Season,1495,Off,3PAr,0.269
+177,2008-2009,1610612759,Tim Duncan,Regular Season,1495,On,3PAr,0.235
+177,2008-2009,1610612759,Tim Duncan,Regular Season,1495,Off,3PAr - Defense,0.197
+177,2008-2009,1610612759,Tim Duncan,Regular Season,1495,On,3PAr - Defense,0.17
+178,2008-2009,1610612759,Tony Parker,Regular Season,2225,Off,3PAr,0.274
+178,2008-2009,1610612759,Tony Parker,Regular Season,2225,On,3PAr,0.232
+178,2008-2009,1610612759,Tony Parker,Regular Season,2225,Off,3PAr - Defense,0.195
+178,2008-2009,1610612759,Tony Parker,Regular Season,2225,On,3PAr - Defense,0.17
+179,2008-2009,1610612745,Yao Ming,Regular Season,2397,Off,3PAr,0.28
+179,2008-2009,1610612745,Yao Ming,Regular Season,2397,On,3PAr,0.24
+179,2008-2009,1610612745,Yao Ming,Regular Season,2397,Off,3PAr - Defense,0.205
+179,2008-2009,1610612745,Yao Ming,Regular Season,2397,On,3PAr - Defense,0.186
+180,2009-2010,1610612756,Amar'e Stoudemire,Regular Season,2405,Off,3PAr,0.298
+180,2009-2010,1610612756,Amar'e Stoudemire,Regular Season,2405,On,3PAr,0.246
+180,2009-2010,1610612756,Amar'e Stoudemire,Regular Season,2405,Off,3PAr - Defense,0.214
+180,2009-2010,1610612756,Amar'e Stoudemire,Regular Season,2405,On,3PAr - Defense,0.223
+181,2009-2010,1610612739,Anderson Varejao,Regular Season,2760,Off,3PAr,0.245
+181,2009-2010,1610612739,Anderson Varejao,Regular Season,2760,On,3PAr,0.25
+181,2009-2010,1610612739,Anderson Varejao,Regular Season,2760,Off,3PAr - Defense,0.211
+181,2009-2010,1610612739,Anderson Varejao,Regular Season,2760,On,3PAr - Defense,0.243
+182,2009-2010,1610612749,Andrew Bogut,Regular Season,101106,Off,3PAr,0.278
+182,2009-2010,1610612749,Andrew Bogut,Regular Season,101106,On,3PAr,0.244
+182,2009-2010,1610612749,Andrew Bogut,Regular Season,101106,Off,3PAr - Defense,0.221
+182,2009-2010,1610612749,Andrew Bogut,Regular Season,101106,On,3PAr - Defense,0.184
+183,2009-2010,1610612757,Brandon Roy,Regular Season,200750,Off,3PAr,0.22
+183,2009-2010,1610612757,Brandon Roy,Regular Season,200750,On,3PAr,0.212
+183,2009-2010,1610612757,Brandon Roy,Regular Season,200750,Off,3PAr - Defense,0.241
+183,2009-2010,1610612757,Brandon Roy,Regular Season,200750,On,3PAr - Defense,0.208
+184,2009-2010,1610612743,Carmelo Anthony,Regular Season,2546,Off,3PAr,0.232
+184,2009-2010,1610612743,Carmelo Anthony,Regular Season,2546,On,3PAr,0.225
+184,2009-2010,1610612743,Carmelo Anthony,Regular Season,2546,Off,3PAr - Defense,0.225
+184,2009-2010,1610612743,Carmelo Anthony,Regular Season,2546,On,3PAr - Defense,0.219
+185,2009-2010,1610612762,Deron Williams,Regular Season,101114,Off,3PAr,0.161
+185,2009-2010,1610612762,Deron Williams,Regular Season,101114,On,3PAr,0.193
+185,2009-2010,1610612762,Deron Williams,Regular Season,101114,Off,3PAr - Defense,0.247
+185,2009-2010,1610612762,Deron Williams,Regular Season,101114,On,3PAr - Defense,0.238
+186,2009-2010,1610612742,Dirk Nowitzki,Regular Season,1717,Off,3PAr,0.262
+186,2009-2010,1610612742,Dirk Nowitzki,Regular Season,1717,On,3PAr,0.209
+186,2009-2010,1610612742,Dirk Nowitzki,Regular Season,1717,Off,3PAr - Defense,0.227
+186,2009-2010,1610612742,Dirk Nowitzki,Regular Season,1717,On,3PAr - Defense,0.221
+187,2009-2010,1610612753,Dwight Howard,Regular Season,2730,Off,3PAr,0.352
+187,2009-2010,1610612753,Dwight Howard,Regular Season,2730,On,3PAr,0.35
+187,2009-2010,1610612753,Dwight Howard,Regular Season,2730,Off,3PAr - Defense,0.21
+187,2009-2010,1610612753,Dwight Howard,Regular Season,2730,On,3PAr - Defense,0.214
+188,2009-2010,1610612748,Dwyane Wade,Regular Season,2548,Off,3PAr,0.217
+188,2009-2010,1610612748,Dwyane Wade,Regular Season,2548,On,3PAr,0.22
+188,2009-2010,1610612748,Dwyane Wade,Regular Season,2548,Off,3PAr - Defense,0.234
+188,2009-2010,1610612748,Dwyane Wade,Regular Season,2548,On,3PAr - Defense,0.241
+189,2009-2010,1610612766,Gerald Wallace,Regular Season,2222,Off,3PAr,0.191
+189,2009-2010,1610612766,Gerald Wallace,Regular Season,2222,On,3PAr,0.217
+189,2009-2010,1610612766,Gerald Wallace,Regular Season,2222,Off,3PAr - Defense,0.265
+189,2009-2010,1610612766,Gerald Wallace,Regular Season,2222,On,3PAr - Defense,0.258
+190,2009-2010,1610612737,Joe Johnson,Regular Season,2207,Off,3PAr,0.201
+190,2009-2010,1610612737,Joe Johnson,Regular Season,2207,On,3PAr,0.219
+190,2009-2010,1610612737,Joe Johnson,Regular Season,2207,Off,3PAr - Defense,0.201
+190,2009-2010,1610612737,Joe Johnson,Regular Season,2207,On,3PAr - Defense,0.214
+191,2009-2010,1610612737,Josh Smith,Regular Season,2746,Off,3PAr,0.215
+191,2009-2010,1610612737,Josh Smith,Regular Season,2746,On,3PAr,0.213
+191,2009-2010,1610612737,Josh Smith,Regular Season,2746,Off,3PAr - Defense,0.201
+191,2009-2010,1610612737,Josh Smith,Regular Season,2746,On,3PAr - Defense,0.214
+192,2009-2010,1610612760,Kevin Durant,Regular Season,201142,Off,3PAr,0.173
+192,2009-2010,1610612760,Kevin Durant,Regular Season,201142,On,3PAr,0.188
+192,2009-2010,1610612760,Kevin Durant,Regular Season,201142,Off,3PAr - Defense,0.239
+192,2009-2010,1610612760,Kevin Durant,Regular Season,201142,On,3PAr - Defense,0.205
+193,2009-2010,1610612747,Kobe Bryant,Regular Season,977,Off,3PAr,0.24
+193,2009-2010,1610612747,Kobe Bryant,Regular Season,977,On,3PAr,0.222
+193,2009-2010,1610612747,Kobe Bryant,Regular Season,977,Off,3PAr - Defense,0.233
+193,2009-2010,1610612747,Kobe Bryant,Regular Season,977,On,3PAr - Defense,0.231
+194,2009-2010,1610612739,LeBron James,Regular Season,2544,Off,3PAr,0.203
+194,2009-2010,1610612739,LeBron James,Regular Season,2544,On,3PAr,0.262
+194,2009-2010,1610612739,LeBron James,Regular Season,2544,Off,3PAr - Defense,0.242
+194,2009-2010,1610612739,LeBron James,Regular Season,2544,On,3PAr - Defense,0.223
+195,2009-2010,1610612747,Pau Gasol,Regular Season,2200,Off,3PAr,0.218
+195,2009-2010,1610612747,Pau Gasol,Regular Season,2200,On,3PAr,0.234
+195,2009-2010,1610612747,Pau Gasol,Regular Season,2200,Off,3PAr - Defense,0.239
+195,2009-2010,1610612747,Pau Gasol,Regular Season,2200,On,3PAr - Defense,0.227
+196,2009-2010,1610612738,Rajon Rondo,Regular Season,200765,Off,3PAr,0.283
+196,2009-2010,1610612738,Rajon Rondo,Regular Season,200765,On,3PAr,0.21
+196,2009-2010,1610612738,Rajon Rondo,Regular Season,200765,Off,3PAr - Defense,0.215
+196,2009-2010,1610612738,Rajon Rondo,Regular Season,200765,On,3PAr - Defense,0.215
+197,2009-2010,1610612756,Steve Nash,Regular Season,959,Off,3PAr,0.266
+197,2009-2010,1610612756,Steve Nash,Regular Season,959,On,3PAr,0.259
+197,2009-2010,1610612756,Steve Nash,Regular Season,959,Off,3PAr - Defense,0.213
+197,2009-2010,1610612756,Steve Nash,Regular Season,959,On,3PAr - Defense,0.224
+198,2009-2010,1610612760,Thabo Sefolosha,Regular Season,200757,Off,3PAr,0.193
+198,2009-2010,1610612760,Thabo Sefolosha,Regular Season,200757,On,3PAr,0.18
+198,2009-2010,1610612760,Thabo Sefolosha,Regular Season,200757,Off,3PAr - Defense,0.229
+198,2009-2010,1610612760,Thabo Sefolosha,Regular Season,200757,On,3PAr - Defense,0.198
+199,2009-2010,1610612759,Tim Duncan,Regular Season,1495,Off,3PAr,0.278
+199,2009-2010,1610612759,Tim Duncan,Regular Season,1495,On,3PAr,0.203
+199,2009-2010,1610612759,Tim Duncan,Regular Season,1495,Off,3PAr - Defense,0.191
+199,2009-2010,1610612759,Tim Duncan,Regular Season,1495,On,3PAr - Defense,0.172
+200,2010-2011,1610612737,Al Horford,Regular Season,201143,Off,3PAr,0.201
+200,2010-2011,1610612737,Al Horford,Regular Season,201143,On,3PAr,0.231
+200,2010-2011,1610612737,Al Horford,Regular Season,201143,Off,3PAr - Defense,0.21
+200,2010-2011,1610612737,Al Horford,Regular Season,201143,On,3PAr - Defense,0.207
+201,2010-2011,1610612752,Amar'e Stoudemire,Regular Season,2405,Off,3PAr,0.389
+201,2010-2011,1610612752,Amar'e Stoudemire,Regular Season,2405,On,3PAr,0.27
+201,2010-2011,1610612752,Amar'e Stoudemire,Regular Season,2405,Off,3PAr - Defense,0.228
+201,2010-2011,1610612752,Amar'e Stoudemire,Regular Season,2405,On,3PAr - Defense,0.203
+202,2010-2011,1610612755,Andre Iguodala,Regular Season,2738,Off,3PAr,0.176
+202,2010-2011,1610612755,Andre Iguodala,Regular Season,2738,On,3PAr,0.189
+202,2010-2011,1610612755,Andre Iguodala,Regular Season,2738,Off,3PAr - Defense,0.213
+202,2010-2011,1610612755,Andre Iguodala,Regular Season,2738,On,3PAr - Defense,0.203
+203,2010-2011,1610612740,Chris Paul,Regular Season,101108,Off,3PAr,0.154
+203,2010-2011,1610612740,Chris Paul,Regular Season,101108,On,3PAr,0.206
+203,2010-2011,1610612740,Chris Paul,Regular Season,101108,Off,3PAr - Defense,0.268
+203,2010-2011,1610612740,Chris Paul,Regular Season,101108,On,3PAr - Defense,0.24
+204,2010-2011,1610612741,Derrick Rose,Regular Season,201565,Off,3PAr,0.195
+204,2010-2011,1610612741,Derrick Rose,Regular Season,201565,On,3PAr,0.221
+204,2010-2011,1610612741,Derrick Rose,Regular Season,201565,Off,3PAr - Defense,0.206
+204,2010-2011,1610612741,Derrick Rose,Regular Season,201565,On,3PAr - Defense,0.199
+205,2010-2011,1610612742,Dirk Nowitzki,Regular Season,1717,Off,3PAr,0.297
+205,2010-2011,1610612742,Dirk Nowitzki,Regular Season,1717,On,3PAr,0.26
+205,2010-2011,1610612742,Dirk Nowitzki,Regular Season,1717,Off,3PAr - Defense,0.233
+205,2010-2011,1610612742,Dirk Nowitzki,Regular Season,1717,On,3PAr - Defense,0.216
+206,2010-2011,1610612753,Dwight Howard,Regular Season,2730,Off,3PAr,0.351
+206,2010-2011,1610612753,Dwight Howard,Regular Season,2730,On,3PAr,0.32
+206,2010-2011,1610612753,Dwight Howard,Regular Season,2730,Off,3PAr - Defense,0.225
+206,2010-2011,1610612753,Dwight Howard,Regular Season,2730,On,3PAr - Defense,0.224
+207,2010-2011,1610612748,Dwyane Wade,Regular Season,2548,Off,3PAr,0.312
+207,2010-2011,1610612748,Dwyane Wade,Regular Season,2548,On,3PAr,0.205
+207,2010-2011,1610612748,Dwyane Wade,Regular Season,2548,Off,3PAr - Defense,0.244
+207,2010-2011,1610612748,Dwyane Wade,Regular Season,2548,On,3PAr - Defense,0.238
+208,2010-2011,1610612741,Joakim Noah,Regular Season,201149,Off,3PAr,0.214
+208,2010-2011,1610612741,Joakim Noah,Regular Season,201149,On,3PAr,0.216
+208,2010-2011,1610612741,Joakim Noah,Regular Season,201149,Off,3PAr - Defense,0.201
+208,2010-2011,1610612741,Joakim Noah,Regular Season,201149,On,3PAr - Defense,0.2
+209,2010-2011,1610612760,Kevin Durant,Regular Season,201142,Off,3PAr,0.257
+209,2010-2011,1610612760,Kevin Durant,Regular Season,201142,On,3PAr,0.199
+209,2010-2011,1610612760,Kevin Durant,Regular Season,201142,Off,3PAr - Defense,0.182
+209,2010-2011,1610612760,Kevin Durant,Regular Season,201142,On,3PAr - Defense,0.2
+210,2010-2011,1610612738,Kevin Garnett,Regular Season,708,Off,3PAr,0.189
+210,2010-2011,1610612738,Kevin Garnett,Regular Season,708,On,3PAr,0.173
+210,2010-2011,1610612738,Kevin Garnett,Regular Season,708,Off,3PAr - Defense,0.198
+210,2010-2011,1610612738,Kevin Garnett,Regular Season,708,On,3PAr - Defense,0.21
+211,2010-2011,1610612747,Kobe Bryant,Regular Season,977,Off,3PAr,0.25
+211,2010-2011,1610612747,Kobe Bryant,Regular Season,977,On,3PAr,0.207
+211,2010-2011,1610612747,Kobe Bryant,Regular Season,977,Off,3PAr - Defense,0.256
+211,2010-2011,1610612747,Kobe Bryant,Regular Season,977,On,3PAr - Defense,0.236
+212,2010-2011,1610612757,LaMarcus Aldridge,Regular Season,200746,Off,3PAr,0.265
+212,2010-2011,1610612757,LaMarcus Aldridge,Regular Season,200746,On,3PAr,0.219
+212,2010-2011,1610612757,LaMarcus Aldridge,Regular Season,200746,Off,3PAr - Defense,0.266
+212,2010-2011,1610612757,LaMarcus Aldridge,Regular Season,200746,On,3PAr - Defense,0.223
+213,2010-2011,1610612748,LeBron James,Regular Season,2544,Off,3PAr,0.275
+213,2010-2011,1610612748,LeBron James,Regular Season,2544,On,3PAr,0.223
+213,2010-2011,1610612748,LeBron James,Regular Season,2544,Off,3PAr - Defense,0.257
+213,2010-2011,1610612748,LeBron James,Regular Season,2544,On,3PAr - Defense,0.235
+214,2010-2011,1610612759,Manu Ginobili,Regular Season,1938,Off,3PAr,0.258
+214,2010-2011,1610612759,Manu Ginobili,Regular Season,1938,On,3PAr,0.262
+214,2010-2011,1610612759,Manu Ginobili,Regular Season,1938,Off,3PAr - Defense,0.194
+214,2010-2011,1610612759,Manu Ginobili,Regular Season,1938,On,3PAr - Defense,0.188
+215,2010-2011,1610612747,Pau Gasol,Regular Season,2200,Off,3PAr,0.253
+215,2010-2011,1610612747,Pau Gasol,Regular Season,2200,On,3PAr,0.21
+215,2010-2011,1610612747,Pau Gasol,Regular Season,2200,Off,3PAr - Defense,0.252
+215,2010-2011,1610612747,Pau Gasol,Regular Season,2200,On,3PAr - Defense,0.239
+216,2010-2011,1610612738,Rajon Rondo,Regular Season,200765,Off,3PAr,0.194
+216,2010-2011,1610612738,Rajon Rondo,Regular Season,200765,On,3PAr,0.172
+216,2010-2011,1610612738,Rajon Rondo,Regular Season,200765,Off,3PAr - Defense,0.201
+216,2010-2011,1610612738,Rajon Rondo,Regular Season,200765,On,3PAr - Defense,0.207
+217,2010-2011,1610612760,Russell Westbrook,Regular Season,201566,Off,3PAr,0.289
+217,2010-2011,1610612760,Russell Westbrook,Regular Season,201566,On,3PAr,0.182
+217,2010-2011,1610612760,Russell Westbrook,Regular Season,201566,Off,3PAr - Defense,0.194
+217,2010-2011,1610612760,Russell Westbrook,Regular Season,201566,On,3PAr - Defense,0.196
+218,2010-2011,1610612763,Tony Allen,Regular Season,2754,Off,3PAr,0.155
+218,2010-2011,1610612763,Tony Allen,Regular Season,2754,On,3PAr,0.104
+218,2010-2011,1610612763,Tony Allen,Regular Season,2754,Off,3PAr - Defense,0.253
+218,2010-2011,1610612763,Tony Allen,Regular Season,2754,On,3PAr - Defense,0.232
+219,2010-2011,1610612742,Tyson Chandler,Regular Season,2199,Off,3PAr,0.275
+219,2010-2011,1610612742,Tyson Chandler,Regular Season,2199,On,3PAr,0.272
+219,2010-2011,1610612742,Tyson Chandler,Regular Season,2199,Off,3PAr - Defense,0.226
+219,2010-2011,1610612742,Tyson Chandler,Regular Season,2199,On,3PAr - Defense,0.219
+220,2010-2011,1610612763,Zach Randolph,Regular Season,2216,Off,3PAr,0.164
+220,2010-2011,1610612763,Zach Randolph,Regular Season,2216,On,3PAr,0.124
+220,2010-2011,1610612763,Zach Randolph,Regular Season,2216,Off,3PAr - Defense,0.278
+220,2010-2011,1610612763,Zach Randolph,Regular Season,2216,On,3PAr - Defense,0.23
+221,2011-2012,1610612747,Andrew Bynum,Regular Season,101115,Off,3PAr,0.246
+221,2011-2012,1610612747,Andrew Bynum,Regular Season,101115,On,3PAr,0.189
+221,2011-2012,1610612747,Andrew Bynum,Regular Season,101115,Off,3PAr - Defense,0.258
+221,2011-2012,1610612747,Andrew Bynum,Regular Season,101115,On,3PAr - Defense,0.206
+222,2011-2012,1610612746,Blake Griffin,Regular Season,201933,Off,3PAr,0.275
+222,2011-2012,1610612746,Blake Griffin,Regular Season,201933,On,3PAr,0.267
+222,2011-2012,1610612746,Blake Griffin,Regular Season,201933,Off,3PAr - Defense,0.248
+222,2011-2012,1610612746,Blake Griffin,Regular Season,201933,On,3PAr - Defense,0.247
+223,2011-2012,1610612752,Carmelo Anthony,Regular Season,2546,Off,3PAr,0.337
+223,2011-2012,1610612752,Carmelo Anthony,Regular Season,2546,On,3PAr,0.254
+223,2011-2012,1610612752,Carmelo Anthony,Regular Season,2546,Off,3PAr - Defense,0.223
+223,2011-2012,1610612752,Carmelo Anthony,Regular Season,2546,On,3PAr - Defense,0.245
+224,2011-2012,1610612746,Chris Paul,Regular Season,101108,Off,3PAr,0.262
+224,2011-2012,1610612746,Chris Paul,Regular Season,101108,On,3PAr,0.271
+224,2011-2012,1610612746,Chris Paul,Regular Season,101108,Off,3PAr - Defense,0.246
+224,2011-2012,1610612746,Chris Paul,Regular Season,101108,On,3PAr - Defense,0.248
+225,2011-2012,1610612742,Dirk Nowitzki,Regular Season,1717,Off,3PAr,0.291
+225,2011-2012,1610612742,Dirk Nowitzki,Regular Season,1717,On,3PAr,0.26
+225,2011-2012,1610612742,Dirk Nowitzki,Regular Season,1717,Off,3PAr - Defense,0.259
+225,2011-2012,1610612742,Dirk Nowitzki,Regular Season,1717,On,3PAr - Defense,0.251
+226,2011-2012,1610612753,Dwight Howard,Regular Season,2730,Off,3PAr,0.336
+226,2011-2012,1610612753,Dwight Howard,Regular Season,2730,On,3PAr,0.351
+226,2011-2012,1610612753,Dwight Howard,Regular Season,2730,Off,3PAr - Defense,0.213
+226,2011-2012,1610612753,Dwight Howard,Regular Season,2730,On,3PAr - Defense,0.232
+227,2011-2012,1610612748,Dwyane Wade,Regular Season,2548,Off,3PAr,0.239
+227,2011-2012,1610612748,Dwyane Wade,Regular Season,2548,On,3PAr,0.159
+227,2011-2012,1610612748,Dwyane Wade,Regular Season,2548,Off,3PAr - Defense,0.257
+227,2011-2012,1610612748,Dwyane Wade,Regular Season,2548,On,3PAr - Defense,0.244
+228,2011-2012,1610612760,Kevin Durant,Regular Season,201142,Off,3PAr,0.328
+228,2011-2012,1610612760,Kevin Durant,Regular Season,201142,On,3PAr,0.234
+228,2011-2012,1610612760,Kevin Durant,Regular Season,201142,Off,3PAr - Defense,0.214
+228,2011-2012,1610612760,Kevin Durant,Regular Season,201142,On,3PAr - Defense,0.22
+229,2011-2012,1610612738,Kevin Garnett,Regular Season,708,Off,3PAr,0.207
+229,2011-2012,1610612738,Kevin Garnett,Regular Season,708,On,3PAr,0.185
+229,2011-2012,1610612738,Kevin Garnett,Regular Season,708,Off,3PAr - Defense,0.19
+229,2011-2012,1610612738,Kevin Garnett,Regular Season,708,On,3PAr - Defense,0.228
+230,2011-2012,1610612750,Kevin Love,Regular Season,201567,Off,3PAr,0.248
+230,2011-2012,1610612750,Kevin Love,Regular Season,201567,On,3PAr,0.268
+230,2011-2012,1610612750,Kevin Love,Regular Season,201567,Off,3PAr - Defense,0.217
+230,2011-2012,1610612750,Kevin Love,Regular Season,201567,On,3PAr - Defense,0.209
+231,2011-2012,1610612747,Kobe Bryant,Regular Season,977,Off,3PAr,0.229
+231,2011-2012,1610612747,Kobe Bryant,Regular Season,977,On,3PAr,0.2
+231,2011-2012,1610612747,Kobe Bryant,Regular Season,977,Off,3PAr - Defense,0.216
+231,2011-2012,1610612747,Kobe Bryant,Regular Season,977,On,3PAr - Defense,0.227
+232,2011-2012,1610612748,LeBron James,Regular Season,2544,Off,3PAr,0.198
+232,2011-2012,1610612748,LeBron James,Regular Season,2544,On,3PAr,0.197
+232,2011-2012,1610612748,LeBron James,Regular Season,2544,Off,3PAr - Defense,0.241
+232,2011-2012,1610612748,LeBron James,Regular Season,2544,On,3PAr - Defense,0.254
+233,2011-2012,1610612741,Luol Deng,Regular Season,2736,Off,3PAr,0.208
+233,2011-2012,1610612741,Luol Deng,Regular Season,2736,On,3PAr,0.203
+233,2011-2012,1610612741,Luol Deng,Regular Season,2736,Off,3PAr - Defense,0.164
+233,2011-2012,1610612741,Luol Deng,Regular Season,2736,On,3PAr - Defense,0.178
+234,2011-2012,1610612738,Rajon Rondo,Regular Season,200765,Off,3PAr,0.202
+234,2011-2012,1610612738,Rajon Rondo,Regular Season,200765,On,3PAr,0.19
+234,2011-2012,1610612738,Rajon Rondo,Regular Season,200765,Off,3PAr - Defense,0.214
+234,2011-2012,1610612738,Rajon Rondo,Regular Season,200765,On,3PAr - Defense,0.211
+235,2011-2012,1610612760,Russell Westbrook,Regular Season,201566,Off,3PAr,0.338
+235,2011-2012,1610612760,Russell Westbrook,Regular Season,201566,On,3PAr,0.223
+235,2011-2012,1610612760,Russell Westbrook,Regular Season,201566,Off,3PAr - Defense,0.237
+235,2011-2012,1610612760,Russell Westbrook,Regular Season,201566,On,3PAr - Defense,0.212
+236,2011-2012,1610612760,Serge Ibaka,Regular Season,201586,Off,3PAr,0.314
+236,2011-2012,1610612760,Serge Ibaka,Regular Season,201586,On,3PAr,0.205
+236,2011-2012,1610612760,Serge Ibaka,Regular Season,201586,Off,3PAr - Defense,0.234
+236,2011-2012,1610612760,Serge Ibaka,Regular Season,201586,On,3PAr - Defense,0.208
+237,2011-2012,1610612763,Tony Allen,Regular Season,2754,Off,3PAr,0.19
+237,2011-2012,1610612763,Tony Allen,Regular Season,2754,On,3PAr,0.119
+237,2011-2012,1610612763,Tony Allen,Regular Season,2754,Off,3PAr - Defense,0.245
+237,2011-2012,1610612763,Tony Allen,Regular Season,2754,On,3PAr - Defense,0.225
+238,2011-2012,1610612759,Tony Parker,Regular Season,2225,Off,3PAr,0.302
+238,2011-2012,1610612759,Tony Parker,Regular Season,2225,On,3PAr,0.227
+238,2011-2012,1610612759,Tony Parker,Regular Season,2225,Off,3PAr - Defense,0.237
+238,2011-2012,1610612759,Tony Parker,Regular Season,2225,On,3PAr - Defense,0.192
+239,2011-2012,1610612752,Tyson Chandler,Regular Season,2199,Off,3PAr,0.33
+239,2011-2012,1610612752,Tyson Chandler,Regular Season,2199,On,3PAr,0.265
+239,2011-2012,1610612752,Tyson Chandler,Regular Season,2199,Off,3PAr - Defense,0.251
+239,2011-2012,1610612752,Tyson Chandler,Regular Season,2199,On,3PAr - Defense,0.229
+240,2012-2013,1610612738,Avery Bradley,Regular Season,202340,Off,3PAr,0.217
+240,2012-2013,1610612738,Avery Bradley,Regular Season,202340,On,3PAr,0.213
+240,2012-2013,1610612738,Avery Bradley,Regular Season,202340,Off,3PAr - Defense,0.247
+240,2012-2013,1610612738,Avery Bradley,Regular Season,202340,On,3PAr - Defense,0.235
+241,2012-2013,1610612746,Blake Griffin,Regular Season,201933,Off,3PAr,0.255
+241,2012-2013,1610612746,Blake Griffin,Regular Season,201933,On,3PAr,0.27
+241,2012-2013,1610612746,Blake Griffin,Regular Season,201933,Off,3PAr - Defense,0.275
+241,2012-2013,1610612746,Blake Griffin,Regular Season,201933,On,3PAr - Defense,0.256
+242,2012-2013,1610612752,Carmelo Anthony,Regular Season,2546,Off,3PAr,0.37
+242,2012-2013,1610612752,Carmelo Anthony,Regular Season,2546,On,3PAr,0.346
+242,2012-2013,1610612752,Carmelo Anthony,Regular Season,2546,Off,3PAr - Defense,0.284
+242,2012-2013,1610612752,Carmelo Anthony,Regular Season,2546,On,3PAr - Defense,0.279
+243,2012-2013,1610612746,Chris Paul,Regular Season,101108,Off,3PAr,0.236
+243,2012-2013,1610612746,Chris Paul,Regular Season,101108,On,3PAr,0.284
+243,2012-2013,1610612746,Chris Paul,Regular Season,101108,Off,3PAr - Defense,0.27
+243,2012-2013,1610612746,Chris Paul,Regular Season,101108,On,3PAr - Defense,0.258
+244,2012-2013,1610612744,David Lee,Regular Season,101135,Off,3PAr,0.219
+244,2012-2013,1610612744,David Lee,Regular Season,101135,On,3PAr,0.246
+244,2012-2013,1610612744,David Lee,Regular Season,101135,Off,3PAr - Defense,0.316
+244,2012-2013,1610612744,David Lee,Regular Season,101135,On,3PAr - Defense,0.257
+245,2012-2013,1610612747,Dwight Howard,Regular Season,2730,Off,3PAr,0.32
+245,2012-2013,1610612747,Dwight Howard,Regular Season,2730,On,3PAr,0.295
+245,2012-2013,1610612747,Dwight Howard,Regular Season,2730,Off,3PAr - Defense,0.243
+245,2012-2013,1610612747,Dwight Howard,Regular Season,2730,On,3PAr - Defense,0.237
+246,2012-2013,1610612748,Dwyane Wade,Regular Season,2548,Off,3PAr,0.354
+246,2012-2013,1610612748,Dwyane Wade,Regular Season,2548,On,3PAr,0.241
+246,2012-2013,1610612748,Dwyane Wade,Regular Season,2548,Off,3PAr - Defense,0.265
+246,2012-2013,1610612748,Dwyane Wade,Regular Season,2548,On,3PAr - Defense,0.271
+247,2012-2013,1610612745,James Harden,Regular Season,201935,Off,3PAr,0.369
+247,2012-2013,1610612745,James Harden,Regular Season,201935,On,3PAr,0.343
+247,2012-2013,1610612745,James Harden,Regular Season,201935,Off,3PAr - Defense,0.274
+247,2012-2013,1610612745,James Harden,Regular Season,201935,On,3PAr - Defense,0.251
+248,2012-2013,1610612760,Kevin Durant,Regular Season,201142,Off,3PAr,0.27
+248,2012-2013,1610612760,Kevin Durant,Regular Season,201142,On,3PAr,0.237
+248,2012-2013,1610612760,Kevin Durant,Regular Season,201142,Off,3PAr - Defense,0.246
+248,2012-2013,1610612760,Kevin Durant,Regular Season,201142,On,3PAr - Defense,0.254
+249,2012-2013,1610612747,Kobe Bryant,Regular Season,977,Off,3PAr,0.331
+249,2012-2013,1610612747,Kobe Bryant,Regular Season,977,On,3PAr,0.295
+249,2012-2013,1610612747,Kobe Bryant,Regular Season,977,Off,3PAr - Defense,0.238
+249,2012-2013,1610612747,Kobe Bryant,Regular Season,977,On,3PAr - Defense,0.24
+250,2012-2013,1610612748,LeBron James,Regular Season,2544,Off,3PAr,0.313
+250,2012-2013,1610612748,LeBron James,Regular Season,2544,On,3PAr,0.275
+250,2012-2013,1610612748,LeBron James,Regular Season,2544,Off,3PAr - Defense,0.272
+250,2012-2013,1610612748,LeBron James,Regular Season,2544,On,3PAr - Defense,0.268
+251,2012-2013,1610612763,Marc Gasol,Regular Season,201188,Off,3PAr,0.189
+251,2012-2013,1610612763,Marc Gasol,Regular Season,201188,On,3PAr,0.156
+251,2012-2013,1610612763,Marc Gasol,Regular Season,201188,Off,3PAr - Defense,0.261
+251,2012-2013,1610612763,Marc Gasol,Regular Season,201188,On,3PAr - Defense,0.225
+252,2012-2013,1610612763,Mike Conley,Regular Season,201144,Off,3PAr,0.201
+252,2012-2013,1610612763,Mike Conley,Regular Season,201144,On,3PAr,0.151
+252,2012-2013,1610612763,Mike Conley,Regular Season,201144,Off,3PAr - Defense,0.259
+252,2012-2013,1610612763,Mike Conley,Regular Season,201144,On,3PAr - Defense,0.225
+253,2012-2013,1610612754,Paul George,Regular Season,202331,Off,3PAr,0.255
+253,2012-2013,1610612754,Paul George,Regular Season,202331,On,3PAr,0.242
+253,2012-2013,1610612754,Paul George,Regular Season,202331,Off,3PAr - Defense,0.212
+253,2012-2013,1610612754,Paul George,Regular Season,202331,On,3PAr - Defense,0.199
+254,2012-2013,1610612760,Russell Westbrook,Regular Season,201566,Off,3PAr,0.292
+254,2012-2013,1610612760,Russell Westbrook,Regular Season,201566,On,3PAr,0.226
+254,2012-2013,1610612760,Russell Westbrook,Regular Season,201566,Off,3PAr - Defense,0.268
+254,2012-2013,1610612760,Russell Westbrook,Regular Season,201566,On,3PAr - Defense,0.247
+255,2012-2013,1610612760,Serge Ibaka,Regular Season,201586,Off,3PAr,0.273
+255,2012-2013,1610612760,Serge Ibaka,Regular Season,201586,On,3PAr,0.227
+255,2012-2013,1610612760,Serge Ibaka,Regular Season,201586,Off,3PAr - Defense,0.261
+255,2012-2013,1610612760,Serge Ibaka,Regular Season,201586,On,3PAr - Defense,0.248
+256,2012-2013,1610612759,Tim Duncan,Regular Season,1495,Off,3PAr,0.312
+256,2012-2013,1610612759,Tim Duncan,Regular Season,1495,On,3PAr,0.221
+256,2012-2013,1610612759,Tim Duncan,Regular Season,1495,Off,3PAr - Defense,0.229
+256,2012-2013,1610612759,Tim Duncan,Regular Season,1495,On,3PAr - Defense,0.196
+257,2012-2013,1610612763,Tony Allen,Regular Season,2754,Off,3PAr,0.213
+257,2012-2013,1610612763,Tony Allen,Regular Season,2754,On,3PAr,0.123
+257,2012-2013,1610612763,Tony Allen,Regular Season,2754,Off,3PAr - Defense,0.246
+257,2012-2013,1610612763,Tony Allen,Regular Season,2754,On,3PAr - Defense,0.227
+258,2012-2013,1610612759,Tony Parker,Regular Season,2225,Off,3PAr,0.302
+258,2012-2013,1610612759,Tony Parker,Regular Season,2225,On,3PAr,0.233
+258,2012-2013,1610612759,Tony Parker,Regular Season,2225,Off,3PAr - Defense,0.226
+258,2012-2013,1610612759,Tony Parker,Regular Season,2225,On,3PAr - Defense,0.199
+259,2012-2013,1610612741,Joakim Noah,Regular Season,201149,Off,3PAr,0.226
+259,2012-2013,1610612741,Joakim Noah,Regular Season,201149,On,3PAr,0.165
+259,2012-2013,1610612741,Joakim Noah,Regular Season,201149,Off,3PAr - Defense,0.199
+259,2012-2013,1610612741,Joakim Noah,Regular Season,201149,On,3PAr - Defense,0.2
+260,2013-2014,1610612766,Al Jefferson,Regular Season,2744,Off,3PAr,0.265
+260,2013-2014,1610612766,Al Jefferson,Regular Season,2744,On,3PAr,0.193
+260,2013-2014,1610612766,Al Jefferson,Regular Season,2744,Off,3PAr - Defense,0.26
+260,2013-2014,1610612766,Al Jefferson,Regular Season,2744,On,3PAr - Defense,0.265
+261,2013-2014,1610612744,Andre Iguodala,Regular Season,2738,Off,3PAr,0.292
+261,2013-2014,1610612744,Andre Iguodala,Regular Season,2738,On,3PAr,0.289
+261,2013-2014,1610612744,Andre Iguodala,Regular Season,2738,Off,3PAr - Defense,0.249
+261,2013-2014,1610612744,Andre Iguodala,Regular Season,2738,On,3PAr - Defense,0.23
+262,2013-2014,1610612746,Blake Griffin,Regular Season,201933,Off,3PAr,0.344
+262,2013-2014,1610612746,Blake Griffin,Regular Season,201933,On,3PAr,0.271
+262,2013-2014,1610612746,Blake Griffin,Regular Season,201933,Off,3PAr - Defense,0.271
+262,2013-2014,1610612746,Blake Griffin,Regular Season,201933,On,3PAr - Defense,0.252
+263,2013-2014,1610612746,Chris Paul,Regular Season,101108,Off,3PAr,0.305
+263,2013-2014,1610612746,Chris Paul,Regular Season,101108,On,3PAr,0.279
+263,2013-2014,1610612746,Chris Paul,Regular Season,101108,Off,3PAr - Defense,0.261
+263,2013-2014,1610612746,Chris Paul,Regular Season,101108,On,3PAr - Defense,0.254
+264,2013-2014,1610612757,Damian Lillard,Regular Season,203081,Off,3PAr,0.259
+264,2013-2014,1610612757,Damian Lillard,Regular Season,203081,On,3PAr,0.301
+264,2013-2014,1610612757,Damian Lillard,Regular Season,203081,Off,3PAr - Defense,0.222
+264,2013-2014,1610612757,Damian Lillard,Regular Season,203081,On,3PAr - Defense,0.204
+265,2013-2014,1610612745,Dwight Howard,Regular Season,2730,Off,3PAr,0.375
+265,2013-2014,1610612745,Dwight Howard,Regular Season,2730,On,3PAr,0.299
+265,2013-2014,1610612745,Dwight Howard,Regular Season,2730,Off,3PAr - Defense,0.271
+265,2013-2014,1610612745,Dwight Howard,Regular Season,2730,On,3PAr - Defense,0.255
+266,2013-2014,1610612756,Goran Dragic,Regular Season,201609,Off,3PAr,0.268
+266,2013-2014,1610612756,Goran Dragic,Regular Season,201609,On,3PAr,0.316
+266,2013-2014,1610612756,Goran Dragic,Regular Season,201609,Off,3PAr - Defense,0.256
+266,2013-2014,1610612756,Goran Dragic,Regular Season,201609,On,3PAr - Defense,0.23
+267,2013-2014,1610612745,James Harden,Regular Season,201935,Off,3PAr,0.349
+267,2013-2014,1610612745,James Harden,Regular Season,201935,On,3PAr,0.322
+267,2013-2014,1610612745,James Harden,Regular Season,201935,Off,3PAr - Defense,0.241
+267,2013-2014,1610612745,James Harden,Regular Season,201935,On,3PAr - Defense,0.27
+268,2013-2014,1610612741,Jimmy Butler,Regular Season,202710,Off,3PAr,0.222
+268,2013-2014,1610612741,Jimmy Butler,Regular Season,202710,On,3PAr,0.222
+268,2013-2014,1610612741,Jimmy Butler,Regular Season,202710,Off,3PAr - Defense,0.232
+268,2013-2014,1610612741,Jimmy Butler,Regular Season,202710,On,3PAr - Defense,0.229
+269,2013-2014,1610612741,Joakim Noah,Regular Season,201149,Off,3PAr,0.22
+269,2013-2014,1610612741,Joakim Noah,Regular Season,201149,On,3PAr,0.222
+269,2013-2014,1610612741,Joakim Noah,Regular Season,201149,Off,3PAr - Defense,0.212
+269,2013-2014,1610612741,Joakim Noah,Regular Season,201149,On,3PAr - Defense,0.238
+270,2013-2014,1610612759,Kawhi Leonard,Regular Season,202695,Off,3PAr,0.284
+270,2013-2014,1610612759,Kawhi Leonard,Regular Season,202695,On,3PAr,0.228
+270,2013-2014,1610612759,Kawhi Leonard,Regular Season,202695,Off,3PAr - Defense,0.216
+270,2013-2014,1610612759,Kawhi Leonard,Regular Season,202695,On,3PAr - Defense,0.214
+271,2013-2014,1610612760,Kevin Durant,Regular Season,201142,Off,3PAr,0.262
+271,2013-2014,1610612760,Kevin Durant,Regular Season,201142,On,3PAr,0.274
+271,2013-2014,1610612760,Kevin Durant,Regular Season,201142,Off,3PAr - Defense,0.291
+271,2013-2014,1610612760,Kevin Durant,Regular Season,201142,On,3PAr - Defense,0.287
+272,2013-2014,1610612750,Kevin Love,Regular Season,201567,Off,3PAr,0.233
+272,2013-2014,1610612750,Kevin Love,Regular Season,201567,On,3PAr,0.25
+272,2013-2014,1610612750,Kevin Love,Regular Season,201567,Off,3PAr - Defense,0.256
+272,2013-2014,1610612750,Kevin Love,Regular Season,201567,On,3PAr - Defense,0.259
+273,2013-2014,1610612757,LaMarcus Aldridge,Regular Season,200746,Off,3PAr,0.319
+273,2013-2014,1610612757,LaMarcus Aldridge,Regular Season,200746,On,3PAr,0.273
+273,2013-2014,1610612757,LaMarcus Aldridge,Regular Season,200746,Off,3PAr - Defense,0.226
+273,2013-2014,1610612757,LaMarcus Aldridge,Regular Season,200746,On,3PAr - Defense,0.199
+274,2013-2014,1610612748,LeBron James,Regular Season,2544,Off,3PAr,0.248
+274,2013-2014,1610612748,LeBron James,Regular Season,2544,On,3PAr,0.308
+274,2013-2014,1610612748,LeBron James,Regular Season,2544,Off,3PAr - Defense,0.303
+274,2013-2014,1610612748,LeBron James,Regular Season,2544,On,3PAr - Defense,0.294
+275,2013-2014,1610612745,Patrick Beverley,Regular Season,201976,Off,3PAr,0.34
+275,2013-2014,1610612745,Patrick Beverley,Regular Season,201976,On,3PAr,0.318
+275,2013-2014,1610612745,Patrick Beverley,Regular Season,201976,Off,3PAr - Defense,0.28
+275,2013-2014,1610612745,Patrick Beverley,Regular Season,201976,On,3PAr - Defense,0.238
+276,2013-2014,1610612754,Paul George,Regular Season,202331,Off,3PAr,0.246
+276,2013-2014,1610612754,Paul George,Regular Season,202331,On,3PAr,0.23
+276,2013-2014,1610612754,Paul George,Regular Season,202331,Off,3PAr - Defense,0.224
+276,2013-2014,1610612754,Paul George,Regular Season,202331,On,3PAr - Defense,0.232
+277,2013-2014,1610612754,Roy Hibbert,Regular Season,201579,Off,3PAr,0.259
+277,2013-2014,1610612754,Roy Hibbert,Regular Season,201579,On,3PAr,0.219
+277,2013-2014,1610612754,Roy Hibbert,Regular Season,201579,Off,3PAr - Defense,0.242
+277,2013-2014,1610612754,Roy Hibbert,Regular Season,201579,On,3PAr - Defense,0.223
+278,2013-2014,1610612760,Serge Ibaka,Regular Season,201586,Off,3PAr,0.29
+278,2013-2014,1610612760,Serge Ibaka,Regular Season,201586,On,3PAr,0.262
+278,2013-2014,1610612760,Serge Ibaka,Regular Season,201586,Off,3PAr - Defense,0.297
+278,2013-2014,1610612760,Serge Ibaka,Regular Season,201586,On,3PAr - Defense,0.283
+279,2013-2014,1610612744,Stephen Curry,Regular Season,201939,Off,3PAr,0.276
+279,2013-2014,1610612744,Stephen Curry,Regular Season,201939,On,3PAr,0.297
+279,2013-2014,1610612744,Stephen Curry,Regular Season,201939,Off,3PAr - Defense,0.264
+279,2013-2014,1610612744,Stephen Curry,Regular Season,201939,On,3PAr - Defense,0.23
+280,2013-2014,1610612759,Tony Parker,Regular Season,2225,Off,3PAr,0.301
+280,2013-2014,1610612759,Tony Parker,Regular Season,2225,On,3PAr,0.214
+280,2013-2014,1610612759,Tony Parker,Regular Season,2225,Off,3PAr - Defense,0.222
+280,2013-2014,1610612759,Tony Parker,Regular Season,2225,On,3PAr - Defense,0.208
+281,2014-2015,1610612744,Andrew Bogut,Regular Season,101106,Off,3PAr,0.28
+281,2014-2015,1610612744,Andrew Bogut,Regular Season,101106,On,3PAr,0.356
+281,2014-2015,1610612744,Andrew Bogut,Regular Season,101106,Off,3PAr - Defense,0.257
+281,2014-2015,1610612744,Andrew Bogut,Regular Season,101106,On,3PAr - Defense,0.234
+282,2014-2015,1610612740,Anthony Davis,Regular Season,203076,Off,3PAr,0.258
+282,2014-2015,1610612740,Anthony Davis,Regular Season,203076,On,3PAr,0.218
+282,2014-2015,1610612740,Anthony Davis,Regular Season,203076,Off,3PAr - Defense,0.248
+282,2014-2015,1610612740,Anthony Davis,Regular Season,203076,On,3PAr - Defense,0.228
+283,2014-2015,1610612746,Blake Griffin,Regular Season,201933,Off,3PAr,0.345
+283,2014-2015,1610612746,Blake Griffin,Regular Season,201933,On,3PAr,0.308
+283,2014-2015,1610612746,Blake Griffin,Regular Season,201933,Off,3PAr - Defense,0.309
+283,2014-2015,1610612746,Blake Griffin,Regular Season,201933,On,3PAr - Defense,0.278
+284,2014-2015,1610612746,Chris Paul,Regular Season,101108,Off,3PAr,0.359
+284,2014-2015,1610612746,Chris Paul,Regular Season,101108,On,3PAr,0.309
+284,2014-2015,1610612746,Chris Paul,Regular Season,101108,Off,3PAr - Defense,0.306
+284,2014-2015,1610612746,Chris Paul,Regular Season,101108,On,3PAr - Defense,0.285
+285,2014-2015,1610612746,DeAndre Jordan,Regular Season,201599,Off,3PAr,0.367
+285,2014-2015,1610612746,DeAndre Jordan,Regular Season,201599,On,3PAr,0.305
+285,2014-2015,1610612746,DeAndre Jordan,Regular Season,201599,Off,3PAr - Defense,0.312
+285,2014-2015,1610612746,DeAndre Jordan,Regular Season,201599,On,3PAr - Defense,0.282
+286,2014-2015,1610612758,DeMarcus Cousins,Regular Season,202326,Off,3PAr,0.198
+286,2014-2015,1610612758,DeMarcus Cousins,Regular Season,202326,On,3PAr,0.21
+286,2014-2015,1610612758,DeMarcus Cousins,Regular Season,202326,Off,3PAr - Defense,0.29
+286,2014-2015,1610612758,DeMarcus Cousins,Regular Season,202326,On,3PAr - Defense,0.289
+287,2014-2015,1610612744,Draymond Green,Regular Season,203110,Off,3PAr,0.236
+287,2014-2015,1610612744,Draymond Green,Regular Season,203110,On,3PAr,0.353
+287,2014-2015,1610612744,Draymond Green,Regular Season,203110,Off,3PAr - Defense,0.259
+287,2014-2015,1610612744,Draymond Green,Regular Season,203110,On,3PAr - Defense,0.242
+288,2014-2015,1610612745,James Harden,Regular Season,201935,Off,3PAr,0.377
+288,2014-2015,1610612745,James Harden,Regular Season,201935,On,3PAr,0.397
+288,2014-2015,1610612745,James Harden,Regular Season,201935,Off,3PAr - Defense,0.25
+288,2014-2015,1610612745,James Harden,Regular Season,201935,On,3PAr - Defense,0.276
+289,2014-2015,1610612741,Jimmy Butler,Regular Season,202710,Off,3PAr,0.3
+289,2014-2015,1610612741,Jimmy Butler,Regular Season,202710,On,3PAr,0.25
+289,2014-2015,1610612741,Jimmy Butler,Regular Season,202710,Off,3PAr - Defense,0.239
+289,2014-2015,1610612741,Jimmy Butler,Regular Season,202710,On,3PAr - Defense,0.218
+290,2014-2015,1610612764,John Wall,Regular Season,202322,Off,3PAr,0.152
+290,2014-2015,1610612764,John Wall,Regular Season,202322,On,3PAr,0.223
+290,2014-2015,1610612764,John Wall,Regular Season,202322,Off,3PAr - Defense,0.294
+290,2014-2015,1610612764,John Wall,Regular Season,202322,On,3PAr - Defense,0.268
+291,2014-2015,1610612759,Kawhi Leonard,Regular Season,202695,Off,3PAr,0.306
+291,2014-2015,1610612759,Kawhi Leonard,Regular Season,202695,On,3PAr,0.235
+291,2014-2015,1610612759,Kawhi Leonard,Regular Season,202695,Off,3PAr - Defense,0.242
+291,2014-2015,1610612759,Kawhi Leonard,Regular Season,202695,On,3PAr - Defense,0.211
+292,2014-2015,1610612744,Klay Thompson,Regular Season,202691,Off,3PAr,0.26
+292,2014-2015,1610612744,Klay Thompson,Regular Season,202691,On,3PAr,0.34
+292,2014-2015,1610612744,Klay Thompson,Regular Season,202691,Off,3PAr - Defense,0.254
+292,2014-2015,1610612744,Klay Thompson,Regular Season,202691,On,3PAr - Defense,0.244
+293,2014-2015,1610612739,Kyrie Irving,Regular Season,202681,Off,3PAr,0.359
+293,2014-2015,1610612739,Kyrie Irving,Regular Season,202681,On,3PAr,0.324
+293,2014-2015,1610612739,Kyrie Irving,Regular Season,202681,Off,3PAr - Defense,0.298
+293,2014-2015,1610612739,Kyrie Irving,Regular Season,202681,On,3PAr - Defense,0.257
+294,2014-2015,1610612757,LaMarcus Aldridge,Regular Season,200746,Off,3PAr,0.351
+294,2014-2015,1610612757,LaMarcus Aldridge,Regular Season,200746,On,3PAr,0.297
+294,2014-2015,1610612757,LaMarcus Aldridge,Regular Season,200746,Off,3PAr - Defense,0.242
+294,2014-2015,1610612757,LaMarcus Aldridge,Regular Season,200746,On,3PAr - Defense,0.204
+295,2014-2015,1610612739,LeBron James,Regular Season,2544,Off,3PAr,0.338
+295,2014-2015,1610612739,LeBron James,Regular Season,2544,On,3PAr,0.332
+295,2014-2015,1610612739,LeBron James,Regular Season,2544,Off,3PAr - Defense,0.294
+295,2014-2015,1610612739,LeBron James,Regular Season,2544,On,3PAr - Defense,0.255
+296,2014-2015,1610612763,Marc Gasol,Regular Season,201188,Off,3PAr,0.207
+296,2014-2015,1610612763,Marc Gasol,Regular Season,201188,On,3PAr,0.173
+296,2014-2015,1610612763,Marc Gasol,Regular Season,201188,Off,3PAr - Defense,0.283
+296,2014-2015,1610612763,Marc Gasol,Regular Season,201188,On,3PAr - Defense,0.282
+297,2014-2015,1610612741,Pau Gasol,Regular Season,2200,Off,3PAr,0.295
+297,2014-2015,1610612741,Pau Gasol,Regular Season,2200,On,3PAr,0.256
+297,2014-2015,1610612741,Pau Gasol,Regular Season,2200,Off,3PAr - Defense,0.226
+297,2014-2015,1610612741,Pau Gasol,Regular Season,2200,On,3PAr - Defense,0.225
+298,2014-2015,1610612760,Russell Westbrook,Regular Season,201566,Off,3PAr,0.292
+298,2014-2015,1610612760,Russell Westbrook,Regular Season,201566,On,3PAr,0.241
+298,2014-2015,1610612760,Russell Westbrook,Regular Season,201566,Off,3PAr - Defense,0.297
+298,2014-2015,1610612760,Russell Westbrook,Regular Season,201566,On,3PAr - Defense,0.273
+299,2014-2015,1610612744,Stephen Curry,Regular Season,201939,Off,3PAr,0.22
+299,2014-2015,1610612744,Stephen Curry,Regular Season,201939,On,3PAr,0.353
+299,2014-2015,1610612744,Stephen Curry,Regular Season,201939,Off,3PAr - Defense,0.261
+299,2014-2015,1610612744,Stephen Curry,Regular Season,201939,On,3PAr - Defense,0.241
+300,2014-2015,1610612759,Tim Duncan,Regular Season,1495,Off,3PAr,0.309
+300,2014-2015,1610612759,Tim Duncan,Regular Season,1495,On,3PAr,0.237
+300,2014-2015,1610612759,Tim Duncan,Regular Season,1495,Off,3PAr - Defense,0.242
+300,2014-2015,1610612759,Tim Duncan,Regular Season,1495,On,3PAr - Defense,0.214
+301,2014-2015,1610612763,Tony Allen,Regular Season,2754,Off,3PAr,0.207
+301,2014-2015,1610612763,Tony Allen,Regular Season,2754,On,3PAr,0.151
+301,2014-2015,1610612763,Tony Allen,Regular Season,2754,Off,3PAr - Defense,0.292
+301,2014-2015,1610612763,Tony Allen,Regular Season,2754,On,3PAr - Defense,0.27
+302,2015-2016,1610612765,Andre Drummond,Regular Season,203083,Off,3PAr,0.335
+302,2015-2016,1610612765,Andre Drummond,Regular Season,203083,On,3PAr,0.288
+302,2015-2016,1610612765,Andre Drummond,Regular Season,203083,Off,3PAr - Defense,0.262
+302,2015-2016,1610612765,Andre Drummond,Regular Season,203083,On,3PAr - Defense,0.234
+303,2015-2016,1610612738,Avery Bradley,Regular Season,202340,Off,3PAr,0.291
+303,2015-2016,1610612738,Avery Bradley,Regular Season,202340,On,3PAr,0.294
+303,2015-2016,1610612738,Avery Bradley,Regular Season,202340,Off,3PAr - Defense,0.271
+303,2015-2016,1610612738,Avery Bradley,Regular Season,202340,On,3PAr - Defense,0.276
+304,2015-2016,1610612746,Chris Paul,Regular Season,101108,Off,3PAr,0.33
+304,2015-2016,1610612746,Chris Paul,Regular Season,101108,On,3PAr,0.32
+304,2015-2016,1610612746,Chris Paul,Regular Season,101108,Off,3PAr - Defense,0.286
+304,2015-2016,1610612746,Chris Paul,Regular Season,101108,On,3PAr - Defense,0.268
+305,2015-2016,1610612757,Damian Lillard,Regular Season,203081,Off,3PAr,0.297
+305,2015-2016,1610612757,Damian Lillard,Regular Season,203081,On,3PAr,0.348
+305,2015-2016,1610612757,Damian Lillard,Regular Season,203081,Off,3PAr - Defense,0.301
+305,2015-2016,1610612757,Damian Lillard,Regular Season,203081,On,3PAr - Defense,0.258
+306,2015-2016,1610612746,DeAndre Jordan,Regular Season,201599,Off,3PAr,0.34
+306,2015-2016,1610612746,DeAndre Jordan,Regular Season,201599,On,3PAr,0.315
+306,2015-2016,1610612746,DeAndre Jordan,Regular Season,201599,Off,3PAr - Defense,0.278
+306,2015-2016,1610612746,DeAndre Jordan,Regular Season,201599,On,3PAr - Defense,0.273
+307,2015-2016,1610612758,DeMarcus Cousins,Regular Season,202326,Off,3PAr,0.266
+307,2015-2016,1610612758,DeMarcus Cousins,Regular Season,202326,On,3PAr,0.254
+307,2015-2016,1610612758,DeMarcus Cousins,Regular Season,202326,Off,3PAr - Defense,0.314
+307,2015-2016,1610612758,DeMarcus Cousins,Regular Season,202326,On,3PAr - Defense,0.323
+308,2015-2016,1610612744,Draymond Green,Regular Season,203110,Off,3PAr,0.273
+308,2015-2016,1610612744,Draymond Green,Regular Season,203110,On,3PAr,0.398
+308,2015-2016,1610612744,Draymond Green,Regular Season,203110,Off,3PAr - Defense,0.249
+308,2015-2016,1610612744,Draymond Green,Regular Season,203110,On,3PAr - Defense,0.268
+309,2015-2016,1610612748,Hassan Whiteside,Regular Season,202355,Off,3PAr,0.239
+309,2015-2016,1610612748,Hassan Whiteside,Regular Season,202355,On,3PAr,0.206
+309,2015-2016,1610612748,Hassan Whiteside,Regular Season,202355,Off,3PAr - Defense,0.274
+309,2015-2016,1610612748,Hassan Whiteside,Regular Season,202355,On,3PAr - Defense,0.234
+310,2015-2016,1610612741,Jimmy Butler,Regular Season,202710,Off,3PAr,0.25
+310,2015-2016,1610612741,Jimmy Butler,Regular Season,202710,On,3PAr,0.241
+310,2015-2016,1610612741,Jimmy Butler,Regular Season,202710,Off,3PAr - Defense,0.257
+310,2015-2016,1610612741,Jimmy Butler,Regular Season,202710,On,3PAr - Defense,0.257
+311,2015-2016,1610612759,Kawhi Leonard,Regular Season,202695,Off,3PAr,0.242
+311,2015-2016,1610612759,Kawhi Leonard,Regular Season,202695,On,3PAr,0.211
+311,2015-2016,1610612759,Kawhi Leonard,Regular Season,202695,Off,3PAr - Defense,0.256
+311,2015-2016,1610612759,Kawhi Leonard,Regular Season,202695,On,3PAr - Defense,0.235
+312,2015-2016,1610612760,Kevin Durant,Regular Season,201142,Off,3PAr,0.269
+312,2015-2016,1610612760,Kevin Durant,Regular Season,201142,On,3PAr,0.278
+312,2015-2016,1610612760,Kevin Durant,Regular Season,201142,Off,3PAr - Defense,0.26
+312,2015-2016,1610612760,Kevin Durant,Regular Season,201142,On,3PAr - Defense,0.277
+313,2015-2016,1610612744,Klay Thompson,Regular Season,202691,Off,3PAr,0.303
+313,2015-2016,1610612744,Klay Thompson,Regular Season,202691,On,3PAr,0.391
+313,2015-2016,1610612744,Klay Thompson,Regular Season,202691,Off,3PAr - Defense,0.271
+313,2015-2016,1610612744,Klay Thompson,Regular Season,202691,On,3PAr - Defense,0.259
+314,2015-2016,1610612761,Kyle Lowry,Regular Season,200768,Off,3PAr,0.27
+314,2015-2016,1610612761,Kyle Lowry,Regular Season,200768,On,3PAr,0.294
+314,2015-2016,1610612761,Kyle Lowry,Regular Season,200768,Off,3PAr - Defense,0.289
+314,2015-2016,1610612761,Kyle Lowry,Regular Season,200768,On,3PAr - Defense,0.284
+315,2015-2016,1610612759,LaMarcus Aldridge,Regular Season,200746,Off,3PAr,0.256
+315,2015-2016,1610612759,LaMarcus Aldridge,Regular Season,200746,On,3PAr,0.199
+315,2015-2016,1610612759,LaMarcus Aldridge,Regular Season,200746,Off,3PAr - Defense,0.257
+315,2015-2016,1610612759,LaMarcus Aldridge,Regular Season,200746,On,3PAr - Defense,0.234
+316,2015-2016,1610612739,LeBron James,Regular Season,2544,Off,3PAr,0.356
+316,2015-2016,1610612739,LeBron James,Regular Season,2544,On,3PAr,0.351
+316,2015-2016,1610612739,LeBron James,Regular Season,2544,Off,3PAr - Defense,0.291
+316,2015-2016,1610612739,LeBron James,Regular Season,2544,On,3PAr - Defense,0.27
+317,2015-2016,1610612754,Paul George,Regular Season,202331,Off,3PAr,0.224
+317,2015-2016,1610612754,Paul George,Regular Season,202331,On,3PAr,0.289
+317,2015-2016,1610612754,Paul George,Regular Season,202331,Off,3PAr - Defense,0.272
+317,2015-2016,1610612754,Paul George,Regular Season,202331,On,3PAr - Defense,0.301
+318,2015-2016,1610612737,Paul Millsap,Regular Season,200794,Off,3PAr,0.346
+318,2015-2016,1610612737,Paul Millsap,Regular Season,200794,On,3PAr,0.331
+318,2015-2016,1610612737,Paul Millsap,Regular Season,200794,Off,3PAr - Defense,0.295
+318,2015-2016,1610612737,Paul Millsap,Regular Season,200794,On,3PAr - Defense,0.28
+319,2015-2016,1610612760,Russell Westbrook,Regular Season,201566,Off,3PAr,0.297
+319,2015-2016,1610612760,Russell Westbrook,Regular Season,201566,On,3PAr,0.265
+319,2015-2016,1610612760,Russell Westbrook,Regular Season,201566,Off,3PAr - Defense,0.287
+319,2015-2016,1610612760,Russell Westbrook,Regular Season,201566,On,3PAr - Defense,0.264
+320,2015-2016,1610612744,Stephen Curry,Regular Season,201939,Off,3PAr,0.258
+320,2015-2016,1610612744,Stephen Curry,Regular Season,201939,On,3PAr,0.409
+320,2015-2016,1610612744,Stephen Curry,Regular Season,201939,Off,3PAr - Defense,0.254
+320,2015-2016,1610612744,Stephen Curry,Regular Season,201939,On,3PAr - Defense,0.267
+321,2015-2016,1610612763,Tony Allen,Regular Season,2754,Off,3PAr,0.249
+321,2015-2016,1610612763,Tony Allen,Regular Season,2754,On,3PAr,0.182
+321,2015-2016,1610612763,Tony Allen,Regular Season,2754,Off,3PAr - Defense,0.349
+321,2015-2016,1610612763,Tony Allen,Regular Season,2754,On,3PAr - Defense,0.322
+322,2016-2017,1610612760,Andre Roberson,Regular Season,203460,Off,3PAr,0.291
+322,2016-2017,1610612760,Andre Roberson,Regular Season,203460,On,3PAr,0.298
+322,2016-2017,1610612760,Andre Roberson,Regular Season,203460,Off,3PAr - Defense,0.273
+322,2016-2017,1610612760,Andre Roberson,Regular Season,203460,On,3PAr - Defense,0.302
+323,2016-2017,1610612740,Anthony Davis,Regular Season,203076,Off,3PAr,0.343
+323,2016-2017,1610612740,Anthony Davis,Regular Season,203076,On,3PAr,0.291
+323,2016-2017,1610612740,Anthony Davis,Regular Season,203076,Off,3PAr - Defense,0.337
+323,2016-2017,1610612740,Anthony Davis,Regular Season,203076,On,3PAr - Defense,0.334
+324,2016-2017,1610612746,Chris Paul,Regular Season,101108,Off,3PAr,0.345
+324,2016-2017,1610612746,Chris Paul,Regular Season,101108,On,3PAr,0.313
+324,2016-2017,1610612746,Chris Paul,Regular Season,101108,Off,3PAr - Defense,0.313
+324,2016-2017,1610612746,Chris Paul,Regular Season,101108,On,3PAr - Defense,0.302
+325,2016-2017,1610612759,Danny Green,Regular Season,201980,Off,3PAr,0.29
+325,2016-2017,1610612759,Danny Green,Regular Season,201980,On,3PAr,0.269
+325,2016-2017,1610612759,Danny Green,Regular Season,201980,Off,3PAr - Defense,0.281
+325,2016-2017,1610612759,Danny Green,Regular Season,201980,On,3PAr - Defense,0.287
+326,2016-2017,1610612746,DeAndre Jordan,Regular Season,201599,Off,3PAr,0.385
+326,2016-2017,1610612746,DeAndre Jordan,Regular Season,201599,On,3PAr,0.299
+326,2016-2017,1610612746,DeAndre Jordan,Regular Season,201599,Off,3PAr - Defense,0.302
+326,2016-2017,1610612746,DeAndre Jordan,Regular Season,201599,On,3PAr - Defense,0.311
+327,2016-2017,1610612761,DeMar DeRozan,Regular Season,201942,Off,3PAr,0.338
+327,2016-2017,1610612761,DeMar DeRozan,Regular Season,201942,On,3PAr,0.263
+327,2016-2017,1610612761,DeMar DeRozan,Regular Season,201942,Off,3PAr - Defense,0.336
+327,2016-2017,1610612761,DeMar DeRozan,Regular Season,201942,On,3PAr - Defense,0.326
+328,2016-2017,1610612744,Draymond Green,Regular Season,203110,Off,3PAr,0.309
+328,2016-2017,1610612744,Draymond Green,Regular Season,203110,On,3PAr,0.388
+328,2016-2017,1610612744,Draymond Green,Regular Season,203110,Off,3PAr - Defense,0.296
+328,2016-2017,1610612744,Draymond Green,Regular Season,203110,On,3PAr - Defense,0.32
+329,2016-2017,1610612749,Giannis Antetokounmpo,Regular Season,203507,Off,3PAr,0.283
+329,2016-2017,1610612749,Giannis Antetokounmpo,Regular Season,203507,On,3PAr,0.293
+329,2016-2017,1610612749,Giannis Antetokounmpo,Regular Season,203507,Off,3PAr - Defense,0.351
+329,2016-2017,1610612749,Giannis Antetokounmpo,Regular Season,203507,On,3PAr - Defense,0.335
+330,2016-2017,1610612738,Isaiah Thomas,Regular Season,202738,Off,3PAr,0.38
+330,2016-2017,1610612738,Isaiah Thomas,Regular Season,202738,On,3PAr,0.4
+330,2016-2017,1610612738,Isaiah Thomas,Regular Season,202738,Off,3PAr - Defense,0.323
+330,2016-2017,1610612738,Isaiah Thomas,Regular Season,202738,On,3PAr - Defense,0.31
+331,2016-2017,1610612745,James Harden,Regular Season,201935,Off,3PAr,0.416
+331,2016-2017,1610612745,James Harden,Regular Season,201935,On,3PAr,0.478
+331,2016-2017,1610612745,James Harden,Regular Season,201935,Off,3PAr - Defense,0.326
+331,2016-2017,1610612745,James Harden,Regular Season,201935,On,3PAr - Defense,0.329
+332,2016-2017,1610612741,Jimmy Butler,Regular Season,202710,Off,3PAr,0.293
+332,2016-2017,1610612741,Jimmy Butler,Regular Season,202710,On,3PAr,0.242
+332,2016-2017,1610612741,Jimmy Butler,Regular Season,202710,Off,3PAr - Defense,0.321
+332,2016-2017,1610612741,Jimmy Butler,Regular Season,202710,On,3PAr - Defense,0.29
+333,2016-2017,1610612764,John Wall,Regular Season,202322,Off,3PAr,0.273
+333,2016-2017,1610612764,John Wall,Regular Season,202322,On,3PAr,0.289
+333,2016-2017,1610612764,John Wall,Regular Season,202322,Off,3PAr - Defense,0.303
+333,2016-2017,1610612764,John Wall,Regular Season,202322,On,3PAr - Defense,0.325
+334,2016-2017,1610612759,Kawhi Leonard,Regular Season,202695,Off,3PAr,0.296
+334,2016-2017,1610612759,Kawhi Leonard,Regular Season,202695,On,3PAr,0.272
+334,2016-2017,1610612759,Kawhi Leonard,Regular Season,202695,Off,3PAr - Defense,0.288
+334,2016-2017,1610612759,Kawhi Leonard,Regular Season,202695,On,3PAr - Defense,0.281
+335,2016-2017,1610612744,Kevin Durant,Regular Season,201142,Off,3PAr,0.353
+335,2016-2017,1610612744,Kevin Durant,Regular Season,201142,On,3PAr,0.364
+335,2016-2017,1610612744,Kevin Durant,Regular Season,201142,Off,3PAr - Defense,0.302
+335,2016-2017,1610612744,Kevin Durant,Regular Season,201142,On,3PAr - Defense,0.32
+336,2016-2017,1610612739,LeBron James,Regular Season,2544,Off,3PAr,0.371
+336,2016-2017,1610612739,LeBron James,Regular Season,2544,On,3PAr,0.41
+336,2016-2017,1610612739,LeBron James,Regular Season,2544,Off,3PAr - Defense,0.326
+336,2016-2017,1610612739,LeBron James,Regular Season,2544,On,3PAr - Defense,0.322
+337,2016-2017,1610612745,Patrick Beverley,Regular Season,201976,Off,3PAr,0.459
+337,2016-2017,1610612745,Patrick Beverley,Regular Season,201976,On,3PAr,0.465
+337,2016-2017,1610612745,Patrick Beverley,Regular Season,201976,Off,3PAr - Defense,0.323
+337,2016-2017,1610612745,Patrick Beverley,Regular Season,201976,On,3PAr - Defense,0.332
+338,2016-2017,1610612762,Rudy Gobert,Regular Season,203497,Off,3PAr,0.314
+338,2016-2017,1610612762,Rudy Gobert,Regular Season,203497,On,3PAr,0.333
+338,2016-2017,1610612762,Rudy Gobert,Regular Season,203497,Off,3PAr - Defense,0.287
+338,2016-2017,1610612762,Rudy Gobert,Regular Season,203497,On,3PAr - Defense,0.275
+339,2016-2017,1610612760,Russell Westbrook,Regular Season,201566,Off,3PAr,0.274
+339,2016-2017,1610612760,Russell Westbrook,Regular Season,201566,On,3PAr,0.303
+339,2016-2017,1610612760,Russell Westbrook,Regular Season,201566,Off,3PAr - Defense,0.272
+339,2016-2017,1610612760,Russell Westbrook,Regular Season,201566,On,3PAr - Defense,0.298
+340,2016-2017,1610612744,Stephen Curry,Regular Season,201939,Off,3PAr,0.288
+340,2016-2017,1610612744,Stephen Curry,Regular Season,201939,On,3PAr,0.39
+340,2016-2017,1610612744,Stephen Curry,Regular Season,201939,Off,3PAr - Defense,0.297
+340,2016-2017,1610612744,Stephen Curry,Regular Season,201939,On,3PAr - Defense,0.318
+341,2016-2017,1610612763,Tony Allen,Regular Season,2754,Off,3PAr,0.343
+341,2016-2017,1610612763,Tony Allen,Regular Season,2754,On,3PAr,0.287
+341,2016-2017,1610612763,Tony Allen,Regular Season,2754,Off,3PAr - Defense,0.354
+341,2016-2017,1610612763,Tony Allen,Regular Season,2754,On,3PAr - Defense,0.357
+342,2017-2018,1610612738,Al Horford,Regular Season,201143,Off,3PAr,0.358
+342,2017-2018,1610612738,Al Horford,Regular Season,201143,On,3PAr,0.357
+342,2017-2018,1610612738,Al Horford,Regular Season,201143,Off,3PAr - Defense,0.325
+342,2017-2018,1610612738,Al Horford,Regular Season,201143,On,3PAr - Defense,0.326
+343,2017-2018,1610612740,Anthony Davis,Regular Season,203076,Off,3PAr,0.368
+343,2017-2018,1610612740,Anthony Davis,Regular Season,203076,On,3PAr,0.298
+343,2017-2018,1610612740,Anthony Davis,Regular Season,203076,Off,3PAr - Defense,0.323
+343,2017-2018,1610612740,Anthony Davis,Regular Season,203076,On,3PAr - Defense,0.337
+344,2017-2018,1610612757,Damian Lillard,Regular Season,203081,Off,3PAr,0.296
+344,2017-2018,1610612757,Damian Lillard,Regular Season,203081,On,3PAr,0.336
+344,2017-2018,1610612757,Damian Lillard,Regular Season,203081,Off,3PAr - Defense,0.313
+344,2017-2018,1610612757,Damian Lillard,Regular Season,203081,On,3PAr - Defense,0.308
+345,2017-2018,1610612761,DeMar DeRozan,Regular Season,201942,Off,3PAr,0.419
+345,2017-2018,1610612761,DeMar DeRozan,Regular Season,201942,On,3PAr,0.359
+345,2017-2018,1610612761,DeMar DeRozan,Regular Season,201942,Off,3PAr - Defense,0.293
+345,2017-2018,1610612761,DeMar DeRozan,Regular Season,201942,On,3PAr - Defense,0.291
+346,2017-2018,1610612759,Dejounte Murray,Regular Season,1627749,Off,3PAr,0.304
+346,2017-2018,1610612759,Dejounte Murray,Regular Season,1627749,On,3PAr,0.256
+346,2017-2018,1610612759,Dejounte Murray,Regular Season,1627749,Off,3PAr - Defense,0.314
+346,2017-2018,1610612759,Dejounte Murray,Regular Season,1627749,On,3PAr - Defense,0.309
+347,2017-2018,1610612744,Draymond Green,Regular Season,203110,Off,3PAr,0.316
+347,2017-2018,1610612744,Draymond Green,Regular Season,203110,On,3PAr,0.357
+347,2017-2018,1610612744,Draymond Green,Regular Season,203110,Off,3PAr - Defense,0.305
+347,2017-2018,1610612744,Draymond Green,Regular Season,203110,On,3PAr - Defense,0.338
+348,2017-2018,1610612749,Giannis Antetokounmpo,Regular Season,203507,Off,3PAr,0.303
+348,2017-2018,1610612749,Giannis Antetokounmpo,Regular Season,203507,On,3PAr,0.295
+348,2017-2018,1610612749,Giannis Antetokounmpo,Regular Season,203507,Off,3PAr - Defense,0.296
+348,2017-2018,1610612749,Giannis Antetokounmpo,Regular Season,203507,On,3PAr - Defense,0.337
+349,2017-2018,1610612745,James Harden,Regular Season,201935,Off,3PAr,0.526
+349,2017-2018,1610612745,James Harden,Regular Season,201935,On,3PAr,0.489
+349,2017-2018,1610612745,James Harden,Regular Season,201935,Off,3PAr - Defense,0.338
+349,2017-2018,1610612745,James Harden,Regular Season,201935,On,3PAr - Defense,0.336
+350,2017-2018,1610612750,Jimmy Butler,Regular Season,202710,Off,3PAr,0.26
+350,2017-2018,1610612750,Jimmy Butler,Regular Season,202710,On,3PAr,0.262
+350,2017-2018,1610612750,Jimmy Butler,Regular Season,202710,Off,3PAr - Defense,0.35
+350,2017-2018,1610612750,Jimmy Butler,Regular Season,202710,On,3PAr - Defense,0.351
+351,2017-2018,1610612755,Joel Embiid,Regular Season,203954,Off,3PAr,0.34
+351,2017-2018,1610612755,Joel Embiid,Regular Season,203954,On,3PAr,0.35
+351,2017-2018,1610612755,Joel Embiid,Regular Season,203954,Off,3PAr - Defense,0.35
+351,2017-2018,1610612755,Joel Embiid,Regular Season,203954,On,3PAr - Defense,0.325
+352,2017-2018,1610612740,Jrue Holiday,Regular Season,201950,Off,3PAr,0.348
+352,2017-2018,1610612740,Jrue Holiday,Regular Season,201950,On,3PAr,0.309
+352,2017-2018,1610612740,Jrue Holiday,Regular Season,201950,Off,3PAr - Defense,0.308
+352,2017-2018,1610612740,Jrue Holiday,Regular Season,201950,On,3PAr - Defense,0.342
+353,2017-2018,1610612750,Karl-Anthony Towns,Regular Season,1626157,Off,3PAr,0.259
+353,2017-2018,1610612750,Karl-Anthony Towns,Regular Season,1626157,On,3PAr,0.262
+353,2017-2018,1610612750,Karl-Anthony Towns,Regular Season,1626157,Off,3PAr - Defense,0.374
+353,2017-2018,1610612750,Karl-Anthony Towns,Regular Season,1626157,On,3PAr - Defense,0.342
+354,2017-2018,1610612744,Kevin Durant,Regular Season,201142,Off,3PAr,0.314
+354,2017-2018,1610612744,Kevin Durant,Regular Season,201142,On,3PAr,0.357
+354,2017-2018,1610612744,Kevin Durant,Regular Season,201142,Off,3PAr - Defense,0.318
+354,2017-2018,1610612744,Kevin Durant,Regular Season,201142,On,3PAr - Defense,0.328
+355,2017-2018,1610612759,LaMarcus Aldridge,Regular Season,200746,Off,3PAr,0.298
+355,2017-2018,1610612759,LaMarcus Aldridge,Regular Season,200746,On,3PAr,0.274
+355,2017-2018,1610612759,LaMarcus Aldridge,Regular Season,200746,Off,3PAr - Defense,0.32
+355,2017-2018,1610612759,LaMarcus Aldridge,Regular Season,200746,On,3PAr - Defense,0.307
+356,2017-2018,1610612739,LeBron James,Regular Season,2544,Off,3PAr,0.341
+356,2017-2018,1610612739,LeBron James,Regular Season,2544,On,3PAr,0.391
+356,2017-2018,1610612739,LeBron James,Regular Season,2544,Off,3PAr - Defense,0.365
+356,2017-2018,1610612739,LeBron James,Regular Season,2544,On,3PAr - Defense,0.357
+357,2017-2018,1610612760,Paul George,Regular Season,202331,Off,3PAr,0.345
+357,2017-2018,1610612760,Paul George,Regular Season,202331,On,3PAr,0.345
+357,2017-2018,1610612760,Paul George,Regular Season,202331,Off,3PAr - Defense,0.359
+357,2017-2018,1610612760,Paul George,Regular Season,202331,On,3PAr - Defense,0.366
+358,2017-2018,1610612755,Robert Covington,Regular Season,203496,Off,3PAr,0.342
+358,2017-2018,1610612755,Robert Covington,Regular Season,203496,On,3PAr,0.346
+358,2017-2018,1610612755,Robert Covington,Regular Season,203496,Off,3PAr - Defense,0.336
+358,2017-2018,1610612755,Robert Covington,Regular Season,203496,On,3PAr - Defense,0.339
+359,2017-2018,1610612762,Rudy Gobert,Regular Season,203497,Off,3PAr,0.359
+359,2017-2018,1610612762,Rudy Gobert,Regular Season,203497,On,3PAr,0.354
+359,2017-2018,1610612762,Rudy Gobert,Regular Season,203497,Off,3PAr - Defense,0.323
+359,2017-2018,1610612762,Rudy Gobert,Regular Season,203497,On,3PAr - Defense,0.302
+360,2017-2018,1610612760,Russell Westbrook,Regular Season,201566,Off,3PAr,0.414
+360,2017-2018,1610612760,Russell Westbrook,Regular Season,201566,On,3PAr,0.323
+360,2017-2018,1610612760,Russell Westbrook,Regular Season,201566,Off,3PAr - Defense,0.349
+360,2017-2018,1610612760,Russell Westbrook,Regular Season,201566,On,3PAr - Defense,0.369
+361,2017-2018,1610612744,Stephen Curry,Regular Season,201939,Off,3PAr,0.295
+361,2017-2018,1610612744,Stephen Curry,Regular Season,201939,On,3PAr,0.399
+361,2017-2018,1610612744,Stephen Curry,Regular Season,201939,Off,3PAr - Defense,0.318
+361,2017-2018,1610612744,Stephen Curry,Regular Season,201939,On,3PAr - Defense,0.333
+362,2017-2018,1610612754,Victor Oladipo,Regular Season,203506,Off,3PAr,0.274
+362,2017-2018,1610612754,Victor Oladipo,Regular Season,203506,On,3PAr,0.289
+362,2017-2018,1610612754,Victor Oladipo,Regular Season,203506,Off,3PAr - Defense,0.341
+362,2017-2018,1610612754,Victor Oladipo,Regular Season,203506,On,3PAr - Defense,0.369
+363,2018-2019,1610612765,Blake Griffin,Regular Season,201933,Off,3PAr,0.371
+363,2018-2019,1610612765,Blake Griffin,Regular Season,201933,On,3PAr,0.406
+363,2018-2019,1610612765,Blake Griffin,Regular Season,201933,Off,3PAr - Defense,0.291
+363,2018-2019,1610612765,Blake Griffin,Regular Season,201933,On,3PAr - Defense,0.346
+364,2018-2019,1610612757,Damian Lillard,Regular Season,203081,Off,3PAr,0.352
+364,2018-2019,1610612757,Damian Lillard,Regular Season,203081,On,3PAr,0.335
+364,2018-2019,1610612757,Damian Lillard,Regular Season,203081,Off,3PAr - Defense,0.36
+364,2018-2019,1610612757,Damian Lillard,Regular Season,203081,On,3PAr - Defense,0.319
+365,2018-2019,1610612744,Draymond Green,Regular Season,203110,Off,3PAr,0.354
+365,2018-2019,1610612744,Draymond Green,Regular Season,203110,On,3PAr,0.412
+365,2018-2019,1610612744,Draymond Green,Regular Season,203110,Off,3PAr - Defense,0.349
+365,2018-2019,1610612744,Draymond Green,Regular Season,203110,On,3PAr - Defense,0.386
+366,2018-2019,1610612749,Eric Bledsoe,Regular Season,202339,Off,3PAr,0.433
+366,2018-2019,1610612749,Eric Bledsoe,Regular Season,202339,On,3PAr,0.41
+366,2018-2019,1610612749,Eric Bledsoe,Regular Season,202339,Off,3PAr - Defense,0.403
+366,2018-2019,1610612749,Eric Bledsoe,Regular Season,202339,On,3PAr - Defense,0.377
+367,2018-2019,1610612749,Giannis Antetokounmpo,Regular Season,203507,Off,3PAr,0.43
+367,2018-2019,1610612749,Giannis Antetokounmpo,Regular Season,203507,On,3PAr,0.412
+367,2018-2019,1610612749,Giannis Antetokounmpo,Regular Season,203507,Off,3PAr - Defense,0.393
+367,2018-2019,1610612749,Giannis Antetokounmpo,Regular Season,203507,On,3PAr - Defense,0.385
+368,2018-2019,1610612745,James Harden,Regular Season,201935,Off,3PAr,0.519
+368,2018-2019,1610612745,James Harden,Regular Season,201935,On,3PAr,0.519
+368,2018-2019,1610612745,James Harden,Regular Season,201935,Off,3PAr - Defense,0.352
+368,2018-2019,1610612745,James Harden,Regular Season,201935,On,3PAr - Defense,0.341
+369,2018-2019,1610612755,Joel Embiid,Regular Season,203954,Off,3PAr,0.345
+369,2018-2019,1610612755,Joel Embiid,Regular Season,203954,On,3PAr,0.34
+369,2018-2019,1610612755,Joel Embiid,Regular Season,203954,Off,3PAr - Defense,0.312
+369,2018-2019,1610612755,Joel Embiid,Regular Season,203954,On,3PAr - Defense,0.342
+370,2018-2019,1610612740,Jrue Holiday,Regular Season,201950,Off,3PAr,0.341
+370,2018-2019,1610612740,Jrue Holiday,Regular Season,201950,On,3PAr,0.313
+370,2018-2019,1610612740,Jrue Holiday,Regular Season,201950,Off,3PAr - Defense,0.354
+370,2018-2019,1610612740,Jrue Holiday,Regular Season,201950,On,3PAr - Defense,0.37
+371,2018-2019,1610612761,Kawhi Leonard,Regular Season,202695,Off,3PAr,0.388
+371,2018-2019,1610612761,Kawhi Leonard,Regular Season,202695,On,3PAr,0.371
+371,2018-2019,1610612761,Kawhi Leonard,Regular Season,202695,Off,3PAr - Defense,0.337
+371,2018-2019,1610612761,Kawhi Leonard,Regular Season,202695,On,3PAr - Defense,0.359
+372,2018-2019,1610612766,Kemba Walker,Regular Season,202689,Off,3PAr,0.356
+372,2018-2019,1610612766,Kemba Walker,Regular Season,202689,On,3PAr,0.386
+372,2018-2019,1610612766,Kemba Walker,Regular Season,202689,Off,3PAr - Defense,0.348
+372,2018-2019,1610612766,Kemba Walker,Regular Season,202689,On,3PAr - Defense,0.386
+373,2018-2019,1610612744,Kevin Durant,Regular Season,201142,Off,3PAr,0.367
+373,2018-2019,1610612744,Kevin Durant,Regular Season,201142,On,3PAr,0.391
+373,2018-2019,1610612744,Kevin Durant,Regular Season,201142,Off,3PAr - Defense,0.358
+373,2018-2019,1610612744,Kevin Durant,Regular Season,201142,On,3PAr - Defense,0.373
+374,2018-2019,1610612744,Klay Thompson,Regular Season,202691,Off,3PAr,0.395
+374,2018-2019,1610612744,Klay Thompson,Regular Season,202691,On,3PAr,0.378
+374,2018-2019,1610612744,Klay Thompson,Regular Season,202691,Off,3PAr - Defense,0.372
+374,2018-2019,1610612744,Klay Thompson,Regular Season,202691,On,3PAr - Defense,0.367
+375,2018-2019,1610612738,Kyrie Irving,Regular Season,202681,Off,3PAr,0.381
+375,2018-2019,1610612738,Kyrie Irving,Regular Season,202681,On,3PAr,0.381
+375,2018-2019,1610612738,Kyrie Irving,Regular Season,202681,Off,3PAr - Defense,0.385
+375,2018-2019,1610612738,Kyrie Irving,Regular Season,202681,On,3PAr - Defense,0.377
+376,2018-2019,1610612747,LeBron James,Regular Season,2544,Off,3PAr,0.349
+376,2018-2019,1610612747,LeBron James,Regular Season,2544,On,3PAr,0.335
+376,2018-2019,1610612747,LeBron James,Regular Season,2544,Off,3PAr - Defense,0.375
+376,2018-2019,1610612747,LeBron James,Regular Season,2544,On,3PAr - Defense,0.356
+377,2018-2019,1610612738,Marcus Smart,Regular Season,203935,Off,3PAr,0.363
+377,2018-2019,1610612738,Marcus Smart,Regular Season,203935,On,3PAr,0.396
+377,2018-2019,1610612738,Marcus Smart,Regular Season,203935,Off,3PAr - Defense,0.371
+377,2018-2019,1610612738,Marcus Smart,Regular Season,203935,On,3PAr - Defense,0.388
+378,2018-2019,1610612743,Nikola Jokic,Regular Season,203999,Off,3PAr,0.359
+378,2018-2019,1610612743,Nikola Jokic,Regular Season,203999,On,3PAr,0.342
+378,2018-2019,1610612743,Nikola Jokic,Regular Season,203999,Off,3PAr - Defense,0.358
+378,2018-2019,1610612743,Nikola Jokic,Regular Season,203999,On,3PAr - Defense,0.377
+379,2018-2019,1610612760,Paul George,Regular Season,202331,Off,3PAr,0.326
+379,2018-2019,1610612760,Paul George,Regular Season,202331,On,3PAr,0.356
+379,2018-2019,1610612760,Paul George,Regular Season,202331,Off,3PAr - Defense,0.34
+379,2018-2019,1610612760,Paul George,Regular Season,202331,On,3PAr - Defense,0.363
+380,2018-2019,1610612762,Rudy Gobert,Regular Season,203497,Off,3PAr,0.404
+380,2018-2019,1610612762,Rudy Gobert,Regular Season,203497,On,3PAr,0.389
+380,2018-2019,1610612762,Rudy Gobert,Regular Season,203497,Off,3PAr - Defense,0.317
+380,2018-2019,1610612762,Rudy Gobert,Regular Season,203497,On,3PAr - Defense,0.312
+381,2018-2019,1610612760,Russell Westbrook,Regular Season,201566,Off,3PAr,0.335
+381,2018-2019,1610612760,Russell Westbrook,Regular Season,201566,On,3PAr,0.353
+381,2018-2019,1610612760,Russell Westbrook,Regular Season,201566,Off,3PAr - Defense,0.341
+381,2018-2019,1610612760,Russell Westbrook,Regular Season,201566,On,3PAr - Defense,0.364
+382,2018-2019,1610612744,Stephen Curry,Regular Season,201939,Off,3PAr,0.335
+382,2018-2019,1610612744,Stephen Curry,Regular Season,201939,On,3PAr,0.416
+382,2018-2019,1610612744,Stephen Curry,Regular Season,201939,Off,3PAr - Defense,0.358
+382,2018-2019,1610612744,Stephen Curry,Regular Season,201939,On,3PAr - Defense,0.376
+383,2019-2020,1610612747,Anthony Davis,Regular Season,203076,Off,3PAr,0.368
+383,2019-2020,1610612747,Anthony Davis,Regular Season,203076,On,3PAr,0.351
+383,2019-2020,1610612747,Anthony Davis,Regular Season,203076,Off,3PAr - Defense,0.38
+383,2019-2020,1610612747,Anthony Davis,Regular Season,203076,On,3PAr - Defense,0.386
+384,2019-2020,1610612748,Bam Adebayo,Regular Season,1628389,Off,3PAr,0.473
+384,2019-2020,1610612748,Bam Adebayo,Regular Season,1628389,On,3PAr,0.394
+384,2019-2020,1610612748,Bam Adebayo,Regular Season,1628389,Off,3PAr - Defense,0.449
+384,2019-2020,1610612748,Bam Adebayo,Regular Season,1628389,On,3PAr - Defense,0.428
+385,2019-2020,1610612755,Ben Simmons,Regular Season,1627732,Off,3PAr,0.357
+385,2019-2020,1610612755,Ben Simmons,Regular Season,1627732,On,3PAr,0.361
+385,2019-2020,1610612755,Ben Simmons,Regular Season,1627732,Off,3PAr - Defense,0.35
+385,2019-2020,1610612755,Ben Simmons,Regular Season,1627732,On,3PAr - Defense,0.336
+386,2019-2020,1610612749,Brook Lopez,Regular Season,201572,Off,3PAr,0.436
+386,2019-2020,1610612749,Brook Lopez,Regular Season,201572,On,3PAr,0.42
+386,2019-2020,1610612749,Brook Lopez,Regular Season,201572,Off,3PAr - Defense,0.421
+386,2019-2020,1610612749,Brook Lopez,Regular Season,201572,On,3PAr - Defense,0.416
+387,2019-2020,1610612760,Chris Paul,Regular Season,101108,Off,3PAr,0.333
+387,2019-2020,1610612760,Chris Paul,Regular Season,101108,On,3PAr,0.364
+387,2019-2020,1610612760,Chris Paul,Regular Season,101108,Off,3PAr - Defense,0.376
+387,2019-2020,1610612760,Chris Paul,Regular Season,101108,On,3PAr - Defense,0.368
+388,2019-2020,1610612757,Damian Lillard,Regular Season,203081,Off,3PAr,0.338
+388,2019-2020,1610612757,Damian Lillard,Regular Season,203081,On,3PAr,0.39
+388,2019-2020,1610612757,Damian Lillard,Regular Season,203081,Off,3PAr - Defense,0.395
+388,2019-2020,1610612757,Damian Lillard,Regular Season,203081,On,3PAr - Defense,0.382
+389,2019-2020,1610612749,Eric Bledsoe,Regular Season,202339,Off,3PAr,0.445
+389,2019-2020,1610612749,Eric Bledsoe,Regular Season,202339,On,3PAr,0.408
+389,2019-2020,1610612749,Eric Bledsoe,Regular Season,202339,Off,3PAr - Defense,0.428
+389,2019-2020,1610612749,Eric Bledsoe,Regular Season,202339,On,3PAr - Defense,0.408
+390,2019-2020,1610612749,Giannis Antetokounmpo,Regular Season,203507,Off,3PAr,0.425
+390,2019-2020,1610612749,Giannis Antetokounmpo,Regular Season,203507,On,3PAr,0.43
+390,2019-2020,1610612749,Giannis Antetokounmpo,Regular Season,203507,Off,3PAr - Defense,0.42
+390,2019-2020,1610612749,Giannis Antetokounmpo,Regular Season,203507,On,3PAr - Defense,0.417
+391,2019-2020,1610612745,James Harden,Regular Season,201935,Off,3PAr,0.482
+391,2019-2020,1610612745,James Harden,Regular Season,201935,On,3PAr,0.509
+391,2019-2020,1610612745,James Harden,Regular Season,201935,Off,3PAr - Defense,0.379
+391,2019-2020,1610612745,James Harden,Regular Season,201935,On,3PAr - Defense,0.384
+392,2019-2020,1610612738,Jayson Tatum,Regular Season,1628369,Off,3PAr,0.377
+392,2019-2020,1610612738,Jayson Tatum,Regular Season,1628369,On,3PAr,0.39
+392,2019-2020,1610612738,Jayson Tatum,Regular Season,1628369,Off,3PAr - Defense,0.4
+392,2019-2020,1610612738,Jayson Tatum,Regular Season,1628369,On,3PAr - Defense,0.399
+393,2019-2020,1610612748,Jimmy Butler,Regular Season,202710,Off,3PAr,0.47
+393,2019-2020,1610612748,Jimmy Butler,Regular Season,202710,On,3PAr,0.377
+393,2019-2020,1610612748,Jimmy Butler,Regular Season,202710,Off,3PAr - Defense,0.445
+393,2019-2020,1610612748,Jimmy Butler,Regular Season,202710,On,3PAr - Defense,0.427
+394,2019-2020,1610612746,Kawhi Leonard,Regular Season,202695,Off,3PAr,0.375
+394,2019-2020,1610612746,Kawhi Leonard,Regular Season,202695,On,3PAr,0.375
+394,2019-2020,1610612746,Kawhi Leonard,Regular Season,202695,Off,3PAr - Defense,0.373
+394,2019-2020,1610612746,Kawhi Leonard,Regular Season,202695,On,3PAr - Defense,0.416
+395,2019-2020,1610612747,LeBron James,Regular Season,2544,Off,3PAr,0.336
+395,2019-2020,1610612747,LeBron James,Regular Season,2544,On,3PAr,0.368
+395,2019-2020,1610612747,LeBron James,Regular Season,2544,Off,3PAr - Defense,0.393
+395,2019-2020,1610612747,LeBron James,Regular Season,2544,On,3PAr - Defense,0.379
+396,2019-2020,1610612742,Luka Doncic,Regular Season,1629029,Off,3PAr,0.429
+396,2019-2020,1610612742,Luka Doncic,Regular Season,1629029,On,3PAr,0.479
+396,2019-2020,1610612742,Luka Doncic,Regular Season,1629029,Off,3PAr - Defense,0.384
+396,2019-2020,1610612742,Luka Doncic,Regular Season,1629029,On,3PAr - Defense,0.378
+397,2019-2020,1610612738,Marcus Smart,Regular Season,203935,Off,3PAr,0.381
+397,2019-2020,1610612738,Marcus Smart,Regular Season,203935,On,3PAr,0.389
+397,2019-2020,1610612738,Marcus Smart,Regular Season,203935,Off,3PAr - Defense,0.379
+397,2019-2020,1610612738,Marcus Smart,Regular Season,203935,On,3PAr - Defense,0.416
+398,2019-2020,1610612743,Nikola Jokic,Regular Season,203999,Off,3PAr,0.335
+398,2019-2020,1610612743,Nikola Jokic,Regular Season,203999,On,3PAr,0.349
+398,2019-2020,1610612743,Nikola Jokic,Regular Season,203999,Off,3PAr - Defense,0.399
+398,2019-2020,1610612743,Nikola Jokic,Regular Season,203999,On,3PAr - Defense,0.388
+399,2019-2020,1610612761,Pascal Siakam,Regular Season,1627783,Off,3PAr,0.408
+399,2019-2020,1610612761,Pascal Siakam,Regular Season,1627783,On,3PAr,0.429
+399,2019-2020,1610612761,Pascal Siakam,Regular Season,1627783,Off,3PAr - Defense,0.433
+399,2019-2020,1610612761,Pascal Siakam,Regular Season,1627783,On,3PAr - Defense,0.444
+400,2019-2020,1610612746,Patrick Beverley,Regular Season,201976,Off,3PAr,0.366
+400,2019-2020,1610612746,Patrick Beverley,Regular Season,201976,On,3PAr,0.39
+400,2019-2020,1610612746,Patrick Beverley,Regular Season,201976,Off,3PAr - Defense,0.391
+400,2019-2020,1610612746,Patrick Beverley,Regular Season,201976,On,3PAr - Defense,0.402
+401,2019-2020,1610612762,Rudy Gobert,Regular Season,203497,Off,3PAr,0.419
+401,2019-2020,1610612762,Rudy Gobert,Regular Season,203497,On,3PAr,0.411
+401,2019-2020,1610612762,Rudy Gobert,Regular Season,203497,Off,3PAr - Defense,0.341
+401,2019-2020,1610612762,Rudy Gobert,Regular Season,203497,On,3PAr - Defense,0.352
+402,2019-2020,1610612745,Russell Westbrook,Regular Season,201566,Off,3PAr,0.588
+402,2019-2020,1610612745,Russell Westbrook,Regular Season,201566,On,3PAr,0.443
+402,2019-2020,1610612745,Russell Westbrook,Regular Season,201566,Off,3PAr - Defense,0.385
+402,2019-2020,1610612745,Russell Westbrook,Regular Season,201566,On,3PAr - Defense,0.381
+403,2020-2021,1610612748,Bam Adebayo,Regular Season,1628389,Off,3PAr,0.445
+403,2020-2021,1610612748,Bam Adebayo,Regular Season,1628389,On,3PAr,0.424
+403,2020-2021,1610612748,Bam Adebayo,Regular Season,1628389,Off,3PAr - Defense,0.474
+403,2020-2021,1610612748,Bam Adebayo,Regular Season,1628389,On,3PAr - Defense,0.449
+404,2020-2021,1610612755,Ben Simmons,Regular Season,1627732,Off,3PAr,0.334
+404,2020-2021,1610612755,Ben Simmons,Regular Season,1627732,On,3PAr,0.358
+404,2020-2021,1610612755,Ben Simmons,Regular Season,1627732,Off,3PAr - Defense,0.375
+404,2020-2021,1610612755,Ben Simmons,Regular Season,1627732,On,3PAr - Defense,0.384
+405,2020-2021,1610612764,Bradley Beal,Regular Season,203078,Off,3PAr,0.337
+405,2020-2021,1610612764,Bradley Beal,Regular Season,203078,On,3PAr,0.308
+405,2020-2021,1610612764,Bradley Beal,Regular Season,203078,Off,3PAr - Defense,0.359
+405,2020-2021,1610612764,Bradley Beal,Regular Season,203078,On,3PAr - Defense,0.373
+406,2020-2021,1610612756,Chris Paul,Regular Season,101108,Off,3PAr,0.401
+406,2020-2021,1610612756,Chris Paul,Regular Season,101108,On,3PAr,0.386
+406,2020-2021,1610612756,Chris Paul,Regular Season,101108,Off,3PAr - Defense,0.362
+406,2020-2021,1610612756,Chris Paul,Regular Season,101108,On,3PAr - Defense,0.387
+407,2020-2021,1610612757,Damian Lillard,Regular Season,203081,Off,3PAr,0.413
+407,2020-2021,1610612757,Damian Lillard,Regular Season,203081,On,3PAr,0.463
+407,2020-2021,1610612757,Damian Lillard,Regular Season,203081,Off,3PAr - Defense,0.395
+407,2020-2021,1610612757,Damian Lillard,Regular Season,203081,On,3PAr - Defense,0.391
+408,2020-2021,1610612744,Draymond Green,Regular Season,203110,Off,3PAr,0.427
+408,2020-2021,1610612744,Draymond Green,Regular Season,203110,On,3PAr,0.449
+408,2020-2021,1610612744,Draymond Green,Regular Season,203110,Off,3PAr - Defense,0.363
+408,2020-2021,1610612744,Draymond Green,Regular Season,203110,On,3PAr - Defense,0.405
+409,2020-2021,1610612749,Giannis Antetokounmpo,Regular Season,203507,Off,3PAr,0.397
+409,2020-2021,1610612749,Giannis Antetokounmpo,Regular Season,203507,On,3PAr,0.409
+409,2020-2021,1610612749,Giannis Antetokounmpo,Regular Season,203507,Off,3PAr - Defense,0.423
+409,2020-2021,1610612749,Giannis Antetokounmpo,Regular Season,203507,On,3PAr - Defense,0.41
+410,2020-2021,1610612748,Jimmy Butler,Regular Season,202710,Off,3PAr,0.467
+410,2020-2021,1610612748,Jimmy Butler,Regular Season,202710,On,3PAr,0.398
+410,2020-2021,1610612748,Jimmy Butler,Regular Season,202710,Off,3PAr - Defense,0.466
+410,2020-2021,1610612748,Jimmy Butler,Regular Season,202710,On,3PAr - Defense,0.451
+411,2020-2021,1610612755,Joel Embiid,Regular Season,203954,Off,3PAr,0.355
+411,2020-2021,1610612755,Joel Embiid,Regular Season,203954,On,3PAr,0.336
+411,2020-2021,1610612755,Joel Embiid,Regular Season,203954,Off,3PAr - Defense,0.373
+411,2020-2021,1610612755,Joel Embiid,Regular Season,203954,On,3PAr - Defense,0.388
+412,2020-2021,1610612749,Jrue Holiday,Regular Season,201950,Off,3PAr,0.401
+412,2020-2021,1610612749,Jrue Holiday,Regular Season,201950,On,3PAr,0.406
+412,2020-2021,1610612749,Jrue Holiday,Regular Season,201950,Off,3PAr - Defense,0.402
+412,2020-2021,1610612749,Jrue Holiday,Regular Season,201950,On,3PAr - Defense,0.426
+413,2020-2021,1610612752,Julius Randle,Regular Season,203944,Off,3PAr,0.383
+413,2020-2021,1610612752,Julius Randle,Regular Season,203944,On,3PAr,0.336
+413,2020-2021,1610612752,Julius Randle,Regular Season,203944,Off,3PAr - Defense,0.407
+413,2020-2021,1610612752,Julius Randle,Regular Season,203944,On,3PAr - Defense,0.415
+414,2020-2021,1610612746,Kawhi Leonard,Regular Season,202695,Off,3PAr,0.383
+414,2020-2021,1610612746,Kawhi Leonard,Regular Season,202695,On,3PAr,0.417
+414,2020-2021,1610612746,Kawhi Leonard,Regular Season,202695,Off,3PAr - Defense,0.389
+414,2020-2021,1610612746,Kawhi Leonard,Regular Season,202695,On,3PAr - Defense,0.364
+415,2020-2021,1610612751,Kyrie Irving,Regular Season,202681,Off,3PAr,0.433
+415,2020-2021,1610612751,Kyrie Irving,Regular Season,202681,On,3PAr,0.398
+415,2020-2021,1610612751,Kyrie Irving,Regular Season,202681,Off,3PAr - Defense,0.396
+415,2020-2021,1610612751,Kyrie Irving,Regular Season,202681,On,3PAr - Defense,0.397
+416,2020-2021,1610612747,LeBron James,Regular Season,2544,Off,3PAr,0.349
+416,2020-2021,1610612747,LeBron James,Regular Season,2544,On,3PAr,0.381
+416,2020-2021,1610612747,LeBron James,Regular Season,2544,Off,3PAr - Defense,0.371
+416,2020-2021,1610612747,LeBron James,Regular Season,2544,On,3PAr - Defense,0.376
+417,2020-2021,1610612742,Luka Doncic,Regular Season,1629029,Off,3PAr,0.414
+417,2020-2021,1610612742,Luka Doncic,Regular Season,1629029,On,3PAr,0.449
+417,2020-2021,1610612742,Luka Doncic,Regular Season,1629029,Off,3PAr - Defense,0.407
+417,2020-2021,1610612742,Luka Doncic,Regular Season,1629029,On,3PAr - Defense,0.404
+418,2020-2021,1610612755,Matisse Thybulle,Regular Season,1629680,Off,3PAr,0.353
+418,2020-2021,1610612755,Matisse Thybulle,Regular Season,1629680,On,3PAr,0.336
+418,2020-2021,1610612755,Matisse Thybulle,Regular Season,1629680,Off,3PAr - Defense,0.383
+418,2020-2021,1610612755,Matisse Thybulle,Regular Season,1629680,On,3PAr - Defense,0.374
+419,2020-2021,1610612743,Nikola Jokic,Regular Season,203999,Off,3PAr,0.434
+419,2020-2021,1610612743,Nikola Jokic,Regular Season,203999,On,3PAr,0.363
+419,2020-2021,1610612743,Nikola Jokic,Regular Season,203999,Off,3PAr - Defense,0.424
+419,2020-2021,1610612743,Nikola Jokic,Regular Season,203999,On,3PAr - Defense,0.416
+420,2020-2021,1610612746,Paul George,Regular Season,202331,Off,3PAr,0.385
+420,2020-2021,1610612746,Paul George,Regular Season,202331,On,3PAr,0.414
+420,2020-2021,1610612746,Paul George,Regular Season,202331,Off,3PAr - Defense,0.353
+420,2020-2021,1610612746,Paul George,Regular Season,202331,On,3PAr - Defense,0.398
+421,2020-2021,1610612762,Rudy Gobert,Regular Season,203497,Off,3PAr,0.479
+421,2020-2021,1610612762,Rudy Gobert,Regular Season,203497,On,3PAr,0.494
+421,2020-2021,1610612762,Rudy Gobert,Regular Season,203497,Off,3PAr - Defense,0.332
+421,2020-2021,1610612762,Rudy Gobert,Regular Season,203497,On,3PAr - Defense,0.358
+422,2020-2021,1610612744,Stephen Curry,Regular Season,201939,Off,3PAr,0.412
+422,2020-2021,1610612744,Stephen Curry,Regular Season,201939,On,3PAr,0.455
+422,2020-2021,1610612744,Stephen Curry,Regular Season,201939,Off,3PAr - Defense,0.367
+422,2020-2021,1610612744,Stephen Curry,Regular Season,201939,On,3PAr - Defense,0.399
+423,2021-2022,1610612748,Bam Adebayo,Regular Season,1628389,Off,3PAr,0.436
+423,2021-2022,1610612748,Bam Adebayo,Regular Season,1628389,On,3PAr,0.405
+423,2021-2022,1610612748,Bam Adebayo,Regular Season,1628389,Off,3PAr - Defense,0.459
+423,2021-2022,1610612748,Bam Adebayo,Regular Season,1628389,On,3PAr - Defense,0.451
+424,2021-2022,1610612756,Chris Paul,Regular Season,101108,Off,3PAr,0.366
+424,2021-2022,1610612756,Chris Paul,Regular Season,101108,On,3PAr,0.344
+424,2021-2022,1610612756,Chris Paul,Regular Season,101108,Off,3PAr - Defense,0.397
+424,2021-2022,1610612756,Chris Paul,Regular Season,101108,On,3PAr - Defense,0.379
+425,2021-2022,1610612741,DeMar DeRozan,Regular Season,201942,Off,3PAr,0.372
+425,2021-2022,1610612741,DeMar DeRozan,Regular Season,201942,On,3PAr,0.314
+425,2021-2022,1610612741,DeMar DeRozan,Regular Season,201942,Off,3PAr - Defense,0.376
+425,2021-2022,1610612741,DeMar DeRozan,Regular Season,201942,On,3PAr - Defense,0.361
+426,2021-2022,1610612756,Devin Booker,Regular Season,1626164,Off,3PAr,0.371
+426,2021-2022,1610612756,Devin Booker,Regular Season,1626164,On,3PAr,0.343
+426,2021-2022,1610612756,Devin Booker,Regular Season,1626164,Off,3PAr - Defense,0.38
+426,2021-2022,1610612756,Devin Booker,Regular Season,1626164,On,3PAr - Defense,0.392
+427,2021-2022,1610612744,Draymond Green,Regular Season,203110,Off,3PAr,0.457
+427,2021-2022,1610612744,Draymond Green,Regular Season,203110,On,3PAr,0.453
+427,2021-2022,1610612744,Draymond Green,Regular Season,203110,Off,3PAr - Defense,0.417
+427,2021-2022,1610612744,Draymond Green,Regular Season,203110,On,3PAr - Defense,0.411
+428,2021-2022,1610612749,Giannis Antetokounmpo,Regular Season,203507,Off,3PAr,0.427
+428,2021-2022,1610612749,Giannis Antetokounmpo,Regular Season,203507,On,3PAr,0.432
+428,2021-2022,1610612749,Giannis Antetokounmpo,Regular Season,203507,Off,3PAr - Defense,0.444
+428,2021-2022,1610612749,Giannis Antetokounmpo,Regular Season,203507,On,3PAr - Defense,0.451
+429,2021-2022,1610612763,Ja Morant,Regular Season,1629630,Off,3PAr,0.369
+429,2021-2022,1610612763,Ja Morant,Regular Season,1629630,On,3PAr,0.321
+429,2021-2022,1610612763,Ja Morant,Regular Season,1629630,Off,3PAr - Defense,0.387
+429,2021-2022,1610612763,Ja Morant,Regular Season,1629630,On,3PAr - Defense,0.391
+430,2021-2022,1610612763,Jaren Jackson Jr.,Regular Season,1628991,Off,3PAr,0.335
+430,2021-2022,1610612763,Jaren Jackson Jr.,Regular Season,1628991,On,3PAr,0.356
+430,2021-2022,1610612763,Jaren Jackson Jr.,Regular Season,1628991,Off,3PAr - Defense,0.378
+430,2021-2022,1610612763,Jaren Jackson Jr.,Regular Season,1628991,On,3PAr - Defense,0.398
+431,2021-2022,1610612738,Jayson Tatum,Regular Season,1628369,Off,3PAr,0.43
+431,2021-2022,1610612738,Jayson Tatum,Regular Season,1628369,On,3PAr,0.422
+431,2021-2022,1610612738,Jayson Tatum,Regular Season,1628369,Off,3PAr - Defense,0.391
+431,2021-2022,1610612738,Jayson Tatum,Regular Season,1628369,On,3PAr - Defense,0.398
+432,2021-2022,1610612755,Joel Embiid,Regular Season,203954,Off,3PAr,0.385
+432,2021-2022,1610612755,Joel Embiid,Regular Season,203954,On,3PAr,0.369
+432,2021-2022,1610612755,Joel Embiid,Regular Season,203954,Off,3PAr - Defense,0.406
+432,2021-2022,1610612755,Joel Embiid,Regular Season,203954,On,3PAr - Defense,0.36
+433,2021-2022,1610612749,Jrue Holiday,Regular Season,201950,Off,3PAr,0.426
+433,2021-2022,1610612749,Jrue Holiday,Regular Season,201950,On,3PAr,0.433
+433,2021-2022,1610612749,Jrue Holiday,Regular Season,201950,Off,3PAr - Defense,0.426
+433,2021-2022,1610612749,Jrue Holiday,Regular Season,201950,On,3PAr - Defense,0.466
+434,2021-2022,1610612750,Karl-Anthony Towns,Regular Season,1626157,Off,3PAr,0.442
+434,2021-2022,1610612750,Karl-Anthony Towns,Regular Season,1626157,On,3PAr,0.461
+434,2021-2022,1610612750,Karl-Anthony Towns,Regular Season,1626157,Off,3PAr - Defense,0.433
+434,2021-2022,1610612750,Karl-Anthony Towns,Regular Season,1626157,On,3PAr - Defense,0.424
+435,2021-2022,1610612751,Kevin Durant,Regular Season,201142,Off,3PAr,0.368
+435,2021-2022,1610612751,Kevin Durant,Regular Season,201142,On,3PAr,0.35
+435,2021-2022,1610612751,Kevin Durant,Regular Season,201142,Off,3PAr - Defense,0.392
+435,2021-2022,1610612751,Kevin Durant,Regular Season,201142,On,3PAr - Defense,0.411
+436,2021-2022,1610612747,LeBron James,Regular Season,2544,Off,3PAr,0.371
+436,2021-2022,1610612747,LeBron James,Regular Season,2544,On,3PAr,0.404
+436,2021-2022,1610612747,LeBron James,Regular Season,2544,Off,3PAr - Defense,0.397
+436,2021-2022,1610612747,LeBron James,Regular Season,2544,On,3PAr - Defense,0.393
+437,2021-2022,1610612742,Luka Doncic,Regular Season,1629029,Off,3PAr,0.404
+437,2021-2022,1610612742,Luka Doncic,Regular Season,1629029,On,3PAr,0.465
+437,2021-2022,1610612742,Luka Doncic,Regular Season,1629029,Off,3PAr - Defense,0.389
+437,2021-2022,1610612742,Luka Doncic,Regular Season,1629029,On,3PAr - Defense,0.367
+438,2021-2022,1610612738,Marcus Smart,Regular Season,203935,Off,3PAr,0.446
+438,2021-2022,1610612738,Marcus Smart,Regular Season,203935,On,3PAr,0.41
+438,2021-2022,1610612738,Marcus Smart,Regular Season,203935,Off,3PAr - Defense,0.372
+438,2021-2022,1610612738,Marcus Smart,Regular Season,203935,On,3PAr - Defense,0.414
+439,2021-2022,1610612755,Matisse Thybulle,Regular Season,1629680,Off,3PAr,0.388
+439,2021-2022,1610612755,Matisse Thybulle,Regular Season,1629680,On,3PAr,0.359
+439,2021-2022,1610612755,Matisse Thybulle,Regular Season,1629680,Off,3PAr - Defense,0.406
+439,2021-2022,1610612755,Matisse Thybulle,Regular Season,1629680,On,3PAr - Defense,0.343
+440,2021-2022,1610612756,Mikal Bridges,Regular Season,1628969,Off,3PAr,0.386
+440,2021-2022,1610612756,Mikal Bridges,Regular Season,1628969,On,3PAr,0.341
+440,2021-2022,1610612756,Mikal Bridges,Regular Season,1628969,Off,3PAr - Defense,0.396
+440,2021-2022,1610612756,Mikal Bridges,Regular Season,1628969,On,3PAr - Defense,0.384
+441,2021-2022,1610612743,Nikola Jokic,Regular Season,203999,Off,3PAr,0.48
+441,2021-2022,1610612743,Nikola Jokic,Regular Season,203999,On,3PAr,0.378
+441,2021-2022,1610612743,Nikola Jokic,Regular Season,203999,Off,3PAr - Defense,0.415
+441,2021-2022,1610612743,Nikola Jokic,Regular Season,203999,On,3PAr - Defense,0.379
+442,2021-2022,1610612761,Pascal Siakam,Regular Season,1627783,Off,3PAr,0.381
+442,2021-2022,1610612761,Pascal Siakam,Regular Season,1627783,On,3PAr,0.371
+442,2021-2022,1610612761,Pascal Siakam,Regular Season,1627783,Off,3PAr - Defense,0.432
+442,2021-2022,1610612761,Pascal Siakam,Regular Season,1627783,On,3PAr - Defense,0.403
+443,2021-2022,1610612738,Robert Williams III,Regular Season,1629057,Off,3PAr,0.445
+443,2021-2022,1610612738,Robert Williams III,Regular Season,1629057,On,3PAr,0.401
+443,2021-2022,1610612738,Robert Williams III,Regular Season,1629057,Off,3PAr - Defense,0.378
+443,2021-2022,1610612738,Robert Williams III,Regular Season,1629057,On,3PAr - Defense,0.417
+444,2021-2022,1610612762,Rudy Gobert,Regular Season,203497,Off,3PAr,0.437
+444,2021-2022,1610612762,Rudy Gobert,Regular Season,203497,On,3PAr,0.496
+444,2021-2022,1610612762,Rudy Gobert,Regular Season,203497,Off,3PAr - Defense,0.372
+444,2021-2022,1610612762,Rudy Gobert,Regular Season,203497,On,3PAr - Defense,0.401
+445,2021-2022,1610612744,Stephen Curry,Regular Season,201939,Off,3PAr,0.438
+445,2021-2022,1610612744,Stephen Curry,Regular Season,201939,On,3PAr,0.469
+445,2021-2022,1610612744,Stephen Curry,Regular Season,201939,Off,3PAr - Defense,0.424
+445,2021-2022,1610612744,Stephen Curry,Regular Season,201939,On,3PAr - Defense,0.408
+446,2021-2022,1610612737,Trae Young,Regular Season,1629027,Off,3PAr,0.401
+446,2021-2022,1610612737,Trae Young,Regular Season,1629027,On,3PAr,0.384
+446,2021-2022,1610612737,Trae Young,Regular Season,1629027,Off,3PAr - Defense,0.409
+446,2021-2022,1610612737,Trae Young,Regular Season,1629027,On,3PAr - Defense,0.39
+447,2022-2023,1610612741,Alex Caruso,Regular Season,1627936,Off,3PAr,0.331
+447,2022-2023,1610612741,Alex Caruso,Regular Season,1627936,On,3PAr,0.337
+447,2022-2023,1610612741,Alex Caruso,Regular Season,1627936,Off,3PAr - Defense,0.418
+447,2022-2023,1610612741,Alex Caruso,Regular Season,1627936,On,3PAr - Defense,0.442
+448,2022-2023,1610612748,Bam Adebayo,Regular Season,1628389,Off,3PAr,0.468
+448,2022-2023,1610612748,Bam Adebayo,Regular Season,1628389,On,3PAr,0.375
+448,2022-2023,1610612748,Bam Adebayo,Regular Season,1628389,Off,3PAr - Defense,0.426
+448,2022-2023,1610612748,Bam Adebayo,Regular Season,1628389,On,3PAr - Defense,0.43
+449,2022-2023,1610612749,Brook Lopez,Regular Season,201572,Off,3PAr,0.468
+449,2022-2023,1610612749,Brook Lopez,Regular Season,201572,On,3PAr,0.433
+449,2022-2023,1610612749,Brook Lopez,Regular Season,201572,Off,3PAr - Defense,0.37
+449,2022-2023,1610612749,Brook Lopez,Regular Season,201572,On,3PAr - Defense,0.364
+450,2022-2023,1610612757,Damian Lillard,Regular Season,203081,Off,3PAr,0.371
+450,2022-2023,1610612757,Damian Lillard,Regular Season,203081,On,3PAr,0.451
+450,2022-2023,1610612757,Damian Lillard,Regular Season,203081,Off,3PAr - Defense,0.397
+450,2022-2023,1610612757,Damian Lillard,Regular Season,203081,On,3PAr - Defense,0.36
+451,2022-2023,1610612758,De'Aaron Fox,Regular Season,1628368,Off,3PAr,0.459
+451,2022-2023,1610612758,De'Aaron Fox,Regular Season,1628368,On,3PAr,0.4
+451,2022-2023,1610612758,De'Aaron Fox,Regular Season,1628368,Off,3PAr - Defense,0.37
+451,2022-2023,1610612758,De'Aaron Fox,Regular Season,1628368,On,3PAr - Defense,0.38
+452,2022-2023,1610612738,Derrick White,Regular Season,1628401,Off,3PAr,0.464
+452,2022-2023,1610612738,Derrick White,Regular Season,1628401,On,3PAr,0.488
+452,2022-2023,1610612738,Derrick White,Regular Season,1628401,Off,3PAr - Defense,0.384
+452,2022-2023,1610612738,Derrick White,Regular Season,1628401,On,3PAr - Defense,0.366
+453,2022-2023,1610612763,Dillon Brooks,Regular Season,1628415,Off,3PAr,0.389
+453,2022-2023,1610612763,Dillon Brooks,Regular Season,1628415,On,3PAr,0.358
+453,2022-2023,1610612763,Dillon Brooks,Regular Season,1628415,Off,3PAr - Defense,0.402
+453,2022-2023,1610612763,Dillon Brooks,Regular Season,1628415,On,3PAr - Defense,0.412
+454,2022-2023,1610612758,Domantas Sabonis,Regular Season,1627734,Off,3PAr,0.415
+454,2022-2023,1610612758,Domantas Sabonis,Regular Season,1627734,On,3PAr,0.425
+454,2022-2023,1610612758,Domantas Sabonis,Regular Season,1627734,Off,3PAr - Defense,0.393
+454,2022-2023,1610612758,Domantas Sabonis,Regular Season,1627734,On,3PAr - Defense,0.369
+455,2022-2023,1610612739,Donovan Mitchell,Regular Season,1628378,Off,3PAr,0.362
+455,2022-2023,1610612739,Donovan Mitchell,Regular Season,1628378,On,3PAr,0.375
+455,2022-2023,1610612739,Donovan Mitchell,Regular Season,1628378,Off,3PAr - Defense,0.363
+455,2022-2023,1610612739,Donovan Mitchell,Regular Season,1628378,On,3PAr - Defense,0.368
+456,2022-2023,1610612744,Draymond Green,Regular Season,203110,Off,3PAr,0.491
+456,2022-2023,1610612744,Draymond Green,Regular Season,203110,On,3PAr,0.47
+456,2022-2023,1610612744,Draymond Green,Regular Season,203110,Off,3PAr - Defense,0.385
+456,2022-2023,1610612744,Draymond Green,Regular Season,203110,On,3PAr - Defense,0.398
+457,2022-2023,1610612739,Evan Mobley,Regular Season,1630596,Off,3PAr,0.413
+457,2022-2023,1610612739,Evan Mobley,Regular Season,1630596,On,3PAr,0.35
+457,2022-2023,1610612739,Evan Mobley,Regular Season,1630596,Off,3PAr - Defense,0.341
+457,2022-2023,1610612739,Evan Mobley,Regular Season,1630596,On,3PAr - Defense,0.377
+458,2022-2023,1610612749,Giannis Antetokounmpo,Regular Season,203507,Off,3PAr,0.462
+458,2022-2023,1610612749,Giannis Antetokounmpo,Regular Season,203507,On,3PAr,0.432
+458,2022-2023,1610612749,Giannis Antetokounmpo,Regular Season,203507,Off,3PAr - Defense,0.371
+458,2022-2023,1610612749,Giannis Antetokounmpo,Regular Season,203507,On,3PAr - Defense,0.363
+459,2022-2023,1610612763,Jaren Jackson Jr.,Regular Season,1628991,Off,3PAr,0.375
+459,2022-2023,1610612763,Jaren Jackson Jr.,Regular Season,1628991,On,3PAr,0.367
+459,2022-2023,1610612763,Jaren Jackson Jr.,Regular Season,1628991,Off,3PAr - Defense,0.411
+459,2022-2023,1610612763,Jaren Jackson Jr.,Regular Season,1628991,On,3PAr - Defense,0.403
+460,2022-2023,1610612738,Jaylen Brown,Regular Season,1627759,Off,3PAr,0.51
+460,2022-2023,1610612738,Jaylen Brown,Regular Season,1627759,On,3PAr,0.458
+460,2022-2023,1610612738,Jaylen Brown,Regular Season,1627759,Off,3PAr - Defense,0.372
+460,2022-2023,1610612738,Jaylen Brown,Regular Season,1627759,On,3PAr - Defense,0.374
+461,2022-2023,1610612738,Jayson Tatum,Regular Season,1628369,Off,3PAr,0.469
+461,2022-2023,1610612738,Jayson Tatum,Regular Season,1628369,On,3PAr,0.482
+461,2022-2023,1610612738,Jayson Tatum,Regular Season,1628369,Off,3PAr - Defense,0.347
+461,2022-2023,1610612738,Jayson Tatum,Regular Season,1628369,On,3PAr - Defense,0.385
+462,2022-2023,1610612748,Jimmy Butler,Regular Season,202710,Off,3PAr,0.443
+462,2022-2023,1610612748,Jimmy Butler,Regular Season,202710,On,3PAr,0.376
+462,2022-2023,1610612748,Jimmy Butler,Regular Season,202710,Off,3PAr - Defense,0.44
+462,2022-2023,1610612748,Jimmy Butler,Regular Season,202710,On,3PAr - Defense,0.42
+463,2022-2023,1610612755,Joel Embiid,Regular Season,203954,Off,3PAr,0.392
+463,2022-2023,1610612755,Joel Embiid,Regular Season,203954,On,3PAr,0.389
+463,2022-2023,1610612755,Joel Embiid,Regular Season,203954,Off,3PAr - Defense,0.385
+463,2022-2023,1610612755,Joel Embiid,Regular Season,203954,On,3PAr - Defense,0.395
+464,2022-2023,1610612749,Jrue Holiday,Regular Season,201950,Off,3PAr,0.453
+464,2022-2023,1610612749,Jrue Holiday,Regular Season,201950,On,3PAr,0.441
+464,2022-2023,1610612749,Jrue Holiday,Regular Season,201950,Off,3PAr - Defense,0.356
+464,2022-2023,1610612749,Jrue Holiday,Regular Season,201950,On,3PAr - Defense,0.374
+465,2022-2023,1610612752,Julius Randle,Regular Season,203944,Off,3PAr,0.41
+465,2022-2023,1610612752,Julius Randle,Regular Season,203944,On,3PAr,0.396
+465,2022-2023,1610612752,Julius Randle,Regular Season,203944,Off,3PAr - Defense,0.406
+465,2022-2023,1610612752,Julius Randle,Regular Season,203944,On,3PAr - Defense,0.417
+466,2022-2023,1610612747,LeBron James,Regular Season,2544,Off,3PAr,0.346
+466,2022-2023,1610612747,LeBron James,Regular Season,2544,On,3PAr,0.351
+466,2022-2023,1610612747,LeBron James,Regular Season,2544,Off,3PAr - Defense,0.384
+466,2022-2023,1610612747,LeBron James,Regular Season,2544,On,3PAr - Defense,0.395
+467,2022-2023,1610612742,Luka Doncic,Regular Season,1629029,Off,3PAr,0.488
+467,2022-2023,1610612742,Luka Doncic,Regular Season,1629029,On,3PAr,0.486
+467,2022-2023,1610612742,Luka Doncic,Regular Season,1629029,Off,3PAr - Defense,0.366
+467,2022-2023,1610612742,Luka Doncic,Regular Season,1629029,On,3PAr - Defense,0.368
+468,2022-2023,1610612743,Nikola Jokic,Regular Season,203999,Off,3PAr,0.373
+468,2022-2023,1610612743,Nikola Jokic,Regular Season,203999,On,3PAr,0.354
+468,2022-2023,1610612743,Nikola Jokic,Regular Season,203999,Off,3PAr - Defense,0.371
+468,2022-2023,1610612743,Nikola Jokic,Regular Season,203999,On,3PAr - Defense,0.38
+469,2022-2023,1610612761,O.G. Anunoby,Regular Season,1628384,Off,3PAr,0.333
+469,2022-2023,1610612761,O.G. Anunoby,Regular Season,1628384,On,3PAr,0.362
+469,2022-2023,1610612761,O.G. Anunoby,Regular Season,1628384,Off,3PAr - Defense,0.405
+469,2022-2023,1610612761,O.G. Anunoby,Regular Season,1628384,On,3PAr - Defense,0.39
+470,2022-2023,1610612760,Shai Gilgeous-Alexander,Regular Season,1628983,Off,3PAr,0.409
+470,2022-2023,1610612760,Shai Gilgeous-Alexander,Regular Season,1628983,On,3PAr,0.343
+470,2022-2023,1610612760,Shai Gilgeous-Alexander,Regular Season,1628983,Off,3PAr - Defense,0.412
+470,2022-2023,1610612760,Shai Gilgeous-Alexander,Regular Season,1628983,On,3PAr - Defense,0.405
+471,2022-2023,1610612744,Stephen Curry,Regular Season,201939,Off,3PAr,0.484
+471,2022-2023,1610612744,Stephen Curry,Regular Season,201939,On,3PAr,0.473
+471,2022-2023,1610612744,Stephen Curry,Regular Season,201939,Off,3PAr - Defense,0.4
+471,2022-2023,1610612744,Stephen Curry,Regular Season,201939,On,3PAr - Defense,0.386
+472,2023-2024,1610612741,Alex Caruso,Regular Season,1627936,Off,3PAr,0.347
+472,2023-2024,1610612741,Alex Caruso,Regular Season,1627936,On,3PAr,0.369
+472,2023-2024,1610612741,Alex Caruso,Regular Season,1627936,Off,3PAr - Defense,0.448
+472,2023-2024,1610612741,Alex Caruso,Regular Season,1627936,On,3PAr - Defense,0.459
+473,2023-2024,1610612747,Anthony Davis,Regular Season,203076,Off,3PAr,0.381
+473,2023-2024,1610612747,Anthony Davis,Regular Season,203076,On,3PAr,0.348
+473,2023-2024,1610612747,Anthony Davis,Regular Season,203076,Off,3PAr - Defense,0.412
+473,2023-2024,1610612747,Anthony Davis,Regular Season,203076,On,3PAr - Defense,0.401
+474,2023-2024,1610612750,Anthony Edwards,Regular Season,1630162,Off,3PAr,0.388
+474,2023-2024,1610612750,Anthony Edwards,Regular Season,1630162,On,3PAr,0.383
+474,2023-2024,1610612750,Anthony Edwards,Regular Season,1630162,Off,3PAr - Defense,0.366
+474,2023-2024,1610612750,Anthony Edwards,Regular Season,1630162,On,3PAr - Defense,0.374
+475,2023-2024,1610612748,Bam Adebayo,Regular Season,1628389,Off,3PAr,0.424
+475,2023-2024,1610612748,Bam Adebayo,Regular Season,1628389,On,3PAr,0.374
+475,2023-2024,1610612748,Bam Adebayo,Regular Season,1628389,Off,3PAr - Defense,0.426
+475,2023-2024,1610612748,Bam Adebayo,Regular Season,1628389,On,3PAr - Defense,0.429
+476,2023-2024,1610612738,Derrick White,Regular Season,1628401,Off,3PAr,0.484
+476,2023-2024,1610612738,Derrick White,Regular Season,1628401,On,3PAr,0.462
+476,2023-2024,1610612738,Derrick White,Regular Season,1628401,Off,3PAr - Defense,0.403
+476,2023-2024,1610612738,Derrick White,Regular Season,1628401,On,3PAr - Defense,0.399
+477,2023-2024,1610612756,Devin Booker,Regular Season,1626164,Off,3PAr,0.374
+477,2023-2024,1610612756,Devin Booker,Regular Season,1626164,On,3PAr,0.38
+477,2023-2024,1610612756,Devin Booker,Regular Season,1626164,Off,3PAr - Defense,0.387
+477,2023-2024,1610612756,Devin Booker,Regular Season,1626164,On,3PAr - Defense,0.403
+478,2023-2024,1610612758,Domantas Sabonis,Regular Season,1627734,Off,3PAr,0.455
+478,2023-2024,1610612758,Domantas Sabonis,Regular Season,1627734,On,3PAr,0.423
+478,2023-2024,1610612758,Domantas Sabonis,Regular Season,1627734,Off,3PAr - Defense,0.399
+478,2023-2024,1610612758,Domantas Sabonis,Regular Season,1627734,On,3PAr - Defense,0.387
+479,2023-2024,1610612749,Giannis Antetokounmpo,Regular Season,203507,Off,3PAr,0.427
+479,2023-2024,1610612749,Giannis Antetokounmpo,Regular Season,203507,On,3PAr,0.432
+479,2023-2024,1610612749,Giannis Antetokounmpo,Regular Season,203507,Off,3PAr - Defense,0.374
+479,2023-2024,1610612749,Giannis Antetokounmpo,Regular Season,203507,On,3PAr - Defense,0.39
+480,2023-2024,1610612740,Herbert Jones,Regular Season,1630529,Off,3PAr,0.399
+480,2023-2024,1610612740,Herbert Jones,Regular Season,1630529,On,3PAr,0.355
+480,2023-2024,1610612740,Herbert Jones,Regular Season,1630529,Off,3PAr - Defense,0.439
+480,2023-2024,1610612740,Herbert Jones,Regular Season,1630529,On,3PAr - Defense,0.447
+481,2023-2024,1610612750,Jaden McDaniels,Regular Season,1630183,Off,3PAr,0.395
+481,2023-2024,1610612750,Jaden McDaniels,Regular Season,1630183,On,3PAr,0.375
+481,2023-2024,1610612750,Jaden McDaniels,Regular Season,1630183,Off,3PAr - Defense,0.372
+481,2023-2024,1610612750,Jaden McDaniels,Regular Season,1630183,On,3PAr - Defense,0.372
+482,2023-2024,1610612752,Jalen Brunson,Regular Season,1628973,Off,3PAr,0.43
+482,2023-2024,1610612752,Jalen Brunson,Regular Season,1628973,On,3PAr,0.392
+482,2023-2024,1610612752,Jalen Brunson,Regular Season,1628973,Off,3PAr - Defense,0.417
+482,2023-2024,1610612752,Jalen Brunson,Regular Season,1628973,On,3PAr - Defense,0.393
+483,2023-2024,1610612753,Jalen Suggs,Regular Season,1630591,Off,3PAr,0.366
+483,2023-2024,1610612753,Jalen Suggs,Regular Season,1630591,On,3PAr,0.371
+483,2023-2024,1610612753,Jalen Suggs,Regular Season,1630591,Off,3PAr - Defense,0.395
+483,2023-2024,1610612753,Jalen Suggs,Regular Season,1630591,On,3PAr - Defense,0.371
+484,2023-2024,1610612738,Jayson Tatum,Regular Season,1628369,Off,3PAr,0.461
+484,2023-2024,1610612738,Jayson Tatum,Regular Season,1628369,On,3PAr,0.476
+484,2023-2024,1610612738,Jayson Tatum,Regular Season,1628369,Off,3PAr - Defense,0.4
+484,2023-2024,1610612738,Jayson Tatum,Regular Season,1628369,On,3PAr - Defense,0.401
+485,2023-2024,1610612738,Jrue Holiday,Regular Season,201950,Off,3PAr,0.47
+485,2023-2024,1610612738,Jrue Holiday,Regular Season,201950,On,3PAr,0.472
+485,2023-2024,1610612738,Jrue Holiday,Regular Season,201950,Off,3PAr - Defense,0.388
+485,2023-2024,1610612738,Jrue Holiday,Regular Season,201950,On,3PAr - Defense,0.409
+486,2023-2024,1610612746,Kawhi Leonard,Regular Season,202695,Off,3PAr,0.398
+486,2023-2024,1610612746,Kawhi Leonard,Regular Season,202695,On,3PAr,0.372
+486,2023-2024,1610612746,Kawhi Leonard,Regular Season,202695,Off,3PAr - Defense,0.399
+486,2023-2024,1610612746,Kawhi Leonard,Regular Season,202695,On,3PAr - Defense,0.397
+487,2023-2024,1610612756,Kevin Durant,Regular Season,201142,Off,3PAr,0.392
+487,2023-2024,1610612756,Kevin Durant,Regular Season,201142,On,3PAr,0.373
+487,2023-2024,1610612756,Kevin Durant,Regular Season,201142,Off,3PAr - Defense,0.419
+487,2023-2024,1610612756,Kevin Durant,Regular Season,201142,On,3PAr - Defense,0.388
+488,2023-2024,1610612747,LeBron James,Regular Season,2544,Off,3PAr,0.37
+488,2023-2024,1610612747,LeBron James,Regular Season,2544,On,3PAr,0.352
+488,2023-2024,1610612747,LeBron James,Regular Season,2544,Off,3PAr - Defense,0.401
+488,2023-2024,1610612747,LeBron James,Regular Season,2544,On,3PAr - Defense,0.406
+489,2023-2024,1610612742,Luka Doncic,Regular Season,1629029,Off,3PAr,0.416
+489,2023-2024,1610612742,Luka Doncic,Regular Season,1629029,On,3PAr,0.454
+489,2023-2024,1610612742,Luka Doncic,Regular Season,1629029,Off,3PAr - Defense,0.386
+489,2023-2024,1610612742,Luka Doncic,Regular Season,1629029,On,3PAr - Defense,0.398
+490,2023-2024,1610612743,Nikola Jokic,Regular Season,203999,Off,3PAr,0.369
+490,2023-2024,1610612743,Nikola Jokic,Regular Season,203999,On,3PAr,0.344
+490,2023-2024,1610612743,Nikola Jokic,Regular Season,203999,Off,3PAr - Defense,0.355
+490,2023-2024,1610612743,Nikola Jokic,Regular Season,203999,On,3PAr - Defense,0.361
+491,2023-2024,1610612750,Rudy Gobert,Regular Season,203497,Off,3PAr,0.397
+491,2023-2024,1610612750,Rudy Gobert,Regular Season,203497,On,3PAr,0.377
+491,2023-2024,1610612750,Rudy Gobert,Regular Season,203497,Off,3PAr - Defense,0.364
+491,2023-2024,1610612750,Rudy Gobert,Regular Season,203497,On,3PAr - Defense,0.376
+492,2023-2024,1610612760,Shai Gilgeous-Alexander,Regular Season,1628983,Off,3PAr,0.384
+492,2023-2024,1610612760,Shai Gilgeous-Alexander,Regular Season,1628983,On,3PAr,0.383
+492,2023-2024,1610612760,Shai Gilgeous-Alexander,Regular Season,1628983,Off,3PAr - Defense,0.411
+492,2023-2024,1610612760,Shai Gilgeous-Alexander,Regular Season,1628983,On,3PAr - Defense,0.42
+493,2023-2024,1610612744,Stephen Curry,Regular Season,201939,Off,3PAr,0.408
+493,2023-2024,1610612744,Stephen Curry,Regular Season,201939,On,3PAr,0.435
+493,2023-2024,1610612744,Stephen Curry,Regular Season,201939,Off,3PAr - Defense,0.411
+493,2023-2024,1610612744,Stephen Curry,Regular Season,201939,On,3PAr - Defense,0.407
+494,2023-2024,1610612754,Tyrese Haliburton,Regular Season,1630169,Off,3PAr,0.334
+494,2023-2024,1610612754,Tyrese Haliburton,Regular Season,1630169,On,3PAr,0.416
+494,2023-2024,1610612754,Tyrese Haliburton,Regular Season,1630169,Off,3PAr - Defense,0.345
+494,2023-2024,1610612754,Tyrese Haliburton,Regular Season,1630169,On,3PAr - Defense,0.313
+495,2023-2024,1610612759,Victor Wembanyama,Regular Season,1641705,Off,3PAr,0.387
+495,2023-2024,1610612759,Victor Wembanyama,Regular Season,1641705,On,3PAr,0.414
+495,2023-2024,1610612759,Victor Wembanyama,Regular Season,1641705,Off,3PAr - Defense,0.364
+495,2023-2024,1610612759,Victor Wembanyama,Regular Season,1641705,On,3PAr - Defense,0.372
+496,2024-2025,1610612745,Amen Thompson,Regular Season,1641708,Off,3PAr,0.403
+496,2024-2025,1610612745,Amen Thompson,Regular Season,1641708,On,3PAr,0.369
+496,2024-2025,1610612745,Amen Thompson,Regular Season,1641708,Off,3PAr - Defense,0.387
+496,2024-2025,1610612745,Amen Thompson,Regular Season,1641708,On,3PAr - Defense,0.395
+497,2024-2025,1610612750,Anthony Edwards,Regular Season,1630162,Off,3PAr,0.457
+497,2024-2025,1610612750,Anthony Edwards,Regular Season,1630162,On,3PAr,0.455
+497,2024-2025,1610612750,Anthony Edwards,Regular Season,1630162,Off,3PAr - Defense,0.409
+497,2024-2025,1610612750,Anthony Edwards,Regular Season,1630162,On,3PAr - Defense,0.409
+498,2024-2025,1610612765,Cade Cunningham,Regular Season,1630595,Off,3PAr,0.436
+498,2024-2025,1610612765,Cade Cunningham,Regular Season,1630595,On,3PAr,0.369
+498,2024-2025,1610612765,Cade Cunningham,Regular Season,1630595,Off,3PAr - Defense,0.408
+498,2024-2025,1610612765,Cade Cunningham,Regular Season,1630595,On,3PAr - Defense,0.434
+499,2024-2025,1610612739,Donovan Mitchell,Regular Season,1628378,Off,3PAr,0.45
+499,2024-2025,1610612739,Donovan Mitchell,Regular Season,1628378,On,3PAr,0.462
+499,2024-2025,1610612739,Donovan Mitchell,Regular Season,1628378,Off,3PAr - Defense,0.419
+499,2024-2025,1610612739,Donovan Mitchell,Regular Season,1628378,On,3PAr - Defense,0.408
+500,2024-2025,1610612744,Draymond Green,Regular Season,203110,Off,3PAr,0.456
+500,2024-2025,1610612744,Draymond Green,Regular Season,203110,On,3PAr,0.482
+500,2024-2025,1610612744,Draymond Green,Regular Season,203110,Off,3PAr - Defense,0.396
+500,2024-2025,1610612744,Draymond Green,Regular Season,203110,On,3PAr - Defense,0.439
+501,2024-2025,1610612737,Dyson Daniels,Regular Season,1630700,Off,3PAr,0.449
+501,2024-2025,1610612737,Dyson Daniels,Regular Season,1630700,On,3PAr,0.391
+501,2024-2025,1610612737,Dyson Daniels,Regular Season,1630700,Off,3PAr - Defense,0.432
+501,2024-2025,1610612737,Dyson Daniels,Regular Season,1630700,On,3PAr - Defense,0.412
+502,2024-2025,1610612739,Evan Mobley,Regular Season,1630596,Off,3PAr,0.455
+502,2024-2025,1610612739,Evan Mobley,Regular Season,1630596,On,3PAr,0.458
+502,2024-2025,1610612739,Evan Mobley,Regular Season,1630596,Off,3PAr - Defense,0.402
+502,2024-2025,1610612739,Evan Mobley,Regular Season,1630596,On,3PAr - Defense,0.421
+503,2024-2025,1610612749,Giannis Antetokounmpo,Regular Season,203507,Off,3PAr,0.45
+503,2024-2025,1610612749,Giannis Antetokounmpo,Regular Season,203507,On,3PAr,0.405
+503,2024-2025,1610612749,Giannis Antetokounmpo,Regular Season,203507,Off,3PAr - Defense,0.431
+503,2024-2025,1610612749,Giannis Antetokounmpo,Regular Season,203507,On,3PAr - Defense,0.433
+504,2024-2025,1610612746,Ivica Zubac,Regular Season,1627826,Off,3PAr,0.444
+504,2024-2025,1610612746,Ivica Zubac,Regular Season,1627826,On,3PAr,0.358
+504,2024-2025,1610612746,Ivica Zubac,Regular Season,1627826,Off,3PAr - Defense,0.438
+504,2024-2025,1610612746,Ivica Zubac,Regular Season,1627826,On,3PAr - Defense,0.429
+505,2024-2025,1610612752,Jalen Brunson,Regular Season,1628973,Off,3PAr,0.406
+505,2024-2025,1610612752,Jalen Brunson,Regular Season,1628973,On,3PAr,0.365
+505,2024-2025,1610612752,Jalen Brunson,Regular Season,1628973,Off,3PAr - Defense,0.403
+505,2024-2025,1610612752,Jalen Brunson,Regular Season,1628973,On,3PAr - Defense,0.41
+506,2024-2025,1610612760,Jalen Williams,Regular Season,1631114,Off,3PAr,0.473
+506,2024-2025,1610612760,Jalen Williams,Regular Season,1631114,On,3PAr,0.378
+506,2024-2025,1610612760,Jalen Williams,Regular Season,1631114,Off,3PAr - Defense,0.475
+506,2024-2025,1610612760,Jalen Williams,Regular Season,1631114,On,3PAr - Defense,0.435
+507,2024-2025,1610612746,James Harden,Regular Season,201935,Off,3PAr,0.359
+507,2024-2025,1610612746,James Harden,Regular Season,201935,On,3PAr,0.399
+507,2024-2025,1610612746,James Harden,Regular Season,201935,Off,3PAr - Defense,0.452
+507,2024-2025,1610612746,James Harden,Regular Season,201935,On,3PAr - Defense,0.424
+508,2024-2025,1610612763,Jaren Jackson Jr.,Regular Season,1628991,Off,3PAr,0.426
+508,2024-2025,1610612763,Jaren Jackson Jr.,Regular Season,1628991,On,3PAr,0.39
+508,2024-2025,1610612763,Jaren Jackson Jr.,Regular Season,1628991,Off,3PAr - Defense,0.413
+508,2024-2025,1610612763,Jaren Jackson Jr.,Regular Season,1628991,On,3PAr - Defense,0.442
+509,2024-2025,1610612738,Jayson Tatum,Regular Season,1628369,Off,3PAr,0.515
+509,2024-2025,1610612738,Jayson Tatum,Regular Season,1628369,On,3PAr,0.546
+509,2024-2025,1610612738,Jayson Tatum,Regular Season,1628369,Off,3PAr - Defense,0.433
+509,2024-2025,1610612738,Jayson Tatum,Regular Season,1628369,On,3PAr - Defense,0.406
+510,2024-2025,1610612752,Karl-Anthony Towns,Regular Season,1626157,Off,3PAr,0.407
+510,2024-2025,1610612752,Karl-Anthony Towns,Regular Season,1626157,On,3PAr,0.368
+510,2024-2025,1610612752,Karl-Anthony Towns,Regular Season,1626157,Off,3PAr - Defense,0.404
+510,2024-2025,1610612752,Karl-Anthony Towns,Regular Season,1626157,On,3PAr - Defense,0.408
+511,2024-2025,1610612747,LeBron James,Regular Season,2544,Off,3PAr,0.424
+511,2024-2025,1610612747,LeBron James,Regular Season,2544,On,3PAr,0.426
+511,2024-2025,1610612747,LeBron James,Regular Season,2544,Off,3PAr - Defense,0.419
+511,2024-2025,1610612747,LeBron James,Regular Season,2544,On,3PAr - Defense,0.432
+512,2024-2025,1610612760,Luguentz Dort,Regular Season,1629652,Off,3PAr,0.432
+512,2024-2025,1610612760,Luguentz Dort,Regular Season,1629652,On,3PAr,0.408
+512,2024-2025,1610612760,Luguentz Dort,Regular Season,1629652,Off,3PAr - Defense,0.463
+512,2024-2025,1610612760,Luguentz Dort,Regular Season,1629652,On,3PAr - Defense,0.442
+513,2024-2025,1610612743,Nikola Jokic,Regular Season,203999,Off,3PAr,0.379
+513,2024-2025,1610612743,Nikola Jokic,Regular Season,203999,On,3PAr,0.344
+513,2024-2025,1610612743,Nikola Jokic,Regular Season,203999,Off,3PAr - Defense,0.416
+513,2024-2025,1610612743,Nikola Jokic,Regular Season,203999,On,3PAr - Defense,0.415
+514,2024-2025,1610612750,Rudy Gobert,Regular Season,203497,Off,3PAr,0.484
+514,2024-2025,1610612750,Rudy Gobert,Regular Season,203497,On,3PAr,0.436
+514,2024-2025,1610612750,Rudy Gobert,Regular Season,203497,Off,3PAr - Defense,0.406
+514,2024-2025,1610612750,Rudy Gobert,Regular Season,203497,On,3PAr - Defense,0.411
+515,2024-2025,1610612760,Shai Gilgeous-Alexander,Regular Season,1628983,Off,3PAr,0.43
+515,2024-2025,1610612760,Shai Gilgeous-Alexander,Regular Season,1628983,On,3PAr,0.413
+515,2024-2025,1610612760,Shai Gilgeous-Alexander,Regular Season,1628983,Off,3PAr - Defense,0.474
+515,2024-2025,1610612760,Shai Gilgeous-Alexander,Regular Season,1628983,On,3PAr - Defense,0.441
+516,2024-2025,1610612744,Stephen Curry,Regular Season,201939,Off,3PAr,0.47
+516,2024-2025,1610612744,Stephen Curry,Regular Season,201939,On,3PAr,0.468
+516,2024-2025,1610612744,Stephen Curry,Regular Season,201939,Off,3PAr - Defense,0.414
+516,2024-2025,1610612744,Stephen Curry,Regular Season,201939,On,3PAr - Defense,0.421
+517,2024-2025,1610612757,Toumani Camara,Regular Season,1641739,Off,3PAr,0.416
+517,2024-2025,1610612757,Toumani Camara,Regular Season,1641739,On,3PAr,0.42
+517,2024-2025,1610612757,Toumani Camara,Regular Season,1641739,Off,3PAr - Defense,0.401
+517,2024-2025,1610612757,Toumani Camara,Regular Season,1641739,On,3PAr - Defense,0.397
+518,2024-2025,1610612754,Tyrese Haliburton,Regular Season,1630169,Off,3PAr,0.349
+518,2024-2025,1610612754,Tyrese Haliburton,Regular Season,1630169,On,3PAr,0.432
+518,2024-2025,1610612754,Tyrese Haliburton,Regular Season,1630169,Off,3PAr - Defense,0.429
+518,2024-2025,1610612754,Tyrese Haliburton,Regular Season,1630169,On,3PAr - Defense,0.389
+519,2025-2026,1610612759,Victor Wembanyama,Regular Season,1641705,Off,3PAr,0.421
+519,2025-2026,1610612759,Victor Wembanyama,Regular Season,1641705,On,3PAr,0.429
+519,2025-2026,1610612759,Victor Wembanyama,Regular Season,1641705,Off,3PAr - Defense,0.376
+519,2025-2026,1610612759,Victor Wembanyama,Regular Season,1641705,On,3PAr - Defense,0.446
+520,2026-2027,1610612759,Victor Wembanyama,Regular Season,1641705,Off,3PAr,0.369
+520,2026-2027,1610612759,Victor Wembanyama,Regular Season,1641705,On,3PAr,0.408
+520,2026-2027,1610612759,Victor Wembanyama,Regular Season,1641705,Off,3PAr - Defense,0.339
+520,2026-2027,1610612759,Victor Wembanyama,Regular Season,1641705,On,3PAr - Defense,0.388
+521,2025-2026,1610612760,Chet Holmgren,Regular Season,1631096,Off,3PAr,0.478
+521,2025-2026,1610612760,Chet Holmgren,Regular Season,1631096,On,3PAr,0.379
+521,2025-2026,1610612760,Chet Holmgren,Regular Season,1631096,Off,3PAr - Defense,0.446
+521,2025-2026,1610612760,Chet Holmgren,Regular Season,1631096,On,3PAr - Defense,0.441
+522,2026-2027,1610612760,Chet Holmgren,Regular Season,1631096,Off,3PAr,0.364
+522,2026-2027,1610612760,Chet Holmgren,Regular Season,1631096,On,3PAr,0.314
+522,2026-2027,1610612760,Chet Holmgren,Regular Season,1631096,Off,3PAr - Defense,0.485
+522,2026-2027,1610612760,Chet Holmgren,Regular Season,1631096,On,3PAr - Defense,0.436
+523,2025-2026,1610612765,Ausar Thompson,Regular Season,1641709,Off,3PAr,0.378
+523,2025-2026,1610612765,Ausar Thompson,Regular Season,1641709,On,3PAr,0.314
+523,2025-2026,1610612765,Ausar Thompson,Regular Season,1641709,Off,3PAr - Defense,0.428
+523,2025-2026,1610612765,Ausar Thompson,Regular Season,1641709,On,3PAr - Defense,0.44
+524,2026-2027,1610612765,Ausar Thompson,Regular Season,1641709,Off,3PAr,0.448
+524,2026-2027,1610612765,Ausar Thompson,Regular Season,1641709,On,3PAr,0.419
+524,2026-2027,1610612765,Ausar Thompson,Regular Season,1641709,Off,3PAr - Defense,0.394
+524,2026-2027,1610612765,Ausar Thompson,Regular Season,1641709,On,3PAr - Defense,0.445
+525,2025-2026,1610612750,Rudy Gobert,Regular Season,203497,Off,3PAr,0.427
+525,2025-2026,1610612750,Rudy Gobert,Regular Season,203497,On,3PAr,0.421
+525,2025-2026,1610612750,Rudy Gobert,Regular Season,203497,Off,3PAr - Defense,0.372
+525,2025-2026,1610612750,Rudy Gobert,Regular Season,203497,On,3PAr - Defense,0.388
+526,2026-2027,1610612750,Rudy Gobert,Regular Season,203497,Off,3PAr,0.442
+526,2026-2027,1610612750,Rudy Gobert,Regular Season,203497,On,3PAr,0.422
+526,2026-2027,1610612750,Rudy Gobert,Regular Season,203497,Off,3PAr - Defense,0.348
+526,2026-2027,1610612750,Rudy Gobert,Regular Season,203497,On,3PAr - Defense,0.435
+527,2025-2026,1610612738,Derrick White,Regular Season,1628401,Off,3PAr,0.478
+527,2025-2026,1610612738,Derrick White,Regular Season,1628401,On,3PAr,0.465
+527,2025-2026,1610612738,Derrick White,Regular Season,1628401,Off,3PAr - Defense,0.453
+527,2025-2026,1610612738,Derrick White,Regular Season,1628401,On,3PAr - Defense,0.454
+528,2026-2027,1610612738,Derrick White,Regular Season,1628401,Off,3PAr,0.503
+528,2026-2027,1610612738,Derrick White,Regular Season,1628401,On,3PAr,0.456
+528,2026-2027,1610612738,Derrick White,Regular Season,1628401,Off,3PAr - Defense,0.535
+528,2026-2027,1610612738,Derrick White,Regular Season,1628401,On,3PAr - Defense,0.505
+529,2025-2026,1610612761,Scottie Barnes,Regular Season,1630567,Off,3PAr,0.391
+529,2025-2026,1610612761,Scottie Barnes,Regular Season,1630567,On,3PAr,0.354
+529,2025-2026,1610612761,Scottie Barnes,Regular Season,1630567,Off,3PAr - Defense,0.431
+529,2025-2026,1610612761,Scottie Barnes,Regular Season,1630567,On,3PAr - Defense,0.415
+530,2026-2027,1610612761,Scottie Barnes,Regular Season,1630567,Off,3PAr,0.403
+530,2026-2027,1610612761,Scottie Barnes,Regular Season,1630567,On,3PAr,0.367
+530,2026-2027,1610612761,Scottie Barnes,Regular Season,1630567,Off,3PAr - Defense,0.422
+530,2026-2027,1610612761,Scottie Barnes,Regular Season,1630567,On,3PAr - Defense,0.43
+531,2025-2026,1610612760,Cason Wallace,Regular Season,1641717,Off,3PAr,0.431
+531,2025-2026,1610612760,Cason Wallace,Regular Season,1641717,On,3PAr,0.425
+531,2025-2026,1610612760,Cason Wallace,Regular Season,1641717,Off,3PAr - Defense,0.45
+531,2025-2026,1610612760,Cason Wallace,Regular Season,1641717,On,3PAr - Defense,0.436
+532,2026-2027,1610612760,Cason Wallace,Regular Season,1641717,Off,3PAr,0.356
+532,2026-2027,1610612760,Cason Wallace,Regular Season,1641717,On,3PAr,0.344
+532,2026-2027,1610612760,Cason Wallace,Regular Season,1641717,Off,3PAr - Defense,0.478
+532,2026-2027,1610612760,Cason Wallace,Regular Season,1641717,On,3PAr - Defense,0.456
+533,2025-2026,1610612748,Bam Adebayo,Regular Season,1628389,Off,3PAr,0.4
+533,2025-2026,1610612748,Bam Adebayo,Regular Season,1628389,On,3PAr,0.416
+533,2025-2026,1610612748,Bam Adebayo,Regular Season,1628389,Off,3PAr - Defense,0.436
+533,2025-2026,1610612748,Bam Adebayo,Regular Season,1628389,On,3PAr - Defense,0.411
+534,2026-2027,1610612748,Bam Adebayo,Regular Season,1628389,Off,3PAr,0.497
+534,2026-2027,1610612748,Bam Adebayo,Regular Season,1628389,On,3PAr,0.421
+534,2026-2027,1610612748,Bam Adebayo,Regular Season,1628389,Off,3PAr - Defense,0.5
+534,2026-2027,1610612748,Bam Adebayo,Regular Season,1628389,On,3PAr - Defense,0.448
+535,2025-2026,1610612752,OG Anunoby,Regular Season,1628384,Off,3PAr,0.434
+535,2025-2026,1610612752,OG Anunoby,Regular Season,1628384,On,3PAr,0.427
+535,2025-2026,1610612752,OG Anunoby,Regular Season,1628384,Off,3PAr - Defense,0.445
+535,2025-2026,1610612752,OG Anunoby,Regular Season,1628384,On,3PAr - Defense,0.456
+536,2026-2027,1610612752,OG Anunoby,Regular Season,1628384,Off,3PAr,0.472
+536,2026-2027,1610612752,OG Anunoby,Regular Season,1628384,On,3PAr,0.446
+536,2026-2027,1610612752,OG Anunoby,Regular Season,1628384,Off,3PAr - Defense,0.449
+536,2026-2027,1610612752,OG Anunoby,Regular Season,1628384,On,3PAr - Defense,0.489
+537,2025-2026,1610612737,Dyson Daniels,Regular Season,1630700,Off,3PAr,0.475
+537,2025-2026,1610612737,Dyson Daniels,Regular Season,1630700,On,3PAr,0.408
+537,2025-2026,1610612737,Dyson Daniels,Regular Season,1630700,Off,3PAr - Defense,0.415
+537,2025-2026,1610612737,Dyson Daniels,Regular Season,1630700,On,3PAr - Defense,0.405
+538,2026-2027,1610612737,Dyson Daniels,Regular Season,1630700,Off,3PAr,0.485
+538,2026-2027,1610612737,Dyson Daniels,Regular Season,1630700,On,3PAr,0.438
+538,2026-2027,1610612737,Dyson Daniels,Regular Season,1630700,Off,3PAr - Defense,0.379
+538,2026-2027,1610612737,Dyson Daniels,Regular Season,1630700,On,3PAr - Defense,0.421
+539,2025-2026,1610612765,Jalen Duren,Regular Season,1631105,Off,3PAr,0.379
+539,2025-2026,1610612765,Jalen Duren,Regular Season,1631105,On,3PAr,0.318
+539,2025-2026,1610612765,Jalen Duren,Regular Season,1631105,Off,3PAr - Defense,0.439
+539,2025-2026,1610612765,Jalen Duren,Regular Season,1631105,On,3PAr - Defense,0.429
+540,2026-2027,1610612765,Jalen Duren,Regular Season,1631105,Off,3PAr,0.424
+540,2026-2027,1610612765,Jalen Duren,Regular Season,1631105,On,3PAr,0.536
+540,2026-2027,1610612765,Jalen Duren,Regular Season,1631105,Off,3PAr - Defense,0.406
+540,2026-2027,1610612765,Jalen Duren,Regular Season,1631105,On,3PAr - Defense,0.573
+541,2025-2026,1610612737,Jalen Johnson,Regular Season,1630552,Off,3PAr,0.474
+541,2025-2026,1610612737,Jalen Johnson,Regular Season,1630552,On,3PAr,0.409
+541,2025-2026,1610612737,Jalen Johnson,Regular Season,1630552,Off,3PAr - Defense,0.418
+541,2025-2026,1610612737,Jalen Johnson,Regular Season,1630552,On,3PAr - Defense,0.403
+542,2026-2027,1610612737,Jalen Johnson,Regular Season,1630552,Off,3PAr,0.496
+542,2026-2027,1610612737,Jalen Johnson,Regular Season,1630552,On,3PAr,0.415
+542,2026-2027,1610612737,Jalen Johnson,Regular Season,1630552,Off,3PAr - Defense,0.379
+542,2026-2027,1610612737,Jalen Johnson,Regular Season,1630552,On,3PAr - Defense,0.426
+543,2025-2026,1610612755,Tyrese Maxey,Regular Season,1630178,Off,3PAr,0.399
+543,2025-2026,1610612755,Tyrese Maxey,Regular Season,1630178,On,3PAr,0.392
+543,2025-2026,1610612755,Tyrese Maxey,Regular Season,1630178,Off,3PAr - Defense,0.444
+543,2025-2026,1610612755,Tyrese Maxey,Regular Season,1630178,On,3PAr - Defense,0.416
+544,2026-2027,1610612755,Tyrese Maxey,Regular Season,1630178,Off,3PAr,0.369
+544,2026-2027,1610612755,Tyrese Maxey,Regular Season,1630178,On,3PAr,0.389
+544,2026-2027,1610612755,Tyrese Maxey,Regular Season,1630178,Off,3PAr - Defense,0.447
+544,2026-2027,1610612755,Tyrese Maxey,Regular Season,1630178,On,3PAr - Defense,0.401
+545,2025-2026,1610612743,Jamal Murray,Regular Season,1627750,Off,3PAr,0.419
+545,2025-2026,1610612743,Jamal Murray,Regular Season,1627750,On,3PAr,0.407
+545,2025-2026,1610612743,Jamal Murray,Regular Season,1627750,Off,3PAr - Defense,0.438
+545,2025-2026,1610612743,Jamal Murray,Regular Season,1627750,On,3PAr - Defense,0.429
+546,2026-2027,1610612743,Jamal Murray,Regular Season,1627750,Off,3PAr,0.333
+546,2026-2027,1610612743,Jamal Murray,Regular Season,1627750,On,3PAr,0.4
+546,2026-2027,1610612743,Jamal Murray,Regular Season,1627750,Off,3PAr - Defense,0.48
+546,2026-2027,1610612743,Jamal Murray,Regular Season,1627750,On,3PAr - Defense,0.429
+547,2025-2026,1610612738,Jaylen Brown,Regular Season,1627759,Off,3PAr,0.511
+547,2025-2026,1610612738,Jaylen Brown,Regular Season,1627759,On,3PAr,0.443
+547,2025-2026,1610612738,Jaylen Brown,Regular Season,1627759,Off,3PAr - Defense,0.451
+547,2025-2026,1610612738,Jaylen Brown,Regular Season,1627759,On,3PAr - Defense,0.456
+548,2026-2027,1610612755,Jaylen Brown,Regular Season,1627759,Off,3PAr,0.385
+548,2026-2027,1610612755,Jaylen Brown,Regular Season,1627759,On,3PAr,0.384
+548,2026-2027,1610612755,Jaylen Brown,Regular Season,1627759,Off,3PAr - Defense,0.401
+548,2026-2027,1610612755,Jaylen Brown,Regular Season,1627759,On,3PAr - Defense,0.418
+549,2025-2026,1610612752,Jalen Brunson,Regular Season,1628973,Off,3PAr,0.436
+549,2025-2026,1610612752,Jalen Brunson,Regular Season,1628973,On,3PAr,0.427
+549,2025-2026,1610612752,Jalen Brunson,Regular Season,1628973,Off,3PAr - Defense,0.449
+549,2025-2026,1610612752,Jalen Brunson,Regular Season,1628973,On,3PAr - Defense,0.452
+550,2026-2027,1610612752,Jalen Brunson,Regular Season,1628973,Off,3PAr,0.444
+550,2026-2027,1610612752,Jalen Brunson,Regular Season,1628973,On,3PAr,0.459
+550,2026-2027,1610612752,Jalen Brunson,Regular Season,1628973,Off,3PAr - Defense,0.479
+550,2026-2027,1610612752,Jalen Brunson,Regular Season,1628973,On,3PAr - Defense,0.475
+551,2025-2026,1610612745,Kevin Durant,Regular Season,201142,Off,3PAr,0.398
+551,2025-2026,1610612745,Kevin Durant,Regular Season,201142,On,3PAr,0.336
+551,2025-2026,1610612745,Kevin Durant,Regular Season,201142,Off,3PAr - Defense,0.419
+551,2025-2026,1610612745,Kevin Durant,Regular Season,201142,On,3PAr - Defense,0.398
+552,2026-2027,1610612745,Kevin Durant,Regular Season,201142,Off,3PAr,0.448
+552,2026-2027,1610612745,Kevin Durant,Regular Season,201142,On,3PAr,0.381
+552,2026-2027,1610612745,Kevin Durant,Regular Season,201142,Off,3PAr - Defense,0.425
+552,2026-2027,1610612745,Kevin Durant,Regular Season,201142,On,3PAr - Defense,0.43
+553,2025-2026,1610612746,Kawhi Leonard,Regular Season,202695,Off,3PAr,0.403
+553,2025-2026,1610612746,Kawhi Leonard,Regular Season,202695,On,3PAr,0.411
+553,2025-2026,1610612746,Kawhi Leonard,Regular Season,202695,Off,3PAr - Defense,0.431
+553,2025-2026,1610612746,Kawhi Leonard,Regular Season,202695,On,3PAr - Defense,0.409
+554,2026-2027,1610612761,Kawhi Leonard,Regular Season,202695,Off,3PAr,0.388
+554,2026-2027,1610612761,Kawhi Leonard,Regular Season,202695,On,3PAr,0.348
+554,2026-2027,1610612761,Kawhi Leonard,Regular Season,202695,Off,3PAr - Defense,0.424
+554,2026-2027,1610612761,Kawhi Leonard,Regular Season,202695,On,3PAr - Defense,0.447
+555,2025-2026,1610612739,Donovan Mitchell,Regular Season,1628378,Off,3PAr,0.448
+555,2025-2026,1610612739,Donovan Mitchell,Regular Season,1628378,On,3PAr,0.442
+555,2025-2026,1610612739,Donovan Mitchell,Regular Season,1628378,Off,3PAr - Defense,0.428
+555,2025-2026,1610612739,Donovan Mitchell,Regular Season,1628378,On,3PAr - Defense,0.434
+556,2026-2027,1610612739,Donovan Mitchell,Regular Season,1628378,Off,3PAr,0.5
+556,2026-2027,1610612739,Donovan Mitchell,Regular Season,1628378,On,3PAr,0.455
+556,2026-2027,1610612739,Donovan Mitchell,Regular Season,1628378,Off,3PAr - Defense,0.434
+556,2026-2027,1610612739,Donovan Mitchell,Regular Season,1628378,On,3PAr - Defense,0.425
+557,2025-2026,1610612765,Cade Cunningham,Regular Season,1630595,Off,3PAr,0.358
+557,2025-2026,1610612765,Cade Cunningham,Regular Season,1630595,On,3PAr,0.34
+557,2025-2026,1610612765,Cade Cunningham,Regular Season,1630595,Off,3PAr - Defense,0.422
+557,2025-2026,1610612765,Cade Cunningham,Regular Season,1630595,On,3PAr - Defense,0.443
+558,2026-2027,1610612765,Cade Cunningham,Regular Season,1630595,Off,3PAr,0.444
+558,2026-2027,1610612765,Cade Cunningham,Regular Season,1630595,On,3PAr,0.428
+558,2026-2027,1610612765,Cade Cunningham,Regular Season,1630595,Off,3PAr - Defense,0.447
+558,2026-2027,1610612765,Cade Cunningham,Regular Season,1630595,On,3PAr - Defense,0.409
+559,2025-2026,1610612747,Luka Dončić,Regular Season,1629029,Off,3PAr,0.367
+559,2025-2026,1610612747,Luka Dončić,Regular Season,1629029,On,3PAr,0.419
+559,2025-2026,1610612747,Luka Dončić,Regular Season,1629029,Off,3PAr - Defense,0.409
+559,2025-2026,1610612747,Luka Dončić,Regular Season,1629029,On,3PAr - Defense,0.42
+560,2026-2027,1610612747,Luka Dončić,Regular Season,1629029,Off,3PAr,0.373
+560,2026-2027,1610612747,Luka Dončić,Regular Season,1629029,On,3PAr,0.487
+560,2026-2027,1610612747,Luka Dončić,Regular Season,1629029,Off,3PAr - Defense,0.457
+560,2026-2027,1610612747,Luka Dončić,Regular Season,1629029,On,3PAr - Defense,0.489
+561,2025-2026,1610612760,Shai Gilgeous-Alexander,Regular Season,1628983,Off,3PAr,0.435
+561,2025-2026,1610612760,Shai Gilgeous-Alexander,Regular Season,1628983,On,3PAr,0.423
+561,2025-2026,1610612760,Shai Gilgeous-Alexander,Regular Season,1628983,Off,3PAr - Defense,0.452
+561,2025-2026,1610612760,Shai Gilgeous-Alexander,Regular Season,1628983,On,3PAr - Defense,0.436
+562,2026-2027,1610612760,Shai Gilgeous-Alexander,Regular Season,1628983,Off,3PAr,0.326
+562,2026-2027,1610612760,Shai Gilgeous-Alexander,Regular Season,1628983,On,3PAr,0.367
+562,2026-2027,1610612760,Shai Gilgeous-Alexander,Regular Season,1628983,Off,3PAr - Defense,0.484
+562,2026-2027,1610612760,Shai Gilgeous-Alexander,Regular Season,1628983,On,3PAr - Defense,0.472
+563,2025-2026,1610612743,Nikola Jokić,Regular Season,203999,Off,3PAr,0.398
+563,2025-2026,1610612743,Nikola Jokić,Regular Season,203999,On,3PAr,0.421
+563,2025-2026,1610612743,Nikola Jokić,Regular Season,203999,Off,3PAr - Defense,0.432
+563,2025-2026,1610612743,Nikola Jokić,Regular Season,203999,On,3PAr - Defense,0.432
+564,2026-2027,1610612743,Nikola Jokić,Regular Season,203999,Off,3PAr,0.356
+564,2026-2027,1610612743,Nikola Jokić,Regular Season,203999,On,3PAr,0.392
+564,2026-2027,1610612743,Nikola Jokić,Regular Season,203999,Off,3PAr - Defense,0.45
+564,2026-2027,1610612743,Nikola Jokić,Regular Season,203999,On,3PAr - Defense,0.439
+565,2025-2026,1610612766,LaMelo Ball,Regular Season,1630163,Off,3PAr,0.464
+565,2025-2026,1610612766,LaMelo Ball,Regular Season,1630163,On,3PAr,0.512
+565,2025-2026,1610612766,LaMelo Ball,Regular Season,1630163,Off,3PAr - Defense,0.411
+565,2025-2026,1610612766,LaMelo Ball,Regular Season,1630163,On,3PAr - Defense,0.406
+566,2026-2027,1610612750,LaMelo Ball,Regular Season,1630163,Off,3PAr,0.443
+566,2026-2027,1610612750,LaMelo Ball,Regular Season,1630163,On,3PAr,0.422
+566,2026-2027,1610612750,LaMelo Ball,Regular Season,1630163,Off,3PAr - Defense,0.371
+566,2026-2027,1610612750,LaMelo Ball,Regular Season,1630163,On,3PAr - Defense,0.414
