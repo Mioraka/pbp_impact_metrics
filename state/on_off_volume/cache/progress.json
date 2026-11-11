@@ -1,7 +1,7 @@
 {
-  "next_job": 652,
-  "completed_batches": 230,
-  "wait_seconds": 55.0,
+  "next_job": 742,
+  "completed_batches": 240,
+  "wait_seconds": 80.0,
   "current_batch_size": 9,
   "failure_streak": 0,
   "total_jobs": 2274,
