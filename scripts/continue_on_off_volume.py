@@ -74,7 +74,37 @@ def dispatch_next_run():
             raise RuntimeError(f'workflow_dispatch returned HTTP {response.status}')
     print('Queued next workflow run from saved checkpoint.', flush=True)
 
+def cancel_older_runs():
+    if os.environ.get('GITHUB_ACTIONS') != 'true':
+        return
+    repository = os.environ['GITHUB_REPOSITORY']
+    token = os.environ['GITHUB_TOKEN']
+    current = int(os.environ['GITHUB_RUN_ID'])
+    base = f'https://api.github.com/repos/{repository}/actions/runs'
+    headers = {
+        'Authorization': f'Bearer {token}',
+        'Accept': 'application/vnd.github+json',
+        'X-GitHub-Api-Version': '2022-11-28',
+        'User-Agent': 'pbp-impact-metrics-resumer/1.0',
+    }
+    cancelled = []
+    for status in ('in_progress', 'queued'):
+        request = Request(f'{base}?status={status}&per_page=100', headers=headers)
+        with urlopen(request, timeout=30) as response:
+            runs = json.loads(response.read()).get('workflow_runs', [])
+        for run in runs:
+            if run.get('path') != '.github/workflows/continue-on-off-volume.yml' or int(run['id']) == current:
+                continue
+            request = Request(f'{base}/{run["id"]}/cancel', data=b'', method='POST', headers=headers)
+            try:
+                with urlopen(request, timeout=30):
+                    cancelled.append(run['id'])
+            except Exception as exc:
+                print(f'Could not cancel older run {run["id"]}: {exc}', flush=True)
+    print(f'Cancelled older collection runs: {cancelled}', flush=True)
+
 def main():
+    cancel_older_runs()
     initialize()
     if OUTPUT.exists() and json.loads(PROGRESS.read_text())['next_job'] == json.loads(PROGRESS.read_text())['total_jobs']:
         print('Already complete; no requests needed.', flush=True)
