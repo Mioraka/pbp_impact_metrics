@@ -14,8 +14,8 @@
     "OpponentFGA",
     "OpponentFTA"
   ],
-  "status": "continuing",
-  "updated_at": "2026-11-11T09:35:57.113360+00:00",
-  "last_error": "Run window reached; dispatching the next run from the saved checkpoint.",
-  "run_url": "https://github.com/Mioraka/pbp_impact_metrics/actions/runs/42989540896"
+  "status": "running",
+  "updated_at": "2026-11-11T09:36:15.832445+00:00",
+  "last_error": "",
+  "run_url": "https://github.com/Mioraka/pbp_impact_metrics/actions/runs/42996535773"
 }
