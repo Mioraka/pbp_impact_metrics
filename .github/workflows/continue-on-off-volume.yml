@@ -1,5 +1,4 @@
 name: Continue on-off volume collection
-# Restarted on request after schedule did not advance the saved checkpoint.
 on:
   workflow_dispatch:
   push:
@@ -8,11 +7,11 @@ on:
       - '.github/workflows/continue-on-off-volume.yml'
       - 'scripts/pull_on_off_volume.py'
       - 'scripts/continue_on_off_volume.py'
-      - 'state/on_off_volume/seed.tar.gz.b64'
   schedule:
     - cron: '*/30 * * * *'
 permissions:
   contents: write
+  actions: write
 concurrency:
   group: on-off-volume-collection
   cancel-in-progress: false
@@ -22,6 +21,7 @@ jobs:
     timeout-minutes: 55
     env:
       RUN_URL: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - uses: actions/checkout@v4
         with:
