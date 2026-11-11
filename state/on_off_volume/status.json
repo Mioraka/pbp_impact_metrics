@@ -1,9 +1,9 @@
 {
-  "next_job": 562,
-  "completed_batches": 220,
-  "wait_seconds": 30.0,
+  "next_job": 634,
+  "completed_batches": 228,
+  "wait_seconds": 55.0,
   "current_batch_size": 9,
-  "failure_streak": 0,
+  "failure_streak": 1,
   "total_jobs": 2274,
   "team_season_pairs": 379,
   "stats_per_pair": [
@@ -14,8 +14,8 @@
     "OpponentFGA",
     "OpponentFTA"
   ],
-  "status": "running",
-  "updated_at": "2026-11-11T04:04:28.279930+00:00",
-  "last_error": "",
+  "status": "scheduled to resume",
+  "updated_at": "2026-11-11T04:14:29.674463+00:00",
+  "last_error": "Segment reached its time limit; cached responses preserved.",
   "run_url": "https://github.com/Mioraka/pbp_impact_metrics/actions/runs/42956128578"
 }
