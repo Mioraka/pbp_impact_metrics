@@ -1,9 +1,9 @@
 {
-  "next_job": 634,
-  "completed_batches": 228,
+  "next_job": 652,
+  "completed_batches": 230,
   "wait_seconds": 55.0,
   "current_batch_size": 9,
-  "failure_streak": 1,
+  "failure_streak": 0,
   "total_jobs": 2274,
   "team_season_pairs": 379,
   "stats_per_pair": [
@@ -15,7 +15,7 @@
     "OpponentFTA"
   ],
   "status": "running",
-  "updated_at": "2026-11-11T04:47:29.422413+00:00",
+  "updated_at": "2026-11-11T04:49:35.012741+00:00",
   "last_error": "",
   "run_url": "https://github.com/Mioraka/pbp_impact_metrics/actions/runs/42961444137"
 }
