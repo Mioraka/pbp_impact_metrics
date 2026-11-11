@@ -14,8 +14,8 @@
     "OpponentFGA",
     "OpponentFTA"
   ],
-  "status": "scheduled to resume",
-  "updated_at": "2026-11-11T04:14:29.674463+00:00",
-  "last_error": "Segment reached its time limit; cached responses preserved.",
-  "run_url": "https://github.com/Mioraka/pbp_impact_metrics/actions/runs/42956128578"
+  "status": "running",
+  "updated_at": "2026-11-11T04:45:11.388267+00:00",
+  "last_error": "",
+  "run_url": "https://github.com/Mioraka/pbp_impact_metrics/actions/runs/42961244954"
 }
