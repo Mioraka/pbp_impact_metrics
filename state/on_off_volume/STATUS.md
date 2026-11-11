@@ -1,14 +1,14 @@
 # On/off volume collection
 
-Status: **running**
+Status: **complete**
 
-Requests: **2,271/2,274 (99.9%)**
+Requests: **2,274/2,274 (100.0%)**
 
-Completed batches: **410**
+Completed batches: **411**
 
 Next batch size: **9**; retry wait: **25.0 seconds** (maximum 30).
 
-Updated (UTC): 2026-11-11T10:48:37.962806+00:00
+Updated (UTC): 2026-11-11T10:49:10.756688+00:00
 
 [Workflow run](https://github.com/Mioraka/pbp_impact_metrics/actions/runs/43003621327)
 
