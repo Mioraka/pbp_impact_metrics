@@ -1,8 +1,8 @@
 {
   "next_job": 474,
   "completed_batches": 208,
-  "wait_seconds": 0.0,
-  "current_batch_size": 2,
+  "wait_seconds": 5,
+  "current_batch_size": 4,
   "failure_streak": 0,
   "total_jobs": 2274,
   "team_season_pairs": 379,
@@ -14,8 +14,8 @@
     "OpponentFGA",
     "OpponentFTA"
   ],
-  "status": "retry needed",
-  "updated_at": "2026-11-11T03:56:56.550411+00:00",
-  "last_error": "Collector exited 1; see request errors in run logs. Next scheduled run resumes.",
-  "run_url": "https://github.com/Mioraka/pbp_impact_metrics/actions/runs/42955996814"
+  "status": "running",
+  "updated_at": "2026-11-11T03:58:08.985181+00:00",
+  "last_error": "",
+  "run_url": "https://github.com/Mioraka/pbp_impact_metrics/actions/runs/42956128578"
 }
