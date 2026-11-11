@@ -1,4 +1,5 @@
 name: Continue on-off volume collection
+# Restarted on request after schedule did not advance the saved checkpoint.
 on:
   workflow_dispatch:
   push:
