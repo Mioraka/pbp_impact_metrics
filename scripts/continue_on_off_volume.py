@@ -35,7 +35,7 @@ def publish(status, error=''):
     body = (f'# On/off volume collection\n\nStatus: **{status}**\n\n'
             f'Requests: **{done:,}/{total:,} ({done/total:.1%})**\n\n'
             f'Completed batches: **{progress["completed_batches"]}**\n\n'
-            f'Next batch size: **{progress["current_batch_size"]}**; retry wait: **{progress.get("wait_seconds", 0)} seconds**.\n\n'
+            f'Next batch size: **{progress["current_batch_size"]}**; retry wait: **{min(30, progress.get("wait_seconds", 0))} seconds** (maximum 30).\n\n'
             f'Updated (UTC): {now}\n\n[Workflow run]({progress["run_url"]})\n\n')
     if error:
         body += f'Last error: {error}\n\n'
