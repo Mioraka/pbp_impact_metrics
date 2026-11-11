@@ -137,7 +137,7 @@ def main():
     parser.add_argument("--workers", type=int, default=9)
     parser.add_argument("--timeout", type=int, default=30)
     parser.add_argument("--attempts", type=int, default=7)
-    parser.add_argument("--initial-wait", type=float, default=0.0)
+    parser.add_argument("--initial-wait", type=float, default=5.0)
     args = parser.parse_args()
     if min(args.batch_size, args.workers, args.batch_limit, args.attempts) < 1:
         parser.error("batch-size, workers, batch-limit and attempts must be positive")
@@ -159,7 +159,7 @@ def main():
     batch_no = int(state["completed_batches"])
     current_batch_size = int(state.get("current_batch_size", args.batch_size))
     failure_streak = int(state.get("failure_streak", 0))
-    wait_seconds = 0.0
+    wait_seconds = float(state.get("wait_seconds", args.initial_wait))
     batch_in_invocation = 0
     failures_total = 0
     target_completed_batches = batch_no + args.batch_limit
@@ -167,7 +167,7 @@ def main():
     while start < len(jobs) and batch_no < target_completed_batches:
         batch = jobs[start:min(start + current_batch_size, len(jobs))]
         outcomes = {}
-        print(f"BATCH_START number={batch_no+1} requests={len(batch)} completed_requests={start}/{len(jobs)} batch_size={current_batch_size} wait=0s", flush=True)
+        print(f"BATCH_START number={batch_no+1} requests={len(batch)} completed_requests={start}/{len(jobs)} batch_size={current_batch_size} wait={wait_seconds:.0f}s", flush=True)
 
         def fetch(job, retry_wait):
             season, team, stat = job
@@ -206,21 +206,21 @@ def main():
                 if failure_streak >= 2:
                     current_batch_size = max(1, current_batch_size - 1)
                     failure_streak = 0
-                print(f"RETRY batch={batch_no+1} failed_requests={len(failed)} next_batch_size={current_batch_size} wait=0s", flush=True)
-                checkpoint = {"next_job": start, "completed_batches": batch_no, "wait_seconds": 0,
+                print(f"RETRY batch={batch_no+1} failed_requests={len(failed)} next_batch_size={current_batch_size} wait={wait_seconds:.0f}s", flush=True)
+                checkpoint = {"next_job": start, "completed_batches": batch_no, "wait_seconds": wait_seconds,
                               "current_batch_size": current_batch_size, "failure_streak": failure_streak,
                               "total_jobs": len(jobs),
                               "team_season_pairs": len(pairs), "stats_per_pair": list(STATS)}
                 write_progress(args.progress, checkpoint)
             pending = failed
 
-        wait_seconds = 0.0
+        wait_seconds = max(0.0, wait_seconds - 5.0)
         current_batch_size = min(args.workers, current_batch_size + 1)
         failure_streak = 0
         batch_no += 1
         batch_in_invocation += 1
         start += len(batch)
-        state = {"next_job": start, "completed_batches": batch_no, "wait_seconds": 0,
+        state = {"next_job": start, "completed_batches": batch_no, "wait_seconds": wait_seconds,
                  "current_batch_size": current_batch_size, "failure_streak": failure_streak,
                  "total_jobs": len(jobs), "team_season_pairs": len(pairs), "stats_per_pair": list(STATS)}
         write_progress(args.progress, state)
