@@ -1,0 +1,17 @@
+{
+  "next_job": 456,
+  "completed_batches": 203,
+  "wait_seconds": 0,
+  "current_batch_size": 2,
+  "failure_streak": 0,
+  "total_jobs": 2274,
+  "team_season_pairs": 379,
+  "stats_per_pair": [
+    "OffPoss",
+    "DefPoss",
+    "FGA",
+    "FTA",
+    "OpponentFGA",
+    "OpponentFTA"
+  ]
+}

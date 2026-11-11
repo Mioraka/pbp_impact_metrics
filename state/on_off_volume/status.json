@@ -14,8 +14,8 @@
     "OpponentFGA",
     "OpponentFTA"
   ],
-  "status": "awaiting checkpoint transfer",
-  "updated_at": "2026-11-11T03:29:59.668858+00:00",
-  "last_error": "Automatic approval review blocked publication of the checkpoint archive; explicit approval required.",
-  "run_url": "local"
+  "status": "running",
+  "updated_at": "2026-11-11T03:34:17.482545+00:00",
+  "last_error": "",
+  "run_url": "https://github.com/Mioraka/pbp_impact_metrics/actions/runs/42953618174"
 }
