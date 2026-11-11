@@ -1,9 +1,9 @@
 {
-  "next_job": 832,
-  "completed_batches": 250,
-  "wait_seconds": 105.0,
+  "next_job": 841,
+  "completed_batches": 251,
+  "wait_seconds": 115.0,
   "current_batch_size": 9,
-  "failure_streak": 0,
+  "failure_streak": 1,
   "total_jobs": 2274,
   "team_season_pairs": 379,
   "stats_per_pair": [

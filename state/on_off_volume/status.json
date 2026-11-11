@@ -1,9 +1,9 @@
 {
-  "next_job": 832,
-  "completed_batches": 250,
-  "wait_seconds": 105.0,
+  "next_job": 841,
+  "completed_batches": 251,
+  "wait_seconds": 115.0,
   "current_batch_size": 9,
-  "failure_streak": 0,
+  "failure_streak": 1,
   "total_jobs": 2274,
   "team_season_pairs": 379,
   "stats_per_pair": [
@@ -15,7 +15,7 @@
     "OpponentFTA"
   ],
   "status": "running",
-  "updated_at": "2026-11-11T05:33:30.888032+00:00",
-  "last_error": "",
+  "updated_at": "2026-11-11T05:37:29.425773+00:00",
+  "last_error": "Collector segment timed out; restarting from the latest checkpoint in this run.",
   "run_url": "https://github.com/Mioraka/pbp_impact_metrics/actions/runs/42961444137"
 }
