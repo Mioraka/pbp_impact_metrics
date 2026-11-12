@@ -8,14 +8,12 @@ on:
       - 'scripts/pull_on_off_volume.py'
       - 'scripts/continue_on_off_volume.py'
       - 'scripts/join_on_off_volume_to_master.py'
-  schedule:
-    - cron: '*/30 * * * *'
 permissions:
   contents: write
   actions: write
 concurrency:
-  group: on-off-volume-collection
-  cancel-in-progress: ${{ github.event_name == 'push' }}
+  group: pbp-player-league-master
+  cancel-in-progress: false
 jobs:
   collect:
     runs-on: ubuntu-latest
@@ -73,3 +71,4 @@ jobs:
             state/on_off_volume
             data/player_on_off_volume.csv
           retention-days: 30
+

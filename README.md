@@ -51,3 +51,12 @@ The prior all-roster extractor (`pull_on_off.py`, `combine_results.py`) and its 
 - A failed run is incomplete. Check the failed-run log in the workflow output; incomplete results must not be treated as published coverage.
 
 Data source: [PBPStats API documentation](https://api.pbpstats.com/docs). This repository is an independent extraction project, not an official NBA or PBPStats publication.
+
+
+## Daily combined refresh
+
+The active workflow runs every morning at 07:00 America/Toronto (DST-aware UTC slots; GitHub may delay scheduled jobs), and on manual dispatch or pipeline changes. It runs `python scripts/refresh_current_season.py`. The season is inferred using an October rollover; `--season 2026-27` allows an explicit override locally. Players must already be listed in `data/player_list.csv`.
+
+The process refreshes current-season 89-metric player data and league baselines, then fetches fresh FGA, FTA, opponent FGA/FTA, possessions and minutes using an isolated cache. It replaces current-season volume rows, retains historical volume, and rejoins 2PA/3PA, free-throw and zone attempt rates into the master. Only successful, validated results are committed together. Failures leave the published CSVs unchanged. Added volume metrics retain blank league baselines. The manifest reports final master counts after the volume join.
+
+The older volume continuation workflow is retained for manual recovery only; its recurring schedule is removed. Both workflows share one concurrency group. A daily refresh requires the existing published base and volume files; missing historical volume coverage stops publication.

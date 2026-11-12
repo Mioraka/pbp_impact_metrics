@@ -1,117 +1,77 @@
-name: Build player and league 89-metric master
+name: Daily current-season player and league refresh
 
 on:
   workflow_dispatch:
+  schedule:
+    # Toronto 07:00 is 11:00 UTC in summer and 12:00 UTC in winter.
+    - cron: '0 11 * * *'
+    - cron: '0 12 * * *'
   push:
     branches: [main]
     paths:
-      - "scripts/build_advanced_master.py"
-      - "scripts/append_missing_master.py"
-      - "tests/**"
-      - "data/player_list.csv"
-      - "data/metric_definitions.csv"
-      - ".github/workflows/build-player-league-master.yml"
+      - 'scripts/**'
+      - 'tests/**'
+      - 'data/player_list.csv'
+      - 'data/metric_definitions.csv'
+      - '.github/workflows/build-player-league-master.yml'
 
 concurrency:
   group: pbp-player-league-master
-  cancel-in-progress: true
-
+  cancel-in-progress: false
 permissions:
-  contents: read
-
+  contents: write
 jobs:
-  pull-and-publish:
+  refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 360
-    permissions:
-      contents: write
+    timeout-minutes: 180
     steps:
       - uses: actions/checkout@v4
         with:
           ref: main
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-          cache: pip
-      - name: Install dependencies
-        run: python -m pip install -r requirements.txt
-      - name: Validate pipeline and metric dictionary
-        run: python -m unittest discover -s tests -v
-      - name: Pull player and league stats with resumable retries
-        shell: bash
-        run: |
-          set -euo pipefail
-          rm -f data/failed_run.json
-          extra_args=()
-          if [ "${GITHUB_EVENT_NAME}" = "workflow_dispatch" ]; then
-            extra_args+=(--refresh-season 2026-27 --refresh-league-season 2026-27)
-          fi
-          for attempt in 1 2 3; do
-            if python -u scripts/append_missing_master.py \
-              --player-list data/player_list.csv \
-              --metric-definitions data/metric_definitions.csv \
-              --player-output data/player_advanced_metrics.csv \
-              --league-output data/league_season_averages.csv \
-              --master-output data/player_league_master.csv \
-              --start-year 2000 --end-year 2026 \
-              --workers 9 --batch-size 9 --batch-delay 1 \
-              --cache ".cache/player-league-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}" \
-              "${extra_args[@]}"; then
-              break
-            fi
-            if [ "$attempt" -eq 3 ]; then
-              echo "The extraction remained incomplete after three passes."
-              exit 1
-            fi
-            echo "Retrying remaining requests after pass $attempt."
-            sleep 30
-          done
-      - name: Confirm complete coverage
+      - name: Select Toronto morning schedule
+        id: clock
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          SCHEDULE: ${{ github.event.schedule }}
         run: |
           python - <<'PY'
-          import csv, json
-          from pathlib import Path
-          data = Path("data")
-          manifest = json.loads((data / "run_manifest.json").read_text())
-          assert manifest["complete"] is True, manifest
-          assert manifest["metric_count"] == 89, manifest
-          assert manifest["player_metric_status_rows"] == manifest["player_source_rows"] * 89 * 3, manifest
-          assert manifest["league_season_metric_rows"] == 27 * 89, manifest
-          assert manifest["master_rows"] == manifest["player_metric_status_rows"], manifest
-          for name, expected in (("player_advanced_metrics.csv", manifest["player_metric_status_rows"]),
-                                 ("league_season_averages.csv", manifest["league_season_metric_rows"]),
-                                 ("player_league_master.csv", manifest["master_rows"])):
-              with (data / name).open(encoding="utf-8", newline="") as handle:
-                  count = sum(1 for _ in csv.DictReader(handle))
-              assert count == expected, (name, count, expected)
-          print(json.dumps(manifest, indent=2))
+          import os
+          from datetime import datetime
+          from zoneinfo import ZoneInfo
+          local = datetime.now(ZoneInfo('America/Toronto'))
+          # Use scheduled UTC slot and today's Toronto offset, allowing delayed jobs.
+          summer = local.utcoffset().total_seconds() == -14400
+          slot = '0 11 * * *' if summer else '0 12 * * *'
+          run = os.environ['EVENT_NAME'] != 'schedule' or os.environ['SCHEDULE'] == slot
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
+              f.write(f'run={str(run).lower()}\n')
           PY
-      - name: Save published data artifact
-        uses: actions/upload-artifact@v4
+      - uses: actions/setup-python@v5
+        if: steps.clock.outputs.run == 'true'
         with:
-          name: pbp-player-league-master
-          path: |
-            data/player_list.csv
-            data/metric_definitions.csv
-            data/player_advanced_metrics.csv
-            data/league_season_averages.csv
-            data/player_league_master.csv
-            data/run_manifest.json
-            data/request_log.json
-          if-no-files-found: error
-          retention-days: 30
-      - name: Commit complete output tables to main
-        shell: bash
+          python-version: '3.12'
+      - name: Install dependencies and validate
+        if: steps.clock.outputs.run == 'true'
         run: |
-          set -euo pipefail
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/player_advanced_metrics.csv data/league_season_averages.csv \
-            data/player_league_master.csv data/run_manifest.json data/request_log.json
-          if git diff --cached --quiet; then
-            echo "Published outputs match the current repository snapshot."
-            exit 0
+          python -m pip install -r requirements.txt pandas
+          python -m unittest discover -s tests -v
+      - name: Refresh all current-season data and rebuild master
+        if: steps.clock.outputs.run == 'true'
+        run: python -u scripts/refresh_current_season.py
+      - name: Publish complete refresh
+        if: steps.clock.outputs.run == 'true'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/player_advanced_metrics.csv data/league_season_averages.csv data/player_on_off_volume.csv data/player_league_master.csv data/run_manifest.json data/request_log.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Publish complete daily current-season refresh [skip ci]'
+            # Reject concurrent branch changes rather than mixing snapshots.
+            git push origin HEAD:main
           fi
-          git commit -m "Publish complete player and league PBP metrics"
-          git pull --rebase origin main
-          git push origin HEAD:main
+      - uses: actions/upload-artifact@v4
+        if: success() && steps.clock.outputs.run == 'true'
+        with:
+          name: daily-player-league-master
+          path: data/*.csv
+          retention-days: 30
