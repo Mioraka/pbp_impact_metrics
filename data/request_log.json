@@ -2,56 +2,29 @@
   "requests": [
     {
       "kind": "player",
-      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2026-27&SeasonType=Regular+Season&TeamId=1610612737&PlayerId=1630700",
-      "status": 200,
-      "attempts": 1,
-      "seconds": 3.37,
-      "retrieved_at_utc": "2026-11-12T19:12:00+00:00",
-      "error": ""
-    },
-    {
-      "kind": "player",
       "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2026-27&SeasonType=Regular+Season&TeamId=1610612748&PlayerId=1628389",
       "status": 200,
-      "attempts": 1,
-      "seconds": 3.411,
-      "retrieved_at_utc": "2026-11-12T19:12:00+00:00",
+      "attempts": 3,
+      "seconds": 7.401,
+      "retrieved_at_utc": "2026-11-13T19:11:21+00:00",
       "error": ""
     },
     {
       "kind": "player",
       "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2026-27&SeasonType=Regular+Season&TeamId=1610612739&PlayerId=1628378",
       "status": 200,
-      "attempts": 3,
-      "seconds": 7.835,
-      "retrieved_at_utc": "2026-11-12T19:12:05+00:00",
+      "attempts": 4,
+      "seconds": 11.032,
+      "retrieved_at_utc": "2026-11-13T19:11:24+00:00",
       "error": ""
     },
     {
       "kind": "player",
-      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2026-27&SeasonType=Regular+Season&TeamId=1610612747&PlayerId=1629029",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2026-27&SeasonType=Regular+Season&TeamId=1610612743&PlayerId=1627750",
       "status": 200,
       "attempts": 1,
-      "seconds": 8.012,
-      "retrieved_at_utc": "2026-11-12T19:12:05+00:00",
-      "error": ""
-    },
-    {
-      "kind": "player",
-      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2026-27&SeasonType=Regular+Season&TeamId=1610612743&PlayerId=203999",
-      "status": 200,
-      "attempts": 1,
-      "seconds": 8.014,
-      "retrieved_at_utc": "2026-11-12T19:12:05+00:00",
-      "error": ""
-    },
-    {
-      "kind": "player",
-      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2026-27&SeasonType=Regular+Season&TeamId=1610612738&PlayerId=1628401",
-      "status": 200,
-      "attempts": 1,
-      "seconds": 10.095,
-      "retrieved_at_utc": "2026-11-12T19:12:07+00:00",
+      "seconds": 15.946,
+      "retrieved_at_utc": "2026-11-13T19:11:29+00:00",
       "error": ""
     },
     {
@@ -59,107 +32,134 @@
       "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2026-27&SeasonType=Regular+Season&TeamId=1610612737&PlayerId=1630552",
       "status": 200,
       "attempts": 1,
-      "seconds": 10.104,
-      "retrieved_at_utc": "2026-11-12T19:12:07+00:00",
+      "seconds": 15.948,
+      "retrieved_at_utc": "2026-11-13T19:11:29+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2026-27&SeasonType=Regular+Season&TeamId=1610612743&PlayerId=203999",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 15.946,
+      "retrieved_at_utc": "2026-11-13T19:11:29+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2026-27&SeasonType=Regular+Season&TeamId=1610612747&PlayerId=1629029",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 15.942,
+      "retrieved_at_utc": "2026-11-13T19:11:29+00:00",
       "error": ""
     },
     {
       "kind": "player",
       "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2026-27&SeasonType=Regular+Season&TeamId=1610612745&PlayerId=201142",
       "status": 200,
-      "attempts": 4,
-      "seconds": 10.924,
-      "retrieved_at_utc": "2026-11-12T19:12:08+00:00",
+      "attempts": 1,
+      "seconds": 15.944,
+      "retrieved_at_utc": "2026-11-13T19:11:29+00:00",
       "error": ""
     },
     {
       "kind": "player",
-      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2026-27&SeasonType=Regular+Season&TeamId=1610612743&PlayerId=1627750",
-      "status": 200,
-      "attempts": 5,
-      "seconds": 18.747,
-      "retrieved_at_utc": "2026-11-12T19:12:16+00:00",
-      "error": ""
-    },
-    {
-      "kind": "player",
-      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2026-27&SeasonType=Regular+Season&TeamId=1610612760&PlayerId=1628983",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2026-27&SeasonType=Regular+Season&TeamId=1610612737&PlayerId=1630700",
       "status": 200,
       "attempts": 1,
-      "seconds": 1.325,
-      "retrieved_at_utc": "2026-11-12T19:12:18+00:00",
+      "seconds": 15.95,
+      "retrieved_at_utc": "2026-11-13T19:11:29+00:00",
       "error": ""
     },
     {
       "kind": "player",
-      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2026-27&SeasonType=Regular+Season&TeamId=1610612759&PlayerId=1641705",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2026-27&SeasonType=Regular+Season&TeamId=1610612738&PlayerId=1628401",
       "status": 200,
-      "attempts": 2,
-      "seconds": 2.92,
-      "retrieved_at_utc": "2026-11-12T19:12:20+00:00",
-      "error": ""
-    },
-    {
-      "kind": "player",
-      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2026-27&SeasonType=Regular+Season&TeamId=1610612752&PlayerId=1628973",
-      "status": 200,
-      "attempts": 3,
-      "seconds": 5.674,
-      "retrieved_at_utc": "2026-11-12T19:12:22+00:00",
+      "attempts": 5,
+      "seconds": 21.626,
+      "retrieved_at_utc": "2026-11-13T19:11:35+00:00",
       "error": ""
     },
     {
       "kind": "player",
       "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2026-27&SeasonType=Regular+Season&TeamId=1610612755&PlayerId=1627759",
       "status": 200,
-      "attempts": 4,
-      "seconds": 9.938,
-      "retrieved_at_utc": "2026-11-12T19:12:27+00:00",
-      "error": ""
-    },
-    {
-      "kind": "player",
-      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2026-27&SeasonType=Regular+Season&TeamId=1610612760&PlayerId=1631096",
-      "status": 200,
-      "attempts": 5,
-      "seconds": 19.042,
-      "retrieved_at_utc": "2026-11-12T19:12:36+00:00",
-      "error": ""
-    },
-    {
-      "kind": "player",
-      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2026-27&SeasonType=Regular+Season&TeamId=1610612750&PlayerId=1630163",
-      "status": 200,
-      "attempts": 5,
-      "seconds": 20.129,
-      "retrieved_at_utc": "2026-11-12T19:12:37+00:00",
+      "attempts": 1,
+      "seconds": 3.457,
+      "retrieved_at_utc": "2026-11-13T19:11:39+00:00",
       "error": ""
     },
     {
       "kind": "player",
       "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2026-27&SeasonType=Regular+Season&TeamId=1610612752&PlayerId=1628384",
       "status": 200,
-      "attempts": 6,
-      "seconds": 36.775,
-      "retrieved_at_utc": "2026-11-12T19:12:54+00:00",
-      "error": ""
-    },
-    {
-      "kind": "player",
-      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2026-27&SeasonType=Regular+Season&TeamId=1610612755&PlayerId=1630178",
-      "status": 200,
-      "attempts": 6,
-      "seconds": 37.457,
-      "retrieved_at_utc": "2026-11-12T19:12:54+00:00",
+      "attempts": 1,
+      "seconds": 3.605,
+      "retrieved_at_utc": "2026-11-13T19:11:40+00:00",
       "error": ""
     },
     {
       "kind": "player",
       "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2026-27&SeasonType=Regular+Season&TeamId=1610612750&PlayerId=203497",
       "status": 200,
+      "attempts": 2,
+      "seconds": 4.766,
+      "retrieved_at_utc": "2026-11-13T19:11:41+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2026-27&SeasonType=Regular+Season&TeamId=1610612750&PlayerId=1630163",
+      "status": 200,
+      "attempts": 4,
+      "seconds": 11.303,
+      "retrieved_at_utc": "2026-11-13T19:11:47+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2026-27&SeasonType=Regular+Season&TeamId=1610612755&PlayerId=1630178",
+      "status": 200,
+      "attempts": 4,
+      "seconds": 12.676,
+      "retrieved_at_utc": "2026-11-13T19:11:49+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2026-27&SeasonType=Regular+Season&TeamId=1610612752&PlayerId=1628973",
+      "status": 200,
+      "attempts": 5,
+      "seconds": 18.062,
+      "retrieved_at_utc": "2026-11-13T19:11:54+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2026-27&SeasonType=Regular+Season&TeamId=1610612759&PlayerId=1641705",
+      "status": 200,
       "attempts": 6,
-      "seconds": 37.771,
-      "retrieved_at_utc": "2026-11-12T19:12:55+00:00",
+      "seconds": 36.227,
+      "retrieved_at_utc": "2026-11-13T19:12:12+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2026-27&SeasonType=Regular+Season&TeamId=1610612760&PlayerId=1631096",
+      "status": 200,
+      "attempts": 6,
+      "seconds": 36.939,
+      "retrieved_at_utc": "2026-11-13T19:12:13+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2026-27&SeasonType=Regular+Season&TeamId=1610612760&PlayerId=1628983",
+      "status": 200,
+      "attempts": 6,
+      "seconds": 37.281,
+      "retrieved_at_utc": "2026-11-13T19:12:13+00:00",
       "error": ""
     },
     {
@@ -167,8 +167,17 @@
       "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2026-27&SeasonType=Regular+Season&TeamId=1610612760&PlayerId=1641717",
       "status": 200,
       "attempts": 1,
-      "seconds": 2.285,
-      "retrieved_at_utc": "2026-11-12T19:12:58+00:00",
+      "seconds": 3.968,
+      "retrieved_at_utc": "2026-11-13T19:12:18+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2026-27&SeasonType=Regular+Season&TeamId=1610612765&PlayerId=1631105",
+      "status": 200,
+      "attempts": 1,
+      "seconds": 4.014,
+      "retrieved_at_utc": "2026-11-13T19:12:18+00:00",
       "error": ""
     },
     {
@@ -176,44 +185,35 @@
       "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2026-27&SeasonType=Regular+Season&TeamId=1610612765&PlayerId=1630595",
       "status": 200,
       "attempts": 1,
-      "seconds": 2.504,
-      "retrieved_at_utc": "2026-11-12T19:12:58+00:00",
+      "seconds": 4.137,
+      "retrieved_at_utc": "2026-11-13T19:12:18+00:00",
       "error": ""
     },
     {
       "kind": "player",
       "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2026-27&SeasonType=Regular+Season&TeamId=1610612761&PlayerId=1630567",
       "status": 200,
-      "attempts": 2,
-      "seconds": 3.405,
-      "retrieved_at_utc": "2026-11-12T19:12:59+00:00",
-      "error": ""
-    },
-    {
-      "kind": "player",
-      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2026-27&SeasonType=Regular+Season&TeamId=1610612765&PlayerId=1641709",
-      "status": 200,
-      "attempts": 4,
-      "seconds": 10.446,
-      "retrieved_at_utc": "2026-11-12T19:13:06+00:00",
-      "error": ""
-    },
-    {
-      "kind": "player",
-      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2026-27&SeasonType=Regular+Season&TeamId=1610612765&PlayerId=1631105",
-      "status": 200,
-      "attempts": 4,
-      "seconds": 10.991,
-      "retrieved_at_utc": "2026-11-12T19:13:07+00:00",
+      "attempts": 3,
+      "seconds": 5.303,
+      "retrieved_at_utc": "2026-11-13T19:12:20+00:00",
       "error": ""
     },
     {
       "kind": "player",
       "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2026-27&SeasonType=Regular+Season&TeamId=1610612761&PlayerId=202695",
       "status": 200,
+      "attempts": 4,
+      "seconds": 9.737,
+      "retrieved_at_utc": "2026-11-13T19:12:24+00:00",
+      "error": ""
+    },
+    {
+      "kind": "player",
+      "url": "https://api.pbpstats.com/get-on-off/nba/team?Season=2026-27&SeasonType=Regular+Season&TeamId=1610612765&PlayerId=1641709",
+      "status": 200,
       "attempts": 5,
-      "seconds": 19.629,
-      "retrieved_at_utc": "2026-11-12T19:13:15+00:00",
+      "seconds": 18.638,
+      "retrieved_at_utc": "2026-11-13T19:12:33+00:00",
       "error": ""
     },
     {
@@ -221,8 +221,8 @@
       "url": "https://api.pbpstats.com/get-totals/nba?Season=2026-27&SeasonType=Regular+Season&StartType=All&GroupBy=Season&Type=Team",
       "status": 200,
       "attempts": 1,
-      "seconds": 1.213,
-      "retrieved_at_utc": "2026-11-12T19:13:17+00:00",
+      "seconds": 1.201,
+      "retrieved_at_utc": "2026-11-13T19:12:34+00:00",
       "error": ""
     }
   ]
