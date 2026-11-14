@@ -1,13 +1,13 @@
 {
   "status": "in_progress",
-  "updated_at_utc": "2026-11-14T22:19:35.389792+00:00",
+  "updated_at_utc": "2026-11-14T22:24:40.436255+00:00",
   "total_team_seasons": 806,
-  "complete_team_seasons": 460,
+  "complete_team_seasons": 471,
   "total_requests": 4836,
-  "cached_responses": 2761,
-  "remaining_requests": 2075,
-  "raw_rows": 50081,
-  "completed_batches": 70,
+  "cached_responses": 2831,
+  "remaining_requests": 2005,
+  "raw_rows": 51282,
+  "completed_batches": 80,
   "wait_seconds": 10.0,
   "batch_size": 7
 }
