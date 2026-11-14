@@ -1,0 +1,48 @@
+name: Fill missing league-wide raw volume
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/fill_league_volume.py'
+      - 'data/league_team_seasons.json'
+      - '.github/workflows/fill-league-volume.yml'
+permissions:
+  contents: write
+  actions: write
+concurrency:
+  group: pbp-player-league-master
+  cancel-in-progress: false
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Set checkpoint author
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+      - name: Collect only missing responses and checkpoint every 10 batches
+        run: python -u scripts/fill_league_volume.py --max-batches 50 --publish
+      - name: Continue unfinished collection
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          status="$(python -c "import json; print(json.load(open('state/league_volume/status.json'))['status'])")"
+          if [ "$status" != complete ]; then
+            gh workflow run fill-league-volume.yml --ref main
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: league-volume-raw-${{ github.run_id }}
+          path: |
+            state/league_volume
+            data/league_player_on_off_volume_raw.csv
+          retention-days: 30

@@ -1,0 +1,4032 @@
+[
+  {
+    "Season": "2000-01",
+    "Team_id": "1610612737",
+    "Team": "ATL"
+  },
+  {
+    "Season": "2000-01",
+    "Team_id": "1610612738",
+    "Team": "BOS"
+  },
+  {
+    "Season": "2000-01",
+    "Team_id": "1610612739",
+    "Team": "CLE"
+  },
+  {
+    "Season": "2000-01",
+    "Team_id": "1610612741",
+    "Team": "CHI"
+  },
+  {
+    "Season": "2000-01",
+    "Team_id": "1610612742",
+    "Team": "DAL"
+  },
+  {
+    "Season": "2000-01",
+    "Team_id": "1610612743",
+    "Team": "DEN"
+  },
+  {
+    "Season": "2000-01",
+    "Team_id": "1610612744",
+    "Team": "GSW"
+  },
+  {
+    "Season": "2000-01",
+    "Team_id": "1610612745",
+    "Team": "HOU"
+  },
+  {
+    "Season": "2000-01",
+    "Team_id": "1610612746",
+    "Team": "LAC"
+  },
+  {
+    "Season": "2000-01",
+    "Team_id": "1610612747",
+    "Team": "LAL"
+  },
+  {
+    "Season": "2000-01",
+    "Team_id": "1610612748",
+    "Team": "MIA"
+  },
+  {
+    "Season": "2000-01",
+    "Team_id": "1610612749",
+    "Team": "MIL"
+  },
+  {
+    "Season": "2000-01",
+    "Team_id": "1610612750",
+    "Team": "MIN"
+  },
+  {
+    "Season": "2000-01",
+    "Team_id": "1610612751",
+    "Team": "NJN"
+  },
+  {
+    "Season": "2000-01",
+    "Team_id": "1610612752",
+    "Team": "NYK"
+  },
+  {
+    "Season": "2000-01",
+    "Team_id": "1610612753",
+    "Team": "ORL"
+  },
+  {
+    "Season": "2000-01",
+    "Team_id": "1610612754",
+    "Team": "IND"
+  },
+  {
+    "Season": "2000-01",
+    "Team_id": "1610612755",
+    "Team": "PHI"
+  },
+  {
+    "Season": "2000-01",
+    "Team_id": "1610612756",
+    "Team": "PHX"
+  },
+  {
+    "Season": "2000-01",
+    "Team_id": "1610612757",
+    "Team": "POR"
+  },
+  {
+    "Season": "2000-01",
+    "Team_id": "1610612758",
+    "Team": "SAC"
+  },
+  {
+    "Season": "2000-01",
+    "Team_id": "1610612759",
+    "Team": "SAS"
+  },
+  {
+    "Season": "2000-01",
+    "Team_id": "1610612760",
+    "Team": "SEA"
+  },
+  {
+    "Season": "2000-01",
+    "Team_id": "1610612761",
+    "Team": "TOR"
+  },
+  {
+    "Season": "2000-01",
+    "Team_id": "1610612762",
+    "Team": "UTA"
+  },
+  {
+    "Season": "2000-01",
+    "Team_id": "1610612763",
+    "Team": "VAN"
+  },
+  {
+    "Season": "2000-01",
+    "Team_id": "1610612764",
+    "Team": "WAS"
+  },
+  {
+    "Season": "2000-01",
+    "Team_id": "1610612765",
+    "Team": "DET"
+  },
+  {
+    "Season": "2000-01",
+    "Team_id": "1610612766",
+    "Team": "CHH"
+  },
+  {
+    "Season": "2001-02",
+    "Team_id": "1610612737",
+    "Team": "ATL"
+  },
+  {
+    "Season": "2001-02",
+    "Team_id": "1610612738",
+    "Team": "BOS"
+  },
+  {
+    "Season": "2001-02",
+    "Team_id": "1610612739",
+    "Team": "CLE"
+  },
+  {
+    "Season": "2001-02",
+    "Team_id": "1610612741",
+    "Team": "CHI"
+  },
+  {
+    "Season": "2001-02",
+    "Team_id": "1610612742",
+    "Team": "DAL"
+  },
+  {
+    "Season": "2001-02",
+    "Team_id": "1610612743",
+    "Team": "DEN"
+  },
+  {
+    "Season": "2001-02",
+    "Team_id": "1610612744",
+    "Team": "GSW"
+  },
+  {
+    "Season": "2001-02",
+    "Team_id": "1610612745",
+    "Team": "HOU"
+  },
+  {
+    "Season": "2001-02",
+    "Team_id": "1610612746",
+    "Team": "LAC"
+  },
+  {
+    "Season": "2001-02",
+    "Team_id": "1610612747",
+    "Team": "LAL"
+  },
+  {
+    "Season": "2001-02",
+    "Team_id": "1610612748",
+    "Team": "MIA"
+  },
+  {
+    "Season": "2001-02",
+    "Team_id": "1610612749",
+    "Team": "MIL"
+  },
+  {
+    "Season": "2001-02",
+    "Team_id": "1610612750",
+    "Team": "MIN"
+  },
+  {
+    "Season": "2001-02",
+    "Team_id": "1610612751",
+    "Team": "NJN"
+  },
+  {
+    "Season": "2001-02",
+    "Team_id": "1610612752",
+    "Team": "NYK"
+  },
+  {
+    "Season": "2001-02",
+    "Team_id": "1610612753",
+    "Team": "ORL"
+  },
+  {
+    "Season": "2001-02",
+    "Team_id": "1610612754",
+    "Team": "IND"
+  },
+  {
+    "Season": "2001-02",
+    "Team_id": "1610612755",
+    "Team": "PHI"
+  },
+  {
+    "Season": "2001-02",
+    "Team_id": "1610612756",
+    "Team": "PHX"
+  },
+  {
+    "Season": "2001-02",
+    "Team_id": "1610612757",
+    "Team": "POR"
+  },
+  {
+    "Season": "2001-02",
+    "Team_id": "1610612758",
+    "Team": "SAC"
+  },
+  {
+    "Season": "2001-02",
+    "Team_id": "1610612759",
+    "Team": "SAS"
+  },
+  {
+    "Season": "2001-02",
+    "Team_id": "1610612760",
+    "Team": "SEA"
+  },
+  {
+    "Season": "2001-02",
+    "Team_id": "1610612761",
+    "Team": "TOR"
+  },
+  {
+    "Season": "2001-02",
+    "Team_id": "1610612762",
+    "Team": "UTA"
+  },
+  {
+    "Season": "2001-02",
+    "Team_id": "1610612763",
+    "Team": "MEM"
+  },
+  {
+    "Season": "2001-02",
+    "Team_id": "1610612764",
+    "Team": "WAS"
+  },
+  {
+    "Season": "2001-02",
+    "Team_id": "1610612765",
+    "Team": "DET"
+  },
+  {
+    "Season": "2001-02",
+    "Team_id": "1610612766",
+    "Team": "CHH"
+  },
+  {
+    "Season": "2002-03",
+    "Team_id": "1610612737",
+    "Team": "ATL"
+  },
+  {
+    "Season": "2002-03",
+    "Team_id": "1610612738",
+    "Team": "BOS"
+  },
+  {
+    "Season": "2002-03",
+    "Team_id": "1610612739",
+    "Team": "CLE"
+  },
+  {
+    "Season": "2002-03",
+    "Team_id": "1610612740",
+    "Team": "NOH"
+  },
+  {
+    "Season": "2002-03",
+    "Team_id": "1610612741",
+    "Team": "CHI"
+  },
+  {
+    "Season": "2002-03",
+    "Team_id": "1610612742",
+    "Team": "DAL"
+  },
+  {
+    "Season": "2002-03",
+    "Team_id": "1610612743",
+    "Team": "DEN"
+  },
+  {
+    "Season": "2002-03",
+    "Team_id": "1610612744",
+    "Team": "GSW"
+  },
+  {
+    "Season": "2002-03",
+    "Team_id": "1610612745",
+    "Team": "HOU"
+  },
+  {
+    "Season": "2002-03",
+    "Team_id": "1610612746",
+    "Team": "LAC"
+  },
+  {
+    "Season": "2002-03",
+    "Team_id": "1610612747",
+    "Team": "LAL"
+  },
+  {
+    "Season": "2002-03",
+    "Team_id": "1610612748",
+    "Team": "MIA"
+  },
+  {
+    "Season": "2002-03",
+    "Team_id": "1610612749",
+    "Team": "MIL"
+  },
+  {
+    "Season": "2002-03",
+    "Team_id": "1610612750",
+    "Team": "MIN"
+  },
+  {
+    "Season": "2002-03",
+    "Team_id": "1610612751",
+    "Team": "NJN"
+  },
+  {
+    "Season": "2002-03",
+    "Team_id": "1610612752",
+    "Team": "NYK"
+  },
+  {
+    "Season": "2002-03",
+    "Team_id": "1610612753",
+    "Team": "ORL"
+  },
+  {
+    "Season": "2002-03",
+    "Team_id": "1610612754",
+    "Team": "IND"
+  },
+  {
+    "Season": "2002-03",
+    "Team_id": "1610612755",
+    "Team": "PHI"
+  },
+  {
+    "Season": "2002-03",
+    "Team_id": "1610612756",
+    "Team": "PHX"
+  },
+  {
+    "Season": "2002-03",
+    "Team_id": "1610612757",
+    "Team": "POR"
+  },
+  {
+    "Season": "2002-03",
+    "Team_id": "1610612758",
+    "Team": "SAC"
+  },
+  {
+    "Season": "2002-03",
+    "Team_id": "1610612759",
+    "Team": "SAS"
+  },
+  {
+    "Season": "2002-03",
+    "Team_id": "1610612760",
+    "Team": "SEA"
+  },
+  {
+    "Season": "2002-03",
+    "Team_id": "1610612761",
+    "Team": "TOR"
+  },
+  {
+    "Season": "2002-03",
+    "Team_id": "1610612762",
+    "Team": "UTA"
+  },
+  {
+    "Season": "2002-03",
+    "Team_id": "1610612763",
+    "Team": "MEM"
+  },
+  {
+    "Season": "2002-03",
+    "Team_id": "1610612764",
+    "Team": "WAS"
+  },
+  {
+    "Season": "2002-03",
+    "Team_id": "1610612765",
+    "Team": "DET"
+  },
+  {
+    "Season": "2003-04",
+    "Team_id": "1610612737",
+    "Team": "ATL"
+  },
+  {
+    "Season": "2003-04",
+    "Team_id": "1610612738",
+    "Team": "BOS"
+  },
+  {
+    "Season": "2003-04",
+    "Team_id": "1610612739",
+    "Team": "CLE"
+  },
+  {
+    "Season": "2003-04",
+    "Team_id": "1610612740",
+    "Team": "NOH"
+  },
+  {
+    "Season": "2003-04",
+    "Team_id": "1610612741",
+    "Team": "CHI"
+  },
+  {
+    "Season": "2003-04",
+    "Team_id": "1610612742",
+    "Team": "DAL"
+  },
+  {
+    "Season": "2003-04",
+    "Team_id": "1610612743",
+    "Team": "DEN"
+  },
+  {
+    "Season": "2003-04",
+    "Team_id": "1610612744",
+    "Team": "GSW"
+  },
+  {
+    "Season": "2003-04",
+    "Team_id": "1610612745",
+    "Team": "HOU"
+  },
+  {
+    "Season": "2003-04",
+    "Team_id": "1610612746",
+    "Team": "LAC"
+  },
+  {
+    "Season": "2003-04",
+    "Team_id": "1610612747",
+    "Team": "LAL"
+  },
+  {
+    "Season": "2003-04",
+    "Team_id": "1610612748",
+    "Team": "MIA"
+  },
+  {
+    "Season": "2003-04",
+    "Team_id": "1610612749",
+    "Team": "MIL"
+  },
+  {
+    "Season": "2003-04",
+    "Team_id": "1610612750",
+    "Team": "MIN"
+  },
+  {
+    "Season": "2003-04",
+    "Team_id": "1610612751",
+    "Team": "NJN"
+  },
+  {
+    "Season": "2003-04",
+    "Team_id": "1610612752",
+    "Team": "NYK"
+  },
+  {
+    "Season": "2003-04",
+    "Team_id": "1610612753",
+    "Team": "ORL"
+  },
+  {
+    "Season": "2003-04",
+    "Team_id": "1610612754",
+    "Team": "IND"
+  },
+  {
+    "Season": "2003-04",
+    "Team_id": "1610612755",
+    "Team": "PHI"
+  },
+  {
+    "Season": "2003-04",
+    "Team_id": "1610612756",
+    "Team": "PHX"
+  },
+  {
+    "Season": "2003-04",
+    "Team_id": "1610612757",
+    "Team": "POR"
+  },
+  {
+    "Season": "2003-04",
+    "Team_id": "1610612758",
+    "Team": "SAC"
+  },
+  {
+    "Season": "2003-04",
+    "Team_id": "1610612759",
+    "Team": "SAS"
+  },
+  {
+    "Season": "2003-04",
+    "Team_id": "1610612760",
+    "Team": "SEA"
+  },
+  {
+    "Season": "2003-04",
+    "Team_id": "1610612761",
+    "Team": "TOR"
+  },
+  {
+    "Season": "2003-04",
+    "Team_id": "1610612762",
+    "Team": "UTA"
+  },
+  {
+    "Season": "2003-04",
+    "Team_id": "1610612763",
+    "Team": "MEM"
+  },
+  {
+    "Season": "2003-04",
+    "Team_id": "1610612764",
+    "Team": "WAS"
+  },
+  {
+    "Season": "2003-04",
+    "Team_id": "1610612765",
+    "Team": "DET"
+  },
+  {
+    "Season": "2004-05",
+    "Team_id": "1610612737",
+    "Team": "ATL"
+  },
+  {
+    "Season": "2004-05",
+    "Team_id": "1610612738",
+    "Team": "BOS"
+  },
+  {
+    "Season": "2004-05",
+    "Team_id": "1610612739",
+    "Team": "CLE"
+  },
+  {
+    "Season": "2004-05",
+    "Team_id": "1610612740",
+    "Team": "NOH"
+  },
+  {
+    "Season": "2004-05",
+    "Team_id": "1610612741",
+    "Team": "CHI"
+  },
+  {
+    "Season": "2004-05",
+    "Team_id": "1610612742",
+    "Team": "DAL"
+  },
+  {
+    "Season": "2004-05",
+    "Team_id": "1610612743",
+    "Team": "DEN"
+  },
+  {
+    "Season": "2004-05",
+    "Team_id": "1610612744",
+    "Team": "GSW"
+  },
+  {
+    "Season": "2004-05",
+    "Team_id": "1610612745",
+    "Team": "HOU"
+  },
+  {
+    "Season": "2004-05",
+    "Team_id": "1610612746",
+    "Team": "LAC"
+  },
+  {
+    "Season": "2004-05",
+    "Team_id": "1610612747",
+    "Team": "LAL"
+  },
+  {
+    "Season": "2004-05",
+    "Team_id": "1610612748",
+    "Team": "MIA"
+  },
+  {
+    "Season": "2004-05",
+    "Team_id": "1610612749",
+    "Team": "MIL"
+  },
+  {
+    "Season": "2004-05",
+    "Team_id": "1610612750",
+    "Team": "MIN"
+  },
+  {
+    "Season": "2004-05",
+    "Team_id": "1610612751",
+    "Team": "NJN"
+  },
+  {
+    "Season": "2004-05",
+    "Team_id": "1610612752",
+    "Team": "NYK"
+  },
+  {
+    "Season": "2004-05",
+    "Team_id": "1610612753",
+    "Team": "ORL"
+  },
+  {
+    "Season": "2004-05",
+    "Team_id": "1610612754",
+    "Team": "IND"
+  },
+  {
+    "Season": "2004-05",
+    "Team_id": "1610612755",
+    "Team": "PHI"
+  },
+  {
+    "Season": "2004-05",
+    "Team_id": "1610612756",
+    "Team": "PHX"
+  },
+  {
+    "Season": "2004-05",
+    "Team_id": "1610612757",
+    "Team": "POR"
+  },
+  {
+    "Season": "2004-05",
+    "Team_id": "1610612758",
+    "Team": "SAC"
+  },
+  {
+    "Season": "2004-05",
+    "Team_id": "1610612759",
+    "Team": "SAS"
+  },
+  {
+    "Season": "2004-05",
+    "Team_id": "1610612760",
+    "Team": "SEA"
+  },
+  {
+    "Season": "2004-05",
+    "Team_id": "1610612761",
+    "Team": "TOR"
+  },
+  {
+    "Season": "2004-05",
+    "Team_id": "1610612762",
+    "Team": "UTA"
+  },
+  {
+    "Season": "2004-05",
+    "Team_id": "1610612763",
+    "Team": "MEM"
+  },
+  {
+    "Season": "2004-05",
+    "Team_id": "1610612764",
+    "Team": "WAS"
+  },
+  {
+    "Season": "2004-05",
+    "Team_id": "1610612765",
+    "Team": "DET"
+  },
+  {
+    "Season": "2004-05",
+    "Team_id": "1610612766",
+    "Team": "CHA"
+  },
+  {
+    "Season": "2005-06",
+    "Team_id": "1610612737",
+    "Team": "ATL"
+  },
+  {
+    "Season": "2005-06",
+    "Team_id": "1610612738",
+    "Team": "BOS"
+  },
+  {
+    "Season": "2005-06",
+    "Team_id": "1610612739",
+    "Team": "CLE"
+  },
+  {
+    "Season": "2005-06",
+    "Team_id": "1610612740",
+    "Team": "NOK"
+  },
+  {
+    "Season": "2005-06",
+    "Team_id": "1610612741",
+    "Team": "CHI"
+  },
+  {
+    "Season": "2005-06",
+    "Team_id": "1610612742",
+    "Team": "DAL"
+  },
+  {
+    "Season": "2005-06",
+    "Team_id": "1610612743",
+    "Team": "DEN"
+  },
+  {
+    "Season": "2005-06",
+    "Team_id": "1610612744",
+    "Team": "GSW"
+  },
+  {
+    "Season": "2005-06",
+    "Team_id": "1610612745",
+    "Team": "HOU"
+  },
+  {
+    "Season": "2005-06",
+    "Team_id": "1610612746",
+    "Team": "LAC"
+  },
+  {
+    "Season": "2005-06",
+    "Team_id": "1610612747",
+    "Team": "LAL"
+  },
+  {
+    "Season": "2005-06",
+    "Team_id": "1610612748",
+    "Team": "MIA"
+  },
+  {
+    "Season": "2005-06",
+    "Team_id": "1610612749",
+    "Team": "MIL"
+  },
+  {
+    "Season": "2005-06",
+    "Team_id": "1610612750",
+    "Team": "MIN"
+  },
+  {
+    "Season": "2005-06",
+    "Team_id": "1610612751",
+    "Team": "NJN"
+  },
+  {
+    "Season": "2005-06",
+    "Team_id": "1610612752",
+    "Team": "NYK"
+  },
+  {
+    "Season": "2005-06",
+    "Team_id": "1610612753",
+    "Team": "ORL"
+  },
+  {
+    "Season": "2005-06",
+    "Team_id": "1610612754",
+    "Team": "IND"
+  },
+  {
+    "Season": "2005-06",
+    "Team_id": "1610612755",
+    "Team": "PHI"
+  },
+  {
+    "Season": "2005-06",
+    "Team_id": "1610612756",
+    "Team": "PHX"
+  },
+  {
+    "Season": "2005-06",
+    "Team_id": "1610612757",
+    "Team": "POR"
+  },
+  {
+    "Season": "2005-06",
+    "Team_id": "1610612758",
+    "Team": "SAC"
+  },
+  {
+    "Season": "2005-06",
+    "Team_id": "1610612759",
+    "Team": "SAS"
+  },
+  {
+    "Season": "2005-06",
+    "Team_id": "1610612760",
+    "Team": "SEA"
+  },
+  {
+    "Season": "2005-06",
+    "Team_id": "1610612761",
+    "Team": "TOR"
+  },
+  {
+    "Season": "2005-06",
+    "Team_id": "1610612762",
+    "Team": "UTA"
+  },
+  {
+    "Season": "2005-06",
+    "Team_id": "1610612763",
+    "Team": "MEM"
+  },
+  {
+    "Season": "2005-06",
+    "Team_id": "1610612764",
+    "Team": "WAS"
+  },
+  {
+    "Season": "2005-06",
+    "Team_id": "1610612765",
+    "Team": "DET"
+  },
+  {
+    "Season": "2005-06",
+    "Team_id": "1610612766",
+    "Team": "CHA"
+  },
+  {
+    "Season": "2006-07",
+    "Team_id": "1610612737",
+    "Team": "ATL"
+  },
+  {
+    "Season": "2006-07",
+    "Team_id": "1610612738",
+    "Team": "BOS"
+  },
+  {
+    "Season": "2006-07",
+    "Team_id": "1610612739",
+    "Team": "CLE"
+  },
+  {
+    "Season": "2006-07",
+    "Team_id": "1610612740",
+    "Team": "NOK"
+  },
+  {
+    "Season": "2006-07",
+    "Team_id": "1610612741",
+    "Team": "CHI"
+  },
+  {
+    "Season": "2006-07",
+    "Team_id": "1610612742",
+    "Team": "DAL"
+  },
+  {
+    "Season": "2006-07",
+    "Team_id": "1610612743",
+    "Team": "DEN"
+  },
+  {
+    "Season": "2006-07",
+    "Team_id": "1610612744",
+    "Team": "GSW"
+  },
+  {
+    "Season": "2006-07",
+    "Team_id": "1610612745",
+    "Team": "HOU"
+  },
+  {
+    "Season": "2006-07",
+    "Team_id": "1610612746",
+    "Team": "LAC"
+  },
+  {
+    "Season": "2006-07",
+    "Team_id": "1610612747",
+    "Team": "LAL"
+  },
+  {
+    "Season": "2006-07",
+    "Team_id": "1610612748",
+    "Team": "MIA"
+  },
+  {
+    "Season": "2006-07",
+    "Team_id": "1610612749",
+    "Team": "MIL"
+  },
+  {
+    "Season": "2006-07",
+    "Team_id": "1610612750",
+    "Team": "MIN"
+  },
+  {
+    "Season": "2006-07",
+    "Team_id": "1610612751",
+    "Team": "NJN"
+  },
+  {
+    "Season": "2006-07",
+    "Team_id": "1610612752",
+    "Team": "NYK"
+  },
+  {
+    "Season": "2006-07",
+    "Team_id": "1610612753",
+    "Team": "ORL"
+  },
+  {
+    "Season": "2006-07",
+    "Team_id": "1610612754",
+    "Team": "IND"
+  },
+  {
+    "Season": "2006-07",
+    "Team_id": "1610612755",
+    "Team": "PHI"
+  },
+  {
+    "Season": "2006-07",
+    "Team_id": "1610612756",
+    "Team": "PHX"
+  },
+  {
+    "Season": "2006-07",
+    "Team_id": "1610612757",
+    "Team": "POR"
+  },
+  {
+    "Season": "2006-07",
+    "Team_id": "1610612758",
+    "Team": "SAC"
+  },
+  {
+    "Season": "2006-07",
+    "Team_id": "1610612759",
+    "Team": "SAS"
+  },
+  {
+    "Season": "2006-07",
+    "Team_id": "1610612760",
+    "Team": "SEA"
+  },
+  {
+    "Season": "2006-07",
+    "Team_id": "1610612761",
+    "Team": "TOR"
+  },
+  {
+    "Season": "2006-07",
+    "Team_id": "1610612762",
+    "Team": "UTA"
+  },
+  {
+    "Season": "2006-07",
+    "Team_id": "1610612763",
+    "Team": "MEM"
+  },
+  {
+    "Season": "2006-07",
+    "Team_id": "1610612764",
+    "Team": "WAS"
+  },
+  {
+    "Season": "2006-07",
+    "Team_id": "1610612765",
+    "Team": "DET"
+  },
+  {
+    "Season": "2006-07",
+    "Team_id": "1610612766",
+    "Team": "CHA"
+  },
+  {
+    "Season": "2007-08",
+    "Team_id": "1610612737",
+    "Team": "ATL"
+  },
+  {
+    "Season": "2007-08",
+    "Team_id": "1610612738",
+    "Team": "BOS"
+  },
+  {
+    "Season": "2007-08",
+    "Team_id": "1610612739",
+    "Team": "CLE"
+  },
+  {
+    "Season": "2007-08",
+    "Team_id": "1610612740",
+    "Team": "NOH"
+  },
+  {
+    "Season": "2007-08",
+    "Team_id": "1610612741",
+    "Team": "CHI"
+  },
+  {
+    "Season": "2007-08",
+    "Team_id": "1610612742",
+    "Team": "DAL"
+  },
+  {
+    "Season": "2007-08",
+    "Team_id": "1610612743",
+    "Team": "DEN"
+  },
+  {
+    "Season": "2007-08",
+    "Team_id": "1610612744",
+    "Team": "GSW"
+  },
+  {
+    "Season": "2007-08",
+    "Team_id": "1610612745",
+    "Team": "HOU"
+  },
+  {
+    "Season": "2007-08",
+    "Team_id": "1610612746",
+    "Team": "LAC"
+  },
+  {
+    "Season": "2007-08",
+    "Team_id": "1610612747",
+    "Team": "LAL"
+  },
+  {
+    "Season": "2007-08",
+    "Team_id": "1610612748",
+    "Team": "MIA"
+  },
+  {
+    "Season": "2007-08",
+    "Team_id": "1610612749",
+    "Team": "MIL"
+  },
+  {
+    "Season": "2007-08",
+    "Team_id": "1610612750",
+    "Team": "MIN"
+  },
+  {
+    "Season": "2007-08",
+    "Team_id": "1610612751",
+    "Team": "NJN"
+  },
+  {
+    "Season": "2007-08",
+    "Team_id": "1610612752",
+    "Team": "NYK"
+  },
+  {
+    "Season": "2007-08",
+    "Team_id": "1610612753",
+    "Team": "ORL"
+  },
+  {
+    "Season": "2007-08",
+    "Team_id": "1610612754",
+    "Team": "IND"
+  },
+  {
+    "Season": "2007-08",
+    "Team_id": "1610612755",
+    "Team": "PHI"
+  },
+  {
+    "Season": "2007-08",
+    "Team_id": "1610612756",
+    "Team": "PHX"
+  },
+  {
+    "Season": "2007-08",
+    "Team_id": "1610612757",
+    "Team": "POR"
+  },
+  {
+    "Season": "2007-08",
+    "Team_id": "1610612758",
+    "Team": "SAC"
+  },
+  {
+    "Season": "2007-08",
+    "Team_id": "1610612759",
+    "Team": "SAS"
+  },
+  {
+    "Season": "2007-08",
+    "Team_id": "1610612760",
+    "Team": "SEA"
+  },
+  {
+    "Season": "2007-08",
+    "Team_id": "1610612761",
+    "Team": "TOR"
+  },
+  {
+    "Season": "2007-08",
+    "Team_id": "1610612762",
+    "Team": "UTA"
+  },
+  {
+    "Season": "2007-08",
+    "Team_id": "1610612763",
+    "Team": "MEM"
+  },
+  {
+    "Season": "2007-08",
+    "Team_id": "1610612764",
+    "Team": "WAS"
+  },
+  {
+    "Season": "2007-08",
+    "Team_id": "1610612765",
+    "Team": "DET"
+  },
+  {
+    "Season": "2007-08",
+    "Team_id": "1610612766",
+    "Team": "CHA"
+  },
+  {
+    "Season": "2008-09",
+    "Team_id": "1610612737",
+    "Team": "ATL"
+  },
+  {
+    "Season": "2008-09",
+    "Team_id": "1610612738",
+    "Team": "BOS"
+  },
+  {
+    "Season": "2008-09",
+    "Team_id": "1610612739",
+    "Team": "CLE"
+  },
+  {
+    "Season": "2008-09",
+    "Team_id": "1610612740",
+    "Team": "NOH"
+  },
+  {
+    "Season": "2008-09",
+    "Team_id": "1610612741",
+    "Team": "CHI"
+  },
+  {
+    "Season": "2008-09",
+    "Team_id": "1610612742",
+    "Team": "DAL"
+  },
+  {
+    "Season": "2008-09",
+    "Team_id": "1610612743",
+    "Team": "DEN"
+  },
+  {
+    "Season": "2008-09",
+    "Team_id": "1610612744",
+    "Team": "GSW"
+  },
+  {
+    "Season": "2008-09",
+    "Team_id": "1610612745",
+    "Team": "HOU"
+  },
+  {
+    "Season": "2008-09",
+    "Team_id": "1610612746",
+    "Team": "LAC"
+  },
+  {
+    "Season": "2008-09",
+    "Team_id": "1610612747",
+    "Team": "LAL"
+  },
+  {
+    "Season": "2008-09",
+    "Team_id": "1610612748",
+    "Team": "MIA"
+  },
+  {
+    "Season": "2008-09",
+    "Team_id": "1610612749",
+    "Team": "MIL"
+  },
+  {
+    "Season": "2008-09",
+    "Team_id": "1610612750",
+    "Team": "MIN"
+  },
+  {
+    "Season": "2008-09",
+    "Team_id": "1610612751",
+    "Team": "NJN"
+  },
+  {
+    "Season": "2008-09",
+    "Team_id": "1610612752",
+    "Team": "NYK"
+  },
+  {
+    "Season": "2008-09",
+    "Team_id": "1610612753",
+    "Team": "ORL"
+  },
+  {
+    "Season": "2008-09",
+    "Team_id": "1610612754",
+    "Team": "IND"
+  },
+  {
+    "Season": "2008-09",
+    "Team_id": "1610612755",
+    "Team": "PHI"
+  },
+  {
+    "Season": "2008-09",
+    "Team_id": "1610612756",
+    "Team": "PHX"
+  },
+  {
+    "Season": "2008-09",
+    "Team_id": "1610612757",
+    "Team": "POR"
+  },
+  {
+    "Season": "2008-09",
+    "Team_id": "1610612758",
+    "Team": "SAC"
+  },
+  {
+    "Season": "2008-09",
+    "Team_id": "1610612759",
+    "Team": "SAS"
+  },
+  {
+    "Season": "2008-09",
+    "Team_id": "1610612760",
+    "Team": "OKC"
+  },
+  {
+    "Season": "2008-09",
+    "Team_id": "1610612761",
+    "Team": "TOR"
+  },
+  {
+    "Season": "2008-09",
+    "Team_id": "1610612762",
+    "Team": "UTA"
+  },
+  {
+    "Season": "2008-09",
+    "Team_id": "1610612763",
+    "Team": "MEM"
+  },
+  {
+    "Season": "2008-09",
+    "Team_id": "1610612764",
+    "Team": "WAS"
+  },
+  {
+    "Season": "2008-09",
+    "Team_id": "1610612765",
+    "Team": "DET"
+  },
+  {
+    "Season": "2008-09",
+    "Team_id": "1610612766",
+    "Team": "CHA"
+  },
+  {
+    "Season": "2009-10",
+    "Team_id": "1610612737",
+    "Team": "ATL"
+  },
+  {
+    "Season": "2009-10",
+    "Team_id": "1610612738",
+    "Team": "BOS"
+  },
+  {
+    "Season": "2009-10",
+    "Team_id": "1610612739",
+    "Team": "CLE"
+  },
+  {
+    "Season": "2009-10",
+    "Team_id": "1610612740",
+    "Team": "NOH"
+  },
+  {
+    "Season": "2009-10",
+    "Team_id": "1610612741",
+    "Team": "CHI"
+  },
+  {
+    "Season": "2009-10",
+    "Team_id": "1610612742",
+    "Team": "DAL"
+  },
+  {
+    "Season": "2009-10",
+    "Team_id": "1610612743",
+    "Team": "DEN"
+  },
+  {
+    "Season": "2009-10",
+    "Team_id": "1610612744",
+    "Team": "GSW"
+  },
+  {
+    "Season": "2009-10",
+    "Team_id": "1610612745",
+    "Team": "HOU"
+  },
+  {
+    "Season": "2009-10",
+    "Team_id": "1610612746",
+    "Team": "LAC"
+  },
+  {
+    "Season": "2009-10",
+    "Team_id": "1610612747",
+    "Team": "LAL"
+  },
+  {
+    "Season": "2009-10",
+    "Team_id": "1610612748",
+    "Team": "MIA"
+  },
+  {
+    "Season": "2009-10",
+    "Team_id": "1610612749",
+    "Team": "MIL"
+  },
+  {
+    "Season": "2009-10",
+    "Team_id": "1610612750",
+    "Team": "MIN"
+  },
+  {
+    "Season": "2009-10",
+    "Team_id": "1610612751",
+    "Team": "NJN"
+  },
+  {
+    "Season": "2009-10",
+    "Team_id": "1610612752",
+    "Team": "NYK"
+  },
+  {
+    "Season": "2009-10",
+    "Team_id": "1610612753",
+    "Team": "ORL"
+  },
+  {
+    "Season": "2009-10",
+    "Team_id": "1610612754",
+    "Team": "IND"
+  },
+  {
+    "Season": "2009-10",
+    "Team_id": "1610612755",
+    "Team": "PHI"
+  },
+  {
+    "Season": "2009-10",
+    "Team_id": "1610612756",
+    "Team": "PHX"
+  },
+  {
+    "Season": "2009-10",
+    "Team_id": "1610612757",
+    "Team": "POR"
+  },
+  {
+    "Season": "2009-10",
+    "Team_id": "1610612758",
+    "Team": "SAC"
+  },
+  {
+    "Season": "2009-10",
+    "Team_id": "1610612759",
+    "Team": "SAS"
+  },
+  {
+    "Season": "2009-10",
+    "Team_id": "1610612760",
+    "Team": "OKC"
+  },
+  {
+    "Season": "2009-10",
+    "Team_id": "1610612761",
+    "Team": "TOR"
+  },
+  {
+    "Season": "2009-10",
+    "Team_id": "1610612762",
+    "Team": "UTA"
+  },
+  {
+    "Season": "2009-10",
+    "Team_id": "1610612763",
+    "Team": "MEM"
+  },
+  {
+    "Season": "2009-10",
+    "Team_id": "1610612764",
+    "Team": "WAS"
+  },
+  {
+    "Season": "2009-10",
+    "Team_id": "1610612765",
+    "Team": "DET"
+  },
+  {
+    "Season": "2009-10",
+    "Team_id": "1610612766",
+    "Team": "CHA"
+  },
+  {
+    "Season": "2010-11",
+    "Team_id": "1610612737",
+    "Team": "ATL"
+  },
+  {
+    "Season": "2010-11",
+    "Team_id": "1610612738",
+    "Team": "BOS"
+  },
+  {
+    "Season": "2010-11",
+    "Team_id": "1610612739",
+    "Team": "CLE"
+  },
+  {
+    "Season": "2010-11",
+    "Team_id": "1610612740",
+    "Team": "NOH"
+  },
+  {
+    "Season": "2010-11",
+    "Team_id": "1610612741",
+    "Team": "CHI"
+  },
+  {
+    "Season": "2010-11",
+    "Team_id": "1610612742",
+    "Team": "DAL"
+  },
+  {
+    "Season": "2010-11",
+    "Team_id": "1610612743",
+    "Team": "DEN"
+  },
+  {
+    "Season": "2010-11",
+    "Team_id": "1610612744",
+    "Team": "GSW"
+  },
+  {
+    "Season": "2010-11",
+    "Team_id": "1610612745",
+    "Team": "HOU"
+  },
+  {
+    "Season": "2010-11",
+    "Team_id": "1610612746",
+    "Team": "LAC"
+  },
+  {
+    "Season": "2010-11",
+    "Team_id": "1610612747",
+    "Team": "LAL"
+  },
+  {
+    "Season": "2010-11",
+    "Team_id": "1610612748",
+    "Team": "MIA"
+  },
+  {
+    "Season": "2010-11",
+    "Team_id": "1610612749",
+    "Team": "MIL"
+  },
+  {
+    "Season": "2010-11",
+    "Team_id": "1610612750",
+    "Team": "MIN"
+  },
+  {
+    "Season": "2010-11",
+    "Team_id": "1610612751",
+    "Team": "NJN"
+  },
+  {
+    "Season": "2010-11",
+    "Team_id": "1610612752",
+    "Team": "NYK"
+  },
+  {
+    "Season": "2010-11",
+    "Team_id": "1610612753",
+    "Team": "ORL"
+  },
+  {
+    "Season": "2010-11",
+    "Team_id": "1610612754",
+    "Team": "IND"
+  },
+  {
+    "Season": "2010-11",
+    "Team_id": "1610612755",
+    "Team": "PHI"
+  },
+  {
+    "Season": "2010-11",
+    "Team_id": "1610612756",
+    "Team": "PHX"
+  },
+  {
+    "Season": "2010-11",
+    "Team_id": "1610612757",
+    "Team": "POR"
+  },
+  {
+    "Season": "2010-11",
+    "Team_id": "1610612758",
+    "Team": "SAC"
+  },
+  {
+    "Season": "2010-11",
+    "Team_id": "1610612759",
+    "Team": "SAS"
+  },
+  {
+    "Season": "2010-11",
+    "Team_id": "1610612760",
+    "Team": "OKC"
+  },
+  {
+    "Season": "2010-11",
+    "Team_id": "1610612761",
+    "Team": "TOR"
+  },
+  {
+    "Season": "2010-11",
+    "Team_id": "1610612762",
+    "Team": "UTA"
+  },
+  {
+    "Season": "2010-11",
+    "Team_id": "1610612763",
+    "Team": "MEM"
+  },
+  {
+    "Season": "2010-11",
+    "Team_id": "1610612764",
+    "Team": "WAS"
+  },
+  {
+    "Season": "2010-11",
+    "Team_id": "1610612765",
+    "Team": "DET"
+  },
+  {
+    "Season": "2010-11",
+    "Team_id": "1610612766",
+    "Team": "CHA"
+  },
+  {
+    "Season": "2011-12",
+    "Team_id": "1610612737",
+    "Team": "ATL"
+  },
+  {
+    "Season": "2011-12",
+    "Team_id": "1610612738",
+    "Team": "BOS"
+  },
+  {
+    "Season": "2011-12",
+    "Team_id": "1610612739",
+    "Team": "CLE"
+  },
+  {
+    "Season": "2011-12",
+    "Team_id": "1610612740",
+    "Team": "NOH"
+  },
+  {
+    "Season": "2011-12",
+    "Team_id": "1610612741",
+    "Team": "CHI"
+  },
+  {
+    "Season": "2011-12",
+    "Team_id": "1610612742",
+    "Team": "DAL"
+  },
+  {
+    "Season": "2011-12",
+    "Team_id": "1610612743",
+    "Team": "DEN"
+  },
+  {
+    "Season": "2011-12",
+    "Team_id": "1610612744",
+    "Team": "GSW"
+  },
+  {
+    "Season": "2011-12",
+    "Team_id": "1610612745",
+    "Team": "HOU"
+  },
+  {
+    "Season": "2011-12",
+    "Team_id": "1610612746",
+    "Team": "LAC"
+  },
+  {
+    "Season": "2011-12",
+    "Team_id": "1610612747",
+    "Team": "LAL"
+  },
+  {
+    "Season": "2011-12",
+    "Team_id": "1610612748",
+    "Team": "MIA"
+  },
+  {
+    "Season": "2011-12",
+    "Team_id": "1610612749",
+    "Team": "MIL"
+  },
+  {
+    "Season": "2011-12",
+    "Team_id": "1610612750",
+    "Team": "MIN"
+  },
+  {
+    "Season": "2011-12",
+    "Team_id": "1610612751",
+    "Team": "NJN"
+  },
+  {
+    "Season": "2011-12",
+    "Team_id": "1610612752",
+    "Team": "NYK"
+  },
+  {
+    "Season": "2011-12",
+    "Team_id": "1610612753",
+    "Team": "ORL"
+  },
+  {
+    "Season": "2011-12",
+    "Team_id": "1610612754",
+    "Team": "IND"
+  },
+  {
+    "Season": "2011-12",
+    "Team_id": "1610612755",
+    "Team": "PHI"
+  },
+  {
+    "Season": "2011-12",
+    "Team_id": "1610612756",
+    "Team": "PHX"
+  },
+  {
+    "Season": "2011-12",
+    "Team_id": "1610612757",
+    "Team": "POR"
+  },
+  {
+    "Season": "2011-12",
+    "Team_id": "1610612758",
+    "Team": "SAC"
+  },
+  {
+    "Season": "2011-12",
+    "Team_id": "1610612759",
+    "Team": "SAS"
+  },
+  {
+    "Season": "2011-12",
+    "Team_id": "1610612760",
+    "Team": "OKC"
+  },
+  {
+    "Season": "2011-12",
+    "Team_id": "1610612761",
+    "Team": "TOR"
+  },
+  {
+    "Season": "2011-12",
+    "Team_id": "1610612762",
+    "Team": "UTA"
+  },
+  {
+    "Season": "2011-12",
+    "Team_id": "1610612763",
+    "Team": "MEM"
+  },
+  {
+    "Season": "2011-12",
+    "Team_id": "1610612764",
+    "Team": "WAS"
+  },
+  {
+    "Season": "2011-12",
+    "Team_id": "1610612765",
+    "Team": "DET"
+  },
+  {
+    "Season": "2011-12",
+    "Team_id": "1610612766",
+    "Team": "CHA"
+  },
+  {
+    "Season": "2012-13",
+    "Team_id": "1610612737",
+    "Team": "ATL"
+  },
+  {
+    "Season": "2012-13",
+    "Team_id": "1610612738",
+    "Team": "BOS"
+  },
+  {
+    "Season": "2012-13",
+    "Team_id": "1610612739",
+    "Team": "CLE"
+  },
+  {
+    "Season": "2012-13",
+    "Team_id": "1610612740",
+    "Team": "NOH"
+  },
+  {
+    "Season": "2012-13",
+    "Team_id": "1610612741",
+    "Team": "CHI"
+  },
+  {
+    "Season": "2012-13",
+    "Team_id": "1610612742",
+    "Team": "DAL"
+  },
+  {
+    "Season": "2012-13",
+    "Team_id": "1610612743",
+    "Team": "DEN"
+  },
+  {
+    "Season": "2012-13",
+    "Team_id": "1610612744",
+    "Team": "GSW"
+  },
+  {
+    "Season": "2012-13",
+    "Team_id": "1610612745",
+    "Team": "HOU"
+  },
+  {
+    "Season": "2012-13",
+    "Team_id": "1610612746",
+    "Team": "LAC"
+  },
+  {
+    "Season": "2012-13",
+    "Team_id": "1610612747",
+    "Team": "LAL"
+  },
+  {
+    "Season": "2012-13",
+    "Team_id": "1610612748",
+    "Team": "MIA"
+  },
+  {
+    "Season": "2012-13",
+    "Team_id": "1610612749",
+    "Team": "MIL"
+  },
+  {
+    "Season": "2012-13",
+    "Team_id": "1610612750",
+    "Team": "MIN"
+  },
+  {
+    "Season": "2012-13",
+    "Team_id": "1610612751",
+    "Team": "BKN"
+  },
+  {
+    "Season": "2012-13",
+    "Team_id": "1610612752",
+    "Team": "NYK"
+  },
+  {
+    "Season": "2012-13",
+    "Team_id": "1610612753",
+    "Team": "ORL"
+  },
+  {
+    "Season": "2012-13",
+    "Team_id": "1610612754",
+    "Team": "IND"
+  },
+  {
+    "Season": "2012-13",
+    "Team_id": "1610612755",
+    "Team": "PHI"
+  },
+  {
+    "Season": "2012-13",
+    "Team_id": "1610612756",
+    "Team": "PHX"
+  },
+  {
+    "Season": "2012-13",
+    "Team_id": "1610612757",
+    "Team": "POR"
+  },
+  {
+    "Season": "2012-13",
+    "Team_id": "1610612758",
+    "Team": "SAC"
+  },
+  {
+    "Season": "2012-13",
+    "Team_id": "1610612759",
+    "Team": "SAS"
+  },
+  {
+    "Season": "2012-13",
+    "Team_id": "1610612760",
+    "Team": "OKC"
+  },
+  {
+    "Season": "2012-13",
+    "Team_id": "1610612761",
+    "Team": "TOR"
+  },
+  {
+    "Season": "2012-13",
+    "Team_id": "1610612762",
+    "Team": "UTA"
+  },
+  {
+    "Season": "2012-13",
+    "Team_id": "1610612763",
+    "Team": "MEM"
+  },
+  {
+    "Season": "2012-13",
+    "Team_id": "1610612764",
+    "Team": "WAS"
+  },
+  {
+    "Season": "2012-13",
+    "Team_id": "1610612765",
+    "Team": "DET"
+  },
+  {
+    "Season": "2012-13",
+    "Team_id": "1610612766",
+    "Team": "CHA"
+  },
+  {
+    "Season": "2013-14",
+    "Team_id": "1610612737",
+    "Team": "ATL"
+  },
+  {
+    "Season": "2013-14",
+    "Team_id": "1610612738",
+    "Team": "BOS"
+  },
+  {
+    "Season": "2013-14",
+    "Team_id": "1610612739",
+    "Team": "CLE"
+  },
+  {
+    "Season": "2013-14",
+    "Team_id": "1610612740",
+    "Team": "NOP"
+  },
+  {
+    "Season": "2013-14",
+    "Team_id": "1610612741",
+    "Team": "CHI"
+  },
+  {
+    "Season": "2013-14",
+    "Team_id": "1610612742",
+    "Team": "DAL"
+  },
+  {
+    "Season": "2013-14",
+    "Team_id": "1610612743",
+    "Team": "DEN"
+  },
+  {
+    "Season": "2013-14",
+    "Team_id": "1610612744",
+    "Team": "GSW"
+  },
+  {
+    "Season": "2013-14",
+    "Team_id": "1610612745",
+    "Team": "HOU"
+  },
+  {
+    "Season": "2013-14",
+    "Team_id": "1610612746",
+    "Team": "LAC"
+  },
+  {
+    "Season": "2013-14",
+    "Team_id": "1610612747",
+    "Team": "LAL"
+  },
+  {
+    "Season": "2013-14",
+    "Team_id": "1610612748",
+    "Team": "MIA"
+  },
+  {
+    "Season": "2013-14",
+    "Team_id": "1610612749",
+    "Team": "MIL"
+  },
+  {
+    "Season": "2013-14",
+    "Team_id": "1610612750",
+    "Team": "MIN"
+  },
+  {
+    "Season": "2013-14",
+    "Team_id": "1610612751",
+    "Team": "BKN"
+  },
+  {
+    "Season": "2013-14",
+    "Team_id": "1610612752",
+    "Team": "NYK"
+  },
+  {
+    "Season": "2013-14",
+    "Team_id": "1610612753",
+    "Team": "ORL"
+  },
+  {
+    "Season": "2013-14",
+    "Team_id": "1610612754",
+    "Team": "IND"
+  },
+  {
+    "Season": "2013-14",
+    "Team_id": "1610612755",
+    "Team": "PHI"
+  },
+  {
+    "Season": "2013-14",
+    "Team_id": "1610612756",
+    "Team": "PHX"
+  },
+  {
+    "Season": "2013-14",
+    "Team_id": "1610612757",
+    "Team": "POR"
+  },
+  {
+    "Season": "2013-14",
+    "Team_id": "1610612758",
+    "Team": "SAC"
+  },
+  {
+    "Season": "2013-14",
+    "Team_id": "1610612759",
+    "Team": "SAS"
+  },
+  {
+    "Season": "2013-14",
+    "Team_id": "1610612760",
+    "Team": "OKC"
+  },
+  {
+    "Season": "2013-14",
+    "Team_id": "1610612761",
+    "Team": "TOR"
+  },
+  {
+    "Season": "2013-14",
+    "Team_id": "1610612762",
+    "Team": "UTA"
+  },
+  {
+    "Season": "2013-14",
+    "Team_id": "1610612763",
+    "Team": "MEM"
+  },
+  {
+    "Season": "2013-14",
+    "Team_id": "1610612764",
+    "Team": "WAS"
+  },
+  {
+    "Season": "2013-14",
+    "Team_id": "1610612765",
+    "Team": "DET"
+  },
+  {
+    "Season": "2013-14",
+    "Team_id": "1610612766",
+    "Team": "CHA"
+  },
+  {
+    "Season": "2014-15",
+    "Team_id": "1610612737",
+    "Team": "ATL"
+  },
+  {
+    "Season": "2014-15",
+    "Team_id": "1610612738",
+    "Team": "BOS"
+  },
+  {
+    "Season": "2014-15",
+    "Team_id": "1610612739",
+    "Team": "CLE"
+  },
+  {
+    "Season": "2014-15",
+    "Team_id": "1610612740",
+    "Team": "NOP"
+  },
+  {
+    "Season": "2014-15",
+    "Team_id": "1610612741",
+    "Team": "CHI"
+  },
+  {
+    "Season": "2014-15",
+    "Team_id": "1610612742",
+    "Team": "DAL"
+  },
+  {
+    "Season": "2014-15",
+    "Team_id": "1610612743",
+    "Team": "DEN"
+  },
+  {
+    "Season": "2014-15",
+    "Team_id": "1610612744",
+    "Team": "GSW"
+  },
+  {
+    "Season": "2014-15",
+    "Team_id": "1610612745",
+    "Team": "HOU"
+  },
+  {
+    "Season": "2014-15",
+    "Team_id": "1610612746",
+    "Team": "LAC"
+  },
+  {
+    "Season": "2014-15",
+    "Team_id": "1610612747",
+    "Team": "LAL"
+  },
+  {
+    "Season": "2014-15",
+    "Team_id": "1610612748",
+    "Team": "MIA"
+  },
+  {
+    "Season": "2014-15",
+    "Team_id": "1610612749",
+    "Team": "MIL"
+  },
+  {
+    "Season": "2014-15",
+    "Team_id": "1610612750",
+    "Team": "MIN"
+  },
+  {
+    "Season": "2014-15",
+    "Team_id": "1610612751",
+    "Team": "BKN"
+  },
+  {
+    "Season": "2014-15",
+    "Team_id": "1610612752",
+    "Team": "NYK"
+  },
+  {
+    "Season": "2014-15",
+    "Team_id": "1610612753",
+    "Team": "ORL"
+  },
+  {
+    "Season": "2014-15",
+    "Team_id": "1610612754",
+    "Team": "IND"
+  },
+  {
+    "Season": "2014-15",
+    "Team_id": "1610612755",
+    "Team": "PHI"
+  },
+  {
+    "Season": "2014-15",
+    "Team_id": "1610612756",
+    "Team": "PHX"
+  },
+  {
+    "Season": "2014-15",
+    "Team_id": "1610612757",
+    "Team": "POR"
+  },
+  {
+    "Season": "2014-15",
+    "Team_id": "1610612758",
+    "Team": "SAC"
+  },
+  {
+    "Season": "2014-15",
+    "Team_id": "1610612759",
+    "Team": "SAS"
+  },
+  {
+    "Season": "2014-15",
+    "Team_id": "1610612760",
+    "Team": "OKC"
+  },
+  {
+    "Season": "2014-15",
+    "Team_id": "1610612761",
+    "Team": "TOR"
+  },
+  {
+    "Season": "2014-15",
+    "Team_id": "1610612762",
+    "Team": "UTA"
+  },
+  {
+    "Season": "2014-15",
+    "Team_id": "1610612763",
+    "Team": "MEM"
+  },
+  {
+    "Season": "2014-15",
+    "Team_id": "1610612764",
+    "Team": "WAS"
+  },
+  {
+    "Season": "2014-15",
+    "Team_id": "1610612765",
+    "Team": "DET"
+  },
+  {
+    "Season": "2014-15",
+    "Team_id": "1610612766",
+    "Team": "CHA"
+  },
+  {
+    "Season": "2015-16",
+    "Team_id": "1610612737",
+    "Team": "ATL"
+  },
+  {
+    "Season": "2015-16",
+    "Team_id": "1610612738",
+    "Team": "BOS"
+  },
+  {
+    "Season": "2015-16",
+    "Team_id": "1610612739",
+    "Team": "CLE"
+  },
+  {
+    "Season": "2015-16",
+    "Team_id": "1610612740",
+    "Team": "NOP"
+  },
+  {
+    "Season": "2015-16",
+    "Team_id": "1610612741",
+    "Team": "CHI"
+  },
+  {
+    "Season": "2015-16",
+    "Team_id": "1610612742",
+    "Team": "DAL"
+  },
+  {
+    "Season": "2015-16",
+    "Team_id": "1610612743",
+    "Team": "DEN"
+  },
+  {
+    "Season": "2015-16",
+    "Team_id": "1610612744",
+    "Team": "GSW"
+  },
+  {
+    "Season": "2015-16",
+    "Team_id": "1610612745",
+    "Team": "HOU"
+  },
+  {
+    "Season": "2015-16",
+    "Team_id": "1610612746",
+    "Team": "LAC"
+  },
+  {
+    "Season": "2015-16",
+    "Team_id": "1610612747",
+    "Team": "LAL"
+  },
+  {
+    "Season": "2015-16",
+    "Team_id": "1610612748",
+    "Team": "MIA"
+  },
+  {
+    "Season": "2015-16",
+    "Team_id": "1610612749",
+    "Team": "MIL"
+  },
+  {
+    "Season": "2015-16",
+    "Team_id": "1610612750",
+    "Team": "MIN"
+  },
+  {
+    "Season": "2015-16",
+    "Team_id": "1610612751",
+    "Team": "BKN"
+  },
+  {
+    "Season": "2015-16",
+    "Team_id": "1610612752",
+    "Team": "NYK"
+  },
+  {
+    "Season": "2015-16",
+    "Team_id": "1610612753",
+    "Team": "ORL"
+  },
+  {
+    "Season": "2015-16",
+    "Team_id": "1610612754",
+    "Team": "IND"
+  },
+  {
+    "Season": "2015-16",
+    "Team_id": "1610612755",
+    "Team": "PHI"
+  },
+  {
+    "Season": "2015-16",
+    "Team_id": "1610612756",
+    "Team": "PHX"
+  },
+  {
+    "Season": "2015-16",
+    "Team_id": "1610612757",
+    "Team": "POR"
+  },
+  {
+    "Season": "2015-16",
+    "Team_id": "1610612758",
+    "Team": "SAC"
+  },
+  {
+    "Season": "2015-16",
+    "Team_id": "1610612759",
+    "Team": "SAS"
+  },
+  {
+    "Season": "2015-16",
+    "Team_id": "1610612760",
+    "Team": "OKC"
+  },
+  {
+    "Season": "2015-16",
+    "Team_id": "1610612761",
+    "Team": "TOR"
+  },
+  {
+    "Season": "2015-16",
+    "Team_id": "1610612762",
+    "Team": "UTA"
+  },
+  {
+    "Season": "2015-16",
+    "Team_id": "1610612763",
+    "Team": "MEM"
+  },
+  {
+    "Season": "2015-16",
+    "Team_id": "1610612764",
+    "Team": "WAS"
+  },
+  {
+    "Season": "2015-16",
+    "Team_id": "1610612765",
+    "Team": "DET"
+  },
+  {
+    "Season": "2015-16",
+    "Team_id": "1610612766",
+    "Team": "CHA"
+  },
+  {
+    "Season": "2016-17",
+    "Team_id": "1610612737",
+    "Team": "ATL"
+  },
+  {
+    "Season": "2016-17",
+    "Team_id": "1610612738",
+    "Team": "BOS"
+  },
+  {
+    "Season": "2016-17",
+    "Team_id": "1610612739",
+    "Team": "CLE"
+  },
+  {
+    "Season": "2016-17",
+    "Team_id": "1610612740",
+    "Team": "NOP"
+  },
+  {
+    "Season": "2016-17",
+    "Team_id": "1610612741",
+    "Team": "CHI"
+  },
+  {
+    "Season": "2016-17",
+    "Team_id": "1610612742",
+    "Team": "DAL"
+  },
+  {
+    "Season": "2016-17",
+    "Team_id": "1610612743",
+    "Team": "DEN"
+  },
+  {
+    "Season": "2016-17",
+    "Team_id": "1610612744",
+    "Team": "GSW"
+  },
+  {
+    "Season": "2016-17",
+    "Team_id": "1610612745",
+    "Team": "HOU"
+  },
+  {
+    "Season": "2016-17",
+    "Team_id": "1610612746",
+    "Team": "LAC"
+  },
+  {
+    "Season": "2016-17",
+    "Team_id": "1610612747",
+    "Team": "LAL"
+  },
+  {
+    "Season": "2016-17",
+    "Team_id": "1610612748",
+    "Team": "MIA"
+  },
+  {
+    "Season": "2016-17",
+    "Team_id": "1610612749",
+    "Team": "MIL"
+  },
+  {
+    "Season": "2016-17",
+    "Team_id": "1610612750",
+    "Team": "MIN"
+  },
+  {
+    "Season": "2016-17",
+    "Team_id": "1610612751",
+    "Team": "BKN"
+  },
+  {
+    "Season": "2016-17",
+    "Team_id": "1610612752",
+    "Team": "NYK"
+  },
+  {
+    "Season": "2016-17",
+    "Team_id": "1610612753",
+    "Team": "ORL"
+  },
+  {
+    "Season": "2016-17",
+    "Team_id": "1610612754",
+    "Team": "IND"
+  },
+  {
+    "Season": "2016-17",
+    "Team_id": "1610612755",
+    "Team": "PHI"
+  },
+  {
+    "Season": "2016-17",
+    "Team_id": "1610612756",
+    "Team": "PHX"
+  },
+  {
+    "Season": "2016-17",
+    "Team_id": "1610612757",
+    "Team": "POR"
+  },
+  {
+    "Season": "2016-17",
+    "Team_id": "1610612758",
+    "Team": "SAC"
+  },
+  {
+    "Season": "2016-17",
+    "Team_id": "1610612759",
+    "Team": "SAS"
+  },
+  {
+    "Season": "2016-17",
+    "Team_id": "1610612760",
+    "Team": "OKC"
+  },
+  {
+    "Season": "2016-17",
+    "Team_id": "1610612761",
+    "Team": "TOR"
+  },
+  {
+    "Season": "2016-17",
+    "Team_id": "1610612762",
+    "Team": "UTA"
+  },
+  {
+    "Season": "2016-17",
+    "Team_id": "1610612763",
+    "Team": "MEM"
+  },
+  {
+    "Season": "2016-17",
+    "Team_id": "1610612764",
+    "Team": "WAS"
+  },
+  {
+    "Season": "2016-17",
+    "Team_id": "1610612765",
+    "Team": "DET"
+  },
+  {
+    "Season": "2016-17",
+    "Team_id": "1610612766",
+    "Team": "CHA"
+  },
+  {
+    "Season": "2017-18",
+    "Team_id": "1610612737",
+    "Team": "ATL"
+  },
+  {
+    "Season": "2017-18",
+    "Team_id": "1610612738",
+    "Team": "BOS"
+  },
+  {
+    "Season": "2017-18",
+    "Team_id": "1610612739",
+    "Team": "CLE"
+  },
+  {
+    "Season": "2017-18",
+    "Team_id": "1610612740",
+    "Team": "NOP"
+  },
+  {
+    "Season": "2017-18",
+    "Team_id": "1610612741",
+    "Team": "CHI"
+  },
+  {
+    "Season": "2017-18",
+    "Team_id": "1610612742",
+    "Team": "DAL"
+  },
+  {
+    "Season": "2017-18",
+    "Team_id": "1610612743",
+    "Team": "DEN"
+  },
+  {
+    "Season": "2017-18",
+    "Team_id": "1610612744",
+    "Team": "GSW"
+  },
+  {
+    "Season": "2017-18",
+    "Team_id": "1610612745",
+    "Team": "HOU"
+  },
+  {
+    "Season": "2017-18",
+    "Team_id": "1610612746",
+    "Team": "LAC"
+  },
+  {
+    "Season": "2017-18",
+    "Team_id": "1610612747",
+    "Team": "LAL"
+  },
+  {
+    "Season": "2017-18",
+    "Team_id": "1610612748",
+    "Team": "MIA"
+  },
+  {
+    "Season": "2017-18",
+    "Team_id": "1610612749",
+    "Team": "MIL"
+  },
+  {
+    "Season": "2017-18",
+    "Team_id": "1610612750",
+    "Team": "MIN"
+  },
+  {
+    "Season": "2017-18",
+    "Team_id": "1610612751",
+    "Team": "BKN"
+  },
+  {
+    "Season": "2017-18",
+    "Team_id": "1610612752",
+    "Team": "NYK"
+  },
+  {
+    "Season": "2017-18",
+    "Team_id": "1610612753",
+    "Team": "ORL"
+  },
+  {
+    "Season": "2017-18",
+    "Team_id": "1610612754",
+    "Team": "IND"
+  },
+  {
+    "Season": "2017-18",
+    "Team_id": "1610612755",
+    "Team": "PHI"
+  },
+  {
+    "Season": "2017-18",
+    "Team_id": "1610612756",
+    "Team": "PHX"
+  },
+  {
+    "Season": "2017-18",
+    "Team_id": "1610612757",
+    "Team": "POR"
+  },
+  {
+    "Season": "2017-18",
+    "Team_id": "1610612758",
+    "Team": "SAC"
+  },
+  {
+    "Season": "2017-18",
+    "Team_id": "1610612759",
+    "Team": "SAS"
+  },
+  {
+    "Season": "2017-18",
+    "Team_id": "1610612760",
+    "Team": "OKC"
+  },
+  {
+    "Season": "2017-18",
+    "Team_id": "1610612761",
+    "Team": "TOR"
+  },
+  {
+    "Season": "2017-18",
+    "Team_id": "1610612762",
+    "Team": "UTA"
+  },
+  {
+    "Season": "2017-18",
+    "Team_id": "1610612763",
+    "Team": "MEM"
+  },
+  {
+    "Season": "2017-18",
+    "Team_id": "1610612764",
+    "Team": "WAS"
+  },
+  {
+    "Season": "2017-18",
+    "Team_id": "1610612765",
+    "Team": "DET"
+  },
+  {
+    "Season": "2017-18",
+    "Team_id": "1610612766",
+    "Team": "CHA"
+  },
+  {
+    "Season": "2018-19",
+    "Team_id": "1610612737",
+    "Team": "ATL"
+  },
+  {
+    "Season": "2018-19",
+    "Team_id": "1610612738",
+    "Team": "BOS"
+  },
+  {
+    "Season": "2018-19",
+    "Team_id": "1610612739",
+    "Team": "CLE"
+  },
+  {
+    "Season": "2018-19",
+    "Team_id": "1610612740",
+    "Team": "NOP"
+  },
+  {
+    "Season": "2018-19",
+    "Team_id": "1610612741",
+    "Team": "CHI"
+  },
+  {
+    "Season": "2018-19",
+    "Team_id": "1610612742",
+    "Team": "DAL"
+  },
+  {
+    "Season": "2018-19",
+    "Team_id": "1610612743",
+    "Team": "DEN"
+  },
+  {
+    "Season": "2018-19",
+    "Team_id": "1610612744",
+    "Team": "GSW"
+  },
+  {
+    "Season": "2018-19",
+    "Team_id": "1610612745",
+    "Team": "HOU"
+  },
+  {
+    "Season": "2018-19",
+    "Team_id": "1610612746",
+    "Team": "LAC"
+  },
+  {
+    "Season": "2018-19",
+    "Team_id": "1610612747",
+    "Team": "LAL"
+  },
+  {
+    "Season": "2018-19",
+    "Team_id": "1610612748",
+    "Team": "MIA"
+  },
+  {
+    "Season": "2018-19",
+    "Team_id": "1610612749",
+    "Team": "MIL"
+  },
+  {
+    "Season": "2018-19",
+    "Team_id": "1610612750",
+    "Team": "MIN"
+  },
+  {
+    "Season": "2018-19",
+    "Team_id": "1610612751",
+    "Team": "BKN"
+  },
+  {
+    "Season": "2018-19",
+    "Team_id": "1610612752",
+    "Team": "NYK"
+  },
+  {
+    "Season": "2018-19",
+    "Team_id": "1610612753",
+    "Team": "ORL"
+  },
+  {
+    "Season": "2018-19",
+    "Team_id": "1610612754",
+    "Team": "IND"
+  },
+  {
+    "Season": "2018-19",
+    "Team_id": "1610612755",
+    "Team": "PHI"
+  },
+  {
+    "Season": "2018-19",
+    "Team_id": "1610612756",
+    "Team": "PHX"
+  },
+  {
+    "Season": "2018-19",
+    "Team_id": "1610612757",
+    "Team": "POR"
+  },
+  {
+    "Season": "2018-19",
+    "Team_id": "1610612758",
+    "Team": "SAC"
+  },
+  {
+    "Season": "2018-19",
+    "Team_id": "1610612759",
+    "Team": "SAS"
+  },
+  {
+    "Season": "2018-19",
+    "Team_id": "1610612760",
+    "Team": "OKC"
+  },
+  {
+    "Season": "2018-19",
+    "Team_id": "1610612761",
+    "Team": "TOR"
+  },
+  {
+    "Season": "2018-19",
+    "Team_id": "1610612762",
+    "Team": "UTA"
+  },
+  {
+    "Season": "2018-19",
+    "Team_id": "1610612763",
+    "Team": "MEM"
+  },
+  {
+    "Season": "2018-19",
+    "Team_id": "1610612764",
+    "Team": "WAS"
+  },
+  {
+    "Season": "2018-19",
+    "Team_id": "1610612765",
+    "Team": "DET"
+  },
+  {
+    "Season": "2018-19",
+    "Team_id": "1610612766",
+    "Team": "CHA"
+  },
+  {
+    "Season": "2019-20",
+    "Team_id": "1610612737",
+    "Team": "ATL"
+  },
+  {
+    "Season": "2019-20",
+    "Team_id": "1610612738",
+    "Team": "BOS"
+  },
+  {
+    "Season": "2019-20",
+    "Team_id": "1610612739",
+    "Team": "CLE"
+  },
+  {
+    "Season": "2019-20",
+    "Team_id": "1610612740",
+    "Team": "NOP"
+  },
+  {
+    "Season": "2019-20",
+    "Team_id": "1610612741",
+    "Team": "CHI"
+  },
+  {
+    "Season": "2019-20",
+    "Team_id": "1610612742",
+    "Team": "DAL"
+  },
+  {
+    "Season": "2019-20",
+    "Team_id": "1610612743",
+    "Team": "DEN"
+  },
+  {
+    "Season": "2019-20",
+    "Team_id": "1610612744",
+    "Team": "GSW"
+  },
+  {
+    "Season": "2019-20",
+    "Team_id": "1610612745",
+    "Team": "HOU"
+  },
+  {
+    "Season": "2019-20",
+    "Team_id": "1610612746",
+    "Team": "LAC"
+  },
+  {
+    "Season": "2019-20",
+    "Team_id": "1610612747",
+    "Team": "LAL"
+  },
+  {
+    "Season": "2019-20",
+    "Team_id": "1610612748",
+    "Team": "MIA"
+  },
+  {
+    "Season": "2019-20",
+    "Team_id": "1610612749",
+    "Team": "MIL"
+  },
+  {
+    "Season": "2019-20",
+    "Team_id": "1610612750",
+    "Team": "MIN"
+  },
+  {
+    "Season": "2019-20",
+    "Team_id": "1610612751",
+    "Team": "BKN"
+  },
+  {
+    "Season": "2019-20",
+    "Team_id": "1610612752",
+    "Team": "NYK"
+  },
+  {
+    "Season": "2019-20",
+    "Team_id": "1610612753",
+    "Team": "ORL"
+  },
+  {
+    "Season": "2019-20",
+    "Team_id": "1610612754",
+    "Team": "IND"
+  },
+  {
+    "Season": "2019-20",
+    "Team_id": "1610612755",
+    "Team": "PHI"
+  },
+  {
+    "Season": "2019-20",
+    "Team_id": "1610612756",
+    "Team": "PHX"
+  },
+  {
+    "Season": "2019-20",
+    "Team_id": "1610612757",
+    "Team": "POR"
+  },
+  {
+    "Season": "2019-20",
+    "Team_id": "1610612758",
+    "Team": "SAC"
+  },
+  {
+    "Season": "2019-20",
+    "Team_id": "1610612759",
+    "Team": "SAS"
+  },
+  {
+    "Season": "2019-20",
+    "Team_id": "1610612760",
+    "Team": "OKC"
+  },
+  {
+    "Season": "2019-20",
+    "Team_id": "1610612761",
+    "Team": "TOR"
+  },
+  {
+    "Season": "2019-20",
+    "Team_id": "1610612762",
+    "Team": "UTA"
+  },
+  {
+    "Season": "2019-20",
+    "Team_id": "1610612763",
+    "Team": "MEM"
+  },
+  {
+    "Season": "2019-20",
+    "Team_id": "1610612764",
+    "Team": "WAS"
+  },
+  {
+    "Season": "2019-20",
+    "Team_id": "1610612765",
+    "Team": "DET"
+  },
+  {
+    "Season": "2019-20",
+    "Team_id": "1610612766",
+    "Team": "CHA"
+  },
+  {
+    "Season": "2020-21",
+    "Team_id": "1610612737",
+    "Team": "ATL"
+  },
+  {
+    "Season": "2020-21",
+    "Team_id": "1610612738",
+    "Team": "BOS"
+  },
+  {
+    "Season": "2020-21",
+    "Team_id": "1610612739",
+    "Team": "CLE"
+  },
+  {
+    "Season": "2020-21",
+    "Team_id": "1610612740",
+    "Team": "NOP"
+  },
+  {
+    "Season": "2020-21",
+    "Team_id": "1610612741",
+    "Team": "CHI"
+  },
+  {
+    "Season": "2020-21",
+    "Team_id": "1610612742",
+    "Team": "DAL"
+  },
+  {
+    "Season": "2020-21",
+    "Team_id": "1610612743",
+    "Team": "DEN"
+  },
+  {
+    "Season": "2020-21",
+    "Team_id": "1610612744",
+    "Team": "GSW"
+  },
+  {
+    "Season": "2020-21",
+    "Team_id": "1610612745",
+    "Team": "HOU"
+  },
+  {
+    "Season": "2020-21",
+    "Team_id": "1610612746",
+    "Team": "LAC"
+  },
+  {
+    "Season": "2020-21",
+    "Team_id": "1610612747",
+    "Team": "LAL"
+  },
+  {
+    "Season": "2020-21",
+    "Team_id": "1610612748",
+    "Team": "MIA"
+  },
+  {
+    "Season": "2020-21",
+    "Team_id": "1610612749",
+    "Team": "MIL"
+  },
+  {
+    "Season": "2020-21",
+    "Team_id": "1610612750",
+    "Team": "MIN"
+  },
+  {
+    "Season": "2020-21",
+    "Team_id": "1610612751",
+    "Team": "BKN"
+  },
+  {
+    "Season": "2020-21",
+    "Team_id": "1610612752",
+    "Team": "NYK"
+  },
+  {
+    "Season": "2020-21",
+    "Team_id": "1610612753",
+    "Team": "ORL"
+  },
+  {
+    "Season": "2020-21",
+    "Team_id": "1610612754",
+    "Team": "IND"
+  },
+  {
+    "Season": "2020-21",
+    "Team_id": "1610612755",
+    "Team": "PHI"
+  },
+  {
+    "Season": "2020-21",
+    "Team_id": "1610612756",
+    "Team": "PHX"
+  },
+  {
+    "Season": "2020-21",
+    "Team_id": "1610612757",
+    "Team": "POR"
+  },
+  {
+    "Season": "2020-21",
+    "Team_id": "1610612758",
+    "Team": "SAC"
+  },
+  {
+    "Season": "2020-21",
+    "Team_id": "1610612759",
+    "Team": "SAS"
+  },
+  {
+    "Season": "2020-21",
+    "Team_id": "1610612760",
+    "Team": "OKC"
+  },
+  {
+    "Season": "2020-21",
+    "Team_id": "1610612761",
+    "Team": "TOR"
+  },
+  {
+    "Season": "2020-21",
+    "Team_id": "1610612762",
+    "Team": "UTA"
+  },
+  {
+    "Season": "2020-21",
+    "Team_id": "1610612763",
+    "Team": "MEM"
+  },
+  {
+    "Season": "2020-21",
+    "Team_id": "1610612764",
+    "Team": "WAS"
+  },
+  {
+    "Season": "2020-21",
+    "Team_id": "1610612765",
+    "Team": "DET"
+  },
+  {
+    "Season": "2020-21",
+    "Team_id": "1610612766",
+    "Team": "CHA"
+  },
+  {
+    "Season": "2021-22",
+    "Team_id": "1610612737",
+    "Team": "ATL"
+  },
+  {
+    "Season": "2021-22",
+    "Team_id": "1610612738",
+    "Team": "BOS"
+  },
+  {
+    "Season": "2021-22",
+    "Team_id": "1610612739",
+    "Team": "CLE"
+  },
+  {
+    "Season": "2021-22",
+    "Team_id": "1610612740",
+    "Team": "NOP"
+  },
+  {
+    "Season": "2021-22",
+    "Team_id": "1610612741",
+    "Team": "CHI"
+  },
+  {
+    "Season": "2021-22",
+    "Team_id": "1610612742",
+    "Team": "DAL"
+  },
+  {
+    "Season": "2021-22",
+    "Team_id": "1610612743",
+    "Team": "DEN"
+  },
+  {
+    "Season": "2021-22",
+    "Team_id": "1610612744",
+    "Team": "GSW"
+  },
+  {
+    "Season": "2021-22",
+    "Team_id": "1610612745",
+    "Team": "HOU"
+  },
+  {
+    "Season": "2021-22",
+    "Team_id": "1610612746",
+    "Team": "LAC"
+  },
+  {
+    "Season": "2021-22",
+    "Team_id": "1610612747",
+    "Team": "LAL"
+  },
+  {
+    "Season": "2021-22",
+    "Team_id": "1610612748",
+    "Team": "MIA"
+  },
+  {
+    "Season": "2021-22",
+    "Team_id": "1610612749",
+    "Team": "MIL"
+  },
+  {
+    "Season": "2021-22",
+    "Team_id": "1610612750",
+    "Team": "MIN"
+  },
+  {
+    "Season": "2021-22",
+    "Team_id": "1610612751",
+    "Team": "BKN"
+  },
+  {
+    "Season": "2021-22",
+    "Team_id": "1610612752",
+    "Team": "NYK"
+  },
+  {
+    "Season": "2021-22",
+    "Team_id": "1610612753",
+    "Team": "ORL"
+  },
+  {
+    "Season": "2021-22",
+    "Team_id": "1610612754",
+    "Team": "IND"
+  },
+  {
+    "Season": "2021-22",
+    "Team_id": "1610612755",
+    "Team": "PHI"
+  },
+  {
+    "Season": "2021-22",
+    "Team_id": "1610612756",
+    "Team": "PHX"
+  },
+  {
+    "Season": "2021-22",
+    "Team_id": "1610612757",
+    "Team": "POR"
+  },
+  {
+    "Season": "2021-22",
+    "Team_id": "1610612758",
+    "Team": "SAC"
+  },
+  {
+    "Season": "2021-22",
+    "Team_id": "1610612759",
+    "Team": "SAS"
+  },
+  {
+    "Season": "2021-22",
+    "Team_id": "1610612760",
+    "Team": "OKC"
+  },
+  {
+    "Season": "2021-22",
+    "Team_id": "1610612761",
+    "Team": "TOR"
+  },
+  {
+    "Season": "2021-22",
+    "Team_id": "1610612762",
+    "Team": "UTA"
+  },
+  {
+    "Season": "2021-22",
+    "Team_id": "1610612763",
+    "Team": "MEM"
+  },
+  {
+    "Season": "2021-22",
+    "Team_id": "1610612764",
+    "Team": "WAS"
+  },
+  {
+    "Season": "2021-22",
+    "Team_id": "1610612765",
+    "Team": "DET"
+  },
+  {
+    "Season": "2021-22",
+    "Team_id": "1610612766",
+    "Team": "CHA"
+  },
+  {
+    "Season": "2022-23",
+    "Team_id": "1610612737",
+    "Team": "ATL"
+  },
+  {
+    "Season": "2022-23",
+    "Team_id": "1610612738",
+    "Team": "BOS"
+  },
+  {
+    "Season": "2022-23",
+    "Team_id": "1610612739",
+    "Team": "CLE"
+  },
+  {
+    "Season": "2022-23",
+    "Team_id": "1610612740",
+    "Team": "NOP"
+  },
+  {
+    "Season": "2022-23",
+    "Team_id": "1610612741",
+    "Team": "CHI"
+  },
+  {
+    "Season": "2022-23",
+    "Team_id": "1610612742",
+    "Team": "DAL"
+  },
+  {
+    "Season": "2022-23",
+    "Team_id": "1610612743",
+    "Team": "DEN"
+  },
+  {
+    "Season": "2022-23",
+    "Team_id": "1610612744",
+    "Team": "GSW"
+  },
+  {
+    "Season": "2022-23",
+    "Team_id": "1610612745",
+    "Team": "HOU"
+  },
+  {
+    "Season": "2022-23",
+    "Team_id": "1610612746",
+    "Team": "LAC"
+  },
+  {
+    "Season": "2022-23",
+    "Team_id": "1610612747",
+    "Team": "LAL"
+  },
+  {
+    "Season": "2022-23",
+    "Team_id": "1610612748",
+    "Team": "MIA"
+  },
+  {
+    "Season": "2022-23",
+    "Team_id": "1610612749",
+    "Team": "MIL"
+  },
+  {
+    "Season": "2022-23",
+    "Team_id": "1610612750",
+    "Team": "MIN"
+  },
+  {
+    "Season": "2022-23",
+    "Team_id": "1610612751",
+    "Team": "BKN"
+  },
+  {
+    "Season": "2022-23",
+    "Team_id": "1610612752",
+    "Team": "NYK"
+  },
+  {
+    "Season": "2022-23",
+    "Team_id": "1610612753",
+    "Team": "ORL"
+  },
+  {
+    "Season": "2022-23",
+    "Team_id": "1610612754",
+    "Team": "IND"
+  },
+  {
+    "Season": "2022-23",
+    "Team_id": "1610612755",
+    "Team": "PHI"
+  },
+  {
+    "Season": "2022-23",
+    "Team_id": "1610612756",
+    "Team": "PHX"
+  },
+  {
+    "Season": "2022-23",
+    "Team_id": "1610612757",
+    "Team": "POR"
+  },
+  {
+    "Season": "2022-23",
+    "Team_id": "1610612758",
+    "Team": "SAC"
+  },
+  {
+    "Season": "2022-23",
+    "Team_id": "1610612759",
+    "Team": "SAS"
+  },
+  {
+    "Season": "2022-23",
+    "Team_id": "1610612760",
+    "Team": "OKC"
+  },
+  {
+    "Season": "2022-23",
+    "Team_id": "1610612761",
+    "Team": "TOR"
+  },
+  {
+    "Season": "2022-23",
+    "Team_id": "1610612762",
+    "Team": "UTA"
+  },
+  {
+    "Season": "2022-23",
+    "Team_id": "1610612763",
+    "Team": "MEM"
+  },
+  {
+    "Season": "2022-23",
+    "Team_id": "1610612764",
+    "Team": "WAS"
+  },
+  {
+    "Season": "2022-23",
+    "Team_id": "1610612765",
+    "Team": "DET"
+  },
+  {
+    "Season": "2022-23",
+    "Team_id": "1610612766",
+    "Team": "CHA"
+  },
+  {
+    "Season": "2023-24",
+    "Team_id": "1610612737",
+    "Team": "ATL"
+  },
+  {
+    "Season": "2023-24",
+    "Team_id": "1610612738",
+    "Team": "BOS"
+  },
+  {
+    "Season": "2023-24",
+    "Team_id": "1610612739",
+    "Team": "CLE"
+  },
+  {
+    "Season": "2023-24",
+    "Team_id": "1610612740",
+    "Team": "NOP"
+  },
+  {
+    "Season": "2023-24",
+    "Team_id": "1610612741",
+    "Team": "CHI"
+  },
+  {
+    "Season": "2023-24",
+    "Team_id": "1610612742",
+    "Team": "DAL"
+  },
+  {
+    "Season": "2023-24",
+    "Team_id": "1610612743",
+    "Team": "DEN"
+  },
+  {
+    "Season": "2023-24",
+    "Team_id": "1610612744",
+    "Team": "GSW"
+  },
+  {
+    "Season": "2023-24",
+    "Team_id": "1610612745",
+    "Team": "HOU"
+  },
+  {
+    "Season": "2023-24",
+    "Team_id": "1610612746",
+    "Team": "LAC"
+  },
+  {
+    "Season": "2023-24",
+    "Team_id": "1610612747",
+    "Team": "LAL"
+  },
+  {
+    "Season": "2023-24",
+    "Team_id": "1610612748",
+    "Team": "MIA"
+  },
+  {
+    "Season": "2023-24",
+    "Team_id": "1610612749",
+    "Team": "MIL"
+  },
+  {
+    "Season": "2023-24",
+    "Team_id": "1610612750",
+    "Team": "MIN"
+  },
+  {
+    "Season": "2023-24",
+    "Team_id": "1610612751",
+    "Team": "BKN"
+  },
+  {
+    "Season": "2023-24",
+    "Team_id": "1610612752",
+    "Team": "NYK"
+  },
+  {
+    "Season": "2023-24",
+    "Team_id": "1610612753",
+    "Team": "ORL"
+  },
+  {
+    "Season": "2023-24",
+    "Team_id": "1610612754",
+    "Team": "IND"
+  },
+  {
+    "Season": "2023-24",
+    "Team_id": "1610612755",
+    "Team": "PHI"
+  },
+  {
+    "Season": "2023-24",
+    "Team_id": "1610612756",
+    "Team": "PHX"
+  },
+  {
+    "Season": "2023-24",
+    "Team_id": "1610612757",
+    "Team": "POR"
+  },
+  {
+    "Season": "2023-24",
+    "Team_id": "1610612758",
+    "Team": "SAC"
+  },
+  {
+    "Season": "2023-24",
+    "Team_id": "1610612759",
+    "Team": "SAS"
+  },
+  {
+    "Season": "2023-24",
+    "Team_id": "1610612760",
+    "Team": "OKC"
+  },
+  {
+    "Season": "2023-24",
+    "Team_id": "1610612761",
+    "Team": "TOR"
+  },
+  {
+    "Season": "2023-24",
+    "Team_id": "1610612762",
+    "Team": "UTA"
+  },
+  {
+    "Season": "2023-24",
+    "Team_id": "1610612763",
+    "Team": "MEM"
+  },
+  {
+    "Season": "2023-24",
+    "Team_id": "1610612764",
+    "Team": "WAS"
+  },
+  {
+    "Season": "2023-24",
+    "Team_id": "1610612765",
+    "Team": "DET"
+  },
+  {
+    "Season": "2023-24",
+    "Team_id": "1610612766",
+    "Team": "CHA"
+  },
+  {
+    "Season": "2024-25",
+    "Team_id": "1610612737",
+    "Team": "ATL"
+  },
+  {
+    "Season": "2024-25",
+    "Team_id": "1610612738",
+    "Team": "BOS"
+  },
+  {
+    "Season": "2024-25",
+    "Team_id": "1610612739",
+    "Team": "CLE"
+  },
+  {
+    "Season": "2024-25",
+    "Team_id": "1610612740",
+    "Team": "NOP"
+  },
+  {
+    "Season": "2024-25",
+    "Team_id": "1610612741",
+    "Team": "CHI"
+  },
+  {
+    "Season": "2024-25",
+    "Team_id": "1610612742",
+    "Team": "DAL"
+  },
+  {
+    "Season": "2024-25",
+    "Team_id": "1610612743",
+    "Team": "DEN"
+  },
+  {
+    "Season": "2024-25",
+    "Team_id": "1610612744",
+    "Team": "GSW"
+  },
+  {
+    "Season": "2024-25",
+    "Team_id": "1610612745",
+    "Team": "HOU"
+  },
+  {
+    "Season": "2024-25",
+    "Team_id": "1610612746",
+    "Team": "LAC"
+  },
+  {
+    "Season": "2024-25",
+    "Team_id": "1610612747",
+    "Team": "LAL"
+  },
+  {
+    "Season": "2024-25",
+    "Team_id": "1610612748",
+    "Team": "MIA"
+  },
+  {
+    "Season": "2024-25",
+    "Team_id": "1610612749",
+    "Team": "MIL"
+  },
+  {
+    "Season": "2024-25",
+    "Team_id": "1610612750",
+    "Team": "MIN"
+  },
+  {
+    "Season": "2024-25",
+    "Team_id": "1610612751",
+    "Team": "BKN"
+  },
+  {
+    "Season": "2024-25",
+    "Team_id": "1610612752",
+    "Team": "NYK"
+  },
+  {
+    "Season": "2024-25",
+    "Team_id": "1610612753",
+    "Team": "ORL"
+  },
+  {
+    "Season": "2024-25",
+    "Team_id": "1610612754",
+    "Team": "IND"
+  },
+  {
+    "Season": "2024-25",
+    "Team_id": "1610612755",
+    "Team": "PHI"
+  },
+  {
+    "Season": "2024-25",
+    "Team_id": "1610612756",
+    "Team": "PHX"
+  },
+  {
+    "Season": "2024-25",
+    "Team_id": "1610612757",
+    "Team": "POR"
+  },
+  {
+    "Season": "2024-25",
+    "Team_id": "1610612758",
+    "Team": "SAC"
+  },
+  {
+    "Season": "2024-25",
+    "Team_id": "1610612759",
+    "Team": "SAS"
+  },
+  {
+    "Season": "2024-25",
+    "Team_id": "1610612760",
+    "Team": "OKC"
+  },
+  {
+    "Season": "2024-25",
+    "Team_id": "1610612761",
+    "Team": "TOR"
+  },
+  {
+    "Season": "2024-25",
+    "Team_id": "1610612762",
+    "Team": "UTA"
+  },
+  {
+    "Season": "2024-25",
+    "Team_id": "1610612763",
+    "Team": "MEM"
+  },
+  {
+    "Season": "2024-25",
+    "Team_id": "1610612764",
+    "Team": "WAS"
+  },
+  {
+    "Season": "2024-25",
+    "Team_id": "1610612765",
+    "Team": "DET"
+  },
+  {
+    "Season": "2024-25",
+    "Team_id": "1610612766",
+    "Team": "CHA"
+  },
+  {
+    "Season": "2025-26",
+    "Team_id": "1610612737",
+    "Team": "ATL"
+  },
+  {
+    "Season": "2025-26",
+    "Team_id": "1610612738",
+    "Team": "BOS"
+  },
+  {
+    "Season": "2025-26",
+    "Team_id": "1610612739",
+    "Team": "CLE"
+  },
+  {
+    "Season": "2025-26",
+    "Team_id": "1610612740",
+    "Team": "NOP"
+  },
+  {
+    "Season": "2025-26",
+    "Team_id": "1610612741",
+    "Team": "CHI"
+  },
+  {
+    "Season": "2025-26",
+    "Team_id": "1610612742",
+    "Team": "DAL"
+  },
+  {
+    "Season": "2025-26",
+    "Team_id": "1610612743",
+    "Team": "DEN"
+  },
+  {
+    "Season": "2025-26",
+    "Team_id": "1610612744",
+    "Team": "GSW"
+  },
+  {
+    "Season": "2025-26",
+    "Team_id": "1610612745",
+    "Team": "HOU"
+  },
+  {
+    "Season": "2025-26",
+    "Team_id": "1610612746",
+    "Team": "LAC"
+  },
+  {
+    "Season": "2025-26",
+    "Team_id": "1610612747",
+    "Team": "LAL"
+  },
+  {
+    "Season": "2025-26",
+    "Team_id": "1610612748",
+    "Team": "MIA"
+  },
+  {
+    "Season": "2025-26",
+    "Team_id": "1610612749",
+    "Team": "MIL"
+  },
+  {
+    "Season": "2025-26",
+    "Team_id": "1610612750",
+    "Team": "MIN"
+  },
+  {
+    "Season": "2025-26",
+    "Team_id": "1610612751",
+    "Team": "BKN"
+  },
+  {
+    "Season": "2025-26",
+    "Team_id": "1610612752",
+    "Team": "NYK"
+  },
+  {
+    "Season": "2025-26",
+    "Team_id": "1610612753",
+    "Team": "ORL"
+  },
+  {
+    "Season": "2025-26",
+    "Team_id": "1610612754",
+    "Team": "IND"
+  },
+  {
+    "Season": "2025-26",
+    "Team_id": "1610612755",
+    "Team": "PHI"
+  },
+  {
+    "Season": "2025-26",
+    "Team_id": "1610612756",
+    "Team": "PHX"
+  },
+  {
+    "Season": "2025-26",
+    "Team_id": "1610612757",
+    "Team": "POR"
+  },
+  {
+    "Season": "2025-26",
+    "Team_id": "1610612758",
+    "Team": "SAC"
+  },
+  {
+    "Season": "2025-26",
+    "Team_id": "1610612759",
+    "Team": "SAS"
+  },
+  {
+    "Season": "2025-26",
+    "Team_id": "1610612760",
+    "Team": "OKC"
+  },
+  {
+    "Season": "2025-26",
+    "Team_id": "1610612761",
+    "Team": "TOR"
+  },
+  {
+    "Season": "2025-26",
+    "Team_id": "1610612762",
+    "Team": "UTA"
+  },
+  {
+    "Season": "2025-26",
+    "Team_id": "1610612763",
+    "Team": "MEM"
+  },
+  {
+    "Season": "2025-26",
+    "Team_id": "1610612764",
+    "Team": "WAS"
+  },
+  {
+    "Season": "2025-26",
+    "Team_id": "1610612765",
+    "Team": "DET"
+  },
+  {
+    "Season": "2025-26",
+    "Team_id": "1610612766",
+    "Team": "CHA"
+  },
+  {
+    "Season": "2026-27",
+    "Team_id": "1610612737",
+    "Team": "ATL"
+  },
+  {
+    "Season": "2026-27",
+    "Team_id": "1610612738",
+    "Team": "BOS"
+  },
+  {
+    "Season": "2026-27",
+    "Team_id": "1610612739",
+    "Team": "CLE"
+  },
+  {
+    "Season": "2026-27",
+    "Team_id": "1610612740",
+    "Team": "NOP"
+  },
+  {
+    "Season": "2026-27",
+    "Team_id": "1610612741",
+    "Team": "CHI"
+  },
+  {
+    "Season": "2026-27",
+    "Team_id": "1610612742",
+    "Team": "DAL"
+  },
+  {
+    "Season": "2026-27",
+    "Team_id": "1610612743",
+    "Team": "DEN"
+  },
+  {
+    "Season": "2026-27",
+    "Team_id": "1610612744",
+    "Team": "GSW"
+  },
+  {
+    "Season": "2026-27",
+    "Team_id": "1610612745",
+    "Team": "HOU"
+  },
+  {
+    "Season": "2026-27",
+    "Team_id": "1610612746",
+    "Team": "LAC"
+  },
+  {
+    "Season": "2026-27",
+    "Team_id": "1610612747",
+    "Team": "LAL"
+  },
+  {
+    "Season": "2026-27",
+    "Team_id": "1610612748",
+    "Team": "MIA"
+  },
+  {
+    "Season": "2026-27",
+    "Team_id": "1610612749",
+    "Team": "MIL"
+  },
+  {
+    "Season": "2026-27",
+    "Team_id": "1610612750",
+    "Team": "MIN"
+  },
+  {
+    "Season": "2026-27",
+    "Team_id": "1610612751",
+    "Team": "BKN"
+  },
+  {
+    "Season": "2026-27",
+    "Team_id": "1610612752",
+    "Team": "NYK"
+  },
+  {
+    "Season": "2026-27",
+    "Team_id": "1610612753",
+    "Team": "ORL"
+  },
+  {
+    "Season": "2026-27",
+    "Team_id": "1610612754",
+    "Team": "IND"
+  },
+  {
+    "Season": "2026-27",
+    "Team_id": "1610612755",
+    "Team": "PHI"
+  },
+  {
+    "Season": "2026-27",
+    "Team_id": "1610612756",
+    "Team": "PHX"
+  },
+  {
+    "Season": "2026-27",
+    "Team_id": "1610612757",
+    "Team": "POR"
+  },
+  {
+    "Season": "2026-27",
+    "Team_id": "1610612758",
+    "Team": "SAC"
+  },
+  {
+    "Season": "2026-27",
+    "Team_id": "1610612759",
+    "Team": "SAS"
+  },
+  {
+    "Season": "2026-27",
+    "Team_id": "1610612760",
+    "Team": "OKC"
+  },
+  {
+    "Season": "2026-27",
+    "Team_id": "1610612761",
+    "Team": "TOR"
+  },
+  {
+    "Season": "2026-27",
+    "Team_id": "1610612762",
+    "Team": "UTA"
+  },
+  {
+    "Season": "2026-27",
+    "Team_id": "1610612763",
+    "Team": "MEM"
+  },
+  {
+    "Season": "2026-27",
+    "Team_id": "1610612764",
+    "Team": "WAS"
+  },
+  {
+    "Season": "2026-27",
+    "Team_id": "1610612765",
+    "Team": "DET"
+  },
+  {
+    "Season": "2026-27",
+    "Team_id": "1610612766",
+    "Team": "CHA"
+  }
+]
