@@ -35,7 +35,7 @@ def valid(job):
 def export(rows, jobs):
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     team_names = {(r['Season'], r['Team_id']): r['Team'] for r in rows}
-    columns = ['Season', 'SeasonType', 'Team_id', 'Team', 'PlayerName', 'Stat',
+    columns = ['Season', 'SeasonType', 'Team_id', 'Team', 'PlayerName', 'ResponseRow', 'Stat',
                'On', 'Off', 'OnOff', 'MinutesOn', 'MinutesOff']
     temporary = OUTPUT.with_suffix('.tmp')
     count = 0
@@ -47,12 +47,10 @@ def export(rows, jobs):
                 continue
             season, team, stat = job
             payload = json.loads(cache_path(CACHE, *job).read_text())
-            names = [r['Name'] for r in payload['results']]
-            if len(set(names)) != len(names):
-                raise ValueError(f'Duplicate names within {job}')
-            for r in payload['results']:
+            # Preserve every raw row, including duplicate names returned by the API.
+            for response_row, r in enumerate(payload['results'], start=1):
                 writer.writerow(dict(Season=season, SeasonType='Regular Season', Team_id=team,
-                    Team=team_names[(season, team)], PlayerName=r['Name'], Stat=stat,
+                    Team=team_names[(season, team)], PlayerName=r['Name'], ResponseRow=response_row, Stat=stat,
                     On=r['On'], Off=r['Off'], OnOff=r['On-Off'],
                     MinutesOn=r['MinutesOn'], MinutesOff=r['MinutesOff']))
                 count += 1

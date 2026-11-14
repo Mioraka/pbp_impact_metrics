@@ -14,7 +14,7 @@ class LeagueVolumeTests(unittest.TestCase):
             root=Path(d); cache=root/'cache'; output=root/'raw.csv'
             job=('2000-01','1610612737','FGA')
             path=fill.cache_path(cache,*job);path.parent.mkdir(parents=True)
-            payload={'results':[dict(Name=n,On=100,Off=50,**{'On-Off':50},MinutesOn=10,MinutesOff=5) for n in ('Player One','Player Two')]}
+            payload={'results':[dict(Name=n,On=100,Off=50,**{'On-Off':50},MinutesOn=10,MinutesOff=5) for n in ('Player One','Player One')]}
             path.write_text(json.dumps(payload));original=path.read_bytes()
             with patch.object(fill,'CACHE',cache),patch.object(fill,'OUTPUT',output):
                 self.assertTrue(fill.valid(job))
@@ -22,7 +22,8 @@ class LeagueVolumeTests(unittest.TestCase):
                 self.assertEqual(fill.export([{'Season':job[0],'Team_id':job[1],'Team':'ATL'}],[job]),2)
             with output.open() as handle:
                 rows=list(csv.DictReader(handle))
-            self.assertEqual({r['PlayerName'] for r in rows},{'Player One','Player Two'})
+            self.assertEqual({r['PlayerName'] for r in rows},{'Player One'})
+            self.assertEqual([r['ResponseRow'] for r in rows], ['1','2'])
             self.assertEqual(path.read_bytes(),original)
             self.assertEqual(rows[0]['MinutesOff'],'5')
 
