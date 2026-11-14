@@ -9,6 +9,7 @@ import pandas as pd
 
 KEYS = ["Season", "SeasonType", "Player_id", "Team_id"]
 VOLUME_METRICS = {
+    "Minutes": {"On": "MIN_ON", "Off": "MIN_OFF"},
     "2PA per 100 Possessions": {
         "On": "2PA_PER_100_OFF_POSS_ON",
         "Off": "2PA_PER_100_OFF_POSS_OFF",
