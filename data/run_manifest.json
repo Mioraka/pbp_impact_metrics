@@ -1,12 +1,12 @@
 {
   "complete": true,
-  "started_at_utc": "2026-11-14T20:54:01+00:00",
-  "finished_at_utc": "2026-11-14T20:55:20+00:00",
+  "started_at_utc": "2026-11-14T21:08:15+00:00",
+  "finished_at_utc": "2026-11-14T21:09:52+00:00",
   "season_type": "Regular Season",
-  "player_source_rows": 566,
-  "player_metric_status_rows": 151122,
+  "player_source_rows": 567,
+  "player_metric_status_rows": 151389,
   "league_season_metric_rows": 2403,
-  "master_rows": 171498,
+  "master_rows": 171801,
   "metric_count": 101,
   "player_row_key": [
     "source_row",
@@ -24,9 +24,9 @@
     "SeasonType",
     "metrics"
   ],
-  "request_count": 25,
+  "request_count": 26,
   "failed_requests": 0,
-  "incremental_player_source_rows": 24,
+  "incremental_player_source_rows": 25,
   "refreshed_or_added_league_seasons": [
     "2026-27"
   ],
@@ -34,13 +34,13 @@
   "refreshed_season": "2026-27",
   "volume_refresh_complete": true,
   "volume_join": {
-    "input_master_rows_after_rebuild_filter": 151122,
-    "input_volume_rows": 566,
-    "unique_volume_player_team_seasons": 565,
-    "new_metric_rows": 20376,
-    "output_rows": 171498,
+    "input_master_rows_after_rebuild_filter": 151389,
+    "input_volume_rows": 567,
+    "unique_volume_player_team_seasons": 566,
+    "new_metric_rows": 20412,
+    "output_rows": 171801,
     "output_metrics": 101,
     "duplicate_volume_rows_removed": 1,
-    "refreshed_fta_player_rows": 1698
+    "refreshed_fta_player_rows": 1701
   }
 }

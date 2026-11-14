@@ -151121,3 +151121,270 @@ source_row,SEASON_YEAR,SEASON,Season_Player,PLAYER_NAME,Player_id,Team_id,ALL_ST
 566,2027,2026-2027,LaMelo Ball - 2027,LaMelo Ball,1630163,1610612750,,,,,,,eFG% - Defense,Off,0.508
 566,2027,2026-2027,LaMelo Ball - 2027,LaMelo Ball,1630163,1610612750,,,,,,,eFG% - Defense,On,0.475
 566,2027,2026-2027,LaMelo Ball - 2027,LaMelo Ball,1630163,1610612750,,,,,,,eFG% - Defense,On-Off,-0.034
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,% of FG2A Blocked,Off,0.093
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,% of FG2A Blocked,On,0.089
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,% of FG2A Blocked,On-Off,-0.005
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,% of FG3A Blocked,Off,0.005
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,% of FG3A Blocked,On,0.003
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,% of FG3A Blocked,On-Off,-0.002
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,2pt FG%,Off,0.495
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,2pt FG%,On,0.540
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,2pt FG%,On-Off,0.046
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,2pt FG% - Defense,Off,0.509
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,2pt FG% - Defense,On,0.500
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,2pt FG% - Defense,On-Off,-0.009
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,2pt FGM Assist%,Off,0.556
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,2pt FGM Assist%,On,0.585
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,2pt FGM Assist%,On-Off,0.029
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,2pt Shooting Foul Drawn Rate,Off,0.000
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,2pt Shooting Foul Drawn Rate,On,0.016
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,2pt Shooting Foul Drawn Rate,On-Off,0.016
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,3PAr,Off,0.509
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,3PAr,On,0.468
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,3PAr,On-Off,-0.042
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,3PAr - Defense,Off,0.519
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,3PAr - Defense,On,0.508
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,3PAr - Defense,On-Off,-0.012
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,3pt FG%,Off,0.402
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,3pt FG%,On,0.366
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,3pt FG%,On-Off,-0.036
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,3pt FG% - Defense,Off,0.312
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,3pt FG% - Defense,On,0.345
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,3pt FG% - Defense,On-Off,0.033
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,3pt FGM Assist%,Off,0.829
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,3pt FGM Assist%,On,0.819
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,3pt FGM Assist%,On-Off,-0.010
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,3pt Shooting Foul Drawn Rate,Off,0.166
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,3pt Shooting Foul Drawn Rate,On,0.170
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,3pt Shooting Foul Drawn Rate,On-Off,0.004
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Arc 3 % Assisted,Off,0.797
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Arc 3 % Assisted,On,0.750
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Arc 3 % Assisted,On-Off,-0.047
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Arc 3 DReb%,Off,0.724
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Arc 3 DReb%,On,0.723
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Arc 3 DReb%,On-Off,-0.001
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Arc 3 FG%,Off,0.415
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Arc 3 FG%,On,0.335
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Arc 3 FG%,On-Off,-0.081
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Arc 3 FG% - Defense,Off,0.319
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Arc 3 FG% - Defense,On,0.332
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Arc 3 FG% - Defense,On-Off,0.013
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Arc 3 OReb%,Off,0.375
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Arc 3 OReb%,On,0.293
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Arc 3 OReb%,On-Off,-0.082
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Arc 3 Shot Frequency,Off,0.383
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Arc 3 Shot Frequency,On,0.370
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Arc 3 Shot Frequency,On-Off,-0.013
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Arc 3 Shot Frequency - Defense,Off,0.371
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Arc 3 Shot Frequency - Defense,On,0.350
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Arc 3 Shot Frequency - Defense,On-Off,-0.020
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Assist Points per 100 Possessions,Off,72.796
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Assist Points per 100 Possessions,On,67.059
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Assist Points per 100 Possessions,On-Off,-5.737
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Assists per 100 Possessions,Off,28.463
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Assists per 100 Possessions,On,27.320
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Assists per 100 Possessions,On-Off,-1.143
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,At Rim % Assisted,Off,0.574
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,At Rim % Assisted,On,0.632
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,At Rim % Assisted,On-Off,0.058
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,At Rim DReb%,Off,0.438
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,At Rim DReb%,On,0.688
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,At Rim DReb%,On-Off,0.250
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,At Rim FG%,Off,0.573
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,At Rim FG%,On,0.651
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,At Rim FG%,On-Off,0.078
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,At Rim FG% - Defense,Off,0.605
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,At Rim FG% - Defense,On,0.587
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,At Rim FG% - Defense,On-Off,-0.018
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,At Rim OReb%,Off,0.457
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,At Rim OReb%,On,0.364
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,At Rim OReb%,On-Off,-0.094
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,At Rim Shot Frequency,Off,0.221
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,At Rim Shot Frequency,On,0.283
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,At Rim Shot Frequency,On-Off,0.062
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,At Rim Shot Frequency - Defense,Off,0.223
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,At Rim Shot Frequency - Defense,On,0.234
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,At Rim Shot Frequency - Defense,On-Off,0.012
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,At Rim or 3pt Shot Frequency,Off,0.730
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,At Rim or 3pt Shot Frequency,On,0.751
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,At Rim or 3pt Shot Frequency,On-Off,0.020
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Avg 2pt Shot Distance,Off,6.939
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Avg 2pt Shot Distance,On,6.631
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Avg 2pt Shot Distance,On-Off,-0.308
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Avg 3pt Shot Distance,Off,25.541
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Avg 3pt Shot Distance,On,25.616
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Avg 3pt Shot Distance,On-Off,0.075
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Blocks Recovered %,Off,0.533
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Blocks Recovered %,On,0.636
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Blocks Recovered %,On-Off,0.103
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Corner 3 % Assisted,Off,0.941
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Corner 3 % Assisted,On,1.000
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Corner 3 % Assisted,On-Off,0.059
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Corner 3 DReb%,Off,0.605
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Corner 3 DReb%,On,0.703
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Corner 3 DReb%,On-Off,0.098
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Corner 3 FG%,Off,0.362
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Corner 3 FG%,On,0.485
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Corner 3 FG%,On-Off,0.123
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Corner 3 FG% - Defense,Off,0.296
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Corner 3 FG% - Defense,On,0.375
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Corner 3 FG% - Defense,On-Off,0.079
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Corner 3 OReb%,Off,0.414
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Corner 3 OReb%,On,0.324
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Corner 3 OReb%,On-Off,-0.090
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Corner 3 Shot Frequency,Off,0.127
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Corner 3 Shot Frequency,On,0.097
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Corner 3 Shot Frequency,On-Off,-0.029
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Corner 3 Shot Frequency - Defense,Off,0.148
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Corner 3 Shot Frequency - Defense,On,0.157
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Corner 3 Shot Frequency - Defense,On-Off,0.009
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,DReb%,Off,0.661
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,DReb%,On,0.706
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,DReb%,On-Off,0.045
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,DReb% - Missed 2s,Off,0.605
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,DReb% - Missed 2s,On,0.669
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,DReb% - Missed 2s,On-Off,0.064
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,DReb% - Missed 3s,Off,0.688
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,DReb% - Missed 3s,On,0.717
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,DReb% - Missed 3s,On-Off,0.029
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,DReb% - Missed FGs,Off,0.654
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,DReb% - Missed FGs,On,0.696
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,DReb% - Missed FGs,On-Off,0.042
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,DReb% - Missed FTs,Off,0.800
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,DReb% - Missed FTs,On,0.895
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,DReb% - Missed FTs,On-Off,0.095
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,FTA per 100 Possessions,Off,22.166
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,FTA per 100 Possessions,On,25.752
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,FTA per 100 Possessions,On-Off,3.585
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,First Chance Points Per 100 Possessions,Off,102.267
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,First Chance Points Per 100 Possessions,On,103.137
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,First Chance Points Per 100 Possessions,On-Off,0.870
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Live Ball TO%,Off,0.379
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Live Ball TO%,On,0.545
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Live Ball TO%,On-Off,0.167
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Long Mid % Assisted,Off,0.500
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Long Mid % Assisted,On,0.481
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Long Mid % Assisted,On-Off,-0.019
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Long Mid Range FG%,Off,0.345
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Long Mid Range FG%,On,0.375
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Long Mid Range FG%,On-Off,0.030
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Long Mid Range FG% - Defense,Off,0.481
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Long Mid Range FG% - Defense,On,0.435
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Long Mid Range FG% - Defense,On-Off,-0.047
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Long Mid Range Shot Frequency,Off,0.078
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Long Mid Range Shot Frequency,On,0.106
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Long Mid Range Shot Frequency,On-Off,0.028
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Long Mid Range Shot Frequency - Defense,Off,0.074
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Long Mid Range Shot Frequency - Defense,On,0.069
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Long Mid Range Shot Frequency - Defense,On-Off,-0.005
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Long Mid-Range DReb%,Off,0.786
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Long Mid-Range DReb%,On,0.808
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Long Mid-Range DReb%,On-Off,0.022
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Long Mid-Range OReb%,Off,0.263
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Long Mid-Range OReb%,On,0.256
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Long Mid-Range OReb%,On-Off,-0.007
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Non Putback 2pt FGM Assist%,Off,0.568
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Non Putback 2pt FGM Assist%,On,0.613
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Non Putback 2pt FGM Assist%,On-Off,0.045
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Non-Heave 3pt FG%,Off,0.402
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Non-Heave 3pt FG%,On,0.366
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Non-Heave 3pt FG%,On-Off,-0.036
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Non-Heave Arc 3 FG%,Off,0.415
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Non-Heave Arc 3 FG%,On,0.335
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Non-Heave Arc 3 FG%,On-Off,-0.081
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,OReb%,Off,0.362
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,OReb%,On,0.293
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,OReb%,On-Off,-0.068
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,OReb% - Missed 2s,Off,0.374
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,OReb% - Missed 2s,On,0.319
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,OReb% - Missed 2s,On-Off,-0.055
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,OReb% - Missed 3s,Off,0.385
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,OReb% - Missed 3s,On,0.298
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,OReb% - Missed 3s,On-Off,-0.087
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,OReb% - Missed FGs,Off,0.380
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,OReb% - Missed FGs,On,0.307
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,OReb% - Missed FGs,On-Off,-0.073
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,OReb% - Missed FTs,Off,0.077
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,OReb% - Missed FTs,On,0.048
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,OReb% - Missed FTs,On-Off,-0.029
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Pace,Off,92.200
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Pace,On,97.789
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Pace,On-Off,5.589
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Penalty Efficiency,Off,108.602
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Penalty Efficiency,On,123.529
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Penalty Efficiency,On-Off,14.927
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Penalty Efficiency Excluding Last Minute Take Foul Possessions,Off,107.609
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Penalty Efficiency Excluding Last Minute Take Foul Possessions,On,123.881
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Penalty Efficiency Excluding Last Minute Take Foul Possessions,On-Off,16.272
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Penalty Points%,Off,0.214
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Penalty Points%,On,0.280
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Penalty Points%,On-Off,0.066
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Penalty Possessions%,Off,0.234
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Penalty Possessions%,On,0.267
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Penalty Possessions%,On-Off,0.032
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Pts per 100 Possessions,Off,118.892
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Pts per 100 Possessions,On,117.516
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Pts per 100 Possessions,On-Off,-1.375
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Pts per 100 Possessions - Defense,Off,106.500
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Pts per 100 Possessions - Defense,On,107.133
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Pts per 100 Possessions - Defense,On-Off,0.633
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Second Chance Efficiency,Off,113.793
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Second Chance Efficiency,On,115.789
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Second Chance Efficiency,On-Off,1.996
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Second Chance Points Per 100 Possessions,Off,16.625
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Second Chance Points Per 100 Possessions,On,14.379
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Second Chance Points Per 100 Possessions,On-Off,-2.246
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Second Chance Points%,Off,0.140
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Second Chance Points%,On,0.122
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Second Chance Points%,On-Off,-0.017
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Second Chance Possessions Per 100 Possessions,Off,14.610
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Second Chance Possessions Per 100 Possessions,On,12.418
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Second Chance Possessions Per 100 Possessions,On-Off,-2.191
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Seconds Per Possession - Defense,Off,15.601
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Seconds Per Possession - Defense,On,14.662
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Seconds Per Possession - Defense,On-Off,-0.939
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Seconds Per Possession - Offense,Off,15.636
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Seconds Per Possession - Offense,On,14.788
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Seconds Per Possession - Offense,On-Off,-0.847
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Shooting Foul Drawn Rate,Off,0.086
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Shooting Foul Drawn Rate,On,0.103
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Shooting Foul Drawn Rate,On-Off,0.017
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Short Mid Range % Assisted,Off,0.545
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Short Mid Range % Assisted,On,0.512
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Short Mid Range % Assisted,On-Off,-0.034
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Short Mid Range FG%,Off,0.465
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Short Mid Range FG%,On,0.443
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Short Mid Range FG%,On-Off,-0.021
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Short Mid Range FG% - Defense,Off,0.403
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Short Mid Range FG% - Defense,On,0.416
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Short Mid Range FG% - Defense,On-Off,0.013
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Short Mid Range Shot Frequency,Off,0.191
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Short Mid Range Shot Frequency,On,0.143
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Short Mid Range Shot Frequency,On-Off,-0.048
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Short Mid Range Shot Frequency - Defense,Off,0.184
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Short Mid Range Shot Frequency - Defense,On,0.189
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Short Mid Range Shot Frequency - Defense,On-Off,0.005
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Short Mid-Range DReb%,Off,0.675
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Short Mid-Range DReb%,On,0.603
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Short Mid-Range DReb%,On-Off,-0.072
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Short Mid-Range OReb%,Off,0.351
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Short Mid-Range OReb%,On,0.315
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Short Mid-Range OReb%,On-Off,-0.037
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Shot Quality,Off,0.535
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Shot Quality,On,0.549
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Shot Quality,On-Off,0.014
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Shot Quality - Defense,Off,0.527
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Shot Quality - Defense,On,0.539
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,Shot Quality - Defense,On-Off,0.012
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,TOs per 100 Possessions,Off,16.625
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,TOs per 100 Possessions,On,14.379
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,TOs per 100 Possessions,On-Off,-2.246
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,TS%,Off,0.574
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,TS%,On,0.585
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,TS%,On-Off,0.011
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,eFG%,Off,0.550
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,eFG%,On,0.544
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,eFG%,On-Off,-0.006
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,eFG% - Defense,Off,0.488
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,eFG% - Defense,On,0.509
+567,2027,2026-2027,Jayson Tatum - 2027,Jayson Tatum,1628369,1610612738,,,,,,,eFG% - Defense,On-Off,0.021
