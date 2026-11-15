@@ -1,13 +1,13 @@
 {
   "status": "in_progress",
-  "updated_at_utc": "2026-11-15T01:10:52.313646+00:00",
+  "updated_at_utc": "2026-11-15T01:22:44.267355+00:00",
   "total_team_seasons": 806,
-  "complete_team_seasons": 769,
+  "complete_team_seasons": 779,
   "total_requests": 4836,
-  "cached_responses": 4617,
-  "remaining_requests": 219,
-  "raw_rows": 86044,
-  "completed_batches": 340,
-  "wait_seconds": 10,
-  "batch_size": 7
+  "cached_responses": 4679,
+  "remaining_requests": 157,
+  "raw_rows": 87516,
+  "completed_batches": 350,
+  "wait_seconds": 20,
+  "batch_size": 5
 }
