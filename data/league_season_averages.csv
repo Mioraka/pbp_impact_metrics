@@ -2313,92 +2313,92 @@ Season,SeasonType,metrics,Value,api_stat_id,retrieved_at_utc
 2025-26,Regular Season,TS%,0.5783414932680538,TsPct,2026-11-10T18:51:05+00:00
 2025-26,Regular Season,eFG%,0.5429337413397016,EfgPct,2026-11-10T18:51:05+00:00
 2025-26,Regular Season,eFG% - Defense,0.5429337413397016,league_symmetry:eFG%,2026-11-10T18:51:05+00:00
-2026-27,Regular Season,% of FG2A Blocked,0.09287876374064043,FG2APctBlocked,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,% of FG3A Blocked,0.011576320532372106,FG3APctBlocked,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,2pt FG%,0.5393234560033987,Fg2Pct,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,2pt FG% - Defense,0.5393234560033987,league_symmetry:2pt FG%,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,2pt FGM Assist%,0.5546474990153604,Assisted2sPct,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,2pt Shooting Foul Drawn Rate,0.16937269372693728,TwoPtShootingFoulsDrawnPct,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,3PAr,0.4337733409507773,FG3APct,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,3PAr - Defense,0.4337733409507773,league_symmetry:3PAr,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,3pt FG%,0.3475668931096631,Fg3Pct,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,3pt FG% - Defense,0.3475668931096631,league_symmetry:3pt FG%,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,3pt FGM Assist%,0.8486238532110092,Assisted3sPct,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,3pt Shooting Foul Drawn Rate,0.014585045193097782,ThreePtShootingFoulsDrawnPct,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,Arc 3 % Assisted,0.8026930475405332,Arc3PctAssisted,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,Arc 3 DReb%,0.7186068102183223,DefArc3ReboundPct,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,Arc 3 FG%,0.3430753276138399,Arc3Accuracy,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,Arc 3 FG% - Defense,0.3430753276138399,league_symmetry:Arc 3 FG%,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,Arc 3 OReb%,0.281371668164121,OffArc3ReboundPct,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,Arc 3 Shot Frequency,0.3189403734552124,Arc3Frequency,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,Arc 3 Shot Frequency - Defense,0.3189403734552124,league_symmetry:Arc 3 Shot Frequency,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,Assist Points per 100 Possessions,63.96837650065217,100*AssistPoints/OffPoss,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,Assists per 100 Possessions,26.320973194559055,100*Assists/OffPoss,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,At Rim % Assisted,0.6048225050234427,AtRimPctAssisted,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,At Rim DReb%,0.6089619600257898,DefAtRimReboundPct,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,At Rim FG%,0.6567689431430771,AtRimAccuracy,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,At Rim FG% - Defense,0.6567689431430771,league_symmetry:At Rim FG%,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,At Rim OReb%,0.39103803997421016,OffAtRimReboundPct,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,At Rim Shot Frequency,0.2734161229214902,AtRimFrequency,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,At Rim Shot Frequency - Defense,0.2734161229214902,league_symmetry:At Rim Shot Frequency,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,At Rim or 3pt Shot Frequency,0.7071894638722674,AtRimFG3AFrequency,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,Avg 2pt Shot Distance,6.219367001221391,Avg2ptShotDistance,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,Avg 3pt Shot Distance,25.43435242970339,Avg3ptShotDistance,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,Blocks Recovered %,0.5762004175365344,BlocksRecoveredPct,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,Corner 3 % Assisted,0.9701818181818181,Corner3PctAssisted,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,Corner 3 DReb%,0.6997350115932428,DefCorner3ReboundPct,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,Corner 3 FG%,0.36004189578423673,Corner3Accuracy,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,Corner 3 FG% - Defense,0.36004189578423673,league_symmetry:Corner 3 FG%,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,Corner 3 OReb%,0.3002070393374741,OffCorner3ReboundPct,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,Corner 3 Shot Frequency,0.11483296749556485,Corner3Frequency,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,Corner 3 Shot Frequency - Defense,0.11483296749556485,league_symmetry:Corner 3 Shot Frequency,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,DReb%,0.6969405220367993,DefRebounds/(DefRebounds+OffRebounds),2026-11-15T18:29:36+00:00
-2026-27,Regular Season,DReb% - Missed 2s,0.6613203161320316,DefTwoPtReboundPct,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,DReb% - Missed 3s,0.7135944751138188,DefThreePtReboundPct,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,DReb% - Missed FGs,0.6881801846598935,DefFGReboundPct,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,DReb% - Missed FTs,0.8518518518518519,DefFTReboundPct,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,FTA per 100 Possessions,25.083184709984828,100*FTA/OffPoss,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,First Chance Points Per 100 Possessions,98.30170096094977,FirstChancePtsPer100Poss,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,Live Ball TO%,0.5338617956229537,LiveBallTurnoverPct,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,Long Mid % Assisted,0.46868475991649267,LongMidRangePctAssisted,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,Long Mid Range FG%,0.4033684210526316,LongMidRangeAccuracy,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,Long Mid Range FG% - Defense,0.4033684210526316,league_symmetry:Long Mid Range FG%,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,Long Mid Range Shot Frequency,0.07141353699972938,LongMidRangeFrequency,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,Long Mid Range Shot Frequency - Defense,0.07141353699972938,league_symmetry:Long Mid Range Shot Frequency,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,Long Mid-Range DReb%,0.7451263537906138,DefLongMidRangeReboundPct,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,Long Mid-Range OReb%,0.2548736462093863,OffLongMidRangeReboundPct,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,Non Putback 2pt FGM Assist%,0.5704303797468354,NonPutbacksAssisted2sPct,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,Non-Heave 3pt FG%,0.3475668931096631,NonHeaveFg3Pct,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,Non-Heave Arc 3 FG%,0.3430753276138399,NonHeaveArc3Accuracy,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,OReb%,0.3030594779632007,OffRebounds/(DefRebounds+OffRebounds),2026-11-15T18:29:36+00:00
-2026-27,Regular Season,OReb% - Missed 2s,0.3386796838679684,OffTwoPtReboundPct,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,OReb% - Missed 3s,0.2863741339491917,OffThreePtReboundPct,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,OReb% - Missed FGs,0.3118042606091428,OffFGReboundPct,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,OReb% - Missed FTs,0.14814814814814814,OffFTReboundPct,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,Pace,99.20386240830575,Pace,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,Penalty Efficiency,115.23555882082836,PenaltyPtsPer100PossPenalty,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,Penalty Efficiency Excluding Last Minute Take Foul Possessions,114.91722926107464,100*PenaltyPointsExcludingTakeFouls/PenaltyOffPossExcludingTakeFouls,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,Penalty Points%,0.29372659176029964,PenaltyPointsPct,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,Penalty Possessions%,0.28987058065683907,PenaltyOffPossPct,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,Pts per 100 Possessions,113.71682593765806,PtsPer100Poss,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,Pts per 100 Possessions - Defense,113.71682593765806,league_symmetry:Pts per 100 Possessions,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,Second Chance Efficiency,120.52029136316337,SecondChancePtsPer100PossSecondChance,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,Second Chance Points Per 100 Possessions,15.415124976708281,SecondChancePtsPer100Poss,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,Second Chance Points%,0.13555711610486892,SecondChancePointsPct,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,Second Chance Possessions Per 100 Possessions,12.790481007267017,SecondChanceOffPossPer100Poss,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,Seconds Per Possession - Defense,14.515553745494811,league_symmetry:Seconds Per Possession - Offense,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,Seconds Per Possession - Offense,14.515553745494811,SecondsPerPoss,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,Shooting Foul Drawn Rate,0.10707198765295999,ShootingFoulsDrawnPct,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,Short Mid Range % Assisted,0.48729076255424675,ShortMidRangePctAssisted,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,Short Mid Range FG%,0.43813662909140294,ShortMidRangeAccuracy,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,Short Mid Range FG% - Defense,0.43813662909140294,league_symmetry:Short Mid Range FG%,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,Short Mid Range Shot Frequency,0.22139699912800312,ShortMidRangeFrequency,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,Short Mid Range Shot Frequency - Defense,0.22139699912800312,league_symmetry:Short Mid Range Shot Frequency,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,Short Mid-Range DReb%,0.6725771192615982,DefShortMidRangeReboundPct,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,Short Mid-Range OReb%,0.32742288073840176,OffShortMidRangeReboundPct,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,Shot Quality,0.543823877433615,ShotQualityAvg,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,Shot Quality - Defense,0.543823877433615,league_symmetry:Shot Quality,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,TOs per 100 Possessions,15.447067905342454,100*Turnovers/OffPoss,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,TS%,0.5692733249592431,TsPct,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,eFG%,0.5315271972817752,EfgPct,2026-11-15T18:29:36+00:00
-2026-27,Regular Season,eFG% - Defense,0.5315271972817752,league_symmetry:eFG%,2026-11-15T18:29:36+00:00
+2026-27,Regular Season,% of FG2A Blocked,0.09233971267577035,FG2APctBlocked,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,% of FG3A Blocked,0.011611030478955007,FG3APctBlocked,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,2pt FG%,0.5404842885425656,Fg2Pct,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,2pt FG% - Defense,0.5404842885425656,league_symmetry:2pt FG%,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,2pt FGM Assist%,0.554992016530478,Assisted2sPct,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,2pt Shooting Foul Drawn Rate,0.1692470557099378,TwoPtShootingFoulsDrawnPct,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,3PAr,0.4348624379608113,FG3APct,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,3PAr - Defense,0.4348624379608113,league_symmetry:3PAr,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,3pt FG%,0.3479350837841404,Fg3Pct,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,3pt FG% - Defense,0.3479350837841404,league_symmetry:3pt FG%,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,3pt FGM Assist%,0.8488813045127038,Assisted3sPct,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,3pt Shooting Foul Drawn Rate,0.014791164396950544,ThreePtShootingFoulsDrawnPct,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,Arc 3 % Assisted,0.8027726916034528,Arc3PctAssisted,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,Arc 3 DReb%,0.7185244358220878,DefArc3ReboundPct,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,Arc 3 FG%,0.34320854654816413,Arc3Accuracy,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,Arc 3 FG% - Defense,0.34320854654816413,league_symmetry:Arc 3 FG%,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,Arc 3 OReb%,0.28145506419400856,OffArc3ReboundPct,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,Arc 3 Shot Frequency,0.31956278509338154,Arc3Frequency,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,Arc 3 Shot Frequency - Defense,0.31956278509338154,league_symmetry:Arc 3 Shot Frequency,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,Assist Points per 100 Possessions,64.13747555058805,100*AssistPoints/OffPoss,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,Assists per 100 Possessions,26.38250311174334,100*Assists/OffPoss,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,At Rim % Assisted,0.6054323368691739,AtRimPctAssisted,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,At Rim DReb%,0.607567229518449,DefAtRimReboundPct,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,At Rim FG%,0.6591101694915255,AtRimAccuracy,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,At Rim FG% - Defense,0.6591101694915255,league_symmetry:At Rim FG%,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,At Rim OReb%,0.39243277048155095,OffAtRimReboundPct,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,At Rim Shot Frequency,0.27082078205238547,AtRimFrequency,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,At Rim Shot Frequency - Defense,0.27082078205238547,league_symmetry:At Rim Shot Frequency,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,At Rim or 3pt Shot Frequency,0.7056832200131967,AtRimFG3AFrequency,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,Avg 2pt Shot Distance,6.262150362962586,Avg2ptShotDistance,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,Avg 3pt Shot Distance,25.436454648601753,Avg3ptShotDistance,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,Blocks Recovered %,0.5744360902255639,BlocksRecoveredPct,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,Corner 3 % Assisted,0.9703652653342523,Corner3PctAssisted,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,Corner 3 DReb%,0.7037649653434153,DefCorner3ReboundPct,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,Corner 3 FG%,0.3610350833540682,Corner3Accuracy,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,Corner 3 FG% - Defense,0.3610350833540682,league_symmetry:Corner 3 FG%,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,Corner 3 OReb%,0.29617959826703427,OffCorner3ReboundPct,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,Corner 3 Shot Frequency,0.11529965286742978,Corner3Frequency,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,Corner 3 Shot Frequency - Defense,0.11529965286742978,league_symmetry:Corner 3 Shot Frequency,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,DReb%,0.6972575455798988,DefRebounds/(DefRebounds+OffRebounds),2026-11-16T21:39:31+00:00
+2026-27,Regular Season,DReb% - Missed 2s,0.6615795922914114,DefTwoPtReboundPct,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,DReb% - Missed 3s,0.7145998701489099,DefThreePtReboundPct,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,DReb% - Missed FGs,0.6889088004145435,DefFGReboundPct,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,DReb% - Missed FTs,0.8436018957345972,DefFTReboundPct,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,FTA per 100 Possessions,25.028577234739757,100*FTA/OffPoss,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,First Chance Points Per 100 Possessions,98.40729545050424,FirstChancePtsPer100Poss,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,Live Ball TO%,0.5347804637395165,LiveBallTurnoverPct,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,Long Mid % Assisted,0.4701857282502444,LongMidRangePctAssisted,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,Long Mid Range FG%,0.4072452229299363,LongMidRangeAccuracy,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,Long Mid Range FG% - Defense,0.4072452229299363,league_symmetry:Long Mid Range FG%,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,Long Mid Range Shot Frequency,0.07206586912241443,LongMidRangeFrequency,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,Long Mid Range Shot Frequency - Defense,0.07206586912241443,league_symmetry:Long Mid Range Shot Frequency,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,Long Mid-Range DReb%,0.7463917525773196,DefLongMidRangeReboundPct,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,Long Mid-Range OReb%,0.2536082474226804,OffLongMidRangeReboundPct,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,Non Putback 2pt FGM Assist%,0.570807573415765,NonPutbacksAssisted2sPct,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,Non-Heave 3pt FG%,0.3479350837841404,NonHeaveFg3Pct,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,Non-Heave Arc 3 FG%,0.34320854654816413,NonHeaveArc3Accuracy,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,OReb%,0.3027424544201011,OffRebounds/(DefRebounds+OffRebounds),2026-11-16T21:39:31+00:00
+2026-27,Regular Season,OReb% - Missed 2s,0.3384204077085886,OffTwoPtReboundPct,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,OReb% - Missed 3s,0.2853701958320243,OffThreePtReboundPct,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,OReb% - Missed FGs,0.31107632516463346,OffFGReboundPct,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,OReb% - Missed FTs,0.15639810426540285,OffFTReboundPct,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,Pace,99.18789623363493,Pace,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,Penalty Efficiency,114.77382520860782,PenaltyPtsPer100PossPenalty,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,Penalty Efficiency Excluding Last Minute Take Foul Possessions,114.46635423114334,100*PenaltyPointsExcludingTakeFouls/PenaltyOffPossExcludingTakeFouls,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,Penalty Points%,0.29156346921926946,PenaltyPointsPct,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,Penalty Possessions%,0.28921605982554266,PenaltyOffPossPct,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,Pts per 100 Possessions,113.84408260725989,PtsPer100Poss,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,Pts per 100 Possessions - Defense,113.84408260725989,league_symmetry:Pts per 100 Possessions,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,Second Chance Efficiency,120.743095569243,SecondChancePtsPer100PossSecondChance,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,Second Chance Points Per 100 Possessions,15.436787156755658,SecondChancePtsPer100Poss,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,Second Chance Points%,0.13559586763951179,SecondChancePointsPct,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,Second Chance Possessions Per 100 Possessions,12.784819772906241,SecondChanceOffPossPer100Poss,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,Seconds Per Possession - Defense,14.517890763517393,league_symmetry:Seconds Per Possession - Offense,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,Seconds Per Possession - Offense,14.517890763517393,SecondsPerPoss,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,Shooting Foul Drawn Rate,0.1068967331264138,ShootingFoulsDrawnPct,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,Short Mid Range % Assisted,0.48824221046443267,ShortMidRangePctAssisted,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,Short Mid Range FG%,0.43913773073447787,ShortMidRangeAccuracy,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,Short Mid Range FG% - Defense,0.43913773073447787,league_symmetry:Short Mid Range FG%,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,Short Mid Range Shot Frequency,0.22225091086438878,ShortMidRangeFrequency,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,Short Mid Range Shot Frequency - Defense,0.22225091086438878,league_symmetry:Short Mid Range Shot Frequency,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,Short Mid-Range DReb%,0.6729879740980573,DefShortMidRangeReboundPct,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,Short Mid-Range OReb%,0.32701202590194267,OffShortMidRangeReboundPct,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,Shot Quality,0.5431162978157864,ShotQualityAvg,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,Shot Quality - Defense,0.5431162978157864,league_symmetry:Shot Quality,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,TOs per 100 Possessions,15.446947951329793,100*Turnovers/OffPoss,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,TS%,0.5700655628970127,TsPct,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,eFG%,0.5324038213271366,EfgPct,2026-11-16T21:39:31+00:00
+2026-27,Regular Season,eFG% - Defense,0.5324038213271366,league_symmetry:eFG%,2026-11-16T21:39:31+00:00
