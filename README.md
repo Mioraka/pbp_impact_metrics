@@ -60,3 +60,26 @@ The active workflow runs every morning at 07:00 America/Toronto (DST-aware UTC s
 The process refreshes current-season 89-metric player data and league baselines, then fetches fresh FGA, FTA, opponent FGA/FTA, possessions and minutes using an isolated cache. It replaces current-season volume rows, retains historical volume, and rejoins 2PA/3PA, free-throw and zone attempt rates into the master. Only successful, validated results are committed together. Failures leave the published CSVs unchanged. Added volume metrics retain blank league baselines. The manifest reports final master counts after the volume join.
 
 The older volume continuation workflow is retained for manual recovery only; its recurring schedule is removed. Both workflows share one concurrency group. A daily refresh requires the existing published base and volume files; missing historical volume coverage stops publication.
+
+## NBA player game logs
+
+Run these commands from the repository root to build
+`data/nba_player_game_logs.parquet`:
+
+```bash
+python -m pip install pyarrow
+python scripts/pull_player_game_logs.py
+```
+
+The script downloads NBA Stats player game logs from 1979-80 through the
+current season for the regular season and playoffs. It attaches official
+game-level team offensive and defensive ratings on `game_id` and `team_id`
+from the NBA Stats advanced team game logs, available starting in 1996-97.
+Earlier seasons and unmatched team-game records have null ratings.
+The output keeps one row per `game_id`, `player_id`, and `team_id`. Some
+historical NBA records list the same player on both teams in one game.
+Box-score fields missing in the API response remain null.
+
+Completed seasons are cached under `.cache/nba-player-game-logs/`. The
+current season is fetched again on each run. Use `--start-year` and
+`--end-year` to pull a limited span or `--output` to change the output path.
