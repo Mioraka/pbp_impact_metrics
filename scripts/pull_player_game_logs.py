@@ -3,7 +3,7 @@
 import argparse
 import json
 from concurrent.futures import ThreadPoolExecutor
-from datetime import date, datetime
+from datetime import date, datetime, timedelta
 from pathlib import Path
 from tempfile import NamedTemporaryFile
 from time import sleep
@@ -13,6 +13,7 @@ from urllib.request import Request, urlopen
 from zoneinfo import ZoneInfo
 
 import pyarrow as pa
+import pyarrow.compute as pc
 import pyarrow.parquet as pq
 
 NBA_STATS = "https://stats.nba.com/stats"
@@ -56,11 +57,11 @@ def atomic_write(path, write):
         temporary.unlink(missing_ok=True)
 
 
-def request_player_logs(season, season_type):
+def request_player_logs(season, season_type, start=None, end=None):
     return request_logs("leaguegamelog", {
         "Counter": 0,
-        "DateFrom": "",
-        "DateTo": "",
+        "DateFrom": nba_date(start),
+        "DateTo": nba_date(end),
         "Direction": "ASC",
         "LeagueID": "00",
         "PlayerOrTeam": "P",
@@ -85,12 +86,19 @@ def request_logs(endpoint, params):
             sleep(3 * 2**attempt)
 
 
-def fetch_team_ratings(season, season_type, cache_dir, current_season):
+def nba_date(value):
+    return value.strftime("%m/%d/%Y") if value else ""
+
+
+def fetch_team_ratings(season, season_type, cache_dir, current_season, start=None, end=None):
     """Return NBA Stats advanced ratings indexed by game and team."""
     if int(season[:4]) < FIRST_ADVANCED_SEASON:
         return {}
-    cache_path = cache_dir / f"{season}-{season_type.lower().replace(' ', '-')}-advanced.json"
-    use_cache = cache_path.exists() and season != current_season
+    cache_path = (
+        cache_dir / f"{season}-{season_type.lower().replace(' ', '-')}-advanced.json"
+        if cache_dir is not None else None
+    )
+    use_cache = cache_path is not None and cache_path.exists() and season != current_season
     if use_cache:
         payload = json.loads(cache_path.read_text())
     else:
@@ -101,7 +109,8 @@ def fetch_team_ratings(season, season_type, cache_dir, current_season):
             "VsConference", "VsDivision",
         ), "")
         params.update(LeagueID="00", MeasureType="Advanced", PerMode="Totals",
-                      Season=season, SeasonType=season_type)
+                      Season=season, SeasonType=season_type,
+                      DateFrom=nba_date(start), DateTo=nba_date(end))
         payload = request_logs("teamgamelogs", params)
 
     result = next(item for item in payload["resultSets"] if item["name"] == "TeamGameLogs")
@@ -116,7 +125,7 @@ def fetch_team_ratings(season, season_type, cache_dir, current_season):
         if key in ratings and ratings[key] != value:
             raise ValueError(f"{season} {season_type}: conflicting team ratings {key}")
         ratings[key] = value
-    if not use_cache:
+    if cache_path is not None and not use_cache:
         atomic_write(cache_path, lambda path: path.write_text(json.dumps(payload)))
     return ratings
 
@@ -160,16 +169,72 @@ def fetch_season(season, season_type, cache_dir, current_season):
     return table
 
 
+def season_start_year(day):
+    return day.year if day.month >= 10 else day.year - 1
+
+
+def season_label(year):
+    return f"{year}-{(year + 1) % 100:02d}"
+
+
+def date_window(table, start, end):
+    return table.filter(pc.and_(pc.greater_equal(table["game_date"], start),
+                                pc.less_equal(table["game_date"], end)))
+
+
+def game_teams(table):
+    return set(zip(table["game_id"].to_pylist(), table["team_id"].to_pylist(), strict=True))
+
+
+def refresh_player_game_logs(output, today):
+    """Backfill missing dates and replace the most recent three days plus today."""
+    existing = pq.read_table(output)
+    if existing.schema != SCHEMA or not existing.num_rows:
+        raise ValueError("Expected a populated player game log archive with the current schema")
+    latest = pc.max(existing["game_date"]).as_py()
+    if latest > today:
+        raise ValueError(f"Archive ends on {latest}, after refresh date {today}")
+    start = min(latest + timedelta(days=1), today - timedelta(days=3))
+    refreshed = []
+    for year in range(season_start_year(start), season_start_year(today) + 1):
+        season = season_label(year)
+        for season_type in SEASON_TYPES:
+            payload = request_player_logs(season, season_type, start, today)
+            players = date_window(parse_logs(payload, season, season_type, {}), start, today)
+            if not players.num_rows:
+                continue
+            ratings = fetch_team_ratings(season, season_type, None, season, start, today)
+            teams = game_teams(players)
+            if any(key not in ratings or None in ratings[key] for key in teams):
+                raise ValueError(f"{season} {season_type}: official team ratings are incomplete")
+            if len(teams) != 2 * len({game_id for game_id, _ in teams}):
+                raise ValueError(f"{season} {season_type}: player game logs are incomplete")
+            refreshed.append(date_window(parse_logs(payload, season, season_type, ratings), start, today))
+
+    previous = date_window(existing, start, today)
+    replacement = pa.concat_tables(refreshed) if refreshed else SCHEMA.empty_table()
+    if game_teams(previous) - game_teams(replacement):
+        raise ValueError("NBA Stats omitted previously published games in the refresh window")
+    order = [(column, "ascending") for column in ("game_date", "game_id", "team_id", "player_id")]
+    replacement = replacement.sort_by(order)
+    print(f"{start} through {today}: {replacement.num_rows:,} player rows, "
+          f"{len(game_teams(replacement)) // 2} games", flush=True)
+    if previous.sort_by(order).equals(replacement):
+        print("Archive is already up to date", flush=True)
+        return
+    result = pa.concat_tables([existing.filter(pc.less(existing["game_date"], start)), replacement])
+    atomic_write(output, lambda path: pq.write_table(result, path, compression="zstd"))
+    print(f"Wrote {result.num_rows:,} player-game rows through "
+          f"{pc.max(result['game_date']).as_py()} to {output}", flush=True)
+
+
 def pull_player_game_logs(output, cache_dir, start_year=1979, end_year=None, workers=4):
     """Fetch each season type, resume historical requests from cache, and write Parquet."""
     today = datetime.now(ZoneInfo("America/Toronto")).date()
-    current_year = today.year if today.month >= 10 else today.year - 1
+    current_year = season_start_year(today)
     end_year = current_year if end_year is None else end_year
     if not 1979 <= start_year <= end_year <= current_year:
         raise ValueError(f"Expected 1979 <= start year <= end year <= {current_year}")
-
-    def season_label(year):
-        return f"{year}-{(year + 1) % 100:02d}"
 
     jobs = [
         (season_label(year), season_type)
@@ -195,5 +260,9 @@ if __name__ == "__main__":
     parser.add_argument("--workers", type=int, default=4)
     parser.add_argument("--output", type=Path, default=Path("data/nba_player_game_logs.parquet"))
     parser.add_argument("--cache-dir", type=Path, default=Path(".cache/nba-player-game-logs"))
+    parser.add_argument("--incremental", action="store_true", help="Refresh the published archive")
     args = parser.parse_args()
-    pull_player_game_logs(args.output, args.cache_dir, args.start_year, args.end_year, args.workers)
+    if args.incremental:
+        refresh_player_game_logs(args.output, datetime.now(ZoneInfo("America/Toronto")).date())
+    else:
+        pull_player_game_logs(args.output, args.cache_dir, args.start_year, args.end_year, args.workers)
