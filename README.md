@@ -84,7 +84,8 @@ Completed seasons are cached under `.cache/nba-player-game-logs/`. The
 current season is fetched again on each run. Use `--start-year` and
 `--end-year` to pull a limited span or `--output` to change the output path.
 
-The player game log workflow runs daily at 09:19 UTC. It backfills dates
+The daily player game log refresh fetches NBA Stats before handing the
+update to GitHub Actions for publication. It backfills dates
 after the archive's latest game and re-fetches the previous three Toronto
 calendar dates plus the current date for stat corrections. Only the
 affected date range is replaced. Run the same refresh manually with

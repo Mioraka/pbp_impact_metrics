@@ -1,6 +1,8 @@
 """Download NBA regular-season and playoff player game logs to one Parquet file."""
 
 import argparse
+import base64
+import hashlib
 import json
 from concurrent.futures import ThreadPoolExecutor
 from datetime import date, datetime, timedelta
@@ -186,7 +188,7 @@ def game_teams(table):
     return set(zip(table["game_id"].to_pylist(), table["team_id"].to_pylist(), strict=True))
 
 
-def refresh_player_game_logs(output, today):
+def refresh_player_game_logs(output, today, stage=None):
     """Backfill missing dates and replace the most recent three days plus today."""
     existing = pq.read_table(output)
     if existing.schema != SCHEMA or not existing.num_rows:
@@ -211,8 +213,23 @@ def refresh_player_game_logs(output, today):
                 raise ValueError(f"{season} {season_type}: player game logs are incomplete")
             refreshed.append(date_window(parse_logs(payload, season, season_type, ratings), start, today))
 
-    previous = date_window(existing, start, today)
     replacement = pa.concat_tables(refreshed) if refreshed else SCHEMA.empty_table()
+    if stage is not None:
+        buffer = pa.BufferOutputStream()
+        pq.write_table(replacement, buffer, compression="zstd")
+        manifest = {
+            "archive_sha256": hashlib.sha256(output.read_bytes()).hexdigest(),
+            "start": start.isoformat(),
+            "end": today.isoformat(),
+            "parquet": base64.b64encode(buffer.getvalue()).decode("ascii"),
+        }
+        atomic_write(stage, lambda path: path.write_text(json.dumps(manifest) + "\n"))
+        return
+    publish_refresh(output, existing, start, today, replacement)
+
+
+def publish_refresh(output, existing, start, today, replacement):
+    previous = date_window(existing, start, today)
     if game_teams(previous) - game_teams(replacement):
         raise ValueError("NBA Stats omitted previously published games in the refresh window")
     order = [(column, "ascending") for column in ("game_date", "game_id", "team_id", "player_id")]
@@ -226,6 +243,19 @@ def refresh_player_game_logs(output, today):
     atomic_write(output, lambda path: pq.write_table(result, path, compression="zstd"))
     print(f"Wrote {result.num_rows:,} player-game rows through "
           f"{pc.max(result['game_date']).as_py()} to {output}", flush=True)
+
+
+def apply_staged_refresh(output, stage):
+    manifest = json.loads(stage.read_text())
+    archive = output.read_bytes()
+    if hashlib.sha256(archive).hexdigest() != manifest["archive_sha256"]:
+        raise ValueError("Archive changed after preparation. Prepare a fresh refresh.")
+    start = date.fromisoformat(manifest["start"])
+    end = date.fromisoformat(manifest["end"])
+    replacement = pq.read_table(pa.BufferReader(base64.b64decode(manifest["parquet"], validate=True)))
+    if replacement.schema != SCHEMA or not date_window(replacement, start, end).equals(replacement):
+        raise ValueError("Invalid staged game log data")
+    publish_refresh(output, pq.read_table(pa.BufferReader(archive)), start, end, replacement)
 
 
 def pull_player_game_logs(output, cache_dir, start_year=1979, end_year=None, workers=4):
@@ -260,9 +290,15 @@ if __name__ == "__main__":
     parser.add_argument("--workers", type=int, default=4)
     parser.add_argument("--output", type=Path, default=Path("data/nba_player_game_logs.parquet"))
     parser.add_argument("--cache-dir", type=Path, default=Path(".cache/nba-player-game-logs"))
-    parser.add_argument("--incremental", action="store_true", help="Refresh the published archive")
+    mode = parser.add_mutually_exclusive_group()
+    mode.add_argument("--incremental", action="store_true", help="Refresh the published archive")
+    mode.add_argument("--stage-refresh", type=Path, help="Prepare a refresh for publication")
+    mode.add_argument("--apply-refresh", type=Path, help="Apply a prepared refresh")
     args = parser.parse_args()
-    if args.incremental:
-        refresh_player_game_logs(args.output, datetime.now(ZoneInfo("America/Toronto")).date())
+    if args.apply_refresh:
+        apply_staged_refresh(args.output, args.apply_refresh)
+    elif args.incremental or args.stage_refresh:
+        today = datetime.now(ZoneInfo("America/Toronto")).date()
+        refresh_player_game_logs(args.output, today, args.stage_refresh)
     else:
         pull_player_game_logs(args.output, args.cache_dir, args.start_year, args.end_year, args.workers)
